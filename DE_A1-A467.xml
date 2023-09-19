@@ -1,0 +1,2844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tarim-brahmi-exide.acdh-dev.oeaw.ac.at/exist/apps/tarim-data/schemas/fragments_bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus https://tarim-brahmi-exide.acdh-dev.oeaw.ac.at/exist/apps/tarim-data/schemas/fragments_bte/fragments_bte.xsd">
+   <record id="m-a1">
+      <header>
+         <sigla>
+            <primary siglum="A 1"/>
+            <secondary siglum="THT 634"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance manuscript="A 1-54"
+                     repository="Berlin Turfan Collection (BBAW)"
+                     nextFragment="m-a2"
+                     findspot="Šorčuq"
+                     specificFindspot="Stadthöhle"
+                     expeditionCode="T III Š 72.01"/>
+         <content writtenLines="6">
+            <scribalDuctus ductus="late"/>
+            <languages>
+               <language languageName="xto"/>
+            </languages>
+            <text title="Puṇyavantajātaka">
+               <genre genre="Literary" subgenre="Jātaka/Avadāna"/>
+               <proseVerse proseVerse="prose"/>
+               <proseVerse proseVerse="verse"/>
+            </text>
+         </content>
+      </header>
+      <transliteration TranskribusDocument="769912"/>
+      <transcription>
+         <lf>65</lf>
+         <prose>
+            <passage name="a"/>
+         </prose>
+         <verse meter="M14">
+            <strophe n="1">
+               <pada n="b">
+                  <s>
+                     <tr>The good reputation of the energetic ones spreads to all corners of the world;</tr>
+                     (kā)<lb n="a1" commRef="n2"/>su ñom klyu , tsraṣiśśi ; <phr type="NP"> śäk kälymentwaṃ </phr>, sätkatär :
+                  </s>
+               </pada>
+               <pada n="c">
+                  <s discont="m-a1_a1">
+                     <tr>With energy, one will receive honour, appreciation, ovations and adulation from everyone,</tr>
+                     yärk ynāñmune , nam poto ; tsraṣṣuneyā , pUkäṣ käl(pnā)<lb n="a2" commRef="n2"/>l :
+                  </s>
+               </pada>
+               <pada n="d">
+                  <s discont="m-a1_a1">
+                     <tr>one will soon overcome the enemies and soon attain prosperity. 1.</tr>
+                     yuknāl ymāräk , yäsluñcäs ; kälpnāl ymāräk , yātlune : 1 
+                  </s>
+               </pada>
+            </strophe>
+            <strophe n="2">
+               <pada n="a">
+                  <s>
+                     <tr>The energetic ones have many possessions, the energetic ones [also have] many followers,</tr>
+                  tsraṣiśśi māk , niṣpalntu ; tsraṣiśśi māk , (śkaṃ) (ṣña)<lb n="a3" commRef="n2"/>ṣṣeñ :
+                  </s>
+               </pada>
+               <pada n="b">
+                  <s>
+                     <tr>to the energetic ones the enemies submit, to the energetic ones distinction comes,</tr>
+                  nämseñc yäsluṣ , tsraṣisac ; kumseñc yärkant , tsraṣisac :
+                  </s>
+               </pada>
+               <pada n="c">
+                  <s>
+                     <tr>the energetic ones [are] the protection of the beings, the energetic ones do not know fear.</tr>
+                  tsraṣiñ waste , wrasa(śśi) ;<lb n="a4" commRef="n2"/> tsraṣiśśi mā , praski naṣ :
+                  </s>
+               </pada>
+               <pada n="d">
+                  <s>
+                     <tr>Therefore energy is good and superior to all in my opinion. 2.</tr>
+                  tämyo kāsu , tsraṣṣune ; pUkaṃ pruccamo , ñi pälskaṃ :
+                  </s>
+               </pada>
+            </strophe>
+         </verse>
+         <prose>
+            <s>
+               <tr>Due to his energy, then, in earlier times the son of the king Siddhārta, the Bodhisattva Sarvārthasiddha [“he succeeds in everything”] came down to the ocean</tr>
+               || tsraṣṣuneyo täm(n)e (ne)<lb n="a5"/>ṣ (pra)ṣtaṃ siddhārthes lānt se sarvārthasiddhe bodhisattu sāmudraṃ kārp
+            </s>
+            <s>
+               <tr>[and] went to the island of jewels.</tr>
+               ñemiṣiṃ praṅkā yeṣ
+            </s>
+            <s>
+               <tr>(After having loaded? the ship) with pearls and [after having] dismissed the caravan to Jambudvīpa, during seven days he went up to the neck in water,</tr>
+               ñemi <lac aks="3"/>
+               <lb n="a6"/>
+               <lac aks="1"/> l·i <lac aks="1"/>
+               <s>sārth jambudvipac pe yāmuräṣ</s>
+               ṣpät koṃsā kñukac wraṃ kälk :</s>
+            <s>
+               <tr>seven days he (swam?) with his arms,</tr>
+               ṣpät koṃsā pokenā <lac aks="4"/>
+               <lb n="b1"/>
+               <lac aks="1"/> (kä)lk
+            </s>
+            <s>
+               <tr>during seven days he went over mud,</tr>
+               ṣpät koṃsā lyomaṃ kälk
+            </s>
+            <s>
+               <tr>moving around for seven days, stepping from one lotus to another, in a water with lotuses with a thousand leaves five miles he went over the ground covered with snakes.</tr>
+               <s>ṣpät koṃsā
+                  <s>wälts pältwāyo oplāsyo wraṃ opläṣ oplā kārnm(āṃ)</s> 
+                  (kälkorä)<lb n="b2"/>ṣ
+               </s>
+               <s>päñ kursärwā ār<sic corr="ṣ">p</sic>lāsyo rarkusāṃ</s>
+               tkanā kälk :
+            </s>
+            <s>
+               <tr>Then he went to the island of the Rākṣasas,</tr>
+               tmäṣ rākṣtsāśśi dvipaṃ yeṣ
+            </s>
+            <s>
+               <tr>then to that of the Yakṣas, (then) to Baladvīpa.</tr>
+               tmäṣ yakṣāśśi <lac aks="2"/>
+               <lb n="b3"/> baladvipaṃ yeṣ
+            </s>
+            <s>
+               <tr>Thereupon he crossed the moats covered with four kinds of snakes,</tr>
+               <s>tmäṣ śtwar-wäknā ārṣlās<sic corr="y">l</sic>o rarkuñcäs</s>
+               iṣanäs kcäk
+            </s>
+            <s>
+               <tr>the four-fold nets, made by strings (?) of crystal, past the great [and] terrible Nāgas, who watched the palace of king Sāgara, he moved, and finally obtained as reward the cintāmaṇi-jewel from king Sāgara;</tr>
+               śtwar-wäknā spe(ṣinä)<lb n="b4"/>s«†ä» kluṃtsäsyo sopis sāgares lānt lāñci waṣt pāṣäntās śāwes empeles (n)ā(kā)<lb n="b5"/>s āsuk kätkoräṣ sāgareṃ lāntäṣ cindāmaṇi wmār toriṃ kälpāt
+            </s>
+            <s>
+               <tr>the poverty of the whole Jambudvīpa he made disappear.</tr>
+               poñcäṃ jambudvipis e(kro)<lb n="b6" commRef="n3"/>rñe wawik
+            </s>
+            <s>
+               <tr>Thus it is said:</tr>
+               ślak śkaṃ
+            </s>
+            <s>
+               <tr>|| In the Ṣ.-tune: ||</tr>
+            || ṣāmnernaṃ ||
+            </s>
+         </prose>
+         <verse meter="M12">
+            <strophe n="1">
+               <pada n="a">
+                  <s>
+                     <tr>The energetic ones cross the ocean that is hard to traverse,</tr>
+                     māski kätkāläṃ ; ktäṅkeñc tsraṣiñ , sāmuddrä :
+               </s>
+               </pada>
+               <pada n="b">
+                  <s discont="m-a1_b6">
+                     <tr>The threefold world the good ones traverse due to energy.</tr>
+                     traidhātuk saṃs(ār) ; (tsra)</s>
+               </pada>
+            </strophe>
+         </verse>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr litRef="carling2000" pageRange="109"/>
+            <tr litRef="schmidtkt1974" pageRange="78, 278">Der gute Ruf der Energischen verbreitet sich in den zehn Weltgegenden.</tr>
+            <tr litRef="schmidtkt1974" pageRange="78, 278" translatedBy="TI">The good reputation of those that have energy spreads over the ten directions</tr>
+         </line>
+         <line n="a1 a2">
+            <tr litRef="thomas1952" pageRange="53"/>
+            <tr litRef="thomas1995" pageRange="67"/>
+         </line>
+         <line n="a1 a2 a3 a4 a5 a6 b1 b2 b3 b4 b5 b6">
+            <tr litRef="sieg1944" pageRange="3"/>
+         </line>
+         <line n="a2">
+            <tr litRef="hackstein1995" pageRange="99"/>
+            <tr litRef="thomas1995" pageRange="67"/>
+         </line>
+         <line n="a2 a3">
+            <tr litRef="thomas1970" pageRange="279"/>
+         </line>
+         <line n="a2 a3 a4">
+            <tr litRef="adams2013" pageRange="10-11"/>
+         </line>
+         <line n="a3">
+            <tr litRef="hackstein1995" pageRange="68"/>
+            <tr litRef="meunier2013" pageRange="145"/>
+            <tr litRef="thomas1970" pageRange="279"/>
+            <tr litRef="thomas1983" pageRange="30"/>
+         </line>
+         <line n="a4">
+            <tr litRef="thomas1958a" pageRange="153"/>
+         </line>
+         <line n="a4 a5">
+            <tr litRef="thomas1983" pageRange="29"/>
+         </line>
+         <line n="a4 a5 a6 b1 b2 b3 b4 b5">
+            <tr litRef="schmidtkt1974" pageRange="90f, 198"/>
+            <tr litRef="schmidtkt1974" pageRange="90-1, 198">Durch seine Energie stieg da in früherer Zeit der Sohn des Königs Siddhārtha, der Bodhisattva Sarvārthasiddha, zum Ozean herab, ... ging sieben Tage lang bis zum Hals im Wasser, ... ging sieben Tage lang im Schlamm und ging, nachdem er sieben Tage lang im Wasser mit tausendblättrigen Lotusblumen von Lotus zu Lotus steigend (gegangen) war, fünf Meilen weit auf von Schlangen bedeckter Erde. ... Dann überschritt er die vierfachen, mit Schlangen bedeckten Festungsgräben [und] nachdem er [auch] die Netze mit vierfachen Fäden (?) aus Bergkristall(?) [und] die großen, furchtbaren Nāgas, die den Palast des Königs Sāgara bewachten, durchschritten hatte, erlangte er schließlich(?) vom König Sāgara das Cintāmaṇi-Juwel.</tr>
+            <tr litRef="schmidtkt1974" pageRange="90-1, 198" translatedBy="TI">Due to his energy, in a former time, the son of the king Siddhārtha, the bodhisattva Sarvārthasiddha, descended to the ocean, ... [he] went in the water up to his neck, for seven days, ... [he] went in the mud for seven days and, after having (gone) stepping from lotus to lotus in the water, with lotuses of a thousand leaves, he went five miles over ground covered with snakes. ... Then he passed over the fourfold moats covered with snakes [and] after passing the nets [made] from fourfold threads)?) of mountain crystal(?) [and] the huge, dreadful Nāgas who guard the palace of king Sāgara, he finally (?) obtained the Cintāmaṇi-jewel from the king Sāgara.</tr>
+         </line>
+         <line n="a5">
+            <tr litRef="carling2000" pageRange="56, 123, 132"/>
+            <tr litRef="thomas1957" pageRange="20, 52, 53"/>
+         </line>
+         <line n="a5 a6">
+            <tr litRef="krauseandthomas1964" pageRange="17"/>
+         </line>
+         <line n="a6">
+            <tr litRef="carling2000" pageRange="130, 200, 209"/>
+            <tr litRef="thomas1957" pageRange="52"/>
+         </line>
+         <line n="a6 b1">
+            <tr litRef="carling2000" pageRange="300"/>
+            <tr litRef="thomas1957" pageRange="204"/>
+         </line>
+         <line n="a6 b1 b2">
+            <tr litRef="thomas1957" pageRange="20"/>
+         </line>
+         <line n="b1">
+            <tr litRef="carling2000" pageRange="8, 130, 177"/>
+            <tr litRef="krauseandthomas1964" pageRange="17"/>
+            <tr litRef="thomas1957" pageRange="52"/>
+            <tr litRef="thomas1969" pageRange="240"/>
+            <tr litRef="thomas1969c" pageRange="204"/>
+         </line>
+         <line n="b1 b2">
+            <tr litRef="carling2000" pageRange="254"/>
+            <tr litRef="thomas1957" pageRange="52, 204"/>
+         </line>
+         <line n="b2">
+            <tr litRef="carling2000" pageRange="45, 50, 56, 79"/>
+            <tr litRef="hackstein1995" pageRange="118"/>
+            <tr litRef="thomas1969" pageRange="257"/>
+            <tr litRef="thomas1983" pageRange="27"/>
+            <tr litRef="thomas1983" pageRange="27"/>
+         </line>
+         <line n="b2 b3">
+            <tr litRef="carling2000" pageRange="121"/>
+            <tr litRef="thomas1957" pageRange="20, 53"/>
+         </line>
+         <line n="b3">
+            <tr litRef="hackstein1995" pageRange="118"/>
+            <tr litRef="thomas1957" pageRange="52"/>
+         </line>
+         <line n="b3 b4">
+            <tr litRef="krauseandthomas1964" pageRange="17"/>
+         </line>
+         <line n="b4">
+            <tr litRef="hackstein1995" pageRange="175"/>
+         </line>
+         <line n="b5">
+            <tr litRef="thomas1957" pageRange="52"/>
+         </line>
+         <line n="b5 b6">
+            <tr litRef="thomas1957" pageRange="53"/>
+            <tr litRef="thomas1979d" pageRange="168"/>
+         </line>
+         <line n="b6">
+            <tr litRef="thomas1952" pageRange="34"/>
+         </line>
+      </translation>
+      <comments>
+         <comment type="remarks">Transcription and translation are based on <ref litRef="carlingetal2009"/>. </comment>
+         <comment type="remarks">Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</comment>
+         <comment id="n1" type="philcomment">The translation is largely based on <ref litRef="sieg1944" pageRange="3-4"/>, and <ref litRef="carlingetal2009"/>.</comment>
+         <comment id="n2" type="philcomment">This verse is spoken by Vīryavān, "the energetic one". The first line is lost.</comment>
+         <comment id="n3" type="philcomment">The metre is 4x12 syllables, rhythm 5/7.</comment>
+      </comments>
+      <references>
+         <ref type="Online access" litRef="idp0000">
+            <link href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20634">THT 634</link>
+         </ref>
+         <ref type="Online access" litRef="tht0000">
+            <link href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0634.htm">THT 634</link>
+         </ref>
+      </references>
+      <editions>
+         <ref litRef="siegandsiegling1921" pageRange="3"/>
+         <ref litRef="siegandsiegling1921">Siegling's personal copy of <link href="./images/TS_Siegling/TS_Siegling_Page_003.png">p. 3</link>
+         </ref>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Gerd Carling" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-a2">
+      <header>
+         <sigla>
+            <primary siglum="A 2"/>
+            <secondary siglum="THT 635"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance manuscript="A 1-54"
+                     repository="Berlin Turfan Collection (BBAW)"
+                     nextFragment="m-a3"
+                     previousFragment="m-a1"
+                     findspot="Šorčuq"
+                     specificFindspot="Stadthöhle"
+                     expeditionCode="T III Š 72.02"/>
+         <content writtenLines="6">
+            <scribalDuctus ductus="classical"/>
+            <languages>
+               <language languageName="xto"/>
+            </languages>
+            <text title="Puṇyavantajātaka">
+               <genre genre="Literary" subgenre="Jātaka/Avadāna"/>
+               <proseVerse proseVerse="prose"/>
+               <proseVerse proseVerse="verse"/>
+            </text>
+         </content>
+      </header>
+      <transliteration TranskribusDocument="769912"/>
+      <transcription>
+         <lf> 60-6 </lf>
+         <prose>
+            <passage name="b"/>
+         </prose>
+         <verse meter="M12">
+            <strophe n="1">
+               <pada n="b">
+                  <s discont="m-a1_b6">
+                     <tr>The threefold world the good ones traverse due to energy.</tr>
+                     <lb n="a1"/>ṣṣuneyo , ktäṅkeñc kraṃś :
+                  </s>
+               </pada>
+               <pada n="c">
+                  <s>
+                     <tr>Eventually the strong ones attain Buddhahood.</tr>
+                  kälpnāntär toriṃ ; puttiśparäṃ , wärṣṣältse :
+                  </s>
+               </pada>
+               <pada n="d">
+                  <s>
+                     <tr> Not in the least must energy be decried.</tr>
+                     mā =pärmāt tsru yärm ; yātal ya(tsi) ,<lb n="a2"/> tsraṣṣune</s>
+                  <s>
+                     <tr>: 1 </tr>
+                  : 1</s>
+               </pada>
+            </strophe>
+         </verse>
+         <prose>
+            <s>
+               <tr>There is no other thing that has turned out to the detriment of the whole world [circle of existences] as much as inertia [has].</tr>
+            || mā täpreṃ saṃ poñcäṃ saṃsāris kāripac sāspärtwu ālak wram naṣ 
+                  <s>
+                     kos ne ālā(su)<lb n="a3"/>ne 
+                  </s> 
+               :
+               </s>
+            <s>
+               <tr>For in earlier days the food of humans was rice, uncultivated and chaff-less,</tr>
+               kyalte neṣ wrasaśśi sne wāwleṣu sne psäl klu <s>śwātsi</s> ṣeṣ</s>
+            <s>
+               <tr>and clothes made ready on wishing trees were theirs to put on.</tr>
+               <s>kalpavṛkṣäntwaṃ ārwar pa(pyä)<lb n="a4"/>tkunt</s> 
+               wsālu yetweyntu <s>waṣlaṃ</s> ṣeñcäm 
+            </s>
+            <s>
+               <tr>[But] due to the collecting of rice by a listless person the wishing trees disappeared for them,</tr>
+               ālāsāp klu kropluneyā kalpavṛkṣänt(u) <lb n="a5"/> (na)käntäm</s>
+            <s>
+               <tr>the cotton plants became visible for them [in place of the wishing trees].</tr>
+               kappāñ pākär tākaräm </s>
+            <s>
+               <tr>The uncultivated, chaff-less rice [also] disappeared for them,</tr>
+               sne wāwleṣu sne psäl klu naktäm</s>
+            <s>
+               <tr>it [only] became visible through great labour (and with) the chaff.</tr>
+               śāwaṃ wlesaṃtyo psäl(aśśäl) <lb n="a6"/> (ṣyak) (pākä)r (t)ākam </s>
+            <s>
+               <tr>Of listlessness, however, energy is the opposite,</tr>
+                  cami ālāsuneyis nu tsraṣṣune pratipakṣ nāṃtsu</s>
+            <s>
+               <tr>therefore in my opinion, energy is superior to all (in the world).</tr>
+               tämyo tsraṣṣune ñi ā(rkiṣo)<lb n="b1" commRef="n2"/>(ṣyaṃ) pUk(aṃ) pruccamo pälskaṃ</s>
+            <s>
+               <tr>Śilpavān [“the skillful one”] speaks: </tr>
+               || śilpavāṃ träṅkäṣ </s>
+            <s>
+               <tr>The skillfulness of humans is superior to all,</tr>
+               amok wrasaśśi pUkaṃ pruccamo</s>
+            <s>
+               <tr>because: </tr>
+               kyalte</s>
+            <s>
+               <tr>|| K.---</tr>
+               || kuma <lac aks="2"/>
+               <lb n="b2"/>
+               <lac aks="1"/> || </s>
+         </prose>
+         <verse meter="M14">
+            <strophe n="1">
+               <pada n="a">
+                  <s>
+                     <tr>|| The good reputation of a craftsman is spread in region after region. </tr>
+                  kāsu ñom klyu , amoktsāp ; kälyme kälyme , sätkatär : </s>
+               </pada>
+               <pada n="b">
+                  <s>
+                     <tr>He worthy of being treated with reverence and worthy to gather the adulation of humans;</tr>
+                     <s>yärkā yāmäl ,</s> 
+                  mäskatär ; 
+                  <s>potal</s>
+                     <s>(k)r(o)<lb n="b3"/>pal , wrasaśśi</s> : 
+               </s>
+               </pada>
+               <pada n="c">
+                  <s>
+                     <tr>property, even if well kept, will inevitably be fully lost:</tr>
+                     <s>pāsmāṃ</s> 
+                     niṣpal , lo näkṣäl; </s>
+                  <s>
+                     <tr>water, fire, kings and thieves certainly cut off the hope/security (?), </tr>
+                     wär por lāś lyśi , mñe kärṣneñc : </s>
+               </pada>
+               <pada n="d">
+                  <s>
+                     <tr>but the skill will never be lost.</tr>
+                  amok nu (mā) ,<lb n="b4"/> näknäṣträ ; </s>
+                  <s>
+                     <tr>and skill is the root of possession.</tr>
+                     niṣpalis«†ä» śkaṃ , amok tsmār :</s>
+                  <s>1</s>
+               </pada>
+            </strophe>
+         </verse>
+         <prose>
+            <s>
+               <tr>And as often as an artist creates an art(istic) object, so often he has five advantages [from it].</tr>
+               <s>|| kospreṃ kospreṃ śkaṃ ne amokäts amo(kṣiṃ) <lb n="b5"/> wram pyutkāṣtär</s> 
+            : täprenäk täprenäk päñ pärkowäntu mäskaṃträṃ : </s>
+            <s>
+               <tr>One advantage to him is the object created,</tr>
+               sas pärko näṃ <s>wāwleṣu</s> wram</s>
+            <lb n="b6"/>
+            <s>
+               <tr>it comes into existence.</tr>
+               pyutkäṣṣäṃ</s>
+            <s>
+               <tr>The second is the pleasure arisen from the skill; </tr>
+               wät <s>amok«ä»ṣ tatmu</s> kācke mäskaträṃ </s>
+            <s>
+               <tr>the third, he receives friendship from the beings; </tr>
+               trit wrassäṣ ortune kälpnāträ : </s>
+            <s>
+               <tr>the fourth, [he obtains] students,</tr>
+               śtärt āklä(ṣlye)<lb/>(s) </s>
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr litRef="thomas1952" pageRange="37"/>
+            <tr litRef="thomas1969b" pageRange="55"/>
+         </line>
+         <line n="a1 a2">
+            <tr litRef="thomas1954" pageRange="742"/>
+            <tr litRef="meunier2013" pageRange="160"/>
+         </line>
+         <line n="a1 a2 a3 a4 a5 a6 b1 b2 b3 b4 b5 b6">
+            <tr litRef="sieg1944" pageRange="2ff"/>
+            <tr litRef="lane1947" pageRange="33ff"/>
+         </line>
+         <line n="a3">
+            <tr litRef="thomas1954" pageRange="758"/>
+         </line>
+         <line n="a3 a4">
+            <tr litRef="thomas1957" pageRange="17, 42"/>
+            <tr litRef="thomas1970a" pageRange="466"/>
+            <tr litRef="meunier2013" pageRange="136"/>
+         </line>
+         <line n="a4">
+            <tr litRef="hackstein1995" pageRange="264"/>
+            <tr litRef="krauseandthomas1964" pageRange="18"/>
+            <tr litRef="thomas1952" pageRange="32"/>
+         </line>
+         <line n="a4 a5">
+            <tr litRef="hackstein1995" pageRange="86"/>
+         </line>
+         <line n="a4 a5 a6">
+            <tr litRef="thomas1957" pageRange="17, 42"/>
+         </line>
+         <line n="a6">
+            <tr litRef="thomas1957" pageRange="258"/>
+         </line>
+         <line n="a6 b1">
+            <tr litRef="thomas1958a" pageRange="154"/>
+         </line>
+         <line n="b1">
+            <tr litRef="thomas1958a" pageRange="154"/>
+            <tr litRef="meunier2013" pageRange="166"/>
+         </line>
+         <line n="b2">
+            <tr litRef="thomas1952" pageRange="30"/>
+            <tr litRef="thomas1972" pageRange="461"/>
+         </line>
+         <line n="b3">
+            <tr litRef="hackstein1995" pageRange="86, 175"/>
+            <tr litRef="thomas1952" pageRange="53"/>
+            <tr litRef="thomas1972" pageRange="433"/>
+         </line>
+         <line n="b3 b4">
+            <tr litRef="schmidtkt1974" pageRange="127">Besitz, [auch] wenn er behütet wird, muss zugrunde gehen: Wasser, Feuer, Könige [und] Diebe zerstören die Sicherheit(?); aber die Kunstfertigkeit geht nicht verloren.</tr>
+            <tr litRef="schmidtkt1974" pageRange="127" translatedBy="TI">Possessions, [even] when guarded, must perish: water, fire, kings [and] thieves destroy safety(?); but artistry is never lost.</tr>
+         </line>
+         <line n="b4 b5">
+            <tr litRef="thomas1968" pageRange="215"/>
+            <tr litRef="thomas1970a" pageRange="453"/>
+            <tr litRef="peyrot2013b" pageRange="258">Anytime an artist creates a work of art he has five advantages [from it]. (cf 5)</tr>
+         </line>
+         <line n="b4 b5 b6">
+            <tr litRef="schmidtkt1974" pageRange="494f"/>
+            <tr litRef="schmidtkt1974" pageRange="110, 494-5">Und wie oft/immer ein Kunstfertiger ein Kunstwerk zustande bringt (Med.), ebenso oft/immer werden ihm fünf Vorteile [daraus]: Der erste Vorteil ist für ihn das ausgeführte Werk, es kommt ihm zustande (Akt.). Der zweite [Vorteil] ...</tr>
+            <tr litRef="schmidtkt1974" pageRange="110, 494-5" translatedBy="TI">And as often/however as an artist creates a piece of art, just so often/always five benefits become [of it for] him.</tr>
+         </line>
+         <line n="b5">
+            <tr litRef="schmidtkt1974" pageRange="110"/>
+         </line>
+      </translation>
+      <comments>
+         <comment type="remarks">Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</comment>
+         <comment type="remarks">Transcription and translation are based on <ref litRef="carlingetal2009"/>. </comment>
+         <comment id="n1" type="philcomment">The translation is largely based on <ref litRef="sieg1944" pageRange="4-5"/>, and <ref litRef="carlingetal2009"/>.</comment>
+         <comment id="n2" type="philcomment">The name of this metre (4x14, rhythm 7/7) is unknown.</comment>
+      </comments>
+      <references>
+         <ref type="Online access" litRef="idp0000">
+            <link href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20635">THT 635</link>
+         </ref>
+         <ref type="Online access" litRef="tht0000">
+            <link href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0635.htm">THT 635</link>
+         </ref>
+      </references>
+      <editions>
+         <ref litRef="siegandsiegling1921" pageRange="3-4"/>
+         <ref litRef="siegandsiegling1921">Siegling's personal copy of <link href="./images/TS_Siegling/TS_Siegling_Page_003.png">p. 3</link>
+            <link href="./images/TS_Siegling/TS_Siegling_Page_004.png">p. 4</link>
+         </ref>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Gerd Carling" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-a3">
+      <header>
+         <sigla>
+            <primary siglum="A 3"/>
+            <secondary siglum="THT 636"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance manuscript="A 1-54"
+                     repository="Berlin Turfan Collection (BBAW)"
+                     nextFragment="m-a4"
+                     previousFragment="m-a2"
+                     findspot="Šorčuq"
+                     specificFindspot="Stadthöhle"
+                     expeditionCode="T III Š 72.03"/>
+         <content writtenLines="6">
+            <scribalDuctus ductus="classical"/>
+            <languages>
+               <language languageName="xto"/>
+            </languages>
+            <text title="Puṇyavantajātaka">
+               <genre genre="Literary" subgenre="Jātaka/Avadāna"/>
+               <proseVerse proseVerse="prose"/>
+               <proseVerse proseVerse="verse"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">SPA¯ ¯nT śkaṃ a KAṃ tsu ne PA TKA lpā lu ne ṣi PA rko MA ska tRAṃ wa¯ ¯ṢT lmā lu ne yi¯ ¯S ñä kcyā rki śo ṣi</line>
+            <line n="a2">¯S śkaṃ tsmā rnā tsu a mo¯ ¯K TA myo TA¯ ¯M śā we¯ ¯S KA ṣṣi śśi taṃ ne we wñu || śu ri ṣi naṃ || a mo kne <lac aks="1"/>
+            </line>
+            <line n="a3">KA lyi TA¯ ¯R tMA ṣni ṣpa ltu kro pi TA¯ ¯R : kā kro puṃ tnu ni ṣpa lntu ṣa kka¯ ¯tS śtwa rpā kyā mi tRA : ṣo <lac aks="1"/>
+            </line>
+            <line n="a4">pā kwa ṣtaṃ wä rpi TA rwu nyo wle sa¯ ¯nT wle ṣi TA¯ ¯R : SA rki ñā tse PA lko RA¯ ¯Ṣ śtä rcäṃ kā su tā <lac aks="1"/>
+            </line>
+            <line n="a5">tRA [:] [1] sa¯ ¯S wä rtka na¯ ¯cä wle swä tnu śe MA lpā ṢA¯ ¯L tri¯ ¯T ku rya¯ ¯R : śtä rtnu śe MA¯ ¯L tsmā ṣlu ne PA¯ ¯nT <lac aks="1"/>
+            </line>
+            <line n="a6">
+               <lac aks="2"/> ṢKA¯ ¯ṢT tālune : wa¯ ¯ṢT lmā lu nyaṃ to SA¯ ¯S ṢA¯ ¯K ri two ku sne pā ka syo : ni ṣpa LPA ñ·· <lac aks="1"/>
+            </line>
+         </recto>
+         <verso>
+            <line n="lf">60 7</line>
+            <line n="b1">
+               <lac aks="3"/> ca mi wle syä¯ ¯Ṣ KA lyme yā : 2 taṃ ne kro pmāṃ ni ṣpa lntu ykoṃ o ṣe ñi śa maṃ TA¯ ¯R : MAṃ tne <lac aks="3"/>
+            </line>
+            <line n="b2">
+               <lac aks="2"/> ne lyā lyo ryo ṣo ṣpa tnu : mo kna cni ṣpa¯ ¯L mā tā ṢA¯ ¯L mā śu ype yā mska ntā sa¯ ¯cä : mā e mpe <lac aks="2"/>
+            </line>
+            <line n="b3">o mskeṃ sa¯ ¯cä mā pe ta mpe wā tse sa¯ ¯cä : 3 ya LAṃ wra mma¯ ¯tS ska myā mi¯ ¯Ṣ mā ya LAṃ wra¯ ¯M ma r <lac aks="1"/>
+            </line>
+            <line n="b4">mi Ṣ : ya LAṃ wra¯ ¯M ypa¯ ¯nT wra so mnu PA LKA ṢMAṃ tne SA lpmāṃ po¯ ¯R : ṣñi ṣña ṣṣe sā o rtā sā <lac aks="2"/>
+            </line>
+            <line n="b5">eṃ tsu cwa¯ ¯L ā rlā : pu¯ ¯K ṣña ṣṣe saṃ ywā rckā SA¯ ¯M ka yu rṣṣo ki nu¯ ¯Ṣ spā nte 4 wa wu RA¯ ¯Ṣ e¯ ¯L wä <lac aks="2"/>
+            </line>
+            <line n="b6">¯Ṣ MAṃ tne ā ṣāṃ sa¯ ¯M pka śśä¯ ¯L : wla lu yi¯ ¯S a KA lyme ka lka Ṣwra so¯ ¯M ku pre ne : yo mnā ṣla me ñä <lac aks="2"/>
+            </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <lf> 60-7 </lf>
+         <prose>
+            <passage name="c"/>
+            <s>
+               <tr>(the fourth [is, he obtains] students), </tr>
+               (śtärt) (ākläṣlye)<lb n="a1"/>s</s>
+            <s>
+               <tr>and the fifth is for him the advantage of obtaining property beyond [that].</tr>
+               pänt śkaṃ <s>akäṃtsune pät kälpāluneṣi</s> pärko mäskaträṃ</s>
+            <s>
+               <tr>Of the household and of the gods' world, skill is the root.</tr>
+               <s>waṣt lmāluneyis ñäkcy ārkiśoṣi<lb n="a2" commRef="n2"/>s śkaṃ tsmār nātsu</s> amok </s>
+            <s>
+               <tr>Therefore it has been said by great teachers: </tr>
+               tämyo täm śāwes käṣṣiśśi taṃne wewñu</s>
+            <s>
+               <tr>|| In the Ś.-Tune:||</tr>
+               || śuriṣinaṃ || </s>
+         </prose>
+         <verse meter="M14">
+            <strophe n="1">
+               <pada n="a">
+                  <s>
+                     <tr>[It is] Skill [that] one must acquire first, </tr>
+                  amok ne(ṣā) ,<lb n="a3"/> käl<sic corr="p">y</sic>itär ;</s>
+                  <s>
+                     <tr>then one must gather possessions; </tr>
+                     tmäṣ niṣpaltu , kropitär : </s>
+               </pada>
+               <pada n="b">
+                  <s>
+                     <tr>the gathered possessions, however, one must always divided into four parts:</tr>
+                     <s>kākropuṃt</s> nu , niṣpalntu ; ṣakk ats śtwar pāk , yāmiträ : </s>
+               </pada>
+               <pada n="c">
+                  <s>
+                     <tr>one part shall be enjoyed in the house,</tr>
+                  ṣo(m) <lb n="a4" commRef="n3"/> pāk waṣtaṃ , wärpitär ; </s>
+                  <s>
+                     <tr>with two an activity/trade shall be pursued; </tr>
+                     wunyo wlesant , wleṣitär : </s>
+               </pada>
+               <pada n="d">
+                  <s>
+                     <tr>with regard to times of need, one should well preserve the fourth one.</tr>
+                  särki <s>ñātse , pälkoräṣ</s> ; śtärcäṃ kāsu , tā(wi)<lb n="a5"/>trä : </s>
+                  <s>1</s>
+               </pada>
+            </strophe>
+            <strophe n="2">
+               <pada n="a">
+                  <s>
+                     <tr>One activity is (providing) water to the earth,</tr>
+                  sas wär tkanac , wles </s>
+                  <s>
+                     <tr>a second is tending the livestock, </tr>
+                     wät nu ; śemäl pāṣäl ,</s>
+                  <s>
+                     <tr>a third one is trade, </tr>
+                     trit kuryar : </s>
+               </pada>
+               <pada n="b">
+                  <s>
+                     <tr>a fourth one is increasing the livestock, </tr>
+                  śtärt nu śemäl , tsmāṣlune ; </s>
+                  <s>
+                     <tr>a fifth --</tr>pänta </s>
+                  <lac aks="1"/>
+                  <lb n="a6" commRef="n4"/>
+                  <lac aks="2"/>
+                  <lac syll="3"/>
+                  <s>
+                     <tr>--, a sixth is conservation.</tr>
+                     , ṣkäṣt tālUne : </s>
+               </pada>
+               <pada n="c">
+                  <s discont="m-a3-a6"><!--Satzgefüge Teil 1-->
+                     <s discont="m-a3-a6-1"><!--Relativsatz Teil 1-->
+                        <s discont="m-a3-a6-2"><!--Partizipialsatz Teil 1-->
+                           waṣt lmālunyaṃ , tosäs ṣäk ; ritwo
+                        </s>
+                        kus ne ,
+                        <s discont="m-a3-a6-2"><!--Partizipialsatz Teil 2-->
+                           pākasyo
+                        </s>
+                     </s>
+                     :
+                  </s>
+               </pada>
+               <pada n="d">
+                  <s discont="m-a3-a6"><!--Satzgefüge Teil 2-->
+                     <s discont="m-a3-a6-1"><!--Relativsatz Teil 2-->
+                        niṣpal päñ (wäk,nā) <lb n="b1"/> (kroptär) ;
+                     </s>  
+                     cami wles yäṣ , kälymeyā : </s>
+                  <s>2</s>
+               </pada>
+            </strophe>
+            <strophe n="3">
+               <pada n="a">
+                  <s>
+                     <tr>Possessions that are gathered in that way by day and night increase</tr>
+                     <s>taṃne kropmāṃ</s> , niṣpalntu ; ykoṃ oṣeñi , śamaṃtär : </s>
+               </pada>
+               <pada n="b">
+                  <s>
+                     <tr>like ...</tr>
+                  mäṃt ne <lac aks="2"/>
+                     <lac syll="2"/>, 
+                  <lac aks="1"/>
+                  </s>
+                  <s>
+                     <tr> or like ...</tr>
+                     <lb n="b2"/>
+                     <lac aks="2"/>
+                     <lac syll="3"/>;
+                     ne lyālyoryoṣoṣ pat nu : </s>
+               </pada>
+               <pada n="c">
+                  <s>
+                     <tr>[but] one shall not keep possession for old age, </tr>
+                  moknac niṣpal , mā tāṣäl ; </s>
+                  <s>
+                     <tr>not for those standing above the land, </tr>
+                     mā śu ypeyā , mskantāsac : </s>
+               </pada>
+               <pada n="d">
+                  <s>
+                     <tr>not for the cruel and evil ones, </tr>
+                  mā empe(les) ,<lb n="b3"/> omskeṃsac ;</s>
+                  <s>
+                     <tr>and neither for the powerful ones.</tr>
+                     mā pe tampe,wātsesac : </s>
+                  <s>3</s>
+               </pada>
+            </strophe>
+            <strophe n="4">
+               <pada n="a">
+                  <s>
+                     <tr>At all times he shall do only the thing one should do, </tr>
+                     yaläṃ wramm ats , skam yāmiṣ ; </s>
+                  <s>
+                     <tr>never let him do the thing one should not do;</tr>
+                     mā yaläṃ wram , mar (yā)<lb n="b4"/>miṣ : </s>
+               </pada>
+               <pada n="b">
+                  <s>
+                     <tr>for the being who does the thing one should do shines like a glowing fire.</tr>
+                     <s>
+                        <s>yaläṃ</s> wram ypant</s> , wrasom nu ; pälkäṣ <s>mäṃt ne , sälpmāṃ por</s> : </s>
+               </pada>
+               <pada n="c">
+                  <s discont="m-a3-b4">
+                     <tr>By his own relatives and friends ... received in the beginning [and] at the end, he roars in the midst of all his followers, confident as a bull [in the midst of his herd]. </tr>
+                     <s> ṣñi ṣñaṣṣesā , ortāsā ; <lac aks="2"/>
+                        <lac syll="2"/>
+                        <lb n="b5"/> eṃtsu , cwal ārlā</s> : </s>
+               </pada>
+               <pada n="d">
+                  <s discont="m-a3-b4">puk ṣñaṣṣesaṃ , ywārckā säm ; kayurṣṣ oki , nuṣ spānte</s>
+                  <s>4</s>
+               </pada>
+            </strophe>
+            <strophe n="5">
+               <pada n="a">
+                  <s discont="m-a3-b5">
+                     <tr>After having given and received gift[s], as it is proper, a being [is] equal to all: if it comes in the reach of death, it attains the dwelling of the gods (through its flawless perfection).</tr>
+                     <s>wawuräṣ el </s>, <s>wä(rporä)<lb n="b6"/>ṣ </s>; mäṃt ne āṣāṃ , sam pkaśśäl : </s>
+               </pada>
+               <pada n="b">
+                  <s discont="m-a3-b5">
+                     <s>wlalu«ne»yis , akälyme ; kalkaṣ wrasom , kupre ne</s> : </s>
+               </pada>
+               <pada n="c">
+                  <s discont="m-a3-b5">yomnāṣ lame , ñä(ktaśśi) </s>
+                  <lb/>
+               </pada>
+            </strophe>
+         </verse>
+      </transcription>
+      <translation>
+         <line n="a1 a2">
+            <tr litRef="thomas1976a" pageRange="78"/>
+            <tr litRef="thomas1957" pageRange="258, 282"/>
+            <tr litRef="thomas1966" pageRange="264"/>
+            <tr litRef="thomas1967c" pageRange="173"/>
+            <tr litRef="thomas1988" pageRange="255"/>
+         </line>
+         <line n="a2 a3">
+            <tr litRef="thomas1978a" pageRange="328"/>
+            <tr litRef="schmidtkt1974" pageRange="400">Fertigkeit soll man zuerst erlangen, dann soll man Besitztümer sammeln.</tr>
+            <tr litRef="schmidtkt1974" pageRange="400" translatedBy="TI">Skill one shall acquire first, then one shall gather possessions.</tr>
+         </line>
+         <line n="a2ff">
+            <tr litRef="thomas1958" pageRange="290"/>
+         </line>
+         <line n="a2 a3 a4 a5 a6 b1 b2 b3 b4 b5 b6 m-a4.a1">
+            <tr litRef="ogihara2009a" pageRange="134-136"/>
+         </line>
+         <line n="a3">
+            <tr litRef="schmidtkt1974" pageRange="423"/>
+         </line>
+         <line n="a3 a4 a5">
+            <tr litRef="schmidtkt1974" pageRange="200, 502f"/>
+            <tr litRef="schmidtkt1974" pageRange="200, 423, 502-3">Die gesammelten Besitztümer aber soll man stets viermal teilen: Einen Teil soll man im Haus[halt] genießen, mit zweien soll man Gewerbe betreiben [und] mit Rücksicht auf spätere Not[zeiten] [wtl. für später Not erblickt habend] soll man den vierten gut bewahren.</tr>
+            <tr litRef="schmidtkt1974"
+                pageRange="200, 423, 502-3"
+                translatedBy="TI">The possessions gathered one should always divide in four parts: one part one shall enjoy in the house, with two [parts] one shall conduct trade, [and] having foreseen [times of] need later, one should keep the fourth [part] well.</tr>
+         </line>
+         <line n="a4">
+            <tr litRef="carling2000" pageRange="56, 147"/>
+         </line>
+         <line n="a5">
+            <tr litRef="carling2000" pageRange="83"/>
+            <tr litRef="hackstein1995" pageRange="137"/>
+            <tr litRef="hackstein1995" pageRange="175"/>
+            <tr litRef="thomas1952" pageRange="62"/>
+         </line>
+         <line n="b1">
+            <tr litRef="hackstein1995" pageRange="137"/>
+            <tr litRef="thomas1969c" pageRange="201"/>
+            <tr litRef="schmidtkt1974" pageRange="115">Besitztümer, die so gesammelt werden, wachsen bei Tag [und] Nacht wie ...</tr>
+            <tr litRef="schmidtkt1974" pageRange="115" translatedBy="TI">Possessions that are gathered thus, grow by night [and] day like ...</tr>
+         </line>
+         <line n="b2">
+            <tr litRef="carling2000" pageRange="100"/>
+         </line>
+         <line n="b3">
+            <tr litRef="thomas1958" pageRange="290"/>
+            <tr litRef="thomas1958" pageRange="291"/>
+            <tr litRef="thomas1975" pageRange="321"/>
+            <tr litRef="thomas1981" pageRange="492"/>
+            <tr litRef="thomas1981" pageRange="495"/>
+         </line>
+         <line n="b3 b4">
+            <tr litRef="thomas1952" pageRange="28"/>
+            <tr litRef="schmidtkt1974" pageRange="187">Man tue immer nur das, was man tun soll, nicht tue man das, was man nicht tun soll: Denn der Mensch, der das tut, was man tun soll, leuchtet wie glühendes Feuer.</tr>
+            <tr litRef="schmidtkt1974" pageRange="187" translatedBy="TI">One should only ever do a thing to be done, never should one do a thing not to be done: for the person who does a thing to be done shines like a glowing fire.</tr>
+         </line>
+         <line n="b4">
+            <tr litRef="thomas1968" pageRange="228"/>
+         </line>
+         <line n="b5">
+            <tr litRef="carling2000" pageRange="346"/>
+            <tr litRef="thomas1952" pageRange="61"/>
+            <tr litRef="thomas1968" pageRange="201"/>
+         </line>
+         <line n="b5 b6 m-a4.a1">
+            <tr litRef="peyrot2013b" pageRange="641">[After] having given and received gift[s], as it is proper, a being [is] equal to all: if it comes in the reach of death, it attains the dwelling of the gods through its flawless perfection. (cf 7; 241)</tr>
+         </line>
+         <line n="b6">
+            <tr litRef="carling2000" pageRange="354"/>
+            <tr litRef="thomas1983" pageRange="43"/>
+            <tr litRef="hackstein1995" pageRange="191"/>
+         </line>
+      </translation>
+      <comments>
+         <comment type="remarks">Transcription and translation are based on <ref litRef="carlingetal2009"/>. </comment>
+         <comment type="remarks">Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</comment>
+         <comment id="n1" type="philcomment">The translation is largely based on <ref litRef="sieg1944" pageRange="5-7"/>, and <ref litRef="carlingetal2009"/>.</comment>
+         <comment id="n2" type="philcomment">The metre of the following tune is 4x14, rhythm 7/7.</comment>
+         <comment id="n3" type="philcomment">
+            <ref litRef="peyrot2011" pageRange="39"/> suggests a restoration <hi>tā(wi)trä</hi> instead of the traditionally supplemented form <hi>tā(ṣi)trä</hi>.</comment>
+         <comment id="n4" type="philcomment">
+            <txq>tāl_une</txq>: This reading, already suggested in a footnote of the edition (<ref litRef="siegandsiegling1921" pageRange="4"/>), is to be preferred to the reading <hi>tālune</hi> of the edition itself. (Michaël Peyrot, 20 February 2015)</comment>
+      </comments>
+      <references>
+         <ref type="Complete transliteration" litRef="sieg1944" pageRange="5"/>
+         <ref type="Complete transliteration" litRef="lane1947" pageRange="33ff"/>
+         <ref type="Online access" litRef="idp0000">
+            <link href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20636">THT 636</link>
+         </ref>
+         <ref type="Online access" litRef="tht0000">
+            <link href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0636.htm">THT 636</link>
+         </ref>
+      </references>
+      <editions>
+         <ref litRef="siegandsiegling1921" pageRange="4-5"/>
+         <ref litRef="siegandsiegling1921">Siegling's personal copy of <link href="./images/TS_Siegling/TS_Siegling_Page_004.png">p. 4</link>
+            <link href="./images/TS_Siegling/TS_Siegling_Page_005.png">p. 5</link>
+         </ref>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Gerd Carling" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-a4">
+      <header>
+         <sigla>
+            <primary siglum="A 4"/>
+            <secondary siglum="THT 637"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance manuscript="A 1-54"
+                     repository="Berlin Turfan Collection (BBAW)"
+                     nextFragment="m-a5"
+                     previousFragment="m-a3"
+                     findspot="Šorčuq"
+                     specificFindspot="Stadthöhle"
+                     expeditionCode="T III Š 72.04"/>
+         <content writtenLines="6">
+            <scribalDuctus ductus="classical"/>
+            <languages>
+               <language languageName="xto"/>
+            </languages>
+            <text title="Puṇyavantajātaka">
+               <genre genre="Literary" subgenre="Jātaka/Avadāna"/>
+               <proseVerse proseVerse="prose"/>
+               <proseVerse proseVerse="verse"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">yā tlu ne yo sne nā KA¯ ¯M : TA myo a mo kñi PA lskaṃ pukaṃ pru cca mo wra sa śśi : 5 || pra jña vāṃ tRA ṅKA¯ ¯Ṣ mā TA <lac aks="1" brac="rnd"/>
+            </line>
+            <line n="a2">saṃ ā la kwra¯ ¯M ā rki śo ṣṣi¯ ¯S kā su ypa¯ ¯nT na¯ ¯Ṣ ko sne knā nmu ne kya lte ā ktsu ne pu¯ ¯K o MA s[k]e <lac aks="1" brac="rnd"/>
+            </line>
+            <line n="a3">swra mnā śśi pu¯ ¯K kā rya PAṃ twā śśi SA tkā lu ne yaṃ tsmā rnāṃ tsu knā nmu ne nu ā kntsu ne yi¯ ¯S <lac aks="1"/>
+               <lac aks="1" brac="rnd"/>
+            </line>
+            <line n="a4">rṣnā¯ ¯nT MAṃ tne kro śa va ti ño mā o ka rna¯ ¯Ṣ ä ntāṃ tka nā ne SA¯ ¯M tsmā rKA rkñä¯ ¯Ṣ TMA ṣṣa ci kr[o] <lac aks="1" brac="rnd"/>
+            </line>
+            <line n="a5">
+               <lac aks="1"/> naṃ lo¯ ¯K o¯ ¯R o ktsi ṢṢAṃ PA ñKA¯ ¯nT ka ṣa skro śMA ska TA rkro¯ ¯śä o kṣiṃ ñu RA¯ ¯Ṣ ko tlu ne yaṃ yä¯ ¯Ṣ</line>
+            <line n="a6">
+               <lac aks="3"/> ¯Ṣ nu na¯ ¯K ko mya TA¯ ¯R TMA ṣṣa ci nu na¯ ¯K kro¯ ¯śä o ksi¯ ¯Ṣ nu na¯ ¯K nmā kā ko RA¯ ¯Ṣ <lac aks="2"/>
+            </line>
+         </recto>
+         <verso>
+            <line n="lf">60 8</line>
+            <line n="b1">
+               <lac aks="2"/>
+               <lac aks="1" brac="rnd"/> kro¯ ¯śä o ksi¯ ¯Ṣ taṃ ne ti ryā o ksi smāṃ o kā¯ ¯K KA¯ ¯nT ku rtsru tka naṃ lo KSA tka tRA || ku <lac aks="2"/>
+            </line>
+            <line n="b2">
+               <lac aks="2"/> spe nu kā ko spe nu kro śa va ti : tsru ku cyä rmaṃ li po snu na¯ ¯K npre NA¯ ¯K o ksi¯ ¯Ṣ : TA mne¯ ¯K <lac aks="1"/>
+            </line>
+            <line n="b3">kntsā <lac aks="1"/> kā ko ṣtu ṣpe pā PLA ṅku ṣpe : tsru ke KA lpo¯ ¯Ṣ nuna¯ ¯K SA tkaṃ TA¯ ¯R o MA ske naṃ : 1 || hi</line>
+            <line n="b4">ma va¯ ¯nT ṣu laṃ nu va cra mu khe wä lna¯ ¯Ṣ ä ntā ne SA¯ ¯M trā ska ṢAṃ sā¯ ¯M kro śa va ti o <lac aks="1"/>
+            </line>
+            <line n="b5">¯R PuKA ṣpu¯ ¯K nka lu ne yaṃ yä¯ ¯Ṣ TA mne¯ ¯K nṣaṃ ā kntsu ne yi¯ ¯S cä mplu ne yā wra sa ñpu¯ ¯K o MA sk[u] <lac aks="1"/>
+            </line>
+            <line n="b6">yntwaṃ pu kkā rya PAṃ twaṃ śkaṃ SA tkā lu ne yaṃ yä¯ ¯Ṣ ä ntā ne nu knā nmu ne ṣiṃ va jra mu khe nyo ā kntsu ne <lac aks="1"/>
+            </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <lf> 60-8 </lf>
+         <prose>
+            <passage name="d"/>
+         </prose>
+         <verse meter="M14">
+            <strophe n="5">
+               <pada n="c">
+                  <lb n="a1"/>
+                  <s discont="m-a3-b5">
+                     <tr>(it attains the dwelling of the gods) through its flawless perfection.</tr>
+                     ; yātluneyo , sne nākäm : </s>
+               </pada>
+               <pada n="d">
+                  <s>
+                     <tr>Therefore in my opinion, human skill is superior to all.</tr>
+                  tämyo amok , <s>ñi pälskaṃ</s> ; pUkaṃ pruccamo , wrasaśśi :</s>
+                  <s>5</s>
+               </pada>
+            </strophe>
+         </verse>
+         <prose>
+            <s>
+               <tr>Prajñāvān [“the Wise”] speaks:</tr>
+            || prajñavāṃ träṅkäṣ</s>
+            <s>
+               <tr>There is no other thing that does so much good to the world as wisdom, </tr>
+               mā tä(preṃ) <lb n="a2"/> saṃ ālak wram <s>ārkiśoṣṣis kāsu ypant</s> naṣ <s>kos ne knānmune</s>
+            </s>
+            <s>
+               <tr>because ignorance is the root of the spread of all bad things and all damages.</tr>
+               kyalte āktsune <s>puk omäske(nā)<lb n="a3"/>s wramnāśśi puk kāryapäṃtwāśśi sätkāluneyaṃ tsmār nāṃtsu</s>
+            </s>
+            <s>
+               <tr>Wisdom, however, cuts off the root of foolishness.</tr>
+               knānmune nu ākntsuneyis (tsmār) (kä)<lb n="a4"/>rṣnānt </s>
+            <s>
+               <tr>Like that there is a plant named Krośavatī, in whatever earth it takes root, from there one <hi>krośa</hi> its stem will grow away far over the earth.</tr>
+               <s>mäṃt ne krośavati ñomā okar naṣ</s>
+               <s>
+                  <s>äntāṃ tkanā ne säm tsmār kärkñäṣ</s> tmäṣṣ aci kro(ś) <lb n="a5"/> (tka)naṃ lok or oktsiṣṣ-äṃ</s>
+            </s>
+            <s>
+               <tr>The krośa-plant is five hundred fathoms in size. </tr>
+               päñ känt kaṣas kroś mäskatär </s>
+            <s>
+               <tr>Having grown one<hi> krośa</hi>, it is cut down.</tr>
+               kroś okṣiṃñuräṣ kotluneyaṃ yäṣ </s>
+            <lb n="a6"/>
+            <s>
+               <tr>(Undestroyed) it produces a new sprout.</tr>
+               <s>(tmā) (kākorä)ṣ</s> nunak kom yatär </s>
+            <s>
+               <tr>From there it grows again one krośa, </tr>
+               tmäṣṣ aci nunak kroś oksiṣ </s>
+            <s>
+               <tr>and undestroyed from there one krośa it grows.</tr>
+               nunak <s>
+                  <sic corr="t">n</sic>mā kākoräṣ</s> (tmäṣṣ) (aci) <lb n="b1" commRef="n2"/> (nunak) kroś oksiṣ </s>
+            <s>
+               <tr>Growing in this way it spreads up to 100 miles in the earth.</tr>
+               taṃne tiryā oksismāṃ okāk känt kurtsru tkanaṃ lok sätkaträ </s>
+            <s>
+               <tr>|| In the K.-tune: ||</tr>
+               || ku(swaṃ) (||) <lb n="b2" commRef="n2"/>
+            </s>
+         </prose>
+         <verse meter="M12a">
+            <strophe n="1">
+               <pada n="a">
+                  <s discont="m-a4-b2">
+                     <tr>Even cut, even destroyed, the Krośavatī, with only a small piece left over, grows as much [as before].</tr>
+                     <s>(kärṣto)s penu</s> ; <s>kākos penu</s> ; krośavati : </s>
+               </pada>
+               <pada n="b">
+                  <s discont="m-a4-b2">
+                     <s>tsru kuc yärmaṃ ; lipos nunak </s>; <sic corr="t">n</sic>prenäk oksiṣ : </s>
+               </pada>
+               <pada n="c">
+                  <s discont="m-a4-b3">
+                     <tr>Just so are the ignorant ones: even beaten, even nipped, as soon as they have the possibility, they spread in badness.</tr>
+                  tämnek (ā)<lb n="b3"/>kntsā(ñ) ; <s>kākoṣtuṣ pe</s> ; <s>pāpläṅkuṣ pe</s> : </s>
+               </pada>
+               <pada n="d">
+                  <s discont="m-a4-b3">
+                     <s>tsru ke kälpoṣ</s> ; nUnak sätkaṃtär ; omäskenaṃ : </s>
+                  <s> 1 </s>
+               </pada>
+            </strophe>
+         </verse>
+         <prose>
+            <s>
+               <tr>On the mountain Himavant, however, there is a king [named] Vajramukha [“Diamond-mouth”]. </tr>
+            || hi<lb n="b4"/>mavant ṣulaṃ nu vacramukhe wäl naṣ</s>
+            <s>
+               <tr>Where this one bites it, the plant Krośavatī dies completely.</tr>
+               <s>äntā ne säm trāskaṣäṃ</s> sām krośavati o(ka)<lb n="b5"/>r pUkäṣ puk nkaluneyaṃ yäṣ </s>
+            <s>
+               <tr>Just so are the beings because of their ignorance.</tr>
+               tämnek <sic corr="t">n</sic>ṣaṃ ākntsuneyis cämpluneyā wrasañ</s>
+            <s>
+               <tr>In all bad things and in all damages they spread.</tr>
+               puk omäsku(ne)<lb n="b6"/>yntwaṃ puk kāryapäṃtwaṃ śkaṃ sätkāluneyaṃ yäṣ </s>
+            <s discont="m-a4-b6">
+               <tr>Well, when the foolishness (Krośavatī is bitten through) by the wisdom Vajramukha</tr>
+               äntā ne nu knānmuneṣiṃ vajramukhenyo ākntsune(ṣiṃ) </s>
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr litRef="thomas1958a" pageRange="154"/>
+            <tr litRef="peyrot2013b" pageRange="641"/>
+            <tr litRef="ogihara2009a" pageRange="134-136"/>
+            <tr litRef="meunier2013" pageRange="166"/>
+         </line>
+         <line n="a1 a2 a3">
+            <tr litRef="thomas1957" pageRange="271"/>
+         </line>
+         <line n="a2 a3">
+            <tr litRef="thomas1997" pageRange="141"/>
+         </line>
+         <line n="a4">
+            <tr litRef="thomas1967a" pageRange="63"/>
+         </line>
+         <line n="a4 a5">
+            <tr litRef="carling2000" pageRange="80"/>
+            <tr litRef="thomas1989" pageRange="23"/>
+            <tr litRef="peyrot2013b" pageRange="258">Wherever on earth it strikes root, from there on its wood grows on earth for krośas. (cf 7)</tr>
+         </line>
+         <line n="a5">
+            <tr litRef="hackstein1995" pageRange="337"/>
+            <tr litRef="thomas1983" pageRange="34"/>
+         </line>
+         <line n="a6">
+            <tr litRef="hackstein1995" pageRange="54, 337"/>
+            <tr litRef="thomas1986" pageRange="120"/>
+         </line>
+         <line n="a6 b1">
+            <tr litRef="thomas1986" pageRange="120"/>
+         </line>
+         <line n="b1">
+            <tr litRef="carling2000" pageRange="80"/>
+            <tr litRef="hackstein1995" pageRange="337"/>
+            <tr litRef="thomas1969" pageRange="257"/>
+            <tr litRef="schmidtkt1974" pageRange="278">Auf solche Art und Weise wachsend, verbreitet es sich bis zu 100 Meilen weit auf der Erde fort.</tr>
+            <tr litRef="schmidtkt1974" pageRange="278" translatedBy="TI">Growing in this manner, it spreads up to a hundred miles over the earth.</tr>
+         </line>
+         <line n="b2">
+            <tr litRef="hackstein1995" pageRange="54, 337"/>
+            <tr litRef="thomas1986" pageRange="137"/>
+         </line>
+         <line n="b2 b3">
+            <tr litRef="thomas1986" pageRange="137"/>
+         </line>
+         <line n="b3 b4">
+            <tr litRef="carling2000" pageRange="127"/>
+         </line>
+         <line n="b4 b5">
+            <tr litRef="hackstein1995" pageRange="179"/>
+            <tr litRef="thomas1958a" pageRange="159"/>
+            <tr litRef="thomas1983" pageRange="34"/>
+            <tr litRef="thomas1997" pageRange="108"/>
+            <tr litRef="peyrot2013b" pageRange="650">Wherever he bites it through, the Krośavatī plant is ruined completely. (cf 7)</tr>
+         </line>
+         <line n="b5">
+            <tr litRef="carling2000" pageRange="239"/>
+         </line>
+         <line n="b5 b6">
+            <tr litRef="thomas1967c" pageRange="172"/>
+            <tr litRef="thomas1983" pageRange="34"/>
+            <tr litRef="thomas1997" pageRange="141"/>
+         </line>
+         <line n="b6 m-a5.a1">
+            <tr litRef="hackstein1995" pageRange="179"/>
+         </line>
+         <line n="b6 m-a5.a1 m-a5.a2">
+            <tr litRef="peyrot2013b" pageRange="278">Well, when the foolishness Krośavatī is bitten through by the wisdom Vajramukha, at that moment the ruin of all harms is there, and the spread of all advantages. (cf 8)</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment type="remarks">Transcription and translation are based on <ref litRef="carlingetal2009"/>. </comment>
+         <comment type="remarks">Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</comment>
+         <comment id="n1" type="philcomment">The translation is largely based on <ref litRef="sieg1944" pageRange="7-8"/>, and <ref litRef="carlingetal2009"/>.</comment>
+         <comment id="n2" type="philcomment">The metre of the tune is 4x12, rhythm 4/4/4.</comment>
+      </comments>
+      <references>
+         <ref type="Complete transliteration" litRef="sieg1944" pageRange="7"/>
+         <ref type="Complete transliteration" litRef="lane1947" pageRange="33ff"/>
+         <ref type="Online access" litRef="idp0000">
+            <link href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20637">THT 637</link>
+         </ref>
+         <ref type="Online access" litRef="tht0000">
+            <link href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0637.htm">THT 637</link>
+         </ref>
+      </references>
+      <editions>
+         <ref litRef="siegandsiegling1921" pageRange="5"/>
+         <ref litRef="siegandsiegling1921">Siegling's personal copy of <link href="./images/TS_Siegling/TS_Siegling_Page_005.png">p. 5</link>
+         </ref>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Gerd Carling" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-a5">
+      <header>
+         <sigla>
+            <primary siglum="A 5"/>
+            <secondary siglum="THT 638"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance manuscript="A 1-54"
+                     repository="Berlin Turfan Collection (BBAW)"
+                     nextFragment="m-a6"
+                     previousFragment="m-a4"
+                     findspot="Šorčuq"
+                     specificFindspot="Stadthöhle"
+                     expeditionCode="T III Š 72.05"/>
+         <content writtenLines="6">
+            <scribalDuctus ductus="classical"/>
+            <languages>
+               <language languageName="xto"/>
+            </languages>
+            <text title="Puṇyavantajātaka">
+               <genre genre="Literary" subgenre="Jātaka/Avadāna"/>
+               <proseVerse proseVerse="prose"/>
+               <proseVerse proseVerse="verse"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">kro śa va ti tā tRA stā ṣtā mpra ṣṭaṃ pu kkā rya PAṃ twā śśi nka lu ne MA ska TA¯ ¯R pu KPA rko wä ntwā śśi śkaṃ SA tkā <lac aks="1"/>
+            </line>
+            <line n="a2">ne MA ska TA¯ ¯R TA myo knā nmu ne wra sa śśi pukaṃ pru cca mo pu kkā swo ne nwā śśi tsmā rnāṃ tsu || tā ṣpe nu <lac aks="1"/>
+            </line>
+            <line n="a3">so¯ ¯M a RA mpā tyo ka knu lkā tsi kā swe knā nmu ne a¯ ¯tS mā tā ṢAṃ TA preṃ a¯ ¯tS PA lKA Ṣ·Aṃ <lac aks="1" brac="rnd"/>
+            </line>
+            <line n="a4">tse ke ṣi pe ke ṣi pa¯ ¯T a RA mpā ttā ṣtu ṅkā pñu ne a RA ssi cä mPA ṢPA rko ya tsi nu mā <lac aks="1"/>
+            </line>
+            <line n="a5">
+               <lac aks="1"/> ¯Ṣ : MAṃ tne ā lyä kyāṃ pra ṣṭaṃ ā la ksaṃ pe ka¯ ¯nT yaṃ trā cā re¯ ¯S wa ṣṭā lo ki tye¯ ¯Ṣ TMA ṢSA¯ ¯M yaṃ trā <lac aks="1"/>
+            </line>
+            <line n="a6">
+               <lac aks="2"/> KA ntāṃ pu kwä knā yä rkā yā mu RA¯ ¯Ṣ o ṣe ñi PKA nTA kwa ṣtaṃ la ke ra ksāṃ ku ñci nṣiṃ ṢA <lac aks="2"/>
+            </line>
+         </recto>
+         <verso>
+            <line n="lf">60 9</line>
+            <line n="b1">
+               <lac aks="2"/> ·[ṣāṃ] ya nTA rṣi nāṃ śo mi nāṃ śkaṃ la MA¯ ¯Ṣ lya lymāṃ sā¯ ¯M ca mi śla wä kta su rñe o ki kā wä lt· <lac aks="2"/>
+            </line>
+            <line n="b2">
+               <lac aks="1"/> yā MA lyo tsa raṃ eṃ tsu spaṃ ypāṃ TA mnu MA¯ ¯nT wä knā || ṣā mne rnaṃ || pro ṣmiṃ no ki sā¯ ¯M tsru ṢA¯ ¯T lkā <lac aks="1"/>
+            </line>
+            <line n="b3">śā ri lyā¯ ¯K : MA tsra tsi o ki mā plā ccra ṅKA¯ ¯S mā ka ryā : śla tu ṅko ki nu RA sñā po ke <lac aks="1"/>
+            </line>
+            <line n="b4">ypa māṃ : po ntsāṃ ka pśi ññä¯ ¯Ṣ o mlyi wi kṣā pe KA ntā¯ ¯P : 1 || TMA ṢSA¯ ¯M pe ka¯ ¯nT ā kntsu <lac aks="1"/>
+            </line>
+            <line n="b5">yo tā¯ ¯M o rṣi nāṃ śo mi nā naṃ yne śśo miṃ ṣiṃ i me KA lpo ā ñma śLA kka¯ ¯tS PA LtSA ṅkā¯ ¯Ṣ o <lac aks="2"/>
+            </line>
+            <line n="b6">preṃ kā wä ltu ne o te TA preṃ kule ñciṃ MA sra tsu ne yo pro ṣmu ne || so ktaṃ || mā ṣo kyo lkā¯ ¯Ṣ kā <lac aks="2"/>
+            </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <lf>60-9</lf>
+         <prose>
+            <passage name="e"/>
+            <lb n="a1"/>
+            <s discont="m-a4-b6">
+               <tr>(Well, if the foolishness) Krośavatī is bitten through (by the wisdom Vajramukha), at that moment the ruin of all harms is there,</tr>
+               krośavati tāträ«sku»s tāṣ tām praṣṭaṃ puk kāryapäṃtwāśśi nkalune mäskatär</s>
+            <s>
+               <tr>and the spread of all advantages.</tr>
+               puk pärkowäntwāśśi śkaṃ sätkā(lu)<lb n="a2"/>ne mäskatär</s>
+            <s>
+               <tr>Therefore human wisdom is superior to all, since it is the root of all excellent qualities.</tr>tämyo knānmune wrasaśśi pUkaṃ pruccamo 
+               <s>puk kāswonen«t»wāśśi tsmār nāṃtsu </s>
+            </s>
+            <s>
+               <tr>Even if a being is provided with a [beautiful] figure [and] lovely to look at, [but] it has no wisdom, then it looks exactly as if it were a fashioned or painted figure.</tr>
+               <s>|| tāṣ penu (wra)<lb n="a3"/>som <s>arämpātyo kaknu</s>
+                  <s>lkātsi kāswe</s>
+               </s>
+               <s>knānmune ats mā tāṣ-äṃ</s> 
+               täpreṃ ats pälkäṣ <s>(m)äṃ(t) (ne) <lb n="a4"/> tsekeṣi pekeṣi pat arämpāt tāṣ </s>
+            </s>
+            <s>
+               <tr>It can inspire love, but it cannot create advantages.</tr>
+               <s>tuṅ= kāpñune arässi</s> cämpäṣ <s>pärko yatsi</s> nu mā (cä)<lb n="a5"/>(mpä)ṣ : </s>
+            <s>
+               <tr>Just like at another time some other painter went as a guest to the house of a mechanic.</tr>
+               mäṃt ne ālyäkyāṃ praṣṭaṃ ālak saṃ pekant yaṃtrācāres waṣṭā lokit yeṣ </s>
+            <s>
+               <tr>The mechanic then treated the painter in every way with reverence, he covered a bed for him in a separate place in his house, (gave) him sesame oil</tr>
+               tmäṣ säm yaṃtrā(cā)<lb n="a6"/>(re) <s>(pe)käntāṃ puk wäknā yärkā yāmuräṣ</s> oṣeñi pkäntäk waṣtaṃ lake raksā-ṃ kuñci<sic corr="t">n</sic>ṣiṃ ṣä(lyp)<lb n="b1"/>(aśśäl) </s>
+            <s>
+               <tr>and set an artificial girl at the head [of his bed].</tr>
+               (orṣ)ṣāṃ yantärṣināṃ śomināṃ śkaṃ la<sic corr="p">m</sic>äṣ lyalymā-ṃ </s>
+            <s>
+               <tr>She, that with his [the mechanic’s] reverence held in her hand, as it were, beauty and reverence, attended to him.</tr>
+               sām cami śla wäktasurñe oki <s>kāwält(une) (yä)<lb n="b2" commRef="n2"/>(rkā) yāmäl yo tsaraṃ eṃtsus</s> paṃ ypā-ṃ </s>
+            <s>
+               <tr>But how so?</tr>
+               täm nu mänt wäknā</s>
+            <s>
+               <tr>|| In the S.-tune:||</tr>
+               || ṣāmnernaṃ || </s>
+         </prose>
+         <verse meter="M12">
+            <strophe n="1">
+               <pada n="a">
+                  <s>
+                     <tr>Like one ashamed casting her glance to the ground a little, she looked lovely;</tr>
+                  proṣmiṃn oki sām ; <s>tsru ṣät lkā(māṃ) </s>,<lb n="b3" commRef="n2"/> śāri lyāk : </s>
+               </pada>
+               <pada n="b">
+                  <s>
+                     <tr>as if ashamed she did not say a word</tr>
+                  mätsratsi oki ; mā plāc craṅkäs </s>, 
+                  <s>
+                     <tr>and she did not laugh,</tr>
+                     mā karyā : </s>
+               </pada>
+               <pada n="c">
+                  <s>
+                     <tr>but as with love she stretched her arm as she attended [to him].</tr>
+                  śla tuṅk oki nu ; räsñā poke , <s>(paṃ) <lb n="b4"/> ypamāṃ</s> : </s>
+               </pada>
+               <pada n="d">
+                  <s>
+                     <tr>She drove away the burning from the entire body of the painter.</tr>
+                  pontsāṃ kapśiññäṣ ; omlyi wikṣā , pekäntāp : </s>
+                  <s>1 || </s>
+               </pada>
+            </strophe>
+         </verse>
+         <prose>
+            <s>
+               <tr>And the painter, who because of his ignorance took the wooden girl for a real one, thinks only to himself: </tr>
+            tmäṣ säm pekant <s>ākntsu(ne)<lb n="b5"/>yo tām orṣināṃ śominānaṃ yneś śomiṃṣiṃ ime kälpo</s> āñmaśl-äkk ats pältsäṅkāṣ</s>
+            <s>
+               <tr>ah, such beauty,</tr>
+               o(te) (tä)<lb n="b6" commRef="n3"/>preṃ kāwältune</s>
+            <s>
+               <tr>ah, such bashfulness caused by female shyness!</tr>
+               ote täpreṃ kUleñciṃ mäsratsuneyo proṣmune </s>
+            <s>
+               <tr>|| In the S.-tune: ||</tr>
+               || soktaṃ || </s>
+         </prose>
+         <verse>
+            <strophe n="1">
+               <pada n="a">
+                  <s discont="m-a5-b6">
+                     <tr>Does she not very much look like a Kāminī,</tr>
+                  mā ṣokyo lkāṣ , kā(ckeya)<lb/>(c) </s>
+               </pada>
+            </strophe>
+         </verse>
+      </transcription>
+      <translation>
+         <line n="a1 a2">
+            <tr litRef="carling2000" pageRange="287"/>
+            <tr litRef="thomas1997" pageRange="141"/>
+            <tr litRef="peyrot2013b" pageRange="278"/>
+         </line>
+         <line n="a1 a2 a3 a4 a5 a6 b1 b2 b3 b4 b5 b6">
+            <tr litRef="sieg1944" pageRange="8"/>
+            <tr litRef="lane1947" pageRange="33ff"/>
+         </line>
+         <line n="a2">
+            <tr litRef="thomas1958a" pageRange="154"/>
+         </line>
+         <line n="a2 a3">
+            <tr litRef="schmidtkt1974" pageRange="187"/>
+            <tr litRef="thomas1970b" pageRange="286"/>
+         </line>
+         <line n="a2 a3 a4">
+            <tr litRef="thomas1954" pageRange="740"/>
+            <tr litRef="peyrot2013b" pageRange="263">Even if a being is provided with a [beautiful] figure [and] lovely to look at, [but] it has no wisdom, then it looks exactly as if it were a fashioned or painted figure. (cf 8)</tr>
+            <tr litRef="schmidtkt1974" pageRange="187">Ist auch ein Mensch mit Schönheit versehen [und] lieblich anzusehen, nur die Klugheit ist ihm nicht, [so] sieht er genau so [schön] aus, als ob er eine geformte oder gemalte Gestalt wäre.</tr>
+            <tr litRef="schmidtkt1974" pageRange="187" translatedBy="TI">Even if a person is equipped with beauty [and] lovely to look upon, but has no prudence, [then] he looks exactly as [beautiful] as if he was a formed or painted shape.</tr>
+         </line>
+         <line n="a3 a4">
+            <tr litRef="thomas1968" pageRange="226"/>
+         </line>
+         <line n="a4">
+            <tr litRef="thomas1954" pageRange="722"/>
+         </line>
+         <line n="a5">
+            <tr litRef="carling2000" pageRange="8, 56, 147"/>
+            <tr litRef="thomas1968" pageRange="229"/>
+            <tr litRef="thomas1983" pageRange="25"/>
+         </line>
+         <line n="a5 a6">
+            <tr litRef="thomas1969c" pageRange="202"/>
+         </line>
+         <line n="a5 a6 b1">
+            <tr litRef="thomas1957" pageRange="50"/>
+         </line>
+         <line n="a6">
+            <tr litRef="carling2000" pageRange="56, 147"/>
+            <tr litRef="hackstein1995" pageRange="118"/>
+         </line>
+         <line n="b1 b2 b3 b4">
+            <tr litRef="thomas1957" pageRange="50"/>
+         </line>
+         <line n="b2">
+            <tr litRef="thomas1952" pageRange="57"/>
+            <tr litRef="thomas1968" pageRange="201"/>
+         </line>
+         <line n="b3">
+            <tr litRef="thomas1968" pageRange="201"/>
+            <tr litRef="thomas1968" pageRange="207"/>
+            <tr litRef="thomas1979d" pageRange="150"/>
+         </line>
+         <line n="b4">
+            <tr litRef="thomas1997" pageRange="73"/>
+         </line>
+         <line n="b4 b5">
+            <tr litRef="schmidtkt1974" pageRange="179"/>
+            <tr litRef="thomas1957" pageRange="51"/>
+         </line>
+         <line n="b4 b5 b6">
+            <tr litRef="schmidtkt1974" pageRange="179">Darauf denkt der Maler, der infolge [seiner] Dummheit das hölzerne Mädchen für ein wirkliches Mädchen hielt, eben bei sich: "Ach diese Schönheit, ach diese Verschämtheit durch weibliche Schüchternheit! ..."</tr>
+            <tr litRef="schmidtkt1974" pageRange="179" translatedBy="TI">Thereupon the painter, who, due to [his] foolishness, took the wooden girl for a real girl, thought to himself: "Ah, this beauty, ah, this bashfulness because of female shyness! ...</tr>
+         </line>
+         <line n="b5">
+            <tr litRef="krauseandthomas1964" pageRange="20"/>
+         </line>
+         <line n="b5 b6">
+            <tr litRef="krauseandthomas1964" pageRange="20"/>
+         </line>
+         <line n="b6 m-a6.a1">
+            <tr litRef="krauseandthomas1964" pageRange="20"/>
+         </line>
+      </translation>
+      <comments>
+         <comment type="remarks">Transcription and translation are based on <ref litRef="carlingetal2009"/>. </comment>
+         <comment type="remarks">Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</comment>
+         <comment id="n1" type="philcomment">The translation is largely based on <ref litRef="sieg1944" pageRange="8-9"/>, and <ref litRef="carlingetal2009"/>.</comment>
+         <comment id="n2" type="philcomment">The metre of the following tune is 4x12 syllables, rhythm 5/7.</comment>
+         <comment id="n3" type="philcomment">The metre of this tune is 4x14 syllables, rhythm 7/7.</comment>
+      </comments>
+      <references>
+         <ref litRef="meunier2013" pageRange="137">
+            <fragRef line="b1 b2"/>
+         </ref>
+         <ref type="Online access" litRef="idp0000">
+            <link href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20638">THT 638</link>
+         </ref>
+         <ref type="Online access" litRef="tht0000">
+            <link href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0638.htm">THT 638</link>
+         </ref>
+      </references>
+      <editions>
+         <ref litRef="siegandsiegling1921" pageRange="5-6"/>
+         <ref litRef="siegandsiegling1921">Siegling's personal copy of <link href="./images/TS_Siegling/TS_Siegling_Page_005.png">p. 5</link>
+            <link href="./images/TS_Siegling/TS_Siegling_Page_006.png">p. 6</link>
+         </ref>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Gerd Carling" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-a6">
+      <header>
+         <sigla>
+            <primary siglum="A 6"/>
+            <secondary siglum="THT 639"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance manuscript="A 1-54"
+                     repository="Berlin Turfan Collection (BBAW)"
+                     nextFragment="m-a7"
+                     previousFragment="m-a5"
+                     findspot="Šorčuq"
+                     specificFindspot="Stadthöhle"
+                     expeditionCode="T III Š 72.06"/>
+         <content writtenLines="6">
+            <scribalDuctus ductus="classical"/>
+            <languages>
+               <language languageName="xto"/>
+            </languages>
+            <text title="Puṇyavantajātaka">
+               <genre genre="Literary" subgenre="Jātaka/Avadāna"/>
+               <proseVerse proseVerse="prose"/>
+               <proseVerse proseVerse="verse"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">[c]mā nu yu tko¯ ¯S klyo¯ ¯M śo ñi : ra sa ṣpo ke paṃ ypa māṃ su mnā tro ki cwa ṅke yaṃ : wā SA ṅkā TA rtsru PA śnaṃ pro <lac aks="2"/>
+            </line>
+            <line n="a2">rTMA¯ ¯K mu snā tRA : MA sra tsi pe ṣñi ke knu kā TKA ṢTA rñi tu ṅkyā ri¯ ¯ñcä : 1 || ku ssa śśi sā¯ ¯S yaṃ trā cā <lac aks="2"/>
+            </line>
+            <line n="a3">
+               <lac aks="1"/> ska TA rṣa¯ ¯R ckā ca¯ ¯R e pe śäṃ e pe spa ktā ni¯ ¯K e pe NṢA kko ki lo ki¯ ¯T ka kmu snäṃ : mā <lac aks="2"/>
+            </line>
+            <line n="a4">ta lyi ṣe¯ ¯Ṣ lo ki¯ ¯T lo tā PA¯ ¯K yä rkya tsi wä TKA ssi ṣo kyo nu yaṃ trā cā re nṣaṃ puko lyu ne <lac aks="2"/>
+            </line>
+            <line n="a5">
+               <lac aks="2"/> la LA kṣu ku cne tā¯ ¯Ṣ taṃ ne kRAṃ tso nāṃ śo mi nāṃ snā kyāṃ nṣa śśä LTA rko TMA¯ ¯Ṣ pe ka¯ ¯nT e ṅKA l*o <lac aks="2"/>
+            </line>
+            <line n="a6">
+               <lac aks="4"/> stā¯ ¯Ṣ śe wiṃ tRA po TA kpa ñwtsi le kya ṢTA mne¯ ¯K śo mi nā na¯ ¯cä lkā māṃ ā ñma śLA kka¯ ¯tS <lac aks="3"/>
+            </line>
+         </recto>
+         <verso>
+            <line n="lf">70</line>
+            <line n="b1">
+               <lac aks="1"/>
+               <lac aks="2" brac="rnd"/> tsa ra da rśnaṃ || ma rTA¯ ¯Ṣ tu¯ ¯ṅK ṣñi a kma lyo NA¯ ¯Ṣ tri KA ssi ka kmu yne¯ ¯śä : ku pre wa <lac aks="2"/>
+            </line>
+            <line n="b2">
+               <lac aks="1"/> ·ñ· <lac aks="1"/> ṣyä rKA ssi pā KA rlmo¯ ¯S : ā ri ñcṣi NAṃ yä rṣlu ne ko sne tā ṣa cmā yä rsmā¯ ¯R : mā ṣñi ṢPAṃ <lac aks="1"/>
+            </line>
+            <line n="b3">lmyi ṢTA rśkaṃ paṃ ypa māṃ sā slā laṃ ṣkā : 1 || nu na¯ ¯K PA LTSA ṅkā¯ ¯Ṣ tso pa tSAṃ ñā tse PA lko <lac aks="1"/>
+            </line>
+            <line n="b4">
+               <lac aks="1"/> mā nu TA¯ ¯Ṣ knā nmā ñcä śśi śä¯ ¯K wä knā kule wā sa ctu¯ ¯ṅK tSA knā tsi TA rko rtaṃ ne we <lac aks="1"/>
+            </line>
+            <line n="b5">lā ñci kule ya¯ ¯cä pā cri śna¯ ¯cä mṣa paṃ ti nā¯ ¯P śna¯ ¯cä ṣña ṣṣe yā¯ ¯P śna¯ ¯cä KA ṣṣi yā¯ ¯P śna¯ ¯cä lyu t· <lac aks="1" brac="rnd"/>
+            </line>
+            <line n="b6">ma¯ ¯Ṣ po ta rṣkāṃ kule ya¯ ¯cä KA lpa PA lskāṃ kule ya¯ ¯cä mā ki¯ ¯S KA lkā lyāṃ kule ya¯ ¯cä lyu tā rpā¯ ¯K <lac aks="1"/>
+            </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <lf>70</lf>
+         <prose>
+            <passage name="f"/>
+         </prose>
+         <verse meter="M14">
+            <strophe n="1">
+               <pada n="a">
+                  <s discont="m-a5-b6"> (kāckeya)<lb n="a1"/>c </s>; 
+                  <s>
+                     <tr>the noble one does not care about my conduct either.</tr>
+                     mā nu yutkos , klyom śoñi : </s>
+               </pada>
+               <pada n="b">
+                  <s>
+                     <tr>[But] anytime she stretches her arm when she serves me, she pulls [me] onto her lap, as it were.</tr>
+                     <s>rasaṣ poke , <s>paṃ ypamāṃ </s>
+                     </s>; sumnātr oki , cwaṅkeyaṃ : </s>
+               </pada>
+               <pada n="c">
+                  <s>
+                     <tr>The jewelry upon her breasts hardly moves,</tr>
+                  wāsäṅkātär , tsru päśnaṃ </s>; 
+                  <s>
+                     <tr>it merely is lifted a little.</tr>
+                     pro(pmahu)<lb n="a2"/>r tmäk , musnāträ : </s>
+               </pada>
+               <pada n="d">
+                  <s>
+                     <tr>But even though she is shy, she nevertheless gladdens my heart with love.</tr>
+                     <s>mäsratsi pe , ṣñikek nu </s>; kātkäṣtär-ñi , tuṅky= āriñc : </s>
+                  <s>1 ||</s>
+               </pada>
+            </strophe>
+         </verse>
+         <prose>
+            <s>
+               <tr>Who may she be?</tr>
+            kuss aśśi sās yaṃtrācā(res) <lb n="a3"/> (mä)skatär</s>
+            <s>
+               <tr>Is she the sister, the daughter, or the wife, or the servant of the mechanic, or has she come to him as a guest, just like me? </tr>
+               ṣar ckācar epe śäṃ epe spaktānik epe <s>nṣ-äkk oki lokit kakmus</s> näṃ : </s>
+            <s>
+               <tr>(But) a guest would not have been charged to pay honour to [another] guest.</tr>
+               mā (nu) <s>(yā)<lb n="a4"/>talyi</s> ṣeṣ <s>lokit lo«ki»tāpäk yärk yatsi wätkässi </s>
+            </s>
+            <s>
+               <tr>But very much the mechanic has shown his trust in me that he has left a girl so beautiful alone with me.</tr>
+               ṣokyo nu yaṃtrācāre nṣaṃ pUkolyune <lac aks="2"/>
+               <lb n="a5"/>
+               <lac aks="2"/> laläkṣu <s>kuc ne tāṣ taṃne kräṃtsonāṃ śomināṃ snākyāṃ nṣaśśäl tärko</s>
+            </s>
+            <s>
+               <tr>And the painter [says to himself]: By my passion she shall (not be aggrieved(?));</tr>
+               tmäṣ pekant eṅkäl(y)o <lac aks="2"/>
+               <lb n="a6" commRef="n2"/>
+               <lac aks="4"/> s tāṣ </s>
+            <s>
+               <tr>he yawns</tr>
+               śewiṃträ</s>
+            <s>
+               <tr>and is about to stretch out his hand.</tr>
+               <s>potäk pañwtsi</s> lek yaṣ </s>
+            <s>
+               <tr>Thus (he thinks) to himself while looking at the girl.</tr>
+               tämnek <s>śominānac lkāmāṃ</s> āñmaśl-äkk ats (pältsäṅkā)<lb n="b1" commRef="n3"/>(ṣ)</s>
+            <s>
+               <tr>|| In the A.-tune: ||</tr>
+               (||) (ap)tsaradarśnaṃ || </s>
+         </prose>
+         <verse meter="M14">
+            <strophe n="1">
+               <pada n="a">
+                  <s>
+                     <tr>But no!</tr>
+                  mar täṣ </s>
+                  <s>
+                     <tr>Love has arrived in person, in order to confuse me by his own face ...</tr>
+                     tuṅk <s>ṣñi , akmalyo ; näṣ trikässi </s>, kakmu yneś : </s>
+               </pada>
+               <pada n="b">
+                  <s>
+                     <tr>What if perhaps she had seated herself right before [lit. manifestly] me to honour me?</tr>
+                  kupre <sic corr="o">wa</sic>(ntaṃ) , (tā)<lb n="b2"/>(kiṣ…)ñ(i) ; <s>(nä)ṣ yärkässi</s> , <s>pākär lmos </s>: </s>
+               </pada>
+               <pada n="c">
+                  <s discont="m-a6-b2">
+                     <tr>As long as I don’t speak to [lit. honour] her with heart-felt affection [lit. honour], my dream [that] this gentle one serves me, does not get spoilt yet.</tr>
+                     <s>āriñcṣinäṃ , yärṣlune ; kos ne tāṣac , mā yärsmār : </s>
+                  </s>
+               </pada>
+               <pada n="d">
+                  <s discont="m-a6-b2">mā ṣñi ṣpäṃ (lkā)<lb n="b3"/>l , myiṣtär śkaṃ ; paṃ ypamāṃ sās , lālaṃṣkā : </s>
+                  <s>1 || </s>
+               </pada>
+            </strophe>
+         </verse>
+         <prose>
+            <s>
+               <tr>Again he thinks: </tr>
+            nunak pältsäṅkāṣ </s>
+            <s>
+               <tr>Seeing the great danger, the wise ones are not allowed here to profess love to ten kinds of women.</tr>
+               <s>tsopatsäṃ ñātse pälko(rä)<lb n="b4"/>(ṣ)</s> mā nu täṣ knānmāñcäśśi śäk wäknā kUlewāsac tuṅk tsäknātsi tärkor </s>
+            <s>
+               <tr>Thus it is said:</tr>
+               taṃne we(wñu)</s>
+            <s discont="m-a6-b6">
+               <tr>to the royal spouse, to the father’s spouse, to the spouse of a general, to that of a relative, to that of the teacher, to an exceedingly adulatory woman, to a woman thinking of profit, to a woman available to many, and mainly (to a beautiful)</tr>
+               <lb n="b5"/> lāñci kUleyac pācri śnac mṣapaṃtināp śnac ṣñaṣṣeyāp śnac käṣṣiyāp śnac lyut(ār) (me)<lb n="b6"/>maṣ potarṣkāṃ kUleyac kälpa-pälskāṃ kUleyac mākis kälkālyāṃ kUleyac lyutār pāk (kräṃ)<lb/>(tsonāṃ) </s>
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr litRef="thomas1968" pageRange="201"/>
+            <tr litRef="peyrot2013b" pageRange="251">[But] anytime she stretches her arm when she serves me, she pulls [me] onto her lap, as it were. (cf 9; 258)</tr>
+            <tr litRef="schmidtkt1974" pageRange="408">[Wenn] sie den Arm reckt, indem sie [mich] bedient, zieht [wtl. nimmt] sie [mich] gleichsam in [ihren] Schoß.</tr>
+            <tr litRef="schmidtkt1974" pageRange="408" translatedBy="TI">[When] she reaches out [her] arm in attending [to me], she pulls [lit. takes] takes me onto [her] lap, as it were.</tr>
+         </line>
+         <line n="a1 a2">
+            <tr litRef="hackstein1995" pageRange="199"/>
+            <tr litRef="carling2000" pageRange="210"/>
+            <tr litRef="schmidtkt1974" pageRange="77, 277, 294f"/>
+            <tr litRef="schmidtkt1974" pageRange="77, 277, 294">Das Geschmeide auf ihren Brüsten bewegt sich kaum, es hebt sich eben nur.</tr>
+            <tr litRef="schmidtkt1974" pageRange="77, 277, 294" translatedBy="TI">The jewellery upon her breast hardly moves, it just so slightly heaves.</tr>
+         </line>
+         <line n="a1 a2 a3 a4 a5 a6 b1 b2 b3 b4 b5 b6">
+            <tr litRef="sieg1944" pageRange="9"/>
+            <tr litRef="lane1947" pageRange="33ff"/>
+         </line>
+         <line n="a2">
+            <tr litRef="schmidtkt1974" pageRange="505">Aber [wenn sie] auch schüchtern [ist], [so] macht sie doch mein Herz von Liebe froh.</tr>
+            <tr litRef="schmidtkt1974" pageRange="505" translatedBy="TI">But even [if she is] shy, she still gladdens my heart with love.</tr>
+         </line>
+         <line n="a2 a3">
+            <tr litRef="thomas1957" pageRange="278"/>
+            <tr litRef="peyrot2013b" pageRange="282">Who may she be? Is she the sister, the daughter, or the wife, or the servant of the mechanic, or has she come to him as a guest, just like me? (cf 9; 46)</tr>
+            <tr litRef="schmidtkt1974" pageRange="109">Wer [ist] sie wohl? Ist sie des Mechanikers Schwester [oder] Tochter oder Frau oder Dienerin?</tr>
+            <tr litRef="schmidtkt1974" pageRange="109" translatedBy="TI">Who [may] she [be]? Is she the mechanic's sister [or] daughter or wife or servant?</tr>
+         </line>
+         <line n="a3">
+            <tr litRef="thomas1968" pageRange="201"/>
+         </line>
+         <line n="a3 a4">
+            <tr litRef="krauseandthomas1964" pageRange="20"/>
+            <tr litRef="thomas1952" pageRange="47"/>
+            <tr litRef="meunier2013" pageRange="163"/>
+            <tr litRef="thomas1970a" pageRange="471"/>
+            <tr litRef="peyrot2013b" pageRange="273">(But) a guest would not have been charged to pay honour to [another] guest. (cf 9; 258)</tr>
+         </line>
+         <line n="a4 a5">
+            <tr litRef="thomas1957" pageRange="279, 292"/>
+            <tr litRef="hackstein2012" pageRange="126"/>
+         </line>
+         <line n="a5">
+            <tr litRef="peyrot2012a" pageRange="202"/>
+         </line>
+         <line n="a5 a6">
+            <tr litRef="krauseandthomas1964" pageRange="20"/>
+            <tr litRef="schmidtkt1974" pageRange="92">Darauf [denkt] der Maler: "Durch (meine) Leidenschaft soll (sie nicht geschädigt(?)) sein", er gähnt [und] macht Miene, die Hand zu strecken.</tr>
+            <tr litRef="schmidtkt1974" pageRange="92" translatedBy="TI">Thereupon the painter [thinks]: "Through (my) passion (she) shall (not) be (harmed(?))", he yawns [and] is about to stretch [out his] hand.</tr>
+         </line>
+         <line n="a6">
+            <tr litRef="thomas1954" pageRange="736"/>
+         </line>
+         <line n="b1">
+            <tr litRef="thomas1954" pageRange="714"/>
+            <tr litRef="thomas1957" pageRange="256"/>
+            <tr litRef="thomas1969" pageRange="240"/>
+            <tr litRef="thomas1981" pageRange="483"/>
+         </line>
+         <line n="b1 b2">
+            <tr litRef="meunier2013" pageRange="162"/>
+         </line>
+         <line n="b1 b2 b3">
+            <tr litRef="krauseandthomas1964" pageRange="21"/>
+            <tr litRef="thomas1954" pageRange="717"/>
+            <tr litRef="peyrot2013b" pageRange="651">What if perhaps she had seated herself right before [lit. manifestly] me to honour me? As long as I don't speak to [lit. honour] her with heart-felt affection [lit. honour], my dream [that] this gentle one serves me, does not get spoilt yet.</tr>
+            <tr litRef="schmidtkt1974" pageRange="485, 490">Wenn sie offenbar etwa nur, [um] mich zu verehren, vor mir sitzen (sollte), [so] stört diese Zarte, [mich] bedienend, [von sich aus] auch nicht meinen Traum, solange ich zu dieser nicht die Sprache des Herzens spreche.</tr>
+            <tr litRef="schmidtkt1974" pageRange="485, 490" translatedBy="TI">When, apparently only to venerate me, she (should) sit before me, this tender one, attending [to me], will not disturb my dream [of her own accord], as long as I do not speak to her in the language of the heart.</tr>
+         </line>
+         <line n="b2">
+            <tr litRef="meunier2013" pageRange="165"/>
+         </line>
+         <line n="b2 b3">
+            <tr litRef="meunier2013" pageRange="137"/>
+         </line>
+         <line n="b3 b4">
+            <tr litRef="thomas1954" pageRange="733"/>
+            <tr litRef="schmidtkt1974" pageRange="179f"/>
+            <tr litRef="thomas1986" pageRange="118"/>
+            <tr litRef="thomas1993" pageRange="208"/>
+            <tr litRef="schmidtkt1974" pageRange="179-80">Wiederum denkt er: "Im Hinblick auf große Gefahr ist ja hier Klugen nicht erlaubt, zu zehnerlei Frauen Liebe zu äußern ..."</tr>
+            <tr litRef="schmidtkt1974" pageRange="179-80" translatedBy="TI">Again he thinks: "With regard to great danger wise ones are not allowed here to speak [their] love to ten kinds of women ... "</tr>
+         </line>
+         <line n="b4">
+            <tr litRef="hackstein1995" pageRange="142"/>
+         </line>
+         <line n="b5ff">
+            <tr litRef="carling2000" pageRange="236"/>
+            <tr litRef="thomas1958a" pageRange="162"/>
+         </line>
+         <line n="b6">
+            <tr litRef="thomas1952" pageRange="34"/>
+         </line>
+      </translation>
+      <comments>
+         <comment type="remarks">Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</comment>
+         <comment type="remarks">Transcription and translation are based on <ref litRef="carlingetal2009"/>. </comment>
+         <comment id="n1" type="philcomment">The translation is largely based on <ref litRef="sieg1944" pageRange="9-10"/>, and <ref litRef="carlingetal2009"/>.</comment>
+         <comment id="n2" type="philcomment">The stretching out of the painter's hand is most likely a gesture of dismissal; cf. <ref litRef="sieg1944" pageRange="9, fn. 8"/>.</comment>
+         <comment id="n3" type="philcomment">the tune is 4x14 syllables, rhythm 7/7.</comment>
+      </comments>
+      <references>
+         <ref type="Online access" litRef="idp0000">
+            <link href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20639">THT 639</link>
+         </ref>
+         <ref type="Online access" litRef="tht0000">
+            <link href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0639.htm">THT 639</link>
+         </ref>
+      </references>
+      <editions>
+         <ref litRef="siegandsiegling1921" pageRange="6-7"/>
+         <ref litRef="siegandsiegling1921">Siegling's personal copy of <link href="./images/TS_Siegling/TS_Siegling_Page_006.png">p. 6</link>
+            <link href="./images/TS_Siegling/TS_Siegling_Page_007.png">p. 7</link>
+         </ref>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Gerd Carling" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-a7">
+      <internalComments>
+         <comment resp="Adrian Musitz" scope="b3">The translation ist off. ime is a relational noun that takes an adjective in -ṣi and a noun in the locative to mean 'conception of X as Y', cf. A5 b5: tām orṣināṃ śominānaṃ yneś śomiṃṣiṃ ime kälpo. Thus, our passage would better be translated as 'Not the self has been conceived of as the self by the beings'.</comment>
+      </internalComments>
+      <header>
+         <sigla>
+            <primary siglum="A 7"/>
+            <secondary siglum="THT 640"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance manuscript="A 1-54"
+                     repository="Berlin Turfan Collection (BBAW)"
+                     nextFragment="m-a8"
+                     previousFragment="m-a6"
+                     findspot="Šorčuq"
+                     specificFindspot="Stadthöhle"
+                     expeditionCode="T III Š 72.07"/>
+         <content writtenLines="6">
+            <scribalDuctus ductus="classical"/>
+            <languages>
+               <language languageName="xto"/>
+            </languages>
+            <text title="Puṇyavantajātaka">
+               <genre genre="Literary" subgenre="Jātaka/Avadāna"/>
+               <proseVerse proseVerse="prose"/>
+               <proseVerse proseVerse="verse"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">tso nāṃ kule ya¯ ¯cä śo¯ ¯L ku lypa MA ntā¯ ¯P mā yä¯ ¯L TA myo sā sñi ṣña ṣṣe yā¯ ¯P ṣñi lyu tā rpā¯ ¯K śkaṃ <lac aks="1"/>
+            </line>
+            <line n="a2">tsi kRAṃ tso na slu ne yā mā yā ta lyi tu ṅśä rSA ssi nu na¯ ¯K PA LtSA ṅkā ṣku snu cä mpi¯ ¯Ṣ taṃ ne kRAṃ <lac aks="1"/>
+            </line>
+            <line n="a3">nāṃ taṃ ne tka nā taṃ ne tka nā taṃ ne pra ṣtā KA lpo RA¯ ¯Ṣ ā ñcä¯ ¯M sā KA ssi kya lmā NA ṣtā <lac aks="1"/>
+            </line>
+            <line n="a4">tu ṅkyo plā cwā wi¯ ¯M ku pre pa tnu tsa rā ne¯ ¯Ṣ eṃ tsmā RAṃ TMA ṣpe ka¯ ¯nT śla tu¯ ¯ṅK ya nTA rṣi <lac aks="1"/>
+            </line>
+            <line n="a5">
+               <lac aks="1"/> mi ne tsa rā eṃ tsu RA¯ ¯Ṣ TMA KSA myaṃ TA¯ ¯R we ka¯ ¯T PKA¯ ¯nT PKA¯ ¯nT kra tswa¯ ¯ñä śo rkmi ṣu tkmi klā RAṃ <lac aks="1"/>
+            </line>
+            <line n="a6">
+               <lac aks="1"/> [m]ā śkaṃ tā¯ ¯K TA MPA lko RA¯ ¯Ṣ pe ka¯ ¯nT wi «yo» ki la ke yä¯ ¯Ṣ kā KA tku ā ne ñci PA lko RA¯ ¯Ṣ <lac aks="2"/>
+            </line>
+         </recto>
+         <verso>
+            <line n="lf">70-1</line>
+            <line n="b1">
+               <lac aks="1"/> ·[ai] ṣo kyo nu ka KA twu tā kā yaṃ trā cā reṃ KA ṣṣi nā o te TA preṃ e ṅkli sta mpe wā tsu ne [o] <lac aks="2"/>
+            </line>
+            <line n="b2">
+               <lac aks="1"/> ā kntsu ne yi¯ ¯S e mpe lu ne kra tswsaṃ ka rwra so MTA preṃ prā KA rtu ṅkyā mtRA ṣo kyo nu kra ñcä śśi kā rme <lac aks="1"/>
+            </line>
+            <line n="b3">ñlu ne ku cne TA¯ ¯M tRA ṅki¯ ¯ñcä mā na¯ ¯Ṣ ā ñmaṃ wra sa śśi ā ñma ṣi ī me yā mu wä ṣ[p]ā <lac aks="1"/>
+            </line>
+            <line n="b4">nu ā ñcä¯ ¯M mā na¯ ¯Ṣ || ylaṃ || kra tswa¯ ¯S ṣu TKMA¯ ¯S śo rKMA syo MA lko ñcsaṃ ṣya¯ ¯K MAṃ tne ñi <lac aks="1"/>
+            </line>
+            <line n="b5">i me tā¯ ¯K : TA mne¯ ¯K ā¯ ¯yä śwā¯ ¯L pu skā syo MA lko ñcsaṃ ṣya¯ ¯K wra sa śśi ā ñma ṣi me : ka <lac aks="1"/>
+            </line>
+            <line n="b6">ñā ṣā spā KA ntu PKA¯ ¯nT PKA¯ ¯nT po tka mā tṣaṃ na¯ ¯Ṣ ā ñcä¯ ¯M ño mā : MAṃ tne kra tswsaṃ ñi tu¯ ¯ṅK tā[¯] [¯K] <lac aks="1"/>
+            </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <lf>70-1</lf>
+         <prose>
+            <passage name="g"/>
+            <s discont="m-a6-b6">
+               <tr>(to a beauti)ful woman he who loves his life shall not go. </tr>
+               (kräṃ)<lb n="a1"/>tsonāṃ kUleyac śol kulypamäntāp mā yäl </s>
+            <s>
+               <tr>Therefore this one as [she is] affiliated to my relative and mainly in her being beautiful to look at must not be made aware of the love.</tr>
+               tämyo sās <s>ñi ṣñaṣṣeyāp ṣñi <s>lyutār pāk śkaṃ (lkā)<lb n="a2"/>tsi</s> kräṃtso nasluneyā</s> mā yātalyi <s>tuṅ= śärsässi</s>
+            </s>
+            <s>
+               <tr>Again he thinks:</tr>
+               nunak pältsäṅkāṣ</s>
+            <s>
+               <tr>But who would, having found such a beautiful girl in such a place and at such a time, be able to restrain oneself?</tr>
+               kus nu cämpiṣ <s>
+                  <s>taṃne kräṃ(tso)<lb n="a3"/>nāṃ taṃne tkanā «†taṃne» «†tkanā» taṃne praṣtā kälporäṣ</s> āñcäm sākässi</s>
+            </s>
+            <s>
+               <tr>Why should I not have a conversation because of love to her?</tr>
+               kyal mā näṣ tā(maṃ) <lb n="a4"/> tuṅkyo plāc wāwim</s>
+            <s>
+               <tr>Or what if I take her by the hand before?</tr>
+               kupre pat nu tsarā neṣ eṃtsmār-äṃ</s>
+            <s>
+               <tr>When the painter then, full of love, reached for the hand of the artificial girl, this one immediately broke assunder, </tr>
+               tmäṣ pekant <s>śla tuṅk yantärṣi(nāṃ) <lb n="a5"/> (śo)mine tsarā eṃtsuräṣ</s> tmäk säm yaṃtär wekat </s>
+            <s>
+               <tr>and her rags, ropes [and] pins fell apart,</tr>
+               pkänt pkänt kratswañ śorkmi ṣutkmi klār-äṃ </s>
+            <s>
+               <tr>and there was no longer (a girl).</tr>
+               (śo)<lb n="a6"/>(miṃ) mā śkaṃ tāk</s>
+            <s>
+               <tr>When the painter saw this, he rose as distraught from his bed and after a regarding it well, (he says):</tr>
+               täm pälkoräṣ pekant <s>wiyo =ki</s>
+               <s>lakeyäṣ kākätku</s>
+               <s>āneñci pälkoräṣ</s> (träṅkä)<lb n="b1"/>(ṣ)</s>
+            <s>
+               <tr>O dear!</tr>
+               (h)ai</s>
+            <s>
+               <tr>I have been terribly deceived/ridiculed by the master mechanic!</tr>
+               ṣokyo nu kakätwu tākā yaṃtrācāreṃ käṣṣinā </s>
+            <s>
+               <tr>Oh such [is] the power of passion!</tr>
+               ote täpreṃ eṅklis tampewātsune</s>
+            <s>
+               <tr>Oh what horror/awesome power of ignorance, </tr>
+               o(te) (tä)<lb n="b2"/>(preṃ) ākntsuneyis empelune </s>
+            <s>
+               <tr>when a human being so intensely falls in love with mere rags!</tr>
+               kratswsaṃ kar wrasom täpreṃ prākär tuṅk yāmträ</s>
+            <s>
+               <tr>But it is a very true statement of the good/wise ones when they say: </tr>
+               ṣokyo nu krañcäśśi kārme (we)<lb n="b3"/>ñlune <s>kuc ne täm träṅkiñc</s>
+            </s>
+            <s>
+               <tr>there is nothing in the self, by the beings the conception of the self has been made.</tr>
+               mā naṣ āñmaṃ wrasaśśi āñmaṣi īme yāmu </s>
+            <s>
+               <tr>And in truth there is no self.</tr>
+               wäṣpā (pe)<lb n="b4" commRef="n2"/>nu āñcäm mā naṣ</s>
+            <s>
+               <tr>|| In the Y.-tune: ||</tr>
+               || ylaṃ || </s>
+         </prose>
+         <verse meter="M18">
+            <strophe n="1">
+               <pada n="a">
+                  <s discont="m-a7-b4">
+                     <tr>Just like of the ones composed of rags, pins [and] ropes my imagination was this,</tr>
+                     <s>kratswas ṣutkmäs , śorkmäsyo ; mälkoñcsaṃ ṣyak , mäṃt ne ñi ; (saṃ) <lb n="b5"/> ime tāk : </s>
+                  </s>
+               </pada>
+               <pada n="b">
+                  <s discont="m-a7-b4">
+                     <tr>just so of the ones composed of bones, flesh and sinews is the self-imagination of the beings.</tr>
+                  tämnek āy śwāl , puskāsyo ; mälkoñcsaṃ ṣyak , wrasaśśi ; āñmaṣ= ime : </s>
+               </pada>
+               <pada n="c">
+                  <s>
+                     <tr>If I examine the body parts one by one, there is nothing here called "self".</tr>
+                     <s>ka(pśiṃ)<lb n="b6"/>ñāṣās , pākäntu ; pkänt pkänt potka«m» </s>, mā tṣaṃ naṣ ; āñcäm ñomā : </s>
+               </pada>
+               <pada n="d">
+                  <s discont="m-a7-b6">
+                     <tr>As my love was towards rags, (just so...)</tr>
+                  mäṃt ne kratswsaṃ , ñi tuṅk tāk ; (tä)<lb/>(mne-k) </s>
+               </pada>
+            </strophe>
+         </verse>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr litRef="krauseandthomas1964" pageRange="21"/>
+         </line>
+         <line n="a1 a2">
+            <tr litRef="thomas1954" pageRange="742"/>
+            <tr litRef="thomas1967c" pageRange="176"/>
+         </line>
+         <line n="a1 a2 a3 a4 a5 a6 b1 b2 b3 b4 b5 b6">
+            <tr litRef="sieg1944" pageRange="10"/>
+            <tr litRef="lane1947" pageRange="33ff"/>
+         </line>
+         <line n="a2">
+            <tr litRef="krauseandthomas1964" pageRange="21"/>
+            <tr litRef="thomas1952" pageRange="37"/>
+         </line>
+         <line n="a2 a3">
+            <tr litRef="thomas1954" pageRange="722"/>
+            <tr litRef="carling2000" pageRange="286"/>
+            <tr litRef="schmidtkt1974" pageRange="310"/>
+            <tr litRef="thomas1960a" pageRange="200"/>
+            <tr litRef="thomas1969" pageRange="258"/>
+         </line>
+         <line n="a2 a3 a4">
+            <tr litRef="schmidtkt1974" pageRange="180"/>
+            <tr litRef="schmidtkt1974" pageRange="84, 180, 310, 395">Wiederum denkt er: "Wer könnte aber, wenn er ein so schönes Mädchen an solchem Ort und zu solcher Zeit gefunden hat, sich zurückhalten? Warum sollte ich nicht aus Liebe (zu) ihr ein Gespräch führen? Oder ob ich zuvor nach ihrer Hand fasse?"</tr>
+            <tr litRef="schmidtkt1974"
+                pageRange="84, 180, 310, 395"
+                translatedBy="TI">Again he thinks: "But who could restrain himself, after having found such a beautiful girl in such a place at such a time? Why should I not, out of love for her, hold a conversation? Or should I reach for her hand before?"</tr>
+         </line>
+         <line n="a3 a4">
+            <tr litRef="schmidtkt1974" pageRange="84, 395"/>
+         </line>
+         <line n="a4">
+            <tr litRef="peyrot2013b" pageRange="631">Or what if I take her by the hand before? (cf 10; 259)</tr>
+         </line>
+         <line n="a4 a5 a6">
+            <tr litRef="schmidtkt1974" pageRange="114">Als dann der Maler voll Liebe nach der Hand des künstlichen Mädchens fasste, zerbrach der Mechanismus sofort, auseinander fielen seine Lappen, Schnüre(?) [und] Holzpflöcke(,), und es war kein (Mädchen).</tr>
+            <tr litRef="schmidtkt1974" pageRange="114" translatedBy="TI">When the painter then, full of love, reached out for the hand of the artificial girl, the mechanism broke immediately, the rags, strings(?) [and] wooden pegs fell apart, and there was no (girl).</tr>
+         </line>
+         <line n="a5">
+            <tr litRef="carling2000" pageRange="207"/>
+         </line>
+         <line n="a6 b1 b2">
+            <tr litRef="thomas1957" pageRange="287"/>
+         </line>
+         <line n="b1 b2">
+            <tr litRef="meunier2013" pageRange="172"/>
+            <tr litRef="peyrot2013b" pageRange="283">O dear! I have been terribly deceived by the master mechanic! Oh such [is] the power of passion! Oh such [is] the horror of ignorance! If a being loves mere rags so intensely!</tr>
+            <tr litRef="schmidtkt1974" pageRange="340">Ach die Kraft der Leidenschaft, ach die Macht der Dummheit, wenn ein Mensch schon zu Lappen so heftig Liebe fasst!</tr>
+            <tr litRef="schmidtkt1974" pageRange="340" translatedBy="TI">Alas, the power of passion, alas the power of foolishness, if man falls in love [lit. seizes love] so deeply with mere rags!</tr>
+         </line>
+         <line n="b2 b3">
+            <tr litRef="thomas1958a" pageRange="162"/>
+         </line>
+         <line n="b3">
+            <tr litRef="thomas1957" pageRange="282"/>
+         </line>
+         <line n="b4 b5">
+            <tr litRef="thomas1957" pageRange="231"/>
+            <tr litRef="thomas1968" pageRange="222"/>
+         </line>
+         <line n="b5">
+            <tr litRef="thomas1952" pageRange="62"/>
+         </line>
+         <line n="b5 b6">
+            <tr litRef="peyrot2013b" pageRange="250">If I examine the body parts one by one, there is nothing called “the self”. (cf 11; 260)</tr>
+         </line>
+         <line n="b6">
+            <tr litRef="carling2000" pageRange="222"/>
+         </line>
+         <line n="b6 m-a8.a1">
+            <tr litRef="thomas1957" pageRange="231"/>
+            <tr litRef="thomas1968" pageRange="222"/>
+            <tr litRef="meunier2013" pageRange="138, 173"/>
+            <tr litRef="peyrot2013b" pageRange="279"/>
+         </line>
+      </translation>
+      <comments>
+         <comment type="remarks">Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</comment>
+         <comment type="remarks">Transcription and translation are based on <ref litRef="carlingetal2009"/>. </comment>
+         <comment id="n1" type="philcomment">The translation is largely based on <ref litRef="sieg1944" pageRange="10-11"/>, and <ref litRef="carlingetal2009"/>.</comment>
+         <comment id="n2" type="philcomment">The tune has 4x18 syllables, rhythm 7/7/4.</comment>
+      </comments>
+      <references>
+         <ref type="Online access" litRef="idp0000">
+            <link href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20640">THT 640</link>
+         </ref>
+         <ref type="Online access" litRef="tht0000">
+            <link href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0640.htm">THT 640</link>
+         </ref>
+      </references>
+      <editions>
+         <ref litRef="siegandsiegling1921" pageRange="7"/>
+         <ref litRef="siegandsiegling1921">Siegling's personal copy of <link href="./images/TS_Siegling/TS_Siegling_Page_007.png">p. 7</link>
+         </ref>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Gerd Carling" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-a8">
+      <header>
+         <sigla>
+            <primary siglum="A 8"/>
+            <secondary siglum="THT 641"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance manuscript="A 1-54"
+                     repository="Berlin Turfan Collection (BBAW)"
+                     nextFragment="m-a9"
+                     previousFragment="m-a7"
+                     findspot="Šorčuq"
+                     specificFindspot="Stadthöhle"
+                     expeditionCode="T III Š 72.08"/>
+         <content writtenLines="6">
+            <scribalDuctus ductus="classical"/>
+            <languages>
+               <language languageName="xto"/>
+            </languages>
+            <text title="Puṇyavantajātaka">
+               <genre genre="Literary" subgenre="Jātaka/Avadāna"/>
+               <proseVerse proseVerse="prose"/>
+               <proseVerse proseVerse="verse"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">·n·¯ ¯K ka pśñaṃ mska TA rpaṃ hi¯ ¯śtä tra¯ ¯K e ṅKA¯ ¯L : 1 || SA swra mnu yaṃ trā cā reṃ KA ṣṣi nā ṣñi a mo kaṃ o <lac aks="1"/>
+            </line>
+            <line n="a2">śśu ne nṣa cla LA kṣu tā¯ ¯K kya lmā NA ṣpe nu ca mi ṣñi a mo¯ ¯K lkā tsi ā yi¯ ¯M TMA¯ ¯Ṣ pe ka¯ ¯nT ymā <lac aks="1"/>
+            </line>
+            <line n="a3">¯R lyu wra¯ ¯M ro te yä ntu tsko RA¯ ¯Ṣ tā MA¯ ¯K wṣe po ṣṣā ṣñi ā ñcä¯ ¯M sa sru ku¯ ¯nT kñu [K]· <lac aks="1" brac="rnd"/>
+            </line>
+            <line n="a4">rpyo ṣpi na¯ ¯cä LA ṅkmāṃ pe ka TTA mnu MA¯ ¯nT wä knā || ṣa ḍa¯ ¯P de va da tte naṃ || ywo¯ ¯nT la¯ ¯P tsru y[r]e <lac aks="1"/>
+            </line>
+            <line n="a5">
+               <lac aks="2"/> a śäṃ to¯ ¯nT yo ṣmo¯ ¯Ṣ ywo¯ ¯nT lyme nyo ṣu ṅKA ṣṣa na¯ ¯S ymāṃ : LA ṅmāṃ tsa RAṃ pe yu ā rta¯ ¯K <lac aks="1"/>
+            </line>
+            <line n="a6">
+               <lac aks="2"/> kā tsyo kñu kaṃ spa¯ ¯rP ṣpi na cLA ṅmāṃ sa sru ku¯ ¯nT : wsi ya¯ ¯tS ka pśi ññā NA sko¯ ¯nT <lac aks="2"/>
+            </line>
+         </recto>
+         <verso>
+            <line n="lf">70 2</line>
+            <line n="b1">
+               <lac aks="3"/> śyo kyā ñcä¯ ¯M pā pe ku RA¯ ¯Ṣ kā ma tlyu wra¯ ¯M KA¯ ¯LK e lā : 1 || TMA¯ ¯Ṣ KSA ryaṃ trā cā r· <lac aks="2"/>
+            </line>
+            <line n="b2">
+               <lac aks="1"/> na¯ ¯cä ka kmu RA¯ ¯Ṣ PA lkā ttā¯ ¯M ya nTA rṣi nāṃ śo mi nāṃ PKA¯ ¯nT PKA¯ ¯nT kā klo sāṃ PA lkā¯ ¯S śkaṃ ca <lac aks="1" brac="rnd"/>
+            </line>
+            <line n="b3">KA ntāṃ sa sru ku¯ ¯nT ṣpi na cLA ṅmāṃ TMA¯ ¯Ṣ wi yo ki wa kcä¯ ¯rK klo pa su nāṃ tsu tRA ṅKA¯ ¯Ṣ hā k*</line>
+            <line n="b4">rya ppā kā rya¯ ¯P • TMA¯ ¯Ṣ wa ṢKA¯ ¯rS vā rtskā¯ ¯ñä ype ṣi ñi wra sa¯ ¯ñä mā kśo ṣi kā kro pu <lac aks="1"/>
+               <lac aks="1" brac="rnd"/>
+            </line>
+            <line n="b5">¯ñcä ku stā¯ ¯K klo pa su nāṃ tsu yaṃ trā cā re tRA ṅKA¯ ¯Ṣ PA lkā¯ ¯cä nā cki ñi klo¯ ¯P ca¯ ¯Ṣ || śu ri <lac aks="2" brac="rnd"/>
+            </line>
+            <line n="b6">|| pe KA ntā śśi KA ṣṣi śśi KA ṣṣi pe ka¯ ¯nT ñi na ṣu : lo ki¯ ¯T ye ṣñi ya nTA rṣi śo miṃ ca mi spa <lac aks="1"/>
+            </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <lf>70-2</lf>
+         <prose>
+            <passage name="h"/>
+         </prose>
+         <verse>
+            <strophe n="1">
+               <pada n="d">
+                  <s discont="m-a7-b6">
+                     <tr>(just) so it is to the [living] body in turn.</tr>
+                  (tä)<lb n="a1"/>(m)n(e)k kapśñaṃ mskatär paṃ ; </s>
+                  <s>
+                     <tr>Fie, blind passion!</tr>
+                     hiśt trak eṅkäl : </s>
+                  <s>1 || </s>
+               </pada>
+            </strophe>
+         </verse>
+         <prose>
+            <s>
+               <tr>But this thing has been shown to me by the master mechanic as a skill in his own craft.</tr>
+            säs wram nu <s>yaṃtrācāreṃ käṣṣinā ṣñi amokaṃ o(pä)<lb n="a2"/>śśune nṣac laläkṣu</s> tāk </s>
+            <s>
+               <tr>Why should I not let him see my own art as well?</tr>
+               kyal mā näṣ penu <s>cami ṣñi amok lkātsi</s> āyim</s>
+            <s>
+               <tr>Then the painter quickly produced a brush(?) and ink(?) and in the same night as one killed, with a rope around his neck, hanging on a nail, he painted himself opposite(?) the door.</tr>
+               tmäṣ pekant <s>ymā(r) (ymā)<lb n="a3"/>r lyu wram roteyäntu tskoräṣ</s> tāmä-k wṣe poṣṣā ṣñi āñcäm sasrukunt kñuk(aṃ) (spa)<lb n="a4" commRef="n2 n3"/>rpyo ṣpinac läṅkmāṃ pekat</s>
+            <s>
+               <tr>But how so? </tr>
+               täm nu mänt wäknā </s>
+            <s>
+               <tr>|| In the Ṣ.-tune: ||</tr>
+               || ṣaḍap-devadattenaṃ ||</s>
+         </prose>
+         <verse meter="M20_22_10_15">
+            <strophe n="1">
+               <pada n="a">
+                  <s>
+                     <tr>The head tilted a little --</tr>
+                  ywont lap tsru yre(ki) ;</s>
+                  <lb n="a5"/>
+                  <lac aks="2"/>
+                  <s>
+                     <tr>the eyes set,</tr>
+                     aśäṃ tont </s>; 
+                  <s>
+                     <tr>with the protruding lips (lit. stretched towards the front) the [last] sighs going out of the throat,</tr>
+                     <s>yoṣmoṣ ywont lymenyo </s>; ṣuṅkäṣṣ anas ymāṃ : </s>
+               </pada>
+               <pada n="b">
+                  <s>
+                     <tr>hands and feet hanging down,</tr>
+                  läṅmāṃ tsaräṃ , peyu</s>
+                  <s>
+                     <tr>with the lascivious lower abdomen,</tr>
+                     ārtak ; (tä)<lb n="a6"/>(rkosāṃ) kātsyo ,</s>
+                  <s>
+                     <tr>a rope around his neck, </tr> 
+                     kñukaṃ sparp ; </s>
+                  <s>
+                     <tr>hanging on a nail (like one) killed,</tr>
+                     ṣpinac läṅmāṃ , sasrukunt : </s>
+               </pada>
+               <pada n="c">
+                  <s>
+                     <tr>the golden skin of his body having become pale</tr>
+                  wsi yats kapśiññā ; näskont <lac aks="2"/>
+                  </s>
+                  <lb n="b1"/>
+                  <lac aks="2"/>
+                  <lac syll="3"/>
+               </pada>
+               <pada n="d">
+                  <s>
+                     <tr>thus he painted himself as if real, took his painting tools</tr>
+                     <s>(yne)śy oky āñcäm , pāpekuräṣ</s> ; kāmat lyu wram ,</s>
+                  <s>
+                     <tr> and went under cover.</tr>
+                     kälk elā </s>
+                  <s>: 1 || </s>
+               </pada>
+            </strophe>
+         </verse>
+         <prose>
+            <s>
+               <tr>When in the morning the mechanic came to the painter, he saw the mechanical girl fallen apart</tr>
+            tmäṣ ksär yaṃtrācār(e) <s>(pekän)<lb n="b2"/>(tā)nac kakmuräṣ</s> pälkāt tām yantärṣināṃ śomināṃ <s>pkänt pkänt kāklosāṃ</s>
+            </s>
+            <s>
+               <tr>and he [also] saw the painter as a self-killed one.</tr>
+               pälkā<sic corr="t">s</sic> śkaṃ ca(m) (pe)<lb n="b3"/>käntāṃ sasrukunt ṣpinac läṅmāṃ</s>
+            <s>
+               <tr>Thereupon he raised his voice as one distraught, </tr>
+               tmäṣ <s>wiyo =ki</s> wak cärk</s>
+            <s>
+               <tr>being depressed he said:</tr>
+               <s>klopasu nāṃtsu</s> träṅkäṣ</s>
+            <s>
+               <tr>oh what a pity, what a pity!</tr>
+               hā k(ā)<lb n="b4"/>ryapp ā kāryap •</s>
+            <s>
+               <tr>Thereupon soon the neighbouring people of the land and much folk gathered and they say:</tr>
+               tmäṣ waṣkärs vārtskāñ ypeṣiñi wrasañ māk śoṣi <s>kākropu(ṣ)</s> (träṅki)<lb n="b5" commRef="n4"/>ñc </s>
+            <s>
+               <tr>Who was that?</tr>
+               kus tāk</s>
+            <s>
+               <tr>Depressed, the mechanic says:</tr>
+               <s>klopasu nāṃtsu</s> yaṃtrācāre träṅkäṣ</s>
+            <s>
+               <tr>behold, you gentlemen, this my misfortune!</tr>
+               pälkāc nācki ñi klop caṣ</s>
+            <s>
+               <tr>|| In the Ś.-tune: ||</tr>
+               || śuri(ṣinaṃ) <lb n="b6" commRef="n4"/> || </s>
+         </prose>
+         <verse>
+            <strophe n="1">
+               <pada n="a">
+                  <s discont="m-a8-b6">
+                     <tr>Of the master painters the master of painters,my friend(?), came as a guest,</tr>
+                  pekäntāśśi , käṣṣiśśi ; käṣṣi pekant , ñi naṣu : </s>
+               </pada>
+               <pada n="b">
+                  <s discont="m-a8-b6">lokit yeṣ-ñi ,</s>
+                  <s discont="m-a9-a1">
+                     <tr>my artificial girl attended to him,</tr>
+                     yantärṣi ; śomiṃ cami , spa(ktāṃ) </s>
+                  <lb/>
+               </pada>
+            </strophe>
+         </verse>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr litRef="peyrot2013b"/>
+         </line>
+         <line n="a1 a2">
+            <tr litRef="thomas1957" pageRange="288"/>
+         </line>
+         <line n="a1 a2 a3 a4 a5 a6 b1 b2 b3 b4 b5 b6">
+            <tr litRef="sieg1944" pageRange="11"/>
+            <tr litRef="lane1947" pageRange="33ff"/>
+         </line>
+         <line n="a2">
+            <tr litRef="hackstein1995" pageRange="252"/>
+            <tr litRef="thomas1954" pageRange="726"/>
+            <tr litRef="carling2012" pageRange="63"/>
+         </line>
+         <line n="a2 a3">
+            <tr litRef="hackstein1995" pageRange="141"/>
+         </line>
+         <line n="a2 a3 a4">
+            <tr litRef="thomas1957" pageRange="84"/>
+            <tr litRef="schmidtkt1974" pageRange="314f"/>
+            <tr litRef="schmidtkt1974" pageRange="314-5">Darauf zog der Maler sehr schnell [wtl. schnell schnell] Palette(?) [und] Farben hervor und malte noch in derselben Nacht sich selbst als Getöteten an die Wand mit einem Strick (um) den Hals, an einem Haken(?) hängend.</tr>
+            <tr litRef="schmidtkt1974" pageRange="314-5" translatedBy="TI">Thereupon the painter quickly, quickly took out [his] palette(?) [and] colours and, in the very same night, onto the wall he painted himself as a killed one with a rope (around) [his] neck, hanging from a hook(?).</tr>
+         </line>
+         <line n="a3">
+            <tr litRef="carling2000" pageRange="200"/>
+         </line>
+         <line n="a3 a4">
+            <tr litRef="carling2000" pageRange="57, 74, 180"/>
+            <tr litRef="thomas1969c" pageRange="201"/>
+         </line>
+         <line n="a4 a5">
+            <tr litRef="thomas1970" pageRange="266"/>
+         </line>
+         <line n="a5 a6">
+            <tr litRef="thomas1966" pageRange="270"/>
+         </line>
+         <line n="a6">
+            <tr litRef="carling2000" pageRange="74, 200, 218"/>
+            <tr litRef="carling2012" pageRange="64"/>
+         </line>
+         <line n="a6 b1">
+            <tr litRef="schmidtkt1974" pageRange="315 n.2"/>
+            <tr litRef="schmidtkt1974" pageRange="315, fn. 2, 398-90">... einen Strick um den Hals, an einem Haken(?) hängend als Getöteten, ... [so] sich selbst wie leibhaftig gemalt habend/als er sich wie leibhaftig gemalt hatte, nahm er seine Palette(?) [und] ging hinaus(?).</tr>
+            <tr litRef="schmidtkt1974"
+                pageRange="315, fn. 2, 398-90"
+                translatedBy="TI">... a rope around [his] neck, hanging from a hook(?) as one killed, ... having painted himself thus as if real, he took his palette(?) and went out(?).</tr>
+         </line>
+         <line n="b1">
+            <tr litRef="schmidtkt1974" pageRange="398f"/>
+         </line>
+         <line n="b1 b2 b3">
+            <tr litRef="thomas1957" pageRange="84"/>
+            <tr litRef="schmidtkt1974" pageRange="188">Als dann morgens der Mechaniker zum Maler kam, sah er das künstliche Mädchen auseinandergefallen und sah [auch] den Maler als [Selbst]-getöteten an einem Haken(?) hängend.</tr>
+            <tr litRef="schmidtkt1974" pageRange="188" translatedBy="TI">When, in the morning, the mechanic came to the painter, he saw the artificial girl fallen apart and [he also] saw the painter as a killed one, hanging from a hook(?).</tr>
+         </line>
+         <line n="b3">
+            <tr litRef="carling2000" pageRange="74"/>
+         </line>
+         <line n="b4 b5">
+            <tr litRef="thomas1957" pageRange="239"/>
+         </line>
+         <line n="b5">
+            <tr litRef="thomas1973" pageRange="79"/>
+         </line>
+         <line n="b5 b6 m-a9.a1">
+            <tr litRef="schmidtkt1974" pageRange="189f"/>
+            <tr litRef="schmidtkt1974" pageRange="189-90">Sehet, [ihr] Herren, dieses mein Unglück! Von den Malermeistern der Malermeister, mein Freund, kam als Gast, mein künstliches Mädchen versah ihm den Dienst. Aus Liebe wohl berührte er das Mädchen, der Mechanismus zerbrach, [und] aus Scham darüber [wtl. aus d[ies]er Scham] tötete sich der Maler selbst, er hängt an einem Haken(?), sehet, [ihr] Guten!</tr>
+            <tr litRef="schmidtkt1974" pageRange="189-90" translatedBy="TI">See, lords, this my misfortune! The master painter of master painters, my friend, came as a guest, my artificial girl served him. Out of love, it seems, he touched the girl, the mechanism broke, [and] out of this shame the painter killed himself, he is hanging from a hook(?), see, [you] good ones!</tr>
+         </line>
+         <line n="b6 m-a9.a1">
+            <tr litRef="thomas1957" pageRange="41"/>
+            <tr litRef="carling2012" pageRange="64"/>
+            <tr litRef="meunier2013" pageRange="168"/>
+         </line>
+      </translation>
+      <comments>
+         <comment type="remarks">Transcription and translation are based on <ref litRef="carlingetal2009"/>. </comment>
+         <comment type="remarks">Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</comment>
+         <comment id="n1" type="philcomment">The translation is largely based on <ref litRef="sieg1944" pageRange="11-12"/>, and <ref litRef="carlingetal2009"/>.</comment>
+         <comment id="n2" type="philcomment">The tune has a metre of 20-22-10-15 syllables, the rhythm is 5/5/5/5, 8/7/7, 5/5 and 8/7, respectively.</comment>
+         <comment id="n3" type="philcomment">Restoration yre(ki) according to <ref litRef="burlakanditkin2010" pageRange="342-343"/> after <ref litRef="krauseandthomas1964" pageRange="22, fn. 5"/>.</comment>
+         <comment id="n4" type="philcomment">The tune has 4x14 syllables, rhythm 7/7.</comment>
+      </comments>
+      <references>
+         <ref type="Online access" litRef="idp0000">
+            <link href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20641">THT 641</link>
+         </ref>
+         <ref type="Online access" litRef="tht0000">
+            <link href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0641.htm">THT 641</link>
+         </ref>
+      </references>
+      <editions>
+         <ref litRef="siegandsiegling1921" pageRange="7-8"/>
+         <ref litRef="siegandsiegling1921">Siegling's personal copy of <link href="./images/TS_Siegling/TS_Siegling_Page_007.png">p. 7</link>
+            <link href="./images/TS_Siegling/TS_Siegling_Page_008.png">p. 8</link>
+         </ref>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Gerd Carling" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-a9">
+      <internalComments>
+         <comment resp="Adrian Musitz" scope="b4-b5">The translation 'look closely first. Take note:' would better accord with the pada borders.</comment>
+      </internalComments>
+      <header>
+         <sigla>
+            <primary siglum="A 9"/>
+            <secondary siglum="THT 642"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance manuscript="A 1-54"
+                     repository="Berlin Turfan Collection (BBAW)"
+                     nextFragment="m-a10"
+                     previousFragment="m-a8"
+                     findspot="Šorčuq"
+                     specificFindspot="Stadthöhle"
+                     expeditionCode="T III Š 72.09"/>
+         <content writtenLines="6">
+            <scribalDuctus ductus="classical"/>
+            <languages>
+               <language languageName="xto"/>
+            </languages>
+            <text title="Puṇyavantajātaka">
+               <genre genre="Literary" subgenre="Jātaka/Avadāna"/>
+               <proseVerse proseVerse="prose"/>
+               <proseVerse proseVerse="verse"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">ypā : tu ṅkyo śśi tsi¯ ¯«T» śo mi nāṃ we ka¯ ¯T yaṃ TA rca¯ ¯M ki pyo : sru ksā¯ ¯T ā ñcä¯ ¯M SA mpe ka¯ ¯nT LA ṅKA[¯] [¯Ṣ]</line>
+            <line n="a2">ṣpi na¯ ¯cä PA lkā¯ ¯cä kraṃ¯ ¯śä : 1 || wra sa ñpe nu ca¯ ¯M pe ke PA lko RA¯ ¯Ṣ yne śPA lskaṃ yā mu¯ ¯Ṣ tRA ṅki <lac aks="1" brac="rnd"/>
+            </line>
+            <line n="a3">hai wä ṣpā kā rya ptā¯ ¯K || TMA¯ ¯Ṣ yaṃ trā cā re KA ṣṣi lā¯ ¯nT cKA¯ ¯LK ca¯ ¯M wra¯ ¯M lā¯ ¯nT ā <lac aks="1" brac="rnd"/>
+            </line>
+            <line n="a4">ññā nā TA¯ ¯K ā lu ype ṣi pe ka¯ ¯nT ye¯ ¯Ṣ ñi wa ṣtā kā KA rpu ṣe¯ ¯Ṣ SA mtā PA¯ ¯rK ki PṢA <lac aks="1"/>
+            </line>
+            <line n="a5">pi ṣñi ā ñcä¯ ¯M sa sru kā¯ ¯T TA ṣnā tki¯ ¯S KA rso rtā¯ ¯Ṣ wä lpe nu pe rā¯ ¯K ā mā śā sca¯ ¯M wra¯ ¯M <lac aks="1"/>
+            </line>
+            <line n="a6">
+               <lac aks="1"/> lyu TMA¯ ¯Ṣ ā mā śā¯ ¯ñä ype ṣi ñi wra sa ñku ssa tsne ca¯ ¯M pe ke PA lkā¯ ¯nT puki¯ ¯S yne śyne ś[p]e <lac aks="2"/>
+            </line>
+         </recto>
+         <verso>
+            <line n="lf">70 3</line>
+            <line n="b1">
+               <lac aks="2"/> [t]ā¯ ¯K TA myo ce¯ ¯M pukā¯ ¯K tsā rta¯ ¯R TMA¯ ¯Ṣ yaṃ trā cā re wra ssa ctRA ṅKA¯ ¯Ṣ ma śkaṃ śe rcä¯ ¯R pu pkā mā <lac aks="2" brac="rnd"/>
+            </line>
+            <line n="b2">[po] [r]·[¯] [¯S] spa¯ ¯rP KA rṣto RA¯ ¯Ṣ ca ṣpre lo pkā mā¯ ¯cä TMA ṣyaṃ trā cā re po ra tyo sva¯ ¯rP KA rṣnā tsi PA knā ṣā¯ ¯T <lac aks="1"/>
+            </line>
+            <line n="b3">ṣpe ka¯ ¯nT pā KA rla ntu yaṃ trā cā reṃ KA ṣṣi na¯ ¯cä tRA ṅKA¯ ¯Ṣ || ku swaṃ || ma rya¯ ¯T ma rya¯ ¯T ma rslā</line>
+            <line n="b4">[k]KA rna¯ ¯ṢT yaṃ trā «cā» re : ma rṣñi po ṣi ma rñi pe ke ka nya¯ ¯T sne ma¯ ¯ṅK : PA lkā rna rṣu ā ne <lac aks="1" brac="rnd"/>
+            </line>
+            <line n="b5">ne ṣṣo tre pyā mtsā¯ ¯R : ā la kpe ke ā la kpe ka¯ ¯nT kya lmā KA rsnā¯ ¯T : || TA mPA lko RA¯ ¯Ṣ pu¯ ¯K wra [s]· <lac aks="1" brac="rnd"/>
+            </line>
+            <line n="b6">a ñu mā ski nāṃ tsu ṣka rye¯ ¯ñcä || taṃ ne wKA nyo o rṣi pe ke ṣi «pe» nu a RA mpā twra sa śśi tu ṅkā pñu ne <lac aks="1" brac="rnd"/>
+            </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <lf>70-3</lf>
+         <prose>
+            <passage name="i"/>
+         </prose>
+         <verse meter="M14">
+            <strophe n="1">
+               <pada n="b">
+                  <lb n="a1"/>
+                  <s discont="m-a9-a1"> ypā : </s>
+               </pada>
+               <pada n="c">
+                  <s>
+                     <tr>Presumably out of love he touched the girl </tr>
+                  tuṅkyo =śśi tsit , śomināṃ ; </s>
+                  <s>
+                     <tr>and the mechanism broke down.</tr>
+                     wekat yaṃtär ,</s>
+                  <s discont="m-a9-a1-1">
+                     <tr>Out of shame the painter killed himself:</tr>
+                     cam kipyo : </s>
+               </pada>
+               <pada n="d">
+                  <s discont="m-a9-a1-1">sruksāt āñcäm ,  säm pekant ; </s>
+                  <s>
+                     <tr>he is hanging from the nail -</tr>
+                     läṅkäṣ <lb n="a2"/> ṣpinac , </s>
+                  <s>
+                     <tr>look, o good ones! </tr>
+                     pälkāc kraṃś :</s>
+                  <s>1 || </s>
+               </pada>
+            </strophe>
+         </verse>
+         <prose>
+            <s>
+               <tr>The people, too, who saw the painting and took it for real say:</tr>
+            wrasañ penu <s>cam peke pälkoräṣ</s>
+               <s>yneś pälskaṃ yāmuṣ</s> träṅki(ñc) </s>
+            <lb n="a3"/>
+            <s>
+               <tr>Alas!</tr>
+               hai </s>
+            <s>
+               <tr>It was really a damage!</tr>
+               wäṣpā kāryap tāk </s>
+            <s>
+               <tr>Thereupon the master mechanic went to the king</tr>
+               || tmäṣ yaṃtrācāre käṣṣi lānt«a»c kälk</s>
+            <s>
+               <tr>and this matter to the king he told [saying]:</tr>
+               cam wram lānt ā(kṣi)<lb n="a4"/>ññā </s>
+            <s>
+               <tr>Oh lord, there came a painter from another country</tr>
+               nātäk ālu ypeṣi pekant yeṣ</s>
+            <s>
+               <tr>[and] he came down to my house,</tr>
+               ñi waṣtā kākärpu ṣeṣ </s>
+            <s>
+               <tr>now because of shame he has killed himself!</tr>
+               säm tāpärk kip ṣä(rma)<lb n="a5"/>
+               <sic corr="ṣ">p</sic>i ṣñi āñcäm sasrukāt</s>
+            <s>
+               <tr>The lord should know this.</tr>
+               täṣ nātkis kärsor tāṣ</s>
+            <s>
+               <tr>The king, however, who believed him, sent the minister to (look into) this [matter].</tr>
+               wäl penu perāk āmāśās <s>cam wram (lkā)<lb n="a6"/>(tsi)</s> lyu </s>
+            <s>
+               <tr>Thereupon the ministers and noblemen, whoever had seen the picture, for everybody it was really the master painter.</tr>
+               <s>tmäṣ āmāśāñ ypeṣiñi wrasañ kuss ats ne cam peke pälkānt</s> 
+               pUkis yneś yneś pe(kant) <lb n="b1"/> (käṣṣi) tāk </s>
+            <s>
+               <tr>Therefore they cried all together.</tr>
+               tämyo cem pUkāk tsārtar</s>
+            <s>
+               <tr>Thereupon the mechanic says to the people:</tr>
+               tmäṣ yaṃtrācāre wrassac träṅkäṣ</s>
+            <s>
+               <tr>Useless(?) is your crying, bring my axe!</tr>
+               maśkaṃ śercär <sic corr="ṣ">p</sic>u pkāmā(c-ñi) <lb n="b2"/> por(a)<sic corr="t">s</sic>
+            </s>
+            <s>
+               <tr>After having cut off the rope, carry this one away.</tr>
+               sparp kärṣtoräṣ caṣ pre lo pkāmāc</s>
+            <s>
+               <tr>Thereupon the mechanic wanted to cut off the rope with the axe.</tr>
+               tmäṣ yaṃtrācāre poratyo svarp kärṣnātsi päknāṣāt</s>
+            <s>
+               <tr>Thereupon the painter stood forward and said to the master mechanic:</tr>
+               (tmä)<lb n="b3" commRef="n2"/>ṣ pekant <s>pākär lantu</s> yaṃtrācāreṃ käṣṣinac träṅkäṣ </s>
+            <s>
+               <tr>|| In the K.-tune: ||</tr>
+               || kuswaṃ || </s>
+         </prose>
+         <verse meter="M12a">
+            <strophe n="1">
+               <pada n="a">
+                  <s>
+                     <tr>Do not do it,</tr>
+                     mar yat</s>
+                  <s>
+                     <tr>do not do it,</tr>
+                     mar yat ;</s>
+                  <s>
+                     <tr>do not be sad, oh mechanic,</tr>
+                     mar slā<lb n="b4"/>kkär naṣt ; yaṃtrācāre : </s>
+               </pada>
+               <pada n="b">
+                  <s>
+                     <tr>do not destroy your wall, do not destroy my painting without defect.</tr>
+                  mar ṣñi poṣi ; mar ñi peke ; ka<sic corr="t">n</sic> yat sne maṅk : </s>
+               </pada>
+               <pada n="c">
+                  <s>
+                     <tr> Watch carefully, you fool/friend(?)</tr>
+                  pälkār nar ṣu ; </s>
+                  <s>
+                     <tr>first observe the rule: </tr>
+                     āne(ñci) <lb n="b5"/> neṣ ; ṣotre pyāmtsār : </s>
+               </pada>
+               <pada n="d">
+                  <s>
+                     <tr>one thing is the painting, another thing is the painter,</tr>
+                  ālak peke ; ālak pekant ; </s>
+                  <s>
+                     <tr> why don’t you know that? 1. ||</tr>
+                     kyal mā kärsnāt : ||</s>
+               </pada>
+            </strophe>
+         </verse>
+         <prose>
+            <s>
+               <tr> All people that have seen this being amazed they laugh.</tr>
+               <s>täm pälkoräṣ</s> puk wras(añ) <lb n="b6"/> añumāski nāṃtsuṣ karyeñc ||</s>
+            <s discont="m-a9-b6">
+               <tr>Thus a figure of wood and painting, too, (calls forth) the love [and] affection of the living beings,</tr>
+               taṃne wkänyo orṣi pekeṣi penu arämpāt wrasaśśi tuṅ= kāpñune (a)<lb/>(räṣ) </s>
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr litRef="schmidtkt1974" pageRange="309 n.2"/>
+            <tr litRef="thomas1957" pageRange="41"/>
+            <tr litRef="schmidtkt1974" pageRange="309, fn. 2">er tötete sich selbst</tr>
+            <tr litRef="schmidtkt1974" pageRange="309, fn. 2" translatedBy="TI">he killed himself</tr>
+         </line>
+         <line n="a1 a2">
+            <tr litRef="carling2000" pageRange="75"/>
+            <tr litRef="peyrot2013b" pageRange="279">Presumably out of love he touched the girl and the mechanism broke down. Out of shame the painter killed himself: he is hanging from the nail—look, o good ones!</tr>
+         </line>
+         <line n="a1 a2 a3 a4 a5 a6 b1 b2 b3 b4 b5 b6">
+            <tr litRef="sieg1944" pageRange="12"/>
+            <tr litRef="lane1947" pageRange="33ff"/>
+         </line>
+         <line n="a2 a3">
+            <tr litRef="thomas1957" pageRange="216"/>
+         </line>
+         <line n="a3">
+            <tr litRef="carling2000" pageRange="235"/>
+            <tr litRef="thomas1983" pageRange="27"/>
+         </line>
+         <line n="a3 a4">
+            <tr litRef="thomas1957" pageRange="85"/>
+            <tr litRef="thomas1963" pageRange="45"/>
+         </line>
+         <line n="a4">
+            <tr litRef="carling2000" pageRange="56, 147"/>
+            <tr litRef="thomas1957" pageRange="41"/>
+            <tr litRef="thomas1969b" pageRange="57"/>
+            <tr litRef="thomas1983" pageRange="29"/>
+         </line>
+         <line n="a4 a5">
+            <tr litRef="thomas1957" pageRange="41, 202, 301"/>
+            <tr litRef="schmidtkt1974" pageRange="316">Es kam ein Maler eines anderen Landes, in meinem Haus war er abgestiegen. Der hat sich jetzt aus Scham selbst getötet.</tr>
+            <tr litRef="schmidtkt1974" pageRange="316" translatedBy="TI">A painter from another country came [along], in my house he put up. He has now killed himself out of shame.</tr>
+         </line>
+         <line n="a5">
+            <tr litRef="schmidtkt1974" pageRange="309 n.2"/>
+            <tr litRef="thomas1981" pageRange="491"/>
+            <tr litRef="peyrot2013b" pageRange="223">The lord should know this. (cf 12; 261)</tr>
+            <tr litRef="schmidtkt1974" pageRange="309, fn. 2">er tötete sich selbst</tr>
+            <tr litRef="schmidtkt1974" pageRange="309, fn. 2" translatedBy="TI">he killed himself</tr>
+         </line>
+         <line n="a6 b1">
+            <tr litRef="thomas1957" pageRange="223"/>
+         </line>
+         <line n="b1">
+            <tr litRef="thomas1963" pageRange="43"/>
+            <tr litRef="thomas1997" pageRange="103"/>
+            <tr litRef="thomas1997" pageRange="95"/>
+         </line>
+         <line n="b1 b2">
+            <tr litRef="schmidtkt1974" pageRange="92f"/>
+            <tr litRef="schmidtkt1974" pageRange="92-3">Deshalb weinten sie alle insgesamt. Darauf sagte der Mechaniker zu den Menschen: "Weinet doch nicht, holet (mir) eine Axt herbei: Nach Zerschneidung des Strickes tragt diesen fort!"</tr>
+            <tr litRef="schmidtkt1974" pageRange="92-3" translatedBy="TI">Therefore they were all crying together. Thereupon the mechanic said to the people: "Don't cry, bring me an axe: the string, having been cut, carry away!"</tr>
+         </line>
+         <line n="b2">
+            <tr litRef="thomas1954" pageRange="719"/>
+            <tr litRef="thomas1963" pageRange="44"/>
+            <tr litRef="schmidtkt1974" pageRange="148">Darauf wollte der Mechaniker mit der Axt den Strick zerschneiden.</tr>
+            <tr litRef="schmidtkt1974" pageRange="148" translatedBy="TI">Thereupon the mechanic intended to cut the rope with the axe.</tr>
+         </line>
+         <line n="b3 b4">
+            <tr litRef="thomas1958" pageRange="298"/>
+            <tr litRef="thomas1963" pageRange="44"/>
+            <tr litRef="thomas1973" pageRange="88"/>
+            <tr litRef="thomas1975" pageRange="310"/>
+            <tr litRef="thomas1981" pageRange="494"/>
+         </line>
+         <line n="b3 b4 b5">
+            <tr litRef="schmidtkt1974" pageRange="431"/>
+            <tr litRef="schmidtkt1974" pageRange="190, 431">Tu's nicht, tu's nicht, sei nicht traurig, o Mechaniker, [zerstöre] nicht deine Wand, zerstöre nicht mein makelloses Gemälde, sieh sorgfältig zu, [o] Freund, beachte zuvor die Regel: [Ein] anderes ist das Gemälde, [ein] anderes der Maler, warum weißt du [das] nicht?</tr>
+            <tr litRef="schmidtkt1974" pageRange="190, 431" translatedBy="TI">Don't do it, don't do it, don't be sad, oh mechanic, don't [destroy] your wall, don't destroy my faultless painting, watch carefully, [my] friend, mind first the rule: [an]other [thing] is the painting, [an]other [thing is] the painter, why don't you know [this]?</tr>
+         </line>
+         <line n="b4 b5">
+            <tr litRef="schmidtkt1974" pageRange="190"/>
+         </line>
+      </translation>
+      <comments>
+         <comment type="remarks">Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</comment>
+         <comment type="remarks">Transcription and translation are based on <ref litRef="carlingetal2009"/>. </comment>
+         <comment id="n1" type="philcomment">The translation is largely based on <ref litRef="sieg1944" pageRange="12-13"/>, and <ref litRef="carlingetal2009"/>.</comment>
+         <comment id="n2" type="philcomment">The tune has 4x12 syllables, rhythm 4/4/4.</comment>
+      </comments>
+      <references>
+         <ref type="Online access" litRef="idp0000">
+            <link href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20642">THT 642</link>
+         </ref>
+         <ref type="Online access" litRef="tht0000">
+            <link href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0642.htm">THT 642</link>
+         </ref>
+      </references>
+      <editions>
+         <ref litRef="siegandsiegling1921" pageRange="8-9"/>
+         <ref litRef="siegandsiegling1921">Siegling's personal copy of <link href="./images/TS_Siegling/TS_Siegling_Page_008.png">p. 8</link>
+            <link href="./images/TS_Siegling/TS_Siegling_Page_009.png">p. 9</link>
+         </ref>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Gerd Carling" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-a10">
+      <internalComments>
+         <comment resp="Adrian Musitz" scope="b3">Why the restoration (da)śagrive(s) instead of (da)śagrive?</comment>
+      </internalComments>
+      <header>
+         <sigla>
+            <primary siglum="A 10"/>
+            <secondary siglum="THT 643"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance manuscript="A 1-54"
+                     repository="Berlin Turfan Collection (BBAW)"
+                     nextFragment="m-a11"
+                     previousFragment="m-a9"
+                     findspot="Šorčuq"
+                     specificFindspot="Stadthöhle"
+                     expeditionCode="T III Š 72.10"/>
+         <content writtenLines="6">
+            <scribalDuctus ductus="classical"/>
+            <languages>
+               <language languageName="xto"/>
+            </languages>
+            <text title="Puṇyavantajātaka">
+               <genre genre="Literary" subgenre="Jātaka/Avadāna"/>
+               <proseVerse proseVerse="prose"/>
+               <proseVerse proseVerse="verse"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac aks="1"/> [¯Ṣ] mā nu caṃ [T]A¯ ¯M knā <lac aks="1" brac="rnd"/> ne yä Ṣwä rce tswā tsu ne yā ṣñi pa¯ ¯T ā lu pa¯ ¯T TA mṣu rma¯ ¯Ṣ pru cca mñe ya *i</line>
+            <line n="a2">cä mPA¯ ¯Ṣ : wä rṣa ltsu ne pe <lac aks="3"/> śśi knā nmu ne yä¯ ¯Ṣ wä rce tswā tsu ne yā kā ri pa¯ ¯cä spa rcwa tRA MAṃ tne <lac aks="1"/>
+            </line>
+            <line n="a3">
+               <lac aks="2" brac="rnd"/> śa gri ve rā kṣ <lac aks="1" brac="rnd"/> ā <lac aks="1" brac="rnd"/> wä¯ ¯L rā meṃ ra TA kyo lā ṅkri wo rpu sāṃ PA lko RA¯ ¯Ṣ pra cre¯ ¯S ā mā ś· <lac aks="1"/>
+            </line>
+            <line n="a4">
+               <lac aks="3"/> ṣya kkā <lac aks="1"/> [p]u RA¯ ¯Ṣ tRA ṅKA ṢMA tya ltā ki ṢSA sna peṃ da śā ra the slā¯ ¯nT se rā¯ ¯M si <lac aks="1"/>
+            </line>
+            <line n="a5">
+               <lac aks="9"/> [KA] tko RA¯ ¯Ṣ lā ṅkri wo rpu NA¯ ¯M ca mi ko rpā tā PA¯ ¯rK ku ccaṃ ske na¯ ¯L TMA¯ ¯Ṣ <lac aks="1"/>
+            </line>
+            <line n="a6">
+               <lac aks="11"/> [p]i¯ ¯S klyo ṣlā da śa gri vna¯ ¯cä tRA ṅKA¯ ¯Ṣ || ṢA¯ ¯lyPä ma lke naṃ || kā r· <lac aks="2"/>
+            </line>
+         </recto>
+         <verso>
+            <line n="b1">
+               <lac aks="13"/> ·nu ṣñi wra MKA lp[o] rā kā tkmāṃ KA lkā LṢA ññā tā¯ ¯Ṣ • ṣñi kā ri <lac aks="2"/>
+            </line>
+            <line n="b2">
+               <lac aks="11"/> : kucä ṣta tmu SA¯ ¯S knāṃ mu ne nka lu ne ya¯ ¯cä ṣñi ā ñme¯ ¯S || TA mka klyu <lac aks="1" brac="rnd"/>
+            </line>
+            <line n="b3">
+               <lac aks="3" brac="rnd"/> śa gri ve <lac aks="2" brac="rnd"/> nmu ne yä¯ ¯Ṣ wä rce tswā tsu ne prā KA rmā MA ntu ṣñi ā sā ni svai ḍu <lac aks="1"/>
+            </line>
+            <line n="b4">
+               <lac aks="1"/> ·k[o] RA¯ ¯Ṣ vi bhi ṣa <lac aks="2" brac="rnd"/> a kmlā wa wu RA¯ ¯Ṣ tRA ṅKA Ṣcaṃ pa rmā tu rā me¯ ¯S pa Ṣke ne taṃ ñi <lac aks="1" brac="rnd"/>
+            </line>
+            <line n="b5">na PA rpa lo nā stRA ṅKA¯ ¯T <lac aks="3"/> ¯Ṣ śo lā si sāṃ rā me¯ ¯S mā e sa¯ ¯M ku sne rā me¯ ¯S pra skmāṃ tā[¯] [¯cä] <lac aks="1"/>
+            </line>
+            <line n="b6">
+               <lac aks="1"/> pra skmā RAṃ || TMA¯ ¯Ṣ <lac aks="1" brac="rnd"/> bh* <lac aks="1" brac="rnd"/> ne la ppa tsya yä sku RA¯ ¯Ṣ ysā RAṃ lyā smāṃ wa rtsyä¯ ¯Ṣ kā TA¯ ¯K [mrā]</line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <lf> (70-4) </lf>
+         <prose>
+            <passage name="j"/>
+            <s discont="m-a9-b6">
+               <tr>calls forth),</tr>
+               (a)<lb n="a1"/>(rä)ṣ</s>
+            <s>mā nu caṃ täm knā(nmu)neyäṣ wärcetswātsuneyā <s>ṣñi pat ālu pat täm ṣurmaṣ pruccamñe ya(ts)i</s>
+               <lb n="a2"/> cämpäṣ : </s>
+            <s>
+               <tr>Strength, too, will be to the damage of the beings in [case of] a lack of wisdom. </tr>
+               wärṣaltsune pe(nu) (wrasa)śśi knānmuneyäṣ wärcetswātsuneyā kāripac sparcwaträ</s>
+            <s>
+               <tr>Just like, once, Daśagrīva, king of the Rākṣasas, when he saw the town Laṅkā compassed by the Rāma-army, speaks, having gathered his brothers, ministers (and generals(?)):</tr>
+               mäṃt ne (ne)<lb n="a3"/>(ṣā) (da)śagrive rākṣ(ts)ā(śśi) wäl <s>
+                  <s>rāmeṃ ratäkyo lāṅk ri worpusāṃ</s> pälkoräṣ</s>
+               <s>pracres āmāś(ās) <lb n="a4"/> (mṣapantinäs) ṣyak kā(kro)puräṣ</s> träṅkäṣ</s>
+            <s>
+               <tr>How should one act? </tr>
+               mät yal tākiṣ</s>
+            <s>
+               <tr>This human, Rāma, son of king Daśaratha has for the sake of Sītā crossed (the great ocean(?)) and compassed our town Laṅkā. </tr>
+               säs napeṃ daśārathes lānt se rām <s>si(sāṃ) <lb n="a5"/> (ṣurmaṣ) <s>(mahāsamudtär) kätkoräṣ</s> lāṅk ri worpu</s> näm</s>
+            <s>
+               <tr>What should now be done with respect to him?</tr>
+               cami korpā tāpärk kuc caṃ skenal</s>
+            <s>
+               <tr>Thereupon (Daśagrīva’s brother, Vibhīṣaṇa,) says to Daśagriva so that all hear [it]:</tr>
+               tmäṣ (da)<lb n="a6" commRef="n2"/>(śagrives) (pracar) (vibhiṣaṇe) <s>p«Uk»is klyoṣlā</s> daśagrivnac träṅkäṣ </s>
+            <s>
+               <tr> || In the Ṣ.-tune: ||</tr>
+               || ṣälyp-malkenaṃ || </s>
+         </prose>
+         <verse meter="M14">
+            <strophe n="1">
+               <pada n="a">
+                  <s>
+                     <tr>(For) the damage(?)</tr>
+                  kār(ipac) <lb n="b1"/>
+                     <lac aks="1"/> , <lac aks="3"/> ; <lac aks="4"/> , <lac aks="4"/>
+                     <lac syll="3"/>
+                  </s>
+               </pada>
+               <pada n="b">
+                  <s discont="m-a10-b1">
+                     <tr>But if (Rāma) can go [away] of his own accord, glad after reaching his object ... to [his] own damage</tr>
+                     <s>(rām) nu ṣñi wram , kälporā ; kātkmāṃ kälkāl , ṣäññā tāṣ •</s>
+                  </s>
+               </pada>
+               <pada n="c">
+                  <s discont="m-a10-b1">ṣñi kāri(pac) , <lac aks="1"/>
+                     <lb n="b2"/>
+                     <lac aks="3"/>
+                     <lac syll="3"/>; <lac aks="4"/> , <lac aks="4"/>
+                     <lac syll="3"/> : </s>
+               </pada>
+               <pada n="d">
+                  <s>
+                     <tr>From where does this knowledge come, which [leads] to the destruction of oneself?</tr>
+                  kUcäṣ tatmu säs , knāṃmune ; nkaluneyac , ṣñi āñmes «:» </s>
+                  <s>«1» || </s>
+               </pada>
+            </strophe>
+         </verse>
+         <prose>
+            <s>
+               <tr>|| Having heard that because of his lack of wisdom Daśagrīva was very wroth. From his [throne]-seat he tore a (foot(?) of) beryl, and having thrown it in the face of Vibhīṣana, he says: </tr>
+               <s>täm kaklyu(ṣu)<lb n="b3"/>(räṣ)</s>
+               <s>(da)śagrive(s) (knā)nmuneyäṣ wärcetswātsune prākär māmäntu</s> ṣñi āsānis vaiḍu(rṣi) <lb n="b4"/> (pe) (ts)koräṣ vibhiṣa(nes) akmlā wawuräṣ träṅkäṣ </s>
+            <s>
+               <tr>Give thou this one to Rāma, will you, whose praise you speak here before me,</tr>
+               caṃ parmā tu rāmes paṣ ke ne taṃ ñi (a)<lb n="b5"/>napär palonās träṅkät</s>
+            <s>
+               <tr>because I will never give Sītā to Rāma.</tr>
+               (kyalte) (nä)ṣ śolā sisāṃ rāmes mā esam</s>
+            <s>
+               <tr>Whoever of you [pl.] is fearing Rāma, I don’t fear him.</tr>
+               kus ne rāmes praskmāṃ tāc (näṣ) <lb n="b6"/> (mā) praskmāräṃ </s>
+            <s>
+               <tr>|| Thereupon Vibhīṣaṇa merely shook(?) his head, [and] wiping the blood away he rose from the gathering, </tr>
+               || tmäṣ (vi)bh(iṣa)ne <s>lapp ats yayäskuräṣ</s>
+               <s> ysāräṃ lyāsmāṃ</s> wartsyäṣ kātäk</s>
+            <s discont="m-a10-b6">
+               <tr>[his] hea(d)</tr>
+               mrā<lb/>(c)</s>
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1 a2">
+            <tr litRef="meunier2013" pageRange="166"/>
+         </line>
+         <line n="a1 a2 a3 a4 a5 a6 b1 b2 b3 b4 b5 b6">
+            <tr litRef="sieg1944" pageRange="13"/>
+            <tr litRef="lane1947" pageRange="33ff"/>
+         </line>
+         <line n="a2">
+            <tr litRef="schmidtkt1974" pageRange="118, 281">Auch die Stärke gereicht [bzw. wendet sich] den (Mensch)en bei Mangel an Klugheit zum Schaden.</tr>
+            <tr litRef="schmidtkt1974" pageRange="118, 281" translatedBy="TI">Even strength will turn into a fault for the humans when there is lack of prudence.</tr>
+         </line>
+         <line n="a2ff">
+            <tr litRef="thomas1968" pageRange="230"/>
+         </line>
+         <line n="a4">
+            <tr litRef="thomas1952" pageRange="16"/>
+            <tr litRef="peyrot2013b" pageRange="230">How should one act? (cf 13)</tr>
+         </line>
+         <line n="a4 a5">
+            <tr litRef="thomas1957" pageRange="247"/>
+         </line>
+         <line n="a5">
+            <tr litRef="carling2000" pageRange="359"/>
+         </line>
+         <line n="a6">
+            <tr litRef="thomas1952" pageRange="57"/>
+         </line>
+         <line n="b1">
+            <tr litRef="thomas1952" pageRange="42"/>
+            <tr litRef="thomas1960a" pageRange="200"/>
+            <tr litRef="peyrot2013b" pageRange="277">But if (Rāma) can go [away] of his own accord, glad after reaching his object, (then we will avoid this damage to our own town).</tr>
+         </line>
+         <line n="b2">
+            <tr litRef="carling2000" pageRange="239"/>
+            <tr litRef="thomas1957" pageRange="276"/>
+         </line>
+         <line n="b4">
+            <tr litRef="carling2000" pageRange="72, 198"/>
+         </line>
+         <line n="b4 b5">
+            <tr litRef="carling2000" pageRange="356"/>
+         </line>
+         <line n="b5">
+            <tr litRef="hackstein1995" pageRange="252"/>
+            <tr litRef="peyrot2013b" pageRange="633">Because [never] in all my life do I give Sītā to Rāma. (cf 14)</tr>
+         </line>
+         <line n="b5 b6">
+            <tr litRef="hackstein1995" pageRange="192"/>
+            <tr litRef="peyrot2013b" pageRange="258">Whoever of you [pl.] is fearing Rāma, I don't fear him.</tr>
+            <tr litRef="schmidtkt1974" pageRange="156">(Denn ich) gebe in meinem Leben die Sīta dem Rāma nicht. Wenn ihr den Rāma fürchten solltet, (ich) fürchte (nicht).</tr>
+            <tr litRef="schmidtkt1974" pageRange="156" translatedBy="TI">(For I) will not give Sīta to Rāma in my life. If you should fear Rāma, I (don't) fear [him].</tr>
+         </line>
+         <line n="b6">
+            <tr litRef="carling2000" pageRange="47"/>
+            <tr litRef="hackstein1995" pageRange="71"/>
+            <tr litRef="thomas1989" pageRange="33"/>
+         </line>
+         <line n="b6 m-a11.a1">
+            <tr litRef="schmidtkt1974" pageRange="302 n.1"/>
+            <tr litRef="thomas1969" pageRange="256"/>
+            <tr litRef="thomas1983" pageRange="11"/>
+            <tr litRef="siegandsiegling1983" pageRange="203"/>
+         </line>
+         <line n="b6 m-a11.a1 m-a11.a2 m-a11.a3">
+            <tr litRef="thomas1957" pageRange="85"/>
+         </line>
+      </translation>
+      <comments>
+         <comment type="remarks">Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</comment>
+         <comment type="remarks">Transcription and translation are based on <ref litRef="carlingetal2009"/>. </comment>
+         <comment id="n1" type="philcomment">The translation is largely based on <ref litRef="sieg1944" pageRange="13-14"/>, and <ref litRef="carlingetal2009"/>.</comment>
+         <comment id="n2" type="philcomment">The tune has 4x14 syllables, rhythm 7/7.</comment>
+      </comments>
+      <references>
+         <ref type="Online access" litRef="idp0000">
+            <link href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20643">THT 643</link>
+         </ref>
+         <ref type="Online access" litRef="tht0000">
+            <link href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/06/0643.htm">THT 643</link>
+         </ref>
+      </references>
+      <editions>
+         <ref litRef="siegandsiegling1921" pageRange="10"/>
+         <ref litRef="siegandsiegling1921">Siegling's personal copy of <link href="./images/TS_Siegling/TS_Siegling_Page_010.png">p. 10</link>
+         </ref>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Gerd Carling" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+</corpus>
