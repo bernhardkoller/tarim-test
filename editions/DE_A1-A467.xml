@@ -3,7 +3,7 @@
 <corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus https://tarim-brahmi-exide.acdh-dev.oeaw.ac.at/exist/apps/tarim-data/schemas/fragments_bte/fragments_bte.xsd">
-<!--   test-comment-->
+<!--   other-comment-->
    <record id="m-a1">
       <header>
          <sigla>
