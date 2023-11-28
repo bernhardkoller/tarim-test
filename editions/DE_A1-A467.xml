@@ -38,7 +38,11 @@
             <strophe n="1">
                <pada n="b">
                   <s>
+<<<<<<< HEAD
                      <tr>The good reputation of the energetic ones spreads to all corners of the world;</tr>
+=======
+                     <tr>The great reputation of the poweful ones spreads to all directions of the world;</tr>
+>>>>>>> cd7ae21336778318b9594f08062c38bee2a7f603
                      (kā)<lb n="a1" commRef="n2"/>su ñom klyu , tsraṣiśśi ; <phr type="NP"> śäk kälymentwaṃ </phr>, sätkatär :
                   </s>
                </pada>
@@ -2841,6 +2845,7 @@
          </contributors>
       </publication>
    </record>
+<<<<<<< HEAD
    <record id="m-a11">
       <internalComments>
          <comment resp="Adrian Musitz" scope="a6-b1">The translation strikes me as strange. Also, if it was correct, we would expect an explanation of why inertia is so bad to follow in the discourse. Considering the text is discussing what kind of quality is pruccamo, I believe it would be more sensible to read it as 'Or if (they are) without knowledge, what is power, strength [and] energy, that is all inertia.' i.e. power, strength and energy without knowledge are worthless, thus knowledge is pruccamo. This would fit better with what came before (Ravana was powerful but stupid), and it would especially directly pick up something said in A2: cami ālāsuneyis nu tsraṣṣune pratipakṣ nāṃtsu. It also fits better with what comes after: That knowledge is also better than amok. Thus, my reading would be better also from a literary point of view. We would also have a correlative clause - translated very stiltedly into English - with kus and täm, while the current translation seems to just ignore täm. Also, are there any other attestations of pkänt with the meaning 'opposite'?</comment>
@@ -29516,6 +29521,8 @@
          </contributors>
       </publication>
    </record>
+=======
+>>>>>>> cd7ae21336778318b9594f08062c38bee2a7f603
    <record id="m-a213">
       <header>
          <sigla>
@@ -29524,10 +29531,17 @@
          </sigla>
          <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
          <provenance manuscript="M-α"
+<<<<<<< HEAD
                      repository="Berlin Turfan Collection (BBAW)"
                      findspot="Šorčuq"
                      specificFindspot="Stadthöhle"
                      expeditionCode="T III Š 69.13"/>
+=======
+            repository="Berlin Turfan Collection (BBAW)"
+            findspot="Šorčuq"
+            specificFindspot="Stadthöhle"
+            expeditionCode="T III Š 69.13"/>
+>>>>>>> cd7ae21336778318b9594f08062c38bee2a7f603
          <content writtenLines="7">
             <scribalDuctus ductus="classical"/>
             <languages>
@@ -29573,7 +29587,11 @@
                   <lac syll="14"/>
                </pada>
                <pada n="c">
+<<<<<<< HEAD
                   <lac syll="4"/> ///  , pälskont puk ; wätkāṣ wätkālts , sn= ālak wkäṃ : </pada>
+=======
+                  <lac syll="4"/> ///  , pälskont puk ; wätkāṣ wätkālts<commentRef commRef="n1"/> , sn= ālak wkäṃ : </pada>
+>>>>>>> cd7ae21336778318b9594f08062c38bee2a7f603
                <pada n="d"> cam  /// <lac syll="13"/>
                </pada>
             </strophe>
@@ -29667,15 +29685,24 @@
          </line>
       </translation>
       <comments>
+<<<<<<< HEAD
          <comment type="remarks">Transcription and translation are based on <ref litRef="carlingetal2009"/>. </comment>
+=======
+         <comment>Transcription and translation are based on <ref litRef="carlingetal2009"/>. </comment>
+>>>>>>> cd7ae21336778318b9594f08062c38bee2a7f603
          <comment type="remarks">Transcription and references have been transferred from the "Text and Reference Database of the Tocharian A Language" (Gerd Carling Lund University) (funded by the Bank of Sweden Tercentenary Foundation and SCAS).</comment>
          <comment id="n1" type="parallels">
             <fragRef fragment="m-yqii4"/>, <fragRef fragment="m-yqii5"/>; MaitrHami 2, 5-6</comment>
          <comment id="n2" type="philcomment">This fragment contains part of the second act of the Maitreyasamitināṭaka. It corresponds to <fragRef fragment="m-yqii4"/> b7 - <fragRef fragment="m-yqii5"/> b4 and more or less continues from <fragRef fragment="m-a212"/>+<fragRef fragment="m-a216"/>. An Uy. parallel is MaitrHami II, 5a18-6a23. See also <ref litRef="pinault1999" pageRange="195-6"/>.</comment>
       </comments>
       <references> (A 213 + <fragRef fragment="m-yqii5"/>) <ref type="Online access" litRef="idp0000">
+<<<<<<< HEAD
             <link href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20846">THT 846</link>
          </ref>
+=======
+         <link href="http://idp.bbaw.de/database/oo_loader.a4d?pm=THT%20846">THT 846</link>
+      </ref>
+>>>>>>> cd7ae21336778318b9594f08062c38bee2a7f603
          <ref type="Online access" litRef="tht0000">
             <link href="http://titus.fkidg1.uni-frankfurt.de/texte/tocharic/tht/08/0846.htm">THT 846</link>
          </ref>
@@ -29693,6 +29720,7 @@
          </contributors>
       </publication>
    </record>
+<<<<<<< HEAD
    <record id="m-a214">
       <header>
          <sigla>
@@ -67259,4 +67287,6 @@
          </contributors>
       </publication>
    </record>
+=======
+>>>>>>> cd7ae21336778318b9594f08062c38bee2a7f603
 </corpus>

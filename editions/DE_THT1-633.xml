@@ -53,18 +53,30 @@
             </strophe>
             <strophe n="77">
                <pada n="b">
+<<<<<<< HEAD
                   <lb n="a3" commRef="n5"/> ///  näksenträ mā mäskeṃntr (e)ṃṣketse (:) </pada>
+=======
+                  <lb n="a3" commRef="n5"/> /// näksentr me mäskeṃntr (e)ṃṣketse (:) </pada>
+>>>>>>> cd7ae21336778318b9594f08062c38bee2a7f603
             </strophe>
             <strophe n="78">
                <pada n="a"> ·ts·  /// <lb n="a4" commRef="n6"/> /// <lac syll="6"/> (ākṣa) ; (wertsiya)ntse pelaikne ; śtwār= emprenm= aurtsesa : </pada>
                <pada n="d"> /// <lb n="a5" commRef="n7"/> /// <lac syll="2"/> (pi)ntwāt ykuwermeṃ ; lalaikarmeṃ ṣarne 70(-8) </pada>
             </strophe>
             <strophe n="79">
+<<<<<<< HEAD
                <pada n="c"> /// <lb n="a6"/> ///  tetemwa ka kloyonträ  /// </pada>
             </strophe>
             <strophe n="80">
                <pada n="b">
                   <lb n="a7" commRef="n8"/> ///  (ywārcä) (sru)kenträ tetemoṣ kā…  /// </pada>
+=======
+               <pada n="c"> /// <lb n="a6"/> /// tetewa ka kloyonträ /// </pada>
+            </strophe>
+            <strophe n="80">
+               <pada n="b">
+                  <lb n="a7" commRef="n8"/> /// (ywārcä) (su)kenträ tetemoṣ kā… /// </pada>
+>>>>>>> cd7ae21336778318b9594f08062c38bee2a7f603
             </strophe>
             <strophe n="82">
                <pada n="b">
