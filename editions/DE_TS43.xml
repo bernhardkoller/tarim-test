@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schemas/fragments/bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus ../../../schemas/fragments/bte/fragments_bte.xsd">
+    <record id="m-ts43">
+        <header>
+            <sigla>
+                <primary siglum="TS 43"/>
+                <secondary siglum="MQ 153b"/>
+                <secondary siglum="MQ 153.6"/>
+            </sigla>
+            <physicalProperties material="wood tablet" objectType="Woodslip" writingMedium="ink"/>
+            <provenance repository="Berlin Turfan Collection (BBAW)" findspot="Qizil Miŋ-Öy"/>
+            <content writtenLines="3+">
+                <scribalDuctus ductus="cursive"/>
+                <languages>
+                    <language languageName="txb" linguisticStage="late"/>
+                </languages>
+                <text>
+                    <genre genre="Non-literary" subgenre="Letter"/>
+                    <proseVerse proseVerse="prose"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1">śa¯ ¯K śtwe rkṣu nne nnai yma ññe me ne i KAṃ trai /// </line>
+                <line n="a2">se yi kṣe mā rju ni kṣu n[n]e • ṣe yeṃ yu rpā ṣkai /// </line>
+                <line n="a3">·i <lac aks="2"/> ·*·i <lac aks="1"/> [r]·e <lac aks="3"/> /// </line>
+            </recto>
+        </transliteration>
+        <transcription>
+            <prose>
+                <lb n="a1" commRef="n2"/> śak śtwer kṣunne nnaiymaññe mene ikäṃ trai(ne) /// <lb n="a2"
+                /> seyi kṣemārjuni kṣunne • ṣeyeṃ yurpāṣkai /// <lb n="a3"/> ·i <lac aks="2"/> ·(ā) ·i
+                <lac aks="1"/> r·e <lac aks="3"/> /// </prose>
+        </transcription>
+        <translation>
+            <line n="a1">
+                <tr>In the year fourteen of the reign, in the month of *<hi>Naim</hi>, (on the day)
+                    twenty-three ///</tr>
+            </line>
+            <line n="a2">
+                <tr>in the reign of the son ..., of <hi>Kṣemārjune</hi> • ... <hi>Yurpāṣka</hi> ...
+                    ///</tr>
+            </line>
+            <line n="a3">
+                <tr>...</tr>
+            </line>
+        </translation>
+        <comments>
+            <comment id="n1" type="remarks">Belongs to the Berlin collection of Tumshuqese texts;
+                identification: Hirotoshi Ogihara in <ref litRef="chingandogihara2013" pageRange="106"
+                />–107.</comment>
+            <comment id="n2" type="lingcomment">Note the depalatalized and degeminated <hi>mene</hi>
+                for <hi>meñne</hi>.</comment>
+        </comments>
+        <references>
+            <ref type="other" litRef="ching2010" pageRange="297-298"/>
+            <ref type="other" litRef="chingandogihara2013" pageRange="106-107"/>
+        </references>
+        <editions/>
+        <publication/>
+    </record>
+</corpus>

@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus">
+   <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           id="m-iolkhot6_1"
+           n="588">
+      <header>
+         <sigla>
+            <primary siglum="IOL Khot 6/1"/>
+            <secondary siglum="Stein E. i.7: KT V, p. 77 (163)"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance repository="British Library (London)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="kho"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> trā mī u ttu śau ye u ysā nau va jsi ṣḍe ku ye ttu śā tte tu dye yī ndi nai nä saṃ tse ra ā spā ta hä me • pyūʾ thu bhai </line>
+            <line n="a2"> ṣa jya se na mā sa lā vu mu ho hā ha ḍu hāʾ mä bo dhi sa tvā nu kä ḍe na u ba lysū ña vū ysā ka rī ha ne khi jā ma </line>
+            <line n="a3"> to kaiʾ ndi styū da vra ta ṣkau gyā nu gaṃ jse byā ta ya nā re u ysno rā ṇu hā vu ya nī di tso thu hā kā mo di śo </line>
+            <line n="a4"> gya stä ba lysä mā jei na sa lā vä nai brā ska hvā ña se śi ru bi ysā ndī gra ta hvā ñā ma jsau ju khi ji gya sta ba lysa </line>
+            <line n="a5"> u pu rdai mā ru haṃ tsa hī ñe jsa haṃ tsa paʾ ñyau u śä re dā tä bä rū ñaṃ dei sa rvva sa tvā nu u ysnau rā ṇu va ska hā </line>
+         </recto>
+         <verso>
+            <line n="b1"> vaṃ gā rä u kā mi dā tä pyū vāʾ ñe ku ye tha to ba lysä pa na me tha tau tsu mä ḍā na sthī ra mā vu śi ra te kä ḍä </line>
+            <line n="b2"> na ttā mu mu hu ne pa na mā ma ne kā mu ba lysu na ro dä tu ya nā ma kye dvā va re dä rśyä tau la kṣa ṇyau haṃ phu </line>
+            <line n="b3"> te kvī pa jsa mu ya nā mä • ttī tä nä bhei ṣa jya se nä bo dhi sa tvä tta hve se ā ysda ya nī ru u skyā stu se </line>
+            <line n="b4"> cu dai ya vaṃ ña ttī tä ttä nū va rā sa tva u skā lstuo u ysdä tā nde paṃ jsa se ysā re ku lā ra dä tā nde te hau </line>
+            <line n="b5"> dyau ra ta nyau kye ra ta nī nyau dā myau pa ju sta u myā ño nä ha ṣprī yä vi ysä te bu śā nä tai ///</line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> trāmī u ttuśau ye uysānau vajsiṣḍe ku ye ttuśāttetu dye yīndi nai nä saṃtsera āspāta häme • pyūʾ thu bhai-<lb n="a2"/>ṣajyasena mā salāvu muho hā haḍu hāʾmä bodhisatvānu käḍena u balysūñavūysā karīha ne khijāma-<lb n="a3"/>to kaiʾndi styūda-vrata ṣkaugyānu gaṃjse byāta yanāre uysnorāṇu hāvu yanīdi tso thu hā kāmo diśo 
+            <lb n="a4"/> gyastä balysä mājeina salāvänai brāska hvāña se śiru biysāndī grata-hvāñā ma jsau ju khiji gyasta balysa 
+            <lb n="a5"/> u purdai māru haṃtsa hīñe jsa haṃtsa paʾñyau u śäre dātä bärūñaṃdei sarvvasatvānu uysnaurāṇu vaska hā-<lb n="b1"/>vaṃgārä u kāmi dātä pyūvāʾñe ku ye thato balysä paname thatau tsu mäḍāna sthīra māvu śirate käḍä-<lb n="b2"/>na ttāmu muhu ne panamāmane kāmu balysu na-ro dätu yanāma kye dvāvaredärśyätau lakṣaṇyau haṃphu-<lb n="b3"/>te kvī pajsamu yanāmä • ttītä nä bheiṣajyasenä bodhisatvä tta hve se āysda yanīru uskyāstu se 
+            <lb n="b4"/> cu daiya vaṃña ttītä ttä nūvarā satva uskālstuo uysdätānde paṃjsa se ysāre kulāra dätāndete hau-<lb n="b5"/>dyau ratanyau kye ratanīnyau dāmyau pajusta u myāño nä haṣprīyä viysäte buśānätai /// 
+         </prose>
+      </transcription>
+      <translation litRef="skjaervo2013"/>
+      <comments>
+         <comment resp="skjaervo2013" id="n1">Actual: E. i.roll.  Sgh [22] 253[71]-[180].  Neb., p. 34 (S2 145).</comment>
+         <comment resp="skjaervo2013" id="n2">Fol. 145</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="skjaervo2013"/>
+      </editions>
+      <publication/>
+   </record>
+   <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           id="m-iolkhot6_2"
+           n="589">
+      <header>
+         <sigla>
+            <primary siglum="IOL Khot 6/2"/>
+            <secondary siglum="Stein E. i.7: KT V, p. 78 (165)"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance repository="British Library (London)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="kho"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> da sa mo bhū mu vä te vi stā ta hä mā re u ī mu ttu dhā tī nau kū su pa jsa baʾ jī ndi • u ʾī mä nä mä stä haṃ phau </line>
+            <line n="a2"> hä me dai thu bhai ṣa jya se na tte ku lā ra bhai ṣa jya se nä bo dhi sa tvä tta hve se dai mä gya sta ba lysa dai mä mä ḍā na gya </line>
+            <line n="a3"> sta ba lysa ī mu tte nū va rā sa tva dā tī nau bā ḍä na thā nu bye hī ndä : u ī mu tte bi śā nu śi rā </line>
+            <line n="a4"> ṇu hä rā ṇu bā go haṃ be rī ndä u ī mu dā tī nau kū su ka ljī ndä u a naṃ khi ṣṭa gya sta kye ī mu dā tu pa </line>
+            <line n="a5"> ysā nī ndä u pha rā ka ī mu na rī ya u ysnau ra dī rvoʾ ga voʾ ṣṭā re kye gya stā nu gya stä ha jva tte tī gyo dā tä </line>
+         </recto>
+         <verso>
+            <line n="b1"> hvā ñā ma to pyū vāʾ re bi śä saṃ tsā rī ya du kha pu rrī ndä pa raṃ jsa ni ha mä nī ndä • ttī tä ttu bā ḍu nau va re nau </line>
+            <line n="b2"> tä ysā re kū la pa ḍāṃ jsya hvą ndä pa ḍā phā rrä bu sta u bi śe ttä u ysnau ra śä ryo hä ryau haṃ phu ta hä mā re </line>
+            <line n="b3"> u bä śä ttä bhei ṣa jya se na u ysnau ra bä śyau du khyau pa rsī nde u bä śä ttä bhei ṣa jya se na u ysnau ra gya </line>
+            <line n="b4"> sti ba lysä dyā ma tu vä te nä ta hä mā re u bä śä ttä bhei ṣa jya se na u ysnau ra dhā tī nai na ba jā ṣṇa haṃ phva hä </line>
+            <line n="b5"> mā ri • ʾā́ ysda ya nu bhei ṣa jya se na tca hau rä hā lā • ttī bhei ṣa jya se nä mä stä ba lysū ña vū ysei dye bi śä tca hau ri hā lā sa rbaṃ dä na ///</line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> dasamo bhūmu väte vistāta hämāre u īmu ttu dhātīnau kūsu pajsabaʾjīndi • u ʾīmä nä mästä haṃphau 
+            <lb n="a2"/> häme dai thu bhaiṣajyasena tte kulāra bhaiṣajyasenä bodhisatvä tta hve se daimä gyasta balysa daimä mäḍāna gya-<lb n="a3"/>sta balysa īmu tte nūvarā satva dātīnau bāḍäna thānu byehīndä : u īmu tte biśānu śirā-<lb n="a4"/>ṇu härāṇu bāgo haṃberīndä u īmu dātīnau kūsu kaljīndä u anaṃkhiṣṭa gyasta kye īmu dātu pa-<lb n="a5"/>ysānīndä u pharāka īmu narīya uysnaura dīrvoʾ gavoʾ ṣṭāre kye gyastānu gyastä hajvattetīgyo dātä 
+            <lb n="b1"/> hvāñāmato pyūvāʾre biśä saṃtsārīya dukha purrīndä paraṃjsa ni hamänīndä • ttītä ttu bāḍu nauvarenau-<lb n="b2"/>tä ysāre kūla paḍāṃjsya hvąndä paḍā phārrä busta u biśe ttä uysnaura śäryo häryau haṃphuta hämāre 
+            <lb n="b3"/> u bäśä ttä bheiṣajyasena uysnaura bäśyau dukhyau parsīnde u bäśä ttä bheiṣajyasena uysnaura gya-<lb n="b4"/>sti balysä dyāmatu väte näta hämāre u bäśä ttä bheiṣajyasena uysnaura dhātīnaina bajāṣṇa haṃphva hä-<lb n="b5"/>māri • ʾā́ysda yanu bheiṣajyasena tcahaurä hālā • ttī bheiṣajyasenä mästä balysūñavūysei dye biśä tcahauri hālā sarbaṃdäna /// 
+         </prose>
+      </transcription>
+      <translation litRef="skjaervo2013"/>
+      <comments>
+         <comment resp="skjaervo2013" id="n1">Actual: E. i.roll.  Sgh [22] 256.10-258.2.  Neb., p. 39 (S2 149).  Akh., pl. CXI (“E. i 7”).</comment>
+         <comment resp="skjaervo2013" id="n2">Fol.149</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="skjaervo2013"/>
+      </editions>
+      <publication/>
+   </record>
+   <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           id="m-iolkhot8_1"
+           n="597">
+      <header>
+         <sigla>
+            <primary siglum="IOL Khot 8/1"/>
+            <secondary siglum="Kha. 0013c1: KT V, p. 122 (218)"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance repository="British Library (London)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="kho"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> gya ysā ma teṃ o yi nā ma pa dī mā re ///</line>
+            <line n="a2"> yī ndä hau na hvā ñī ndä a sä du cī tä ///</line>
+            <line n="a3"> te tu ṣä ju nä śtä ka va hū dvī nu ///</line>
+            <line n="a4"> hä mä te o śa kāʾ ma ta || ttī tä vā ba l·sä ///</line>
+            <line n="a5"> vä tä • sa lye drai mā śtä vū sa tu vū sī ndä <lac aks="2"/>
+            </line>
+         </recto>
+         <verso>
+            <line n="b1"> nā re u hā ysaṃ thu ā tī mā re ni hu jsa <lac aks="1"/> ///</line>
+            <line n="b2"> hau da ha ḍā śu voʾ vä tä vā nu ma ñā re <lac aks="1"/>
+            </line>
+            <line n="b3"> nä jsī na jī te cu nä ju vā ñu <lac aks="1"/>
+            </line>
+            <line n="b4"> ne mä te hā ha yū ñu ya nī ndä ha ṣṭu voʾ a <lac aks="2"/>
+            </line>
+            <line n="b5"> se ko ttrā mu ā ya kye ttä hvąʾ ndä cu nä jsī <lac aks="1"/>
+            </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> gyaysāmate-ṃ o yi nāma<commentRef commRef="n3"/> padīmāre /// 
+            <lb n="a2"/> yīndä hauna hvāñīndä asädu cītä /// 
+            <lb n="a3"/> tetu ṣä ju näśtä ka<commentRef commRef="n4"/> va hūdvīnu /// 
+            <lb n="a4"/> hämäte ośa kāʾmata || ttītä vā bal(y)sä /// 
+            <lb n="a5"/> vätä • salye drai māśtä vūsatu vūsīndä <lac aks="1"/>
+(ya)<commentRef commRef="n5"/>
+            <lb n="b1"/>nāre u hā ysaṃthu ātīmāre nihujsa <lac aks="1"/> /// 
+            <lb n="b2"/> hauda haḍā śuvoʾ vätä vānu mañāre (cu) 
+            <lb n="b3"/> nä jsīna jīte cu nä juvāñu (pa)<commentRef commRef="n6"/>
+            <lb n="b4"/>nemäte hā hayūñu yanīndä haṣṭuvoʾ a(kṣaṇvoʾ)<commentRef commRef="n7"/>
+            <lb n="b5"/> se ko ttrāmu āya kye ttä hvąʾndä cu nä jsī(na)
+         </prose>
+      </transcription>
+      <translation litRef="skjaervo2013">
+         <line n="a1">... *sacrifices for them or they make a name for him ...</line>
+         <line n="a2">... does ..., they speak in word evil.  When ...</line>
+         <line n="a3">... And that does not *exist.  And if ... of both ...</line>
+         <line n="a4">... there arises evil thought.  Then the Buddha ...</line>
+         <line n="a5">... in ... they practice upavāsa for three months of the year ...</line>
+         <line n="b1">... they *do ... and wish for (re)birth [in] the *western [region ? ...</line>
+         <line n="b2">... for seven days at mid(day) they consider the temple ...</line>
+         <line n="b3">... whether their life is destroyed, whether they have to live ... *produces [a mind to ...?</line>
+         <line n="b4">... They make friendship with(?) him (it, them?).  In the eight *misfortunes ...</line>
+         <line n="b5">... [saying] that: If it were thus, (then) those men who ... their life ...</line>
+      </translation>
+      <comments>
+         <comment resp="skjaervo2013" id="n1">Ms. similar to Kha. 047 (IOL Khot 173/8).</comment>
+         <comment resp="skjaervo2013" id="n2">Fol. 9</comment>
+         <comment resp="skjaervo2013" id="n3">B.: yināma. </comment>
+         <comment resp="skjaervo2013" id="n4">B.: ku.</comment>
+         <comment resp="skjaervo2013" id="n5">?</comment>
+         <comment resp="skjaervo2013" id="n6">?</comment>
+         <comment resp="skjaervo2013" id="n7">?</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="skjaervo2013"/>
+      </editions>
+      <publication/>
+   </record>
+   <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           id="m-iolkhot8_2"
+           n="598">
+      <header>
+         <sigla>
+            <primary siglum="IOL Khot 8/2"/>
+            <secondary siglum="Kha. 0013c2: KT V, p. 123 (219)"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance repository="British Library (London)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="kho"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> śva ra rā yä hau da tcī rai tvaṃ da nä tsue tä hva raṃ dau ysā <lac aks="1"/> ·ś· ·y· <lac aks="2"/>
+            </line>
+            <line n="a2"> śva ra rā yä rra ṣṭa tsū kä pa jsa mā nä ā ṣa ṇä a va raṃ jsä dā <lac aks="1"/>
+            </line>
+            <line n="a3"> ba lysä lo ke śva ra rā yä ttyau ggā hyau sta vye || a va mā ta <lac aks="1"/>
+            </line>
+            <line n="a4"> lcä haṃ da rye bāʾ yä ttrā ma ā ya haṃ da ra bi śye ttṛ lo <lac aks="1"/>
+            </line>
+            <line n="a5"> u rma ysdā nä • ni jä nä brū ñā re tta vā tcä haṃ dā rä ttī śä ///</line>
+         </recto>
+         <verso>
+            <line n="b1"> jsa mi ḍā na • ttū ni jsa ḍä ba lysa ba jā ṣṣä nveṃ cä a va mā <lac aks="1"/>
+            </line>
+            <line n="b2"> vi rśä na ba lysä tta ra ha jva tte jsa ha maṃ ggä pu rrau ysye śä ///</line>
+            <line n="b3"> dā ta ñyau a ysmya di rysde ba lysū ña bvā ma ta a ta ///</line>
+            <line n="b4"> u sphī sa ro ñä ka rä a śtä hä rṣṭai ba lysä • ggaʾ pyau ca ggaṃ jsä ///</line>
+            <line n="b5"> sa rva ñä ba lysä śśä rāṃ śśä rä a na lsca ttī śä di śvā <lac txtStat="lost" aks="1"/> ·i ·ä yo ///</line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> śvararāyä hauda tcīrai tvaṃdanä tsuetä hvaraṃdau ysā(nū) (ś)ś(and)y(a) (loke)-<lb n="a2"/>śvararāyä rraṣṭa-tsūkä pajsamānä āṣaṇä avaraṃjsä dā(tä) 
+            <lb n="a3"/> balysä lokeśvararāyä ttyau ggāhyau stavye || avamāta (ha)<commentRef commRef="n4"/>
+            <lb n="a4"/>lcä haṃdarye bāʾyä ttrāma āya haṃdara biśye ttṛlo(vä)<commentRef commRef="n5"/>
+            <lb n="a5"/> urmaysdānä • ni jä nä brūñāre tta vātcä haṃdārä ttīśä /// 
+            <lb n="b1"/> jsa miḍāna • ttū nijsaḍä balysa-bajāṣṣä nveṃcä avamā(t-)<lb n="b2"/>virśäna balysä tta ra hajvatte jsa hamaṃggä purrauysye śä /// 
+            <lb n="b3"/> dātañyau aysmya dirysde balysūña bvāmata ata /// 
+            <lb n="b4"/> usphīsaroñä karä aśtä härṣṭai balysä • ggaʾ pyauca ggaṃjsä /// 
+            <lb n="b5"/> sarvañä balysä śśärāṃ śśärä analsca-ttīśä diśvā <lac aks="1"/>
+·i ·ä y-o /// 
+         </prose>
+      </transcription>
+      <translation litRef="skjaervo2013">
+         <line n="a1">... he circumambulated Lokeśvararāja seven times, [placed] the right knee on the ground ...</line>
+         <line n="a2">... Lokeśvararāja, the right-goer (tathāgata), worthy of homages (arhat), [knowing well ?] the non-adverse Law (samyaksambuddha) ...</line>
+         <line n="a3">... [Then] the [Lord] Buddha praised Lokeśvararāja with the following verses:  Immeasurable ...</line>
+         <line n="a4">... of the other ... a ray would be such, another ... of the entire triple *world ...</line>
+         <line n="a5">... suns ... Nor do they shine.  Thus moreover either splendor ...</line>
+         <line n="b1">... O gracious one.  In this manner the buddha-sound ... innumerable ...</line>
+         <line n="b2">... with respect to energy (is) the Buddha and thus similar with respect to wisdom. ...</line>
+         <line n="b3">... through the elements holds in (his) mind the buddha knowledge. ...</line>
+         <line n="b4">... there is any ... at all of the Buddha.  The assembly ... the *counteragent of sin ...</line>
+         <line n="b5">... the omniscient Buddha, the good among the good, of ... splendor, in the directions ...</line>
+      </translation>
+      <comments>
+         <comment resp="skjaervo2013" id="n1">Sukhāvatīvyūha.  Guide [18.21].</comment>
+         <comment resp="skjaervo2013" id="n1"/>
+         <comment resp="skjaervo2013" id="n3">Fol. 19	... loke]-</comment>
+         <comment resp="skjaervo2013" id="n4">?</comment>
+         <comment resp="skjaervo2013" id="n5">?</comment>
+         <comment resp="skjaervo2013" id="n6">Sanskrit text after Müller, 1881, pp. 7-8:</comment>
+         <comment resp="skjaervo2013" id="n7">atha khalv Ānaṃda Dharmākaro bhikṣur utthāyāsanād ekāṃsa uttarāsaṃgaṃ kṛtvā</comment>
+         <comment resp="skjaervo2013" id="n8">
+            <txq language="san">
+                            a1 dakṣiṇa-jānu-maṇḍalaṃ pṛthivyāṃ pratisṭhāpya yenāsau bhagavāṃl loke-
+                            a2 śvararājas tathāgatas tenāṃjaliṃ praṇamya bhagavantaṃ namaskṛtya tasminn eva samaye
+                            a3 saṃmukham ābhir gāthābir abhyaṣṭāvīt • amitaprabha ananta-tulya-buddhe |
+                            a4-a5 na ca iha anya-prabhā vibhāti kācit || sūrya-maṇi-girīśa-candra-ābhā | na tapati bhosiṣu ebhi sarva-loke || rūpam api anantu
+                            b1 sattva-sāre | tatha api buddha-svaro ananta-ghoṣaḥ || śīlam api samādhi-
+                            b2 prajña-vīryaiḥ | sadṛśu na te sti ha loki kaścid anyaḥ || gabhiru vipulu sukṣma-prāptu
+                            b3 dharmo | cintitu buddha-varo yathā samudraḥ ||
+                            b4 tenonnamanā na cāsti śāstuḥ | khila-doṣāñjāhyā ato ʾdhikālaṃ || atha
+                            b5 buddha-varā ananta-tejā | pratapati sarva-diśā narendra-rājā ||
+                        </txq>
+         </comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="skjaervo2013"/>
+      </editions>
+      <publication/>
+   </record>
+   <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           id="m-iolkhot10_1"
+           n="628">
+      <header>
+         <sigla>
+            <primary siglum="IOL Khot 10/1"/>
+            <secondary siglum="Kha. i.13.1: KBT, p. 1 (1)"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance repository="British Library (London)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="kho"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ña vū ys· nu ha· <lac aks="1"/> ·gya ·y· ·t· ·u <lac aks="7"/>
+            </line>
+            <line n="a2"> ddhā nu • ṣā vā nu a ysu bä sī vrā ṣā haṃ khī ysgya ha sta mä dā kṣi ṇyā nu hva t· <lac aks="1"/> rr· ndu <lac aks="4"/>
+            </line>
+            <line n="a3"> ṣā kho tcā ra mī skya jä nyā tta ra kṣī rei rre • ku tcā rī mu vä tä ā ste rre hvī nde • <lac aks="1"/> t· h· ḍ· ca kkra va rttä rre <lac aks="1"/>
+            </line>
+            <line n="a4"> ña tcā rī ma kṣī ra bu ḍä hä mä te • ne ne ttī tä ttu bā ḍu nyā tta ra kṣī rau rru ndu • rru ndu grū sī ndä • ca kkra va rttä vā <lac aks="2"/>
+            </line>
+            <line n="a5"> rä ttī tä rre hä mä te • a sa lā vä vā ṣä nyā tta ra kṣī rei rre hä mä te ca kkra va rtti rru ndi vā rru stä • || <lac aks="2"/>
+            </line>
+         </recto>
+         <verso>
+            <line n="b1"> dī dṛ ḍha ma ta kā mi ña ā vu to pa rmi ho kṣī ra kī ntha mi śtä voʾ ja na va toʾ rru ndä nu • eʾ mä ta ne bi ha rā re <lac aks="1"/>
+            </line>
+            <line n="b2"> ysu vā va ra dā kṣi ṇyā nu haṃ khī ysgya tsī mä • cī tä vā va rä kye ha nä hā ḍe ba lysū śtu vä tä pa stā tä ma hā <lac aks="1"/>
+            </line>
+            <line n="b3"> nī o vā gya stä ba lysä hä mā te • ne ne ju a ysu va rä dā kṣi ṇyā nu haṃ khī y·a tsī mä a sa lā <lac aks="2"/>
+            </line>
+            <line n="b4"> ysu hä me • ttä na ba lysū ña vū ysei na cī ba lysū ñī nei a ysmū va ra • || tta ttī tä <lac aks="3"/> ba lysä s·a vi ri <lac aks="2"/>
+            </line>
+            <line n="b5"> ti bu lj·au hva te se śä <lac aks="1"/> śä ·· e ·e· i p· lä <lac aks="1"/>
+            </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ñavūys(ā)nu ha(ṃkhīys)gya (g)y(as)t(ān)u (balysānu)<commentRef commRef="n4"/>(pracīyasaṃ)-<lb n="a2"/>ddhānu • ṣāvānu aysu bäsīvrāṣā haṃkhīysgya hastamä dākṣiṇyānu hvat(ämä) rr(u)ndu(nu)<commentRef commRef="n5"/>(ūgama) 
+            <lb n="a3"/> ṣā kho tcāramīskyajä nyāttara-kṣīrei rre • ku tcārīmu vätä āste rre hvīnde • (cī)t(ä) h(ā)ḍ(e)<commentRef commRef="n6"/> cakkravarttä rre (tti)-<lb n="a4"/>ña tcārīma kṣīra buḍä hämäte • ne ne ttītä ttu bāḍu nyāttara-kṣīrau rrundu • rrundu grūsīndä • cakkravarttä vā (rre) (va)-<lb n="a5"/>rä ttītä rre hämäte • asalāvä vā ṣä nyāttara-kṣīrei rre hämäte cakkravartti rrundi vā rrustä • || (ttu) (pa)-<lb n="b1"/>	dī dṛḍhamata kāmiña āvuto parmiho kṣīra kīntha miśtävoʾ janavatoʾ rrundänu • eʾmäta ne biharāre (a)-<lb n="b2"/>ysu vā vara dākṣiṇyānu haṃkhīysgya tsīmä • cītä vā varä kye hanä hāḍe balysūśtu vätä pastātä mahā(yā)-<lb n="b3"/>nī o vā gyastä balysä hämāte • ne ne ju aysu varä dākṣiṇyānu haṃkhīy(sgy)a<commentRef commRef="n7"/> tsīmä asalā(vä) (a)-<lb n="b4"/>ysu häme • ttäna balysūñavūyseina cī balysūñīnei aysmū vara • || tta ttītä (vā) (gyastä) balysä s(th)aviri (subhū)-<lb n="b5"/>ti bulj(sy)au hvate se śä(ru) śä(ru) ·e ·e ·i p· -l-ä (ba)-
+         </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment resp="skjaervo2013" id="n1">Kha. i.13, numbered consecutively by Hoernle(?) as fol. 1 to fol. 15.  The IOL plate labels have Kha. i.13/1, Kha. i.13/2, etc., with the superscript indicating the sequence of plates, but there are no superscripts on the ms.</comment>
+         <comment resp="skjaervo2013" id="n2">Śgs 3.1.</comment>
+         <comment resp="skjaervo2013" id="n3">Fol. 134	... balysū]-</comment>
+         <comment resp="skjaervo2013" id="n4">Em.: t -u; Tib. de-bźin-gśegs-pa “tathāgata(s).”</comment>
+         <comment resp="skjaervo2013" id="n5">Em.: ndu; Tib. differs. </comment>
+         <comment resp="skjaervo2013" id="n6">Em.: [cītä vā va]r[ä]. </comment>
+         <comment resp="skjaervo2013" id="n7">Em.: haṃ[kh]īy[sgy]a.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="skjaervo2013"/>
+      </editions>
+      <publication/>
+   </record>
+   <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           id="m-iolkhot10_2"
+           n="629">
+      <header>
+         <sigla>
+            <primary siglum="IOL Khot 10/2"/>
+            <secondary siglum="Kha. i.13.2: KBT, p. 1 (1)"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance repository="British Library (London)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="kho"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> lysū ña vū ys· m· ·yu <lac aks="1"/> a ·s· <lac aks="3"/>
+            </line>
+            <line n="a2"> śru tä hä mä te mą nyu śrī tta hva te se • kye ṣä bä sī vrā ṣā kye hä lysdu vä t· pyū ·ʾ <lac aks="2"/> d· t· śā <lac aks="1"/> nu ś· </line>
+            <line n="a3"> pa ti kū lu sa te ysā re pä ṣka la u ṣai ro ttu va re • ha ju va tte te jsa pä ·ka ·y· ma te gvā rā ṣkyo hvā ñä <lac aks="1"/>
+            </line>
+            <line n="a4"> o śau ka lpu • o sa tä ka lpa • o ysā ru ka lpa • o sa tä ysā re ka lpa • u ne ttye dā ti śā ma ni vä tä śye pa </line>
+            <line n="a5"> tä nä taʾ skya hä mä te • u ne pa ba sta go sa lā vā nu ttī tä ba hu śru tä nā ma • pā tcu dṛ ḍha ma ta kye da sau di <lac aks="1"/>
+            </line>
+         </recto>
+         <verso>
+            <line n="b1"> vä tä a va mā tā nu a naṃ khä ṣṭā nu gya stā nu ba lysā nu hva nau dä rysde • u ne va rä śau pa tä tca ra mu pa ḍā a vyū <lac aks="1"/>
+            </line>
+            <line n="b2"> gu voʾ hī śti • kyi ndä ku ha lci pyū ṣḍe ha rbi śu ttu pyū ṣṭu pyū ṣḍe • ne a vyū ṣṭu pyū ṣḍe • u kho yi pyū ṣḍe dä rysdai ro • a </line>
+            <line n="b3"> hā mu rgya te te kä ḍa nai vā u ysno rā ṇu pā tcu ttu dā tu hvā ñä tä • u ·o ·ā ṇu au ysno ra te ·e </line>
+            <line n="b4"> pa daṃ gyo • ne u ysā nye nai u ysno rā ṇu ne pä ṣka lā nu vä tä gu ha ma ṅ·a te ·e <lac txtStat="lost" aks="3"/> yā́ <lac aks="1"/> ne• ha ysā <lac aks="1"/>
+            </line>
+            <line n="b5"> ma ta hä mä te • ṣei b· ·o ·äe ·ī ·e ///</line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> lysūñavūys(ei) m(an)yu(śrī) a(ly)s(ānei)<commentRef commRef="n4"/>(bahu)-<lb n="a2"/>śrutä hämäte mąnyuśrī tta hvate se • kye ṣä bäsīvrāṣā kye hälysdu vät(ä) pyū(ṣā)ʾ(te)<commentRef commRef="n5"/>(ttū) d(ā)t(i) śā(ma)nu<commentRef commRef="n6"/> ś(ye) 
+            <lb n="a3"/> pati kūlu sate ysāre päṣkala u ṣai ro ttuvare • hajuvattete jsa pä(ṣ)ka(l)y(e)mate gvārāṣkyo hvāñä(tä) 
+            <lb n="a4"/> o śau kalpu • o satä kalpa • o ysāru kalpa • o satä ysāre kalpa • u ne ttye dāti śāmani vätä śye pa-<lb n="a5"/>tä nätaʾskya hämäte • u ne pabastago salāvānu ttītä bahuśrutä nāma • pātcu dṛḍhamata kye dasau di(śe) 
+            <lb n="b1"/> vätä avamātānu anaṃkhäṣṭānu gyastānu balysānu hvanau därysde • u ne varä śau patä tcaramu paḍā avyū(ṣṭu)<commentRef commRef="n7"/>
+            <lb n="b2"/> guvoʾ hīśti • kyindäku halci pyūṣḍe harbiśu ttu pyūṣṭu pyūṣḍe • ne avyūṣṭu pyūṣḍe • u kho yi pyūṣḍe därysdai ro • a-<lb n="b3"/>hāmurgyatete käḍanai vā uysnorāṇu pātcu ttu dātu hvāñätä • u(ysn)o(r)āṇu a-uysnorate(t)e 
+            <lb n="b4"/> padaṃgyo • ne uysānye nai uysnorāṇu ne päṣkalānu vätä guhamaṅ(g)ate(t)e <lac aks="3"/>
+yā́ <lac aks="1"/>
+ne<commentRef commRef="n8"/>• haysā(nā)<commentRef commRef="n9"/>
+            <lb n="b5"/>mata hämäte • ṣei b(ur)o  ·äe (hv)ī(nd)e<commentRef commRef="n10"/> /// 
+         </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment resp="skjaervo2013" id="n1">Kha. i.13, numbered consecutively by Hoernle(?) as fol. 1 to fol. 15.  The IOL plate labels have Kha. i.13/1, Kha. i.13/2, etc., with the superscript indicating the sequence of plates, but there are no superscripts on the ms.</comment>
+         <comment resp="skjaervo2013" id="n2">Śgs 3.2.</comment>
+         <comment resp="skjaervo2013" id="n3">Fol. 135</comment>
+         <comment resp="skjaervo2013" id="n4">Em.: m[äs]t[ä.</comment>
+         <comment resp="skjaervo2013" id="n5">(?)</comment>
+         <comment resp="skjaervo2013" id="n6">Em.: nyū[jäte ttye dāti śāma]nu v[ätä]; Tib. thos ma-thag-tu chos-kyi sgo. For Tib. ma thag-tu = °mātra, cf. Sgh 79r6 kho haḍe ysaiye, Skt. jāta-mātraś, Tib. skyes ma thag-tu; Suv 16.40 [ts]audä *häysdä väte, Skt. bhukta-mātre, Tib. zos ma thag-tu. </comment>
+         <comment resp="skjaervo2013" id="n7">Em.: avyū[ṣṭä], but there is no trace of -ä. </comment>
+         <comment resp="skjaervo2013" id="n8">Em.: y[s]ā[.]te. </comment>
+         <comment resp="skjaervo2013" id="n9">?</comment>
+         <comment resp="skjaervo2013" id="n10">Tib. źes byaho.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="skjaervo2013"/>
+      </editions>
+      <publication/>
+   </record>
+   <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           id="m-iolkhot10_3"
+           n="630">
+      <header>
+         <sigla>
+            <primary siglum="IOL Khot 10/3"/>
+            <secondary siglum="Kha. i.13.3: KBT, p. 2 (1)"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance repository="British Library (London)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="kho"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac txtStat="lost" aks="2"/> ·t· ña pa ·ṣ·  ·tha <lac aks="3"/>
+            </line>
+            <line n="a2"> tä • cu mä na stha vi rä ā na ndä tta ndrā mä na ba hu śru tū ñä na u spu rrä a śt· <lac txtStat="lost" aks="3"/>
+               <lac aks="1"/>nyu ·r· a ·s· n· hva <lac aks="1"/>
+            </line>
+            <line n="a3"> tta ttī tä vā śa śi vi ma la ga rbhä gya sta vu rä ā śä rī ā na ndi tta hva te se • ka <lac aks="1"/> ḍā na ā na nda u ho ha s·a </line>
+            <line n="a4"> mu ba hu śru tā nu hva te gya stä ba lysä cu stha vi ri ā na ndä tta ndrā mä na ba hu śru tū ñä na u spu rrī kho mą nyu ·ī </line>
+            <line n="a5"> a lysā nei hva te o ne • ttī tye hva tye hva nai vā ā śä rī ā na ndä • śa śi vi ma la ga rbhi gya sta vu ri tta hva te se <lac aks="1"/>
+            </line>
+         </recto>
+         <verso>
+            <line n="b1"> a ysu gya sta vu ra tta ndrā mä na ba hu śru tū ñä na u spu rrä mä kho ma nyu śrī : a lysā nei hva te • tta kho thu stha v· ra <lac aks="1"/>
+            </line>
+            <line n="b2"> na nda ha sta mä ba hu śru tā nu hva tī • stha vi rä ā na ndī tta hva te se • cu bu ro ha lci gya sta vu ra • gya sti ba lysi ṣā <lac aks="1"/>
+            </line>
+            <line n="b3"> kye ha nda rā ṇu pyū veʾ ma te jsa pa rrī yu bu sta • ttā nu haṃ khī ysgye ī ñä a ys· ba hu śru tā nu ha sta mä <lac aks="1"/>
+            </line>
+            <line n="b4"> tä mä • ne a ysu a va mā tā nu ha jva tte tī nai ma hā sa muṃ dri mā ña ndā nu k·e <lac aks="3"/> ·ti ñe ha ju va tte te <lac aks="1"/>
+            </line>
+            <line n="b5"> u bve ma te jsa u <lac txtStat="lost" aks="1"/> ·ā́· ä <lac aks="1"/> ·au <lac txtStat="lost" aks="4"/> · <lac aks="2"/> ·l· <lac txtStat="lost" aks="2"/> ysā́ <lac aks="1"/> ///</line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac aks="2"/>
+(t)t(i)ña pa(r)ṣ(a)<commentRef commRef="n4"/>(s)tha(virä) (hva)-<lb n="a2"/>tä • cu mäna sthavirä ānandä ttandrāmäna bahuśrutūñäna uspurrä aśt(ä) <lac aks="3"/>
+(ma)nyu(ś)r(ī) a(ly)s(ā)n(ei) hva(te) 
+            <lb n="a3"/> tta ttītä vā śaśivimalagarbhä gyastavurä āśärī ānandi tta hvate se • ka (mä)ḍāna ānanda uho has(t)a-<lb n="a4"/>mu bahuśrutānu hvate gyastä balysä cu sthaviri ānandä ttandrāmäna bahuśrutūñäna uspurrī kho mąnyu(śr)ī 
+            <lb n="a5"/> alysānei hvate o ne • ttītye hvatye hvanai vā āśärī ānandä • śaśivimalagarbhi gyastavuri tta hvate se (ne) 
+            <lb n="b1"/> aysu gyastavura ttandrāmäna bahuśrutūñäna uspurrä mä kho manyuśrī : alysānei hvate • tta kho thu sthav(i)ra (ā)-<lb n="b2"/>nanda hastamä bahuśrutānu hvatī • sthavirä ānandī tta hvate se • cu buro halci gyastavura • gyasti balysi ṣā(vā) 
+            <lb n="b3"/> kye handarāṇu pyūveʾmate jsa parrīyu busta • ttānu haṃkhīysgye īñä ays(u) bahuśrutānu hastamä (hva)-<lb n="b4"/>tämä • ne aysu avamātānu hajvattetīnai mahāsamuṃdri māñandānu k(y)e<commentRef commRef="n5"/> (avamāt)tiñe hajuvattete (jsa) 
+            <lb n="b5"/> u bvemate jsa u <lac aks="1"/>
+·ā́ ·ä <lac aks="1"/>
+·au <lac aks="4"/>
+            <lac aks="1"/>
+            <lac aks="2"/>
+·l· <lac aks="2"/>
+ysā́ <lac aks="1"/> /// 
+         </prose>
+      </transcription>
+      <translation litRef="skjaervo2013"/>
+      <comments>
+         <comment resp="skjaervo2013" id="n1">Kha. i.13, numbered consecutively by Hoernle(?) as fol. 1 to fol. 15.  The IOL plate labels have Kha. i.13/1, Kha. i.13/2, etc., with the superscript indicating the sequence of plates, but there are no superscripts on the ms.</comment>
+         <comment resp="skjaervo2013" id="n2">Śgs 3.3.</comment>
+         <comment resp="skjaervo2013" id="n3">Fol. 136</comment>
+         <comment resp="skjaervo2013" id="n4">Not Em.; Tib. hkhor de-ñid-du. </comment>
+         <comment resp="skjaervo2013" id="n5">Em.: ne.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="skjaervo2013"/>
+      </editions>
+      <publication/>
+   </record>
+   <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           id="m-iolkhot16_5"
+           n="668">
+      <header>
+         <sigla>
+            <primary siglum="IOL Khot 16/5"/>
+            <secondary siglum="Kha. i.56.1: KT V, p. 131 (237)"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance repository="British Library (London)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="kho"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac aks="3"/> ma ta a ma ñā ma ta a ką̄ʾ ma te jsa ā ste ṣä tä bo dhi sa tvä a dva yä ///</line>
+            <line n="a2">/// hī vyā te ā a la kṣa ṇa ttä tä dva u ku jve hä ra ne śä na la kṣa ṇa na p· <lac aks="3"/>
+            </line>
+            <line n="a3">
+               <lac aks="1"/> kṣa ṇa ṣa tta tvä pa ysā nā ma ta • ṣä tä bo dhi sa tvä a dva yä ///</line>
+            <line n="a4"> ·ā va ka yā nu va ra a ysmū ttä dva u cu cāʾ yä mā ña ndä a y· </line>
+         </recto>
+         <verso>
+            <line n="b1">
+               <lac aks="1"/> ña ndä ha mą ṅgä la kṣa ṇä na ṣä tä bo dhi sa tvä a dva yä dhā tä ///</line>
+            <line n="b2">/// a sä dye hä rä a va dī mā ma ta ṣä a ggū nai gya tca lca ṣä tä ///</line>
+            <line n="b3">/// ttrā mā ma ta || sį nhä bo dhi sa tvä tta hva te cu ṣä hä rä ce haṃ tsa ///</line>
+            <line n="b4">/// bai ttä u ne ggū śtä ṣä tä bo dhi sa tvä ne dva pa dya śtä dhā tä śā ma ttrā m· <lac aks="2"/>
+            </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> (āphīrā)mata amañāmata aką̄ʾmate jsa āste ṣätä bodhisatvä advayä /// 
+            <lb n="a2"/> /// hīvyāte ā alakṣaṇa ttätä dva u ku jve hära ne śäna lakṣaṇana p(aysānāte) 
+            <lb n="a3"/> (la)kṣaṇa ṣa ttatvä paysānāmata • ṣätä bodhisatvä advayä /// 
+            <lb n="a4"/> (śr)āvakayānu vara aysmū ttä dva u cu cāʾyä māñandä ay(smū) 
+            <lb n="b1"/> (mā)ñandä hamąṅgä lakṣaṇäna ṣätä bodhisatvä advayä dhātä /// 
+            <lb n="b2"/> /// asädye härä avadīmāmata<commentRef commRef="n3"/> ṣä aggūnaigya tcalca ṣätä /// 
+            <lb n="b3"/> /// ttrāmāmata<commentRef commRef="n4"/> || sįnhä bodhisatvä tta hvate cu ṣä härä<commentRef commRef="n5"/> ce haṃtsa /// 
+            <lb n="b4"/> /// baittä u ne ggūśtä ṣätä bodhisatvä ne dva padya śtä dhātä śāma ttrām(āmata)
+         </prose>
+      </transcription>
+      <translation litRef="skjaervo2013"/>
+      <comments>
+         <comment resp="skjaervo2013" id="n1">Vim 8.4-9.  Skjærvø, 1986.</comment>
+         <comment resp="skjaervo2013" id="n2">Fol. *115</comment>
+         <comment resp="skjaervo2013" id="n3">B.: apad°.</comment>
+         <comment resp="skjaervo2013" id="n4">B.: [pa]dīmāmata.</comment>
+         <comment resp="skjaervo2013" id="n5">ṣätä härä.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="skjaervo2013"/>
+      </editions>
+      <publication/>
+   </record>
+   <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           id="m-iolkhot17_21"
+           n="701">
+      <header>
+         <sigla>
+            <primary siglum="IOL Khot 17/21"/>
+            <secondary siglum="Kha. i.79: unpubl."/>
+         </sigla>
+         <physicalProperties/>
+         <provenance repository="British Library (London)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="kho"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac txtStat="lost" aks="1"/>
+               <lac aks="1"/>·y· <lac aks="1"/> ·y·· t· na rī ṣṭhā na cu pha ru ka lpa yä ḍā ndä a ///</line>
+            <line n="a2">
+               <lac aks="1"/> tta bra ṣṭe sa ma nta ba dru bo dhi sa tvu u ysno rā ṇu h· tā yä u ///</line>
+            <line n="a3"> ña ha ttva <lac aks="2"/> trā mä hä rä pa rā hä || 7 || ttai hvā ñei ttī tä bo dhi sa kye bi ///</line>
+            <line n="a4">
+               <lac aks="1"/> ña k· śa la <lac aks="1"/> lä hā́ vu bo dhi sa tvi vi ci tra ba lysä vä tä dhā ti bä lsaṃ g ///</line>
+         </recto>
+         <verso>
+            <line n="b1">
+               <lac aks="1"/> nd· n· js· ṣṭe || 9 || trā mu tvo kṣe troʾ a va ch· da kye śśū jä tä ña u ysno ra sa m· <lac aks="1"/>
+            </line>
+            <line n="b2"> ho to dä tā ndä u ysā no hva tä hva tä nā mä tvo bu ddha kṣe trvoʾ dai ndä ha mye kṣa ṇi ///</line>
+            <line n="b3"> ya kye vā sa tä ka lpa kye ysā ru ce tva re śo kṣa ṇu va ṣṭa 2 || ka ma ·) ///</line>
+            <line n="b4"> y·ā́ ·ä ·a l·a ttä tä kṣa ṇo ttra nda 3 || a tä n· kä ḍe du ṣka ru sa <lac aks="1"/>
+            </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac aks="1"/>
+            <lac aks="1"/>
+·y· <lac aks="1"/>
+·y· ·t· narī ṣṭhāna cu pharu kalpa yäḍāndä a- /// 
+            <lb n="a2"/>
+            <lac aks="1"/>
+tta braṣṭe samantabadru bodhisatvu uysnorāṇu h(i)tāyä u /// 
+            <lb n="a3"/> ña ha ttva <lac aks="2"/>
+trāmä härä parāhä || 7 || ttai hvāñei ttītä bodhisa <commentRef commRef="n2"/> kye bi /// 
+            <lb n="a4"/>
+            <lac aks="1"/>
+ña k(u)śala(mū)lä hā́vu bodhisatvi vicitra balysä vätä dhāti bälsaṃg- /// 
+            <lb n="b1"/>
+            <lac aks="1"/>
+nd· n(ä)js(a)ṣṭe || 9 || trāmu tvo kṣetroʾ avach(o)da kye śśūjätäña uysnora sam(īndä)<commentRef commRef="n3"/>
+            <lb n="b2"/> hoto dätāndä uysāno hvatä hvatä nāmä tvo buddhakṣetrvoʾ daindä hamye kṣaṇi /// 
+            <lb n="b3"/> ya kye vā satä kalpa kye ysāru ce tvare śo kṣaṇu vaṣṭa 2 || kama (jsa)<commentRef commRef="n4"/> /// 
+            <lb n="b4"/> y(s)ā́(r)ä (k)al(p)a ttätä kṣaṇo ttranda 3 || atä n(u) käḍe duṣkaru sa(stu)
+         </prose>
+      </transcription>
+      <translation litRef="skjaervo2013">
+         <line n="a1">... being in hell whatever ... they did in many kalpas ...</line>
+         <line n="a2">... asked Samantabhadra thus for the benefit of beings ...</line>
+         <line n="a3">... the support of such a thing. 7.  Thus he should say.  Then the bodhisattva who ...</line>
+         <line n="a4">... root of goodness, benefit of the bodhisattva, variegated [homages] toward the Buddha, the Law, and the Assembly. ...</line>
+         <line n="b1">... he showed ... 9.  Thus in those kṣetras are unimpeded (those) beings who *agree with one another ...</line>
+         <line n="b2">... they saw the power [of ...], they see (their) self singly in those buddhakṣetras, in a single moment ...</line>
+         <line n="b3">... [whoever] ...-s [it ?] ..., whoever (does so) for a hundred kalpas, whoever for a thousand, whoever more than one moment. 2. [From] whom ...</line>
+         <line n="b4">... a thousand kalpas those entered into a moment. 3.  It seemed to them exceedingly marvelous ...</line>
+      </translation>
+      <comments>
+         <comment resp="skjaervo2013" id="n1">IOL Khot 17/20-21 same ms.</comment>
+         <comment resp="skjaervo2013" id="n2">(!)</comment>
+         <comment resp="skjaervo2013" id="n3">?</comment>
+         <comment resp="skjaervo2013" id="n4">?</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="skjaervo2013"/>
+      </editions>
+      <publication/>
+   </record>
+   <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           id="m-iolkhot20_1"
+           n="756">
+      <header>
+         <sigla>
+            <primary siglum="IOL Khot 20/1"/>
+            <secondary siglum="Kha. i.58a1: KT V, p. 132 (239)"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance repository="British Library (London)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="kho"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">/// ra dā sä nā ma ra ysā ya nä śä na sa tī rna ttä na ra ysā yaṃ na ys· ///</line>
+            <line n="a2">/// ttä rä ṣä ysī rrä ka lyā na ta rä hä mä te kā myau tcū ryau cvī ye dā ña yī ndä <lac aks="1"/> ///</line>
+            <line n="a3">/// ysī rru paṃ ja lau pa daṃ du ya nä ttu pa dī śā ri pu tra ba lysū ña vū ysei ba lysū ñä ///</line>
+            <line n="a4"> ·i ta rka ba lysū ñu a ysmū na ljsau du ya nä ndä || ttrā mu mā ña ndu śā ri pu tra ///</line>
+         </recto>
+         <verso>
+            <line n="b1">/// du va ttī ḍā tä o ṣū ḍā tä ku a kha śa hä mä te u śī ka tī ye pā ru ///</line>
+            <line n="b2">/// <lac txtStat="lost" aks="1"/> jsa ra hä mä te tta ttä dä rä bu ljsā jse ra śā ri pu ttra ṣa a mṛ tta ra sa a ru vaʾ • ttu ///</line>
+            <line n="b3">/// ä cha a khi ją ndei bo dhi ci ttä nā ttye ttä ndrā mye byau dye a ysmuī ba lysū ña vū ysei ///</line>
+            <line n="b4">/// ā ḍe ko ha nda jā ro śä ryau ku śa la mū lyau u ne kle śā nu du khī jo ttī ḍe tu ///</line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> /// -radāsä<commentRef commRef="n2"/> nāma raysāyanä śäna satīrna ttäna raysāyaṃna ys· /// 
+            <lb n="a2"/> /// ttärä ṣä ysīrrä kalyānatarä hämäte kāmyau tcūryau cv-ī ye dāña yīndä <lac aks="1"/> /// 
+            <lb n="a3"/> /// ysīrru paṃjalau padaṃdu yanä ttu padī śāriputra balysūñavūysei balysūñä /// 
+            <lb n="a4"/> (v)itarka balysūñu aysmū naljsaudu<commentRef commRef="n3"/> yanändä || ttrāmu māñandu śāriputra /// 
+            <lb n="b1"/> /// duva ttīḍātä o ṣūḍātä ku akhaśa<commentRef commRef="n4"/> hämäte u śīkatīye pāru<commentRef commRef="n5"/> /// 
+            <lb n="b2"/> /// <lac aks="1"/>
+jsara hämäte tta ttädärä buljsājsera<commentRef commRef="n6"/> śāriputtra ṣa amṛtta-rasa aruvaʾ<commentRef commRef="n7"/>• ttu /// 
+            <lb n="b3"/> /// -ächa akhijąndei bodhicittä nā ttye ttändrāmye byaudye aysmuī balysūñavūysei /// 
+            <lb n="b4"/> /// -āḍe ko handajāro śäryau kuśalamūlyau u ne kleśānu dukhījo ttīḍetu /// 
+         </prose>
+      </transcription>
+      <translation litRef="skjaervo2013">
+         <line n="a1">... with one ounce of the elixir called [-p?]radāsa.  With that elixir ...</line>
+         <line n="a2">... so much the gold becomes purer. — With which four? — When one puts it into fire ...</line>
+         <line n="a3">... one might make a gold *alloy, in that manner, Śāriputra, the bodhi-seeker ... of the buddha ...</line>
+         <line n="a4">... vitarkas [as soon as] they have completed the bodhi mind.  Just like that, Śāriputra, ...</line>
+         <line n="b1">... bitterness or saltiness, where it is undrinkable, and ...</line>
+         <line n="b2">... it becomes ... Thus, so praiseworthy, Śāriputra, (is) that plant amṛtarasa.  In that ...</line>
+         <line n="b3">... he obtained undiminishing bodhicitta.  Having obtained such a mind, the bodhi-seeker ...</line>
+         <line n="b4">... if they are ripened with respect to good kuśalamūlas and ... not the woeful bitterness of the kleśas ...</line>
+      </translation>
+      <comments>
+         <comment resp="skjaervo2013" id="n1">Actual: Kha. i.95.  Cf. the text Neb., p. 52.  Ms. similar to Anant Kha. i.317 (IOL Khot 19/8) and IOL Khot 17/23.</comment>
+         <comment resp="skjaervo2013" id="n2">B.: x nāsä.</comment>
+         <comment resp="skjaervo2013" id="n3">B.: aysmūna (bu)ljsau ku.</comment>
+         <comment resp="skjaervo2013" id="n4">B.: akh(i)ja.</comment>
+         <comment resp="skjaervo2013" id="n5">B.: pātra sa.</comment>
+         <comment resp="skjaervo2013" id="n6">B.: buljsyajsera.</comment>
+         <comment resp="skjaervo2013" id="n7">B.: aruva.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="skjaervo2013"/>
+      </editions>
+      <publication/>
+   </record>
+   <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           id="m-iolkhot24_3"
+           n="848">
+      <header>
+         <sigla>
+            <primary siglum="IOL Khot 24/3"/>
+            <secondary siglum="Kha. i.119.2: KT III, p. 127 (56)"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance repository="British Library (London)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="kho"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ttu ba lysū ña vū yso ā ysda ya nā re thī yo ha spī jī ndä ttye dhā ra ñe bye hā ṣce kä </line>
+            <line n="a2"> ḍä na • kā mi ha ṣṭa pa ḍā rau cä nā ma ja sta ṣṣai 1 ve rau ca nä nā ma gya sta ṣṣai 2 </line>
+            <line n="a3"> pra ñā pra bhä nā ma gya sta ṣṣai 3 u su rya ga rbhä nā ma gya sta ṣṣai 4 u sa ttyä nā </line>
+            <line n="a4"> ma gya sta ṣṣai 5 u a bhi prā ya pa ri pū ra ṇä nā ma gya sta ṣṣai 6 u na kṣa tra </line>
+            <line n="a5"> rā jä nā ma ja sta ṣṣai 7 u cā ri tra ma ta nā ma gya sta ṣṣai 8 || ttä te ha ṣṭa gya sta </line>
+         </recto>
+         <verso>
+            <line n="b1"> ṣṣā ttä tu bo dhi sa tvä ā na tä ya nī ndä u ha spī jī ndī ttye dā ra ñe bye hā ṣce </line>
+            <line n="b2"> kä ḍä na ce tvo dā ra ñu vä tä ha spä saṃ dai hī ṭhei hä mā ñu sa gau ra vä śe </line>
+            <line n="b3"> rā kä • cä ndä kī ye vä tä śśä ru yī ndä ṣī bvā ñä u bu stä ṣṭā nī ne hā mu </line>
+            <line n="b4"> ru ne tce rä śtä • gaṃ bhī rye dā tä va ma se me kä ḍä na ā cya vaṃ dä hä mā ñu • </line>
+            <line n="b5"> bi śī hä ra a hä mä ta nva śtā ña • kho jve haṃ da rye he ḍä ci ndä ha nu na su yī ndä • </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ttu balysūñavūyso āysda yanāre thīyo haspījīndä ttye dhārañe byehāṣce kä-<lb n="a2"/>ḍäna • kāmi haṣṭa paḍā raucä nāma jastaṣṣai 1 veraucanä nāma gyastaṣṣai 2 
+            <lb n="a3"/> prañāprabhä nāma gyastaṣṣai 3 u suryagarbhä nāma gyastaṣṣai 4 u sattyä nā-<lb n="a4"/>ma gyastaṣṣai 5 u abhiprāyaparipūraṇä nāma gyastaṣṣai 6 u nakṣatra-<lb n="a5"/>rājä nāma jastaṣṣai 7 u cāritramata nāma gyastaṣṣai 8 || ttäte haṣṭa gyasta-<lb n="b1"/>ṣṣā ttätu bodhisatvä ānatä yanīndä u haspījīndī ttye dārañe byehāṣce 
+            <lb n="b2"/> käḍäna ce tvo dārañu vätä haspäsaṃdai hīṭhei hämāñu sagauravä śe-<lb n="b3"/>rākä • cändäkī ye vätä śśäru yīndä ṣī bvāñä u bustä ṣṭānī ne hāmu-<lb n="b4"/>ru ne tcerä śtä • gaṃbhīrye dātä vamaseme käḍäna ācyavaṃdä hämāñu • 
+            <lb n="b5"/> biśī hära ahämäta nvaśtāña • kho jve haṃdarye heḍä cindä hanu nasu yīndä •
+         </prose>
+      </transcription>
+      <translation litRef="skjaervo2013"/>
+      <comments>
+         <comment resp="skjaervo2013" id="n1">Cf. Kha. 0013c4 (IOL Khot 8/4).  Not the same ms. as IOL Khot 24/5, 6.</comment>
+         <comment resp="skjaervo2013" id="n2">Fol. 29.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="skjaervo2013"/>
+      </editions>
+      <publication/>
+   </record>
+   <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           id="m-iolkhot29_8"
+           n="930">
+      <header>
+         <sigla>
+            <primary siglum="IOL Khot 29/8"/>
+            <secondary siglum="Kha. i.206a2: KT V, p. 162 (306)"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance repository="British Library (London)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="kho"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">/// bye hä tä ysaṃ thu <space type="blank"/> ttai bra ṣṭe mi ttrai ttī yä <lac txtStat="lost" aks="1"/>
+            </line>
+            <line n="a2">
+               <lac aks="1"/> ho r·  ·t· tä pra cā ī ndä <space type="blank"/> ttai hva te mi ttrai ba lysä </line>
+            <line n="a3">/// bo dhi sa tvu u tā rä o <space type="blank"/> ā rya pu dga lu sa tvu 20 </line>
+            <line n="a4">/// stä rñe ī rye śśä re sai ndä <space type="blank"/> ttyau jsa jsī rä te sa tva 20 </line>
+            <line n="a5">
+               <lac aks="1"/> tcu vā bye hä tä ysaṃ thu <space type="blank"/> ·ā ru rro du kha bī ḍä a vā <lac aks="1"/>
+            </line>
+            <line n="a6">/// pā tcu ha nda ra ya <space type="blank"/> nd· ne ne stä rñu bye hä tä ysaṃ <lac aks="1"/>
+            </line>
+         </recto>
+         <verso>
+            <line n="b1">/// ya nde ha nda ru sa tvu <space type="blank"/> ttrī ya śu nī yā va </line>
+            <line n="b2">/// <lac aks="1"/> dau grū śtä ggaṃ jse hvā ñä <space type="blank"/>
+               <lac aks="2"/> rśśī lvī grū śtä 30 </line>
+            <line n="b3">/// vī rä haṃ da rye <space type="blank"/> ·ga tte bvā ñä 30 </line>
+            <line n="b4">/// hä mä te u spu rra bi <space type="blank"/> śśä • śśä ra į ndrya o dä ba lysū śte </line>
+            <line n="b5">/// hve p· <lac txtStat="lost" aks="1"/> nda mä hvī nde tca <space type="blank"/> ho rei pra cyā ka rma 30 </line>
+            <line n="b6">
+               <lac aks="1"/> mu kho ju strī ya <space type="blank"/> o myā nyo vi śtä te strī yo <lac txtStat="lost" aks="1"/>
+            </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> /// byehätä ysaṃthu	           <space type="blank"/>  ttai braṣṭe mittrai ttīyä <lac aks="1"/>
+            <lb n="a2"/> (tca)hor(a) (t)t(ä)tä<commentRef commRef="n1"/> pracā īndä<space type="blank"/> ttai hvate mittrai balysä 
+            <lb n="a3"/> /// bodhisatvu utārä o	       <space type="blank"/>  āryapudgalu satvu 20 
+            <lb n="a4"/> /// stärñe īrye śśäre saindä   <space type="blank"/>  ttyau jsa jsīräte satva 20 
+            <lb n="a5"/> (pā)tcu vā byehätä ysaṃthu	   <space type="blank"/>  (d)āru<commentRef commRef="n2"/> rro dukha bīḍä avā(yä) 
+            <lb n="a6"/> /// pātcu handara ya-          <space type="blank"/>  nd(e) ne ne stärñu byehätä ysaṃ(thu) 
+            <lb n="b1"/> /// yande handaru satvu	       <space type="blank"/>  ttrīyaśunī yāva 
+            <lb n="b2"/> /// <lac aks="1"/>
+dau grūśtä ggaṃjse hvāñä <space type="blank"/>  (te) (du)rśśīlvī grūśtä 30 
+            <lb n="b3"/> /// vīrä haṃdarye	           <space type="blank"/>  (g)gatte bvāñä 30 
+            <lb n="b4"/> /// hämäte uspurra bi-	       <space type="blank"/>  śśä • śśära įndrya odä balysūśte 
+            <lb n="b5"/> /// hve p· <lac aks="1"/>
+ndamä hvīnde tca-<space type="blank"/> horei pracyā karma 30 
+            <lb n="b6"/> (trā)mu kho ju strīya	       <space type="blank"/>  o myānyo viśtäte strīyo <lac aks="1"/>
+         </prose>
+      </transcription>
+      <translation litRef="skjaervo2013">
+         <line n="a1">... obtains (re)birth [in ...].  Then Maitreya asked him thus:</line>
+         <line n="a2">... which] those four causes are.  Thus the Buddha Maitreya spoke to him:</line>
+         <line n="a3">... the exalted bodhisattva or the being endowed with a noble body.</line>
+         <line n="a4">... female wiles seem good, through them he deceives beings.</line>
+         <line n="a5">... then he obtains (re)birth [in ...] and endures sufferings for a long time in an evil state.</line>
+         <line n="a6">... then he makes other ... no longer will he obtain (re)birth as a woman.</line>
+         <line n="b1">... he makes ... another being up to the animal state.</line>
+         <line n="b2">... is called.  He says sins.  It is called his bad moral.</line>
+         <line n="b3">... in ... it should be known as of another *state.</line>
+         <line n="b4">... he becomes ..., complete (and) all (his) senses good up to bodhi.</line>
+         <line n="b5">... is called ... its four causes (are) the karmas.</line>
+         <line n="b6">... just like a woman, or he places (it) in the middle [together with?] the women.</line>
+      </translation>
+      <comments>
+         <comment resp="skjaervo2013" id="n1">B.: hāra -t- tä.</comment>
+         <comment resp="skjaervo2013" id="n2">B. [bu]ru.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="skjaervo2013"/>
+      </editions>
+      <publication/>
+   </record>
+   <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           id="m-iolkhot30_1"
+           n="935">
+      <header>
+         <sigla>
+            <primary siglum="IOL Khot 30/1"/>
+            <secondary siglum="Kha. i.205: KT V, p. 160 (305)"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance repository="British Library (London)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="kho"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a0">/// <lac aks="1"/>
+            </line>
+            <line n="a1"> lysä tta hve se • tta ttī ka mä ṣḍā na gya sta ba lysa pa rā hī· <lac aks="1"/>
+            </line>
+            <line n="a2"> mä ṣḍā na gya sta ba lysa ba lysā na tsū ma ta trā mī ///</line>
+            <line n="a3"> cī ye pa rā hu hu va rau stu pa re hä te ttī · /// <lac aks="1"/>
+            </line>
+            <line n="a4"> ḍā ya u cī ye gya stā nu gya stä ba lysä pi <lac aks="1"/> · /// <lac aks="1"/>
+            </line>
+            <line n="a5"> yä u cī ye ba lysā na tcā rī mä dä te ·ī · /// <lac aks="1"/>
+            </line>
+            <line n="a6"> tī nā nya nau dä ta hä mā re • t·ī yä ///</line>
+         </recto>
+         <verso>
+            <line n="b1"> nä tā vu me rä uī ra ysaṃ thu nā <lac aks="1"/>
+            </line>
+            <line n="b2"> a hvä na bai ttä || ttī yä hva t· y· </line>
+            <line n="b3"> tta hve sä du ṣka ra sa rva śśū ra gya stā nu ba <lac aks="1"/> · /// <lac aks="1"/>
+            </line>
+            <line n="b4"> te du ṣka ra gya sta ba lysa du ṣka ra mä <lac aks="1"/> · /// <lac aks="1"/>
+            </line>
+            <line n="b5"> mī ttu ni jsa ḍä sa rva śśū ra du ṣka rä saṃ ghā ṭi /// <lac aks="1"/>
+            </line>
+            <line n="b6"> ghā ṭi sū trä ggu voʾ hī śtä • cī yä ṣi u <lac aks="2"/>
+            </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a0"/>
+            <commentRef commRef="n2"/> /// (ba)-<lb n="a1"/>lysä tta hve se • ttattīka mäṣḍāna gyasta balysa parāhī(ṃgya) 
+            <lb n="a2"/> mäṣḍāna gyasta balysa balysāna tsūmata trāmī /// 
+            <lb n="a3"/> cī ye parāhu huvaraustu parehäte ttī(yä) /// (ha)-<lb n="a4"/>ḍāya u cī ye gyastānu gyastä balysä pi(chaṣṭu) /// (dai)-<lb n="a5"/>yä u cī ye balysāna tcārīmä däte (tt)ī(yä) /// (dā)-<lb n="a6"/>tīnā nyanau däta hämāre • t(t)īyä /// 
+            <lb n="b1"/> nä tāvu merä uīra ysaṃthu nā(ste) 
+            <lb n="b2"/> ahväna baittä || ttīyä hvat(ä)y(e) 
+            <lb n="b3"/> tta hve sä duṣkara sarvaśśūra gyastānu ba(lysānu) /// (hva)-<lb n="b4"/>te duṣkara gyasta balysa duṣkara mä(ṣḍāna) /// (ttrā)-<lb n="b5"/>mī ttu nijsaḍä sarvaśśūra duṣkarä saṃghāṭi /// (Saṃ)-<lb n="b6"/>ghāṭi sūträ gguvoʾ hīśtä • cīyä ṣi u(ysnorä)
+         </prose>
+      </transcription>
+      <translation litRef="skjaervo2013"/>
+      <comments>
+         <comment resp="skjaervo2013" id="n1">Sgh [24] 79.1-80.4.</comment>
+         <comment resp="skjaervo2013" id="n2">Fol. 35</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="skjaervo2013"/>
+      </editions>
+      <publication/>
+   </record>
+   <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           id="m-iolkhot30_5"
+           n="939">
+      <header>
+         <sigla>
+            <primary siglum="IOL Khot 30/5"/>
+            <secondary siglum="Kha. i.211: KT V, p. 163 (311)"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance repository="British Library (London)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="kho"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ha nda rä ysa ma śśaṃ dya sa tvä ce va ā ///</line>
+            <line n="a2"> a śtä mä sta rre • rre hva te tta ṣä braṃ ma n· </line>
+            <line n="a3"> ha jū ggu mā tä sa ñū vä u ṣä ha ḍe <lac aks="1"/> ///</line>
+            <line n="a4"> hva te a tä pha ra hva rā tä mä sta rre • rre pra ///</line>
+         </recto>
+         <verso>
+            <line n="b1"> ce hä rä kä ḍä na • kye a tä pha ra hva rā tä mä ///</line>
+            <line n="b2"> mū ysaṃ thyā nu u ha nda ra ysaṃ thyā nu hā <lac aks="2"/>
+            </line>
+            <line n="b3"> dī rä hä mä te gga rkhä bi hī yu • pā raṃ <lac aks="1"/>
+            </line>
+            <line n="b4"> du khä na ū mi śdä bä yse ndä • vi hī lä ///</line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> handarä ysamaśśaṃdya satvä ce va ā /// 
+            <lb n="a2"/> aśtä mästa rre • rre hvate tta ṣä braṃman(ä) 
+            <lb n="a3"/> hajū ggumātä sañūvä u ṣä haḍe <lac aks="1"/> /// 
+            <lb n="a4"/> hvate atä phara hvarātä mästa rre • rre pra /// 
+            <lb n="b1"/> ce härä käḍäna • kye atä phara hvarātä mä /// 
+            <lb n="b2"/> mū-ysaṃthyānu   u   handara-ysaṃthyānu hā(vānu)<commentRef commRef="n3"/>
+            <lb n="b3"/> dīrä hämäte ggarkhä bihīyu • pāraṃ(ga)<commentRef commRef="n4"/>
+            <lb n="b4"/> dukhäna ūmiśdä bäysendä • vihīlä /// 
+         </prose>
+      </transcription>
+      <translation litRef="skjaervo2013">
+         <line n="a1">... another being in the world who ...</line>
+         <line n="a2">... is there, O great king?  The king said: Thus that brahmin ...</line>
+         <line n="a3">... wise, experienced, expedient, and he, however, ...</line>
+         <line n="a4">... he said: Very plentiful *victuals, O great king.  The king ...</line>
+         <line n="b1">... for what reason (does) he who (has) very plentiful *victuals, O great king, ...?</line>
+         <line n="b2">... of *benefits in this birth and in other births ...</line>
+         <line n="b3">... becomes weak, very heavy, ... *decrease ...</line>
+         <line n="b4">... because of suffering, sleeps (or) wakes, harm ...</line>
+      </translation>
+      <comments>
+         <comment resp="skjaervo2013" id="n1">See Kha. i.52a1 (IOL Khot 16/3).</comment>
+         <comment resp="skjaervo2013" id="n2">Fol. 113</comment>
+         <comment resp="skjaervo2013" id="n3">?</comment>
+         <comment resp="skjaervo2013" id="n4">?</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="skjaervo2013"/>
+      </editions>
+      <publication/>
+   </record>
+   <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           id="m-iolkhot32_1"
+           n="973">
+      <header>
+         <sigla>
+            <primary siglum="IOL Khot 32/1"/>
+            <secondary siglum="Kha. i.4: unpubl."/>
+         </sigla>
+         <physicalProperties/>
+         <provenance repository="British Library (London)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="kho"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">/// mā́ ñä ka rä <space type="blank"/> ///</line>
+            <line n="a2">/// jsa mä sta pu ña ///</line>
+            <line n="a3">/// mä sta pha ru ///</line>
+            <line n="a4">/// ī tä <lac aks="1"/> ///</line>
+         </recto>
+         <verso>
+            <line n="b1">/// m· st· n·· g· ///</line>
+            <line n="b2">/// ta mä sta pu ña ///</line>
+            <line n="b3"> · )ma pa ḍā a ysu ///</line>
+            <line n="b4"> ·ū mu pa ḍo ///</line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> /// mā́ñä karä <space type="blank"/> /// 
+            <lb n="a2"/> /// jsa mästa puña /// 
+            <lb n="a3"/> /// mästa pharu /// 
+            <lb n="a4"/> /// ītä <lac aks="1"/> /// 
+            <lb n="b1"/> /// m· st· n· ·g· /// 
+            <lb n="b2"/> /// ta mästa puña /// 
+            <lb n="b3"/> (bhū)<commentRef commRef="n2"/>ma paḍā aysu /// 
+            <lb n="b4"/> (bh)ūmu paḍo /// 
+         </prose>
+      </transcription>
+      <translation litRef="skjaervo2013">
+         <line n="a1">“... should be ...-ed at all ...”</line>
+         <line n="a2">“... with ... great merits ...”</line>
+         <line n="a3">“... great, very ...”</line>
+         <line n="a4">“... may be ...”</line>
+         <line n="b2">“... great merits ...”</line>
+         <line n="b3">“... the first *earth I ...”</line>
+         <line n="b4">“... the first earth(?) ...”</line>
+      </translation>
+      <comments>
+         <comment resp="skjaervo2013" id="n1">PLATE 4b.</comment>
+         <comment resp="skjaervo2013" id="n2">?</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="skjaervo2013"/>
+      </editions>
+      <publication/>
+   </record>
+   <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           id="m-iolkhot34_1"
+           n="993">
+      <header>
+         <sigla>
+            <primary siglum="IOL Khot 34/1"/>
+            <secondary siglum="Kha. i.306a: KBT, p. 7 (2)"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance repository="British Library (London)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="kho"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ī ndä • ttī tī vā tta tta ciṃ dā ñä si va ña ma mā nai u ṣṇī lä na ā ṣṣi ṇi bāʾ yä na raṃ di bi śāṃ sa tvāṃ tte ri vī ra pā rau tti • </line>
+            <line n="a2"> u bi śśä sa tva mu hu jsa ba lysą̄ ña ba lysū śtā ṣṭa a vi ṣṣī nāṃ dä • u bi śśä sa tva ba lysa hi mya bi śśī mī sa tva tta tta ba lysāṃ rū </line>
+            <line n="a3"> na ciṃ dą̄ ña • tta tta khu ra hī vya u ysā nā ci dye • tta ttai mī ttye byā ta ji jsa haṃ grī na a ysmū na ha hiʾ saṃ dai ra maṃ dai āʾ ñä • </line>
+            <line n="a4"> ṣi mī tta byā ta ja bi śśä pī rmā tta mä u pā ya kau śa lyä bu ddhā nu smrye yau gga mu khä nū va ra kä ba lysū ña vū ysai ka ma jsa </line>
+            <line n="a5"> bi śśä <lac aks="1"/> ha rī na bau dhi sa tva ca rya ha ṣkī mi tti na cu a ysmū ma si ha ḍi bi śśä hi ra • cu bu ri a ysmū ā yau ysä na sa tva </line>
+         </recto>
+         <verso>
+            <line n="b1"> ā yau ysā ri • u hī vī a ysmū va sva tte jsa vā va su sī ndä • hva ra ṣṭia si ba lysā na ba lysū śtä ni c· tty· hā ysa u ni ci ttye na </line>
+            <line n="b2"> ysdä ci ttye a ysmū ā yau ṣṭä ttye hā ysa ci ttye a ysmū va sve ttye na ysdä khu ra hva ṣṭi pā tcä dha rma saṃ gi ttä sū trä vī ra ba lysā </line>
+            <line n="b3"> na ba lysū śtä ni kā mä na jä hau ḍa hi mya hi mi • u ni kā mī jä vā nā ī ndä • sa mu hī vī a ysmvī prra ta ri va </line>
+            <line n="b4"> sva tte jsa ba lysā na ba lysū śtä u ṣiʾ ba lysä hvī nde • ci ki ṇa mī bi śśä hi ra hī vī a ysmū na ttye ki ṇa mī ṣāʾ byā ta rja </line>
+            <line n="b5"> tce rā • ttye ki ṇa mī ṣaʾ byā ta rja tta tta tce rā • ttye ki ṇa mī ṣāʾ byā ta rja tti rä bu ri u vā ra pā rṣṣa pu ñau da maṃ ga lī ya tta thā </line>
+            <line n="b5a"> ga tta gu lį̄ nai r·ṃ nä va su jā <lac aks="1"/>
+            </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> īndä • ttītī vā tta tta ciṃdāñä si vaña mamānai uṣṇīläna āṣṣiṇi bāʾyä naraṃdi biśāṃ satvāṃ tteri vīra pārautti • 
+            <lb n="a2"/> u biśśä satva muhu jsa balysą̄ña balysūśtāṣṭa aviṣṣī nāṃdä • u biśśä satva balysa himya biśśī mī satva tta tta balysāṃ rū-<lb n="a3"/>na ciṃdą̄ña • tta tta khu ra hīvya uysānā cidye • tta ttai mī ttye byātaji jsa haṃgrīna aysmūna hahiʾsaṃdai ramaṃdai āʾñä • 
+            <lb n="a4"/> ṣi mī tta byātaja biśśä-pīrmāttamä upāyakauśalyä buddhānusmrye yaugga-mukhä nūvarakä balysūñavūysai kama jsa 
+            <lb n="a5"/> biśśä (a)harīna baudhisatvacarya haṣkīmi ttina cu aysmū-masi haḍi biśśä hira • cu buri aysmū āyauysäna satva 
+            <lb n="b1"/> āyauysāri • u hīvī aysmū vasvatte jsa vā vasusīndä • hva ra ṣṭia si balysāna balysūśtä ni c(i) tty(e) hāysa u ni ci ttye na-<lb n="b2"/>ysdä ci ttye aysmū āyauṣṭä ttye hāysa ci ttye aysmū vasve ttye naysdä khu ra hva ṣṭi pātcä dharma-saṃgittä sūträ vīra balysā-<lb n="b3"/>na balysūśtä ni kāmäna jä hauḍa himya himi • u ni kāmī jä vā nā īndä • samu hīvī aysmvī prratari va-<lb n="b4"/>svatte jsa balysāna balysūśtä u ṣiʾ balysä hvīnde • ci kiṇa mī biśśä hira hīvī aysmūna ttye kiṇa mī ṣāʾ byātarja 
+            <lb n="b5"/> tcerā • ttye kiṇa mī ṣaʾ byātarja tta tta tcerā • ttye kiṇa mī ṣāʾ byātarja ttirä buri uvāra pārṣṣa puñauda maṃgalīya ttathā-<lb n="b5a"/>gatta gulį̄nai r(u)ṃnä vasujā(ro)<commentRef commRef="n3"/>
+         </prose>
+      </transcription>
+      <translation litRef="skjaervo2013">
+         <line n="a1">... are ...  Then he should think thus: (Just) now blue rays came out of my uṣṇīṣa supported on the forhead of all beings,</line>
+         <line n="a2">and all beings were taken by me for consecration toward the bodhi of the Buddha, and all beings have become buddhas.  Just so should he consider all beings through the form of the buddhas.</line>
+         <line n="a3">And just as he has thought his own self, just so he should always sit concentrating with that memory with collected mind.</line>
+         <line n="a4">Thus is that memory:  Best of all upāya-kauśalya, buddhānusmṛti, yoga-mukha, the new bodhisatva by whom</line>
+         <line n="a5">I construct all the bodhisatva-caryās without remainder.  Because after all all things are the size of the mind (citta-mātra).  As many beings suffer turmoil through the turmoil of the mind,</line>
+         <line n="b1">they also are purified by the purity of their own mind.  And it has been said:  The bodhi of the buddhas—there is none it is far from and none it is</line>
+         <line n="b2">close to.  He whose mind is in turmoil it is far from, he whose mind is purified it is close to.  And, moreover, as it has been said in the Dharmagīti-sūtra:  The bodhi of the buddhas can not be given by anybody, nor can anybody seize it.  Only from the purity of the nature (prakṛti) of one’s own mind</line>
+         <line n="b3">(comes) the bodhi of the buddhas.  And that is what is called “buddha.”  For the same reason that all things (come) from one’s own mind, for the same reason this memory</line>
+         <line n="b5-5a">should be performed.  For that reason that memory should be performed thus.  For that reason now (is) this memory.  So many exalted, meritorious, propitious tathāgatas *shall purify the molasses oil (?).</line>
+      </translation>
+      <comments>
+         <comment resp="skjaervo2013" id="n1">Archaizing MKhot. The same ms. as Kha. ii.29.1-3 (IOL Khot 35/6-8).</comment>
+         <comment resp="skjaervo2013" id="n2">Fol. 5</comment>
+         <comment resp="skjaervo2013" id="n3">?</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="skjaervo2013"/>
+      </editions>
+      <publication/>
+   </record>
+   <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           id="m-iolkhot34_2"
+           n="994">
+      <header>
+         <sigla>
+            <primary siglum="IOL Khot 34/2"/>
+            <secondary siglum="Kha. i.306b: KBT, p. 8 (3)"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance repository="British Library (London)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="kho"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">/// dä • gvī hyä rrū na u <lac aks="1"/> jsa tī nai mā kṣī u śśa ka rä u rrī ysū u na mve hī vī ra ysä u da tī nai </line>
+            <line n="a2">
+               <lac aks="2"/> dṛ ṣṭya hi mā ri tti bu ri ysa ma śśaṃ dya hā va hi mā ri va ña vā tti ña pa cī ḍa kū ri dṛ ṣṭi jsa </line>
+            <line n="a3">
+               <lac aks="1"/> ·· i vya cu ha ma yi kū ri dṛ ṣṭi jsa pa thī ya u cu ra haṃ da ra kū ri dṛ ṣṭi jsa pa thī yą̄ </line>
+            <line n="a4">
+               <lac aks="1"/> nä mi stä hā vä yu ḍą̄ ndi ī ndi ttū vā ttā vaṃ ña pvī rau va ra vā ttī gya stā nä gya stä </line>
+            <line n="a5">
+               <lac aks="2"/> ggu rṣṭe u ttai hve se śśā ri pu ttra cu kū ra dṛ ṣṭya u ysnau ra tti maṃ vī ra a ta ra ña hi mā ri </line>
+            <line n="a6">
+               <lac aks="7"/> gge vī ra u mā ra pya rāṃ vī ra u bi śśāṃ śśi ra ra nāṃ sa tvą̄ nä vi ra tti na cu dra ya </line>
+         </recto>
+         <verso>
+            <line n="b1">/// dī ra kī re u ysduī dä u mi śti mī gga rkhe ba śde ya nā ri sa ddha rma pra kṣī vai ka rmä ā staṃ </line>
+            <line n="b2">
+               <lac aks="2"/> ysdyū se nai gya stä ba lysä hve o śrā va ka yā nä o pra ttye ka bu ddha yā nä vi śśe ṣa ma hā </line>
+            <line n="b3">
+               <lac aks="1"/> ·da ka rma hi mā nde tti na sa ddha rma prra kṣī vai ka rmi na jä mi sta ḍa rä ka rmä ni śtä ttye hi rä </line>
+            <line n="b4">/// ʾī yä u du khai ni kṣa mīṃ de ttye kraṃ ñä hi mā nä drai nä raṃ nā nä vī rä u mā rā pya rāṃ </line>
+            <line n="b5">/// ḍai śśi ra ka lyā ṇa mi ttra kū śā ña • cvī rra ṣṭä ba lysā nä dā tä hvą̄ ñī dä khu kū ra dṛ ṣṭä ni </line>
+            <line n="b6">
+               <lac aks="1"/> ri pu ttra mi sta ba lysū ña vū ysą̄ pha rā ka sa tva rra ṣṭa dṛ ṣṭya pa di dą̄ ndä </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> /// dä • gvīhyä rrūna u (kuṃ)jsatīnai mākṣī u śśakarä u rrīysū u namve hīvī raysä u datīnai 
+            <lb n="a2"/> (kūra)-dṛṣṭya himāri tti buri ysamaśśaṃdya hāva himāri vaña vā ttiña pacīḍa kūri dṛṣṭi jsa 
+            <lb n="a3"/> (path-) ·i  vya cu hamayi kūri dṛṣṭi jsa pathīya u cu ra haṃdara kūri dṛṣṭi jsa pathīyą̄-<lb n="a4"/>(ndi)  nä mistä hāvä yuḍą̄ndi īndi ttū vā ttā vaṃña pvīrau vara vā ttī gyastānä gyastä 
+            <lb n="a5"/> (baʾysä) ggurṣṭe u ttai hve se śśāriputtra cu kūra-dṛṣṭya uysnaura tti maṃ vīra ataraña himāri 
+            <lb n="a6"/> (u) (dātä) (vīra) (u) (saṃ)gge vīra u māra-pyarāṃ vīra u biśśāṃ śśiraranāṃ satvą̄nä vira ttina cu draya 
+            <lb n="b1"/> /// dīra kīre uysduīdä u miśti mī ggarkhe baśde yanāri saddharmaprakṣīvai karmä āstaṃ-<lb n="b2"/>(na) (u)ysdyū se nai gyastä balysä hve o śrāvakayānä o prattyekabuddhayānä viśśeṣa mahā-<lb n="b3"/>(yān-) da karma himānde ttina saddharma-prrakṣīvai karmina jä mistaḍarä karmä niśtä ttye hirä 
+            <lb n="b4"/> /// ʾī  yä u dukhai ni kṣamīṃde ttye kraṃñä himānä drainä raṃnānä vīrä u mārā-pyarāṃ 
+            <lb n="b5"/> /// ḍai śśira kalyāṇamittra kūśāña • cvī rraṣṭä balysānä dātä hvą̄ñīdä khu kūra dṛṣṭä ni 
+            <lb n="b6"/> (śśā)riputtra mista balysūñavūysą̄ pharāka satva rraṣṭa dṛṣṭya padidą̄ndä
+         </prose>
+      </transcription>
+      <translation litRef="skjaervo2013">
+         <line n="a1">“... ghee and sesame honey and sugar and rice and the juice of salt (brine?) and [the ...] of wild animals [...]</line>
+         <line n="a2">become heretical.  So many benefits arise in the world.  And now in that manner [one refrains] from heresy.  ...</line>
+         <line n="a3">... who themselves have refrained from heresy and who have held others back from heresy. ..</line>
+         <line n="a4">have produced great benefits for them.  But hear now this!  And there then [the Buddha], Lord of Lords, called [Śāriputra]</line>
+         <line n="a5">and spoke to him thus:  Śāriputra, the beings who are heretical become ungrateful toward me [and toward the Law and]</line>
+         <line n="a6">toward the saṅgha and toward (their) parents and toward all well-doing beings, because the three ...</line>
+         <line n="b1">they polish off evil deeds and thus perform great, heavy sins, he polishes off the saddharma-prakṣepa-karman (= the sin arising from the rejection of the true Law) and so on</line>
+         <line n="b2">(thinking): Did not the Lord Buddha say: The differences (between) either the śrāvakayāna or the pratyekabuddhayāna ... the *Mahayana ...</line>
+         <line n="b3">[However many] sinful acts there may be, there is no sinful deed greater than just this saddharma-prakṣepa-karman.  [On account?] of this ...</line>
+         <line n="b4">... there may be, and woes do not please him.  *Therefore I shall be grateful toward the three jewels and [toward] (my) parents ...</line>
+         <line n="b5">... he should seek good kalyāṇamitras, who expound to him the right Law of the Buddha, how false views do not ...</line>
+         <line n="b6">O Śāriputra, great bodhi-seeker, many beings have performed right views. ...</line>
+      </translation>
+      <comments>
+         <comment resp="skjaervo2013" id="n1">Archaizing MKhot.  The same ms. as Kha. ii.18.2 (IOL Khot 35/5); see also IOL Khot 147/2.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="skjaervo2013"/>
+      </editions>
+      <publication/>
+   </record>
+</corpus>

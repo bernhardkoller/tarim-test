@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schemas/fragments/bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus ../../../schemas/fragments/bte/fragments_bte.xsd">
+    <record id="m-x59bta750d7046">
+        <header>
+            <sigla>
+                <primary siglum="59 BT A7-50 D7046"/>
+            </sigla>
+            <physicalProperties material="paper" writingMedium="ink"/>
+            <provenance repository="Xinjiang Museum (Ürümči)" findspot="Tumšuq"/>
+            <content writtenLines="4">
+                <scribalDuctus/>
+                <languages>
+                    <language languageName="txb"/>
+                </languages>
+                <text>
+                    <proseVerse proseVerse="prose"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1">
+                    <unedited/>
+                </line>
+                <line n="a2">
+                    <unedited/>
+                </line>
+                <line n="a3">
+                    <unedited/>
+                </line>
+            </recto>
+        </transliteration>
+        <transcription>
+            <prose>
+                <lb n="a1"/>
+                <unedited/>
+                <lb n="a2"/>
+                <unedited/>
+                <lb n="a3"/>
+                <unedited/>
+            </prose>
+        </transcription>
+        <translation>
+            <line n="a1 a2 a3">
+                <tr litRef="peyrot2013b" pageRange="707"/>
+            </line>
+        </translation>
+        <comments>
+            <comment id="n1" type="remarks">only recto</comment>
+        </comments>
+        <references/>
+        <editions>
+            <ref litRef="schmidtkt1997" pageRange="235-237"/>
+        </editions>
+        <publication/>
+    </record>
+    <record id="m-x80tbi618">
+        <header>
+            <sigla>
+                <primary siglum="80 TBI 618"/>
+            </sigla>
+            <physicalProperties material="paper" writingMedium="ink"/>
+            <provenance/>
+            <content writtenLines="">
+                <scribalDuctus/>
+                <languages>
+                    <language languageName="txb"/>
+                </languages>
+                <text/>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1">
+                    <lac aks="1"/> rstau PA sTṣe yne</line>
+            </recto>
+        </transliteration>
+        <transcription>
+            <prose>
+                <lb n="a1"/> (kä)rstau päst ṣeyne </prose>
+        </transcription>
+        <translation>
+            <line n="a1">
+                <tr>was cut off</tr>
+            </line>
+        </translation>
+        <comments>
+            <comment id="n1" type="remarks">Verso in Uigur.</comment>
+            <comment id="n2" type="remarks">The transcription/transliteration given here represents only the part of the content of this fragment that is discussed in <ref litRef="maue2012">.</ref></comment>
+        </comments>
+        <references>
+            <ref type="other" litRef="maue2012" pageRange="41-42"/>
+        </references>
+        <editions/>
+        <publication/>
+    </record>
+</corpus>

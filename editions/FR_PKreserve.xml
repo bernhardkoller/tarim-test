@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schemas/fragments/bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus ../../../schemas/fragments/bte/fragments_bte.xsd">
+   <record id="m-pkreserve1517b31">
+      <header>
+         <sigla>
+            <primary siglum="PK réserve 1517 B 3.1"/>
+            <secondary siglum="Pelliot Koutchéen réserve 1517 B III,I"/>
+            <secondary siglum="LP 1"/>
+         </sigla>
+         <physicalProperties material="wood tablet"
+                             writingMedium="ink"
+                             height="5.93–5.97"
+                             width="7.82–7.7"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="6">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Laissez-passer"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">ṣle ta¯ ¯Ś pi ṅKAṃ yu ṣai śco • twe</line>
+            <line n="a2">ñī yai tko rsa maṃ tpyā¯ ¯M kuce ka ṣa ke pu</line>
+            <line n="a3">tta mi tre pa rra yaṃ • cau mpa śā mna i</line>
+            <line n="a4">KAṃ • ke rca paṃ tre¯ ¯yä • ya kwe ṣe • te</line>
+            <line n="a5">pa rra tā rka • te ntsa au ṣa¯ ¯P mā TA rka</line>
+            <line n="a6">na¯ ¯T śa[¯] [¯K] kṣ*ṃ ntsa • śta rce meṃ ne</line>
+         </recto>
+         <verso>
+            <line n="b1">yu ṣ[ai] nts* klā ṣle</line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ṣletaś piṅkäṃ yuṣaiśco • twe <lb n="a2"/> ñī yaitkorsa maṃt pyām kUce kaṣake pu<lb n="a3"/>ttamitre parra yaṃ • caumpa śāmna i<lb n="a4"/>käṃ • kercapaṃ trey • yakwe ṣe • te <lb n="a5"/> parra tārka • tentsa auṣap mā tärka<lb n="a6"/>nat śak kṣ(u)ṃntsa • śtarce meṃne <lb n="b1"/> yuṣaints(e) klāṣle </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment id="n1" type="remarks">thickness 0,65–0,39 cm</comment>
+      </comments>
+      <references> Pl XL-12 XLIX-7 </references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="86"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-pkreserve1517b32">
+      <header>
+         <sigla>
+            <primary siglum="PK réserve 1517 B 3.2"/>
+            <secondary siglum="Pelliot Koutchéen réserve 1517 B III,II"/>
+            <secondary siglum="LP 2"/>
+         </sigla>
+         <physicalProperties material="wood tablet"
+                             objectType="Woodslip"
+                             writingMedium="ink"
+                             height="4.2–4.1"
+                             width="9.88–9.5"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="4">
+            <scribalDuctus ductus="classical"/>
+            <languages>
+               <language languageName="txb" linguisticStage="classical"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Laissez-passer"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">śtwe¯ ¯R o ksai· śtwe¯ ¯R te pa rra ptā rka</line>
+            <line n="a2">i KAṃ ṣe kṣuṃ ntsa wä rsa ññe meṃ ne i</line>
+            <line n="a3">KAṃ o kne swa rna te pi kṣu· ne o rśa c[ā]</line>
+            <line n="a4">ka re ā kṣa</line>
+         </recto>
+         <verso>
+            <line n="b1">skna ta tti klā ṣle</line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> śtwer oksai(ṃ) śtwer te parra ptārka <lb n="a2"/> ikäṃ ṣe kṣuṃntsa wärsaññe meṃne i<lb n="a3"/>käṃ okne swarnatepi kṣu(ṃ)ne orśa cā<lb n="a4"/>kare ākṣa <lb n="b1"/> sknatatti klāṣle </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment id="n1" type="philcomment">For the reading <hi>orśa cākare</hi> instead of a compound <hi>or-śacakare</hi>, see <ref litRef="ogiharaandpinault2010" pageRange="186f"/>.</comment>
+         <comment id="n2" type="remarks">thickness 0,66–0,32 cm</comment>
+      </comments>
+      <references> Pl XL-34 XLVIII-1 XLIX-6 </references>
+      <editions>
+         <ref litRef="levi1913" pageRange="316-317"/>
+         <ref litRef="pinault1987" pageRange="86"/>
+      </editions>
+      <publication/>
+   </record>
+</corpus>

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schemas/fragments/bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus ../../../schemas/fragments/bte/fragments_bte.xsd">
+   <record id="m-dd1">
+      <header>
+         <sigla>
+            <primary siglum="Dd 1"/>
+            <secondary siglum="Documents divers 1"/>
+            <secondary siglum="find nr. 559a"/>
+            <secondary siglum="inv. nr. 23778"/>
+         </sigla>
+         <physicalProperties material="object" objectType="Graffito" writingMedium="ink"/>
+         <provenance repository="Musée Guimet (Paris)" findspot="Tajik"/>
+         <content writtenLines="1">
+            <scribalDuctus ductus="cursive"/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Graffito (object)"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">sri¯ ¯K mri¯ ¯K</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> srik mrik </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment id="n1" type="philcomment">The clearly readable words are unknown; it is unclear whether we are dealing with Tocharian words at all; according to <ref litRef="pinault1987" pageRange="181"/>, maybe "une formule magique" because of the consonance of the ending.</comment>
+         <comment id="n2" type="remarks">Graffito on potsherd; for the photo, see <ref litRef="pinault1987"/>: pl. XCIII-1.</comment>
+      </comments>
+      <references> pl XCIII-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="181"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-dd2">
+      <header>
+         <sigla>
+            <primary siglum="Dd 2"/>
+            <secondary siglum="Documents divers 2"/>
+            <secondary siglum="find nr. 600"/>
+            <secondary siglum="inv. nr. 23781"/>
+         </sigla>
+         <physicalProperties material="object" objectType="Graffito" writingMedium="ink"/>
+         <provenance repository="Musée Guimet (Paris)" findspot="Tajik"/>
+         <content writtenLines="2">
+            <scribalDuctus ductus="cursive"/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Graffito (object)"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  yne <lac aks="1"/> ṣ[a] mi ṣe <lac aks="1"/> /// </line>
+            <line n="a2"> ///  [m]e <lac aks="1"/> mo¯ ¯[ṣ] <lac aks="1"/> /// </line>
+         </recto>
+         <verso>
+            <line n="b1"> /// <lac aks="1"/> ku  /// </line>
+            <line n="b2"> ///  yn· pr[e]  /// </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ///  yne <lac aks="1"/> ṣa mi ṣe <lac aks="1"/> /// <lb n="a2"/> ///  -me <lac aks="1"/> moṣ <lac aks="1"/> /// <lb n="b1"/> /// <lac aks="1"/> ku  /// <lb n="b2"/> ///  yn· pre…  /// </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment id="n1" type="remarks">Graffito on potsherd; for a photo, see <ref litRef="pinault1987"/>: pl. XCIII-2.</comment>
+      </comments>
+      <references> pl XCIII-2</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="181"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-dd3">
+      <header>
+         <sigla>
+            <primary siglum="Dd 3"/>
+            <secondary siglum="Documents divers 3"/>
+            <secondary siglum="find nr. 833"/>
+            <secondary siglum="inv. nr. 23712"/>
+         </sigla>
+         <physicalProperties objectType="Graffito" writingMedium="engraving"/>
+         <provenance repository="Musée Guimet (Paris)"
+                     findspot="Subeši"
+                     specificFindspot="Soubachi Ouest"/>
+         <content writtenLines="1">
+            <scribalDuctus ductus="cursive"/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Graffito (object)"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">ya śa</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> yaśa </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>Yaśa.</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="philcomment">Name <hi>Yaśa</hi> or an abbreviation of a name beginning with <hi>Yaśa-</hi>.</comment>
+         <comment id="n2" type="remarks">Handle of a pot. Two akṣaras engraved before firing.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="pinault1987" pageRange="181-182"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-dd4">
+      <header>
+         <sigla>
+            <primary siglum="Dd 4"/>
+            <secondary siglum="Documents divers 4"/>
+            <secondary siglum="find nr. 1243"/>
+            <secondary siglum="inv. nr. [none]"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"
+                             writingMedium="engraving"
+                             height="29.5"
+                             width="17.0"/>
+         <provenance repository="Musée Guimet (Paris)" findspot="Kuča"/>
+         <content writtenLines="1">
+            <scribalDuctus ductus="classical"/>
+            <languages>
+               <language languageName="txb" linguisticStage="classical">
+                  <secondaryFeatures linguisticStage="hypercorrect"/>
+               </language>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Graffito (object)"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  pi ku lne wa ce meṃ ñe i KAṃ pi  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ///  pikulne wace meṃñe ikäṃ pi(śne)  /// </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>In the year ..., in the second month, (on the) twenty-fi(fth day) ... ///</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="lingcomment">Maybe <hi>meṃñe</hi> for the correct locative <hi>meñne</hi> is a hypercorrect spelling based on colloquial <hi>menne</hi> with depalatalization.</comment>
+         <comment id="n2" type="philcomment">Date formula.</comment>
+         <comment id="n3" type="remarks">Provenance probable of the region of Kuča.</comment>
+      </comments>
+      <references> pl XCIV</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="182"/>
+      </editions>
+      <publication>
+         <publicationDate date="2015-08-28">2015-08-28</publicationDate>
+         <contributors>
+            <contributor name="Melanie Malzahn" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-dd51">
+      <header>
+         <sigla>
+            <primary siglum="Dd 5.1"/>
+            <secondary siglum="Documents divers 5.1"/>
+            <secondary siglum="photographie no. 348"/>
+         </sigla>
+         <physicalProperties material="wall" objectType="Graffito" writingMedium="ink"/>
+         <provenance repository="Musée Guimet (Paris)"
+                     findspot="Duldur-Akhur"
+                     specificFindspot="Entrance of the temple of the monastery"/>
+         <content writtenLines="5">
+            <scribalDuctus ductus="cursive"/>
+            <languages>
+               <language languageName="txb" linguisticStage="classical"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Graffito (wall)"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  pr· ṅk·  /// </line>
+            <line n="a2"> /// <lac aks="1"/> se [ya] KA kuśi ññe <lac aks="1"/> /// </line>
+            <line n="a3"> /// <lac aks="1"/> ·e [ṣ]e ke te [dh]yā nā nta¯ ¯R [ra] mno [ā] ·ai <lac aks="1"/> ·l· k·  /// </line>
+            <line n="a4"> ///  su wa <lac aks="3"/> we¯ ¯S pe rne sa pā <lac aks="1"/> ··e te lki ne a  /// </line>
+            <line n="a5"> ///  cai maṃ¯ ¯nT [p]ru ca <lac aks="7"/> [m]ā ·e ·e <lac aks="1"/> ·ai no  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ///  pr· ṅk·  /// <lb n="a2"/> /// <lac aks="1"/> se yakä kUśiññe <lac aks="1"/> /// <lb n="a3"/> /// <lac aks="1"/> ·eṣe kete dhyānāntar ram no ā·ai <lac aks="1"/> ·l· k·  /// <lb n="a4"/> ///  su wa <lac aks="3"/> wes pernesa pā <lac aks="1"/> ··e telkine a  /// <lb n="a5"/> ///  cai maṃnt pruca <lac aks="7"/> mā ·e ·e <lac aks="1"/> ·ai no  /// </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment id="n1" type="remarks">Piece from a wall.</comment>
+      </comments>
+      <references> pl XCV</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="183-184"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-dd52">
+      <header>
+         <sigla>
+            <primary siglum="Dd 5.2"/>
+            <secondary siglum="Documents divers 5.2"/>
+            <secondary siglum="photographie no. 348"/>
+         </sigla>
+         <physicalProperties material="wall" objectType="Graffito" writingMedium="ink"/>
+         <provenance repository="Musée Guimet (Paris)"
+                     findspot="Duldur-Akhur"
+                     specificFindspot="Entrance of the temple of the monastery"/>
+         <content writtenLines="1">
+            <scribalDuctus ductus="cursive"/>
+            <languages>
+               <language languageName="txb" linguisticStage="classical"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Graffito (wall)"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  [y]PA lsko kuce ṣ[n]o po [skw]· [n]m·  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ///  -y-pälsko kUce ṣ no po skw(a)nm(a)  /// </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>... the x-minded, but what all happiness ...</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="lingcomment">
+            <hi>pälsko</hi> has be to be the second member of a bahuvrīhi compound with <hi>palsko</hi> 'mind'.</comment>
+         <comment id="n2" type="remarks">Piece from a wall.</comment>
+      </comments>
+      <references> pl XCV</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="183-184"/>
+      </editions>
+      <publication>
+         <publicationDate date="2015-08-28">2015-08-28</publicationDate>
+         <contributors>
+            <contributor name="Melanie Malzahn" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-dd53">
+      <header>
+         <sigla>
+            <primary siglum="Dd 5.3"/>
+            <secondary siglum="Documents divers 5.3"/>
+            <secondary siglum="photographie no. 348"/>
+         </sigla>
+         <physicalProperties material="wall" objectType="Graffito" writingMedium="ink"/>
+         <provenance repository="Musée Guimet (Paris)"
+                     findspot="Duldur-Akhur"
+                     specificFindspot="Entrance of the temple of the monastery"/>
+         <content writtenLines="4">
+            <scribalDuctus ductus="cursive"/>
+            <languages>
+               <language languageName="txb" linguisticStage="classical"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Graffito (wall)"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  ·[k]· KA ca sya l· ·t· ā <lac aks="1"/> ¯R <lac aks="1"/> /// </line>
+            <line n="a2"> /// </line>
+            <line n="a3"> ///  śaṃ mo rmeṃ mr[au]· k· [lñ]e [si] ai kn· nta <lac aks="2"/> /// </line>
+            <line n="a4"> ///  ·n· ye tse ṣñau rā sta ypo mna ·[w]i [s]TA¯ ¯R wai [p]e  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ///  ·k·kä ca sya l· ·t· ā <lac aks="1"/> r <lac aks="1"/> /// <lb n="a2"/> /// <lb n="a3"/> ///  (śeś)śaṃmormeṃ mrau(s)k(a)lñe si aikn(e)nta <lac aks="2"/> /// <lb n="a4" commRef="n2 n3 n4"/> ///  ·n· yetse ṣñaur= āsta ypomna ·wistär waipe(cce)  /// </prose>
+      </transcription>
+      <translation>
+         <line n="a3">
+            <tr>... after having placed ... aversion ... duties ...</tr>
+         </line>
+         <line n="a4">
+            <tr>... skin, sinews, bones, the countries (?) ... poss(essions) (?) ...</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="remarks">Wall graffito in situ; photograph by the <hi>Mission Pelliot</hi>.</comment>
+         <comment id="n2" type="philcomment">The context of this passage speaks against interpreting <hi>ypomna</hi> as variant plural of yapoy 'land', but the same form in <fragRef fragment="m-dd62"/> does; cf. <ref litRef="pinault1987" pageRange="184, fn. 10"/>.</comment>
+         <comment id="n3" type="philcomment">Does <hi>wistär</hi> come from Skt. (°)vistara- ‘wide'?</comment>
+         <comment id="n4" type="philcomment">According to Pinault, "[u]ne lecture [p]e n'est pas impossible", so maybe to be restored to <hi>waipe(cce)</hi> 'possessions'?</comment>
+      </comments>
+      <references> pl XCV</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="183-184"/>
+      </editions>
+      <publication>
+         <publicationDate date="2015-08-28">2015-08-28</publicationDate>
+         <contributors>
+            <contributor name="Melanie Malzahn" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-dd61">
+      <header>
+         <sigla>
+            <primary siglum="Dd 6.1"/>
+            <secondary siglum="Documents divers 6.1"/>
+            <secondary siglum="photographie no. 413"/>
+         </sigla>
+         <physicalProperties material="wall" objectType="Graffito" writingMedium="ink"/>
+         <provenance repository="Musée Guimet (Paris)"
+                     findspot="Duldur-Akhur"
+                     specificFindspot="Entrance of the temple of the monastery"/>
+         <content writtenLines="1">
+            <scribalDuctus ductus="cursive"/>
+            <languages>
+               <language languageName="txb" linguisticStage="classical"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Graffito (wall)"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> /// <lac aks="1"/> [kr]e¯ ¯[n]T ṣpa ne lka  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> /// <lac aks="1"/> krent ṣpane lka…  /// </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>... the good sleep ...</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="philcomment">
+            <hi>lka</hi>- ought to belong to a form from the root <hi>läk<hi rendition="superscript">ā</hi>
+            </hi>- 'to see'.</comment>
+         <comment id="n2" type="remarks">Piece from a wall.</comment>
+      </comments>
+      <references> pl XCVI-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="184-185"/>
+      </editions>
+      <publication>
+         <publicationDate date="2015-08-28">2015-08-28</publicationDate>
+         <contributors>
+            <contributor name="Melanie Malzahn" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-dd62">
+      <header>
+         <sigla>
+            <primary siglum="Dd 6.2"/>
+            <secondary siglum="Documents divers 6.2"/>
+         </sigla>
+         <physicalProperties material="wall" objectType="Graffito" writingMedium="ink"/>
+         <provenance findspot="Duldur-Akhur"
+                     specificFindspot="Entrance of the temple of the monastery"/>
+         <content writtenLines="5">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  la we ñau ñke e rtsi a  /// </line>
+            <line n="a2"> ///  ·k· sra¯ ¯mT e ka MA cceṃ kul[e] ṅka rñe¯ ¯ñ k·  /// </line>
+            <line n="a3"> ///  ·[ā] rśkaṃ ñi e ka MA cci kuse yne śaṃ ñi  /// </line>
+            <line n="a4"> ///  ·n· we s[u] KA t[k]ā ṣTA¯ ¯R ypo mna kuṣaiṃ ṣPA mā  /// </line>
+            <line n="a5"> ///  ·i ·k[o] mñ[e] po yiṃ  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ///  la weñau ñke ertsi a  /// <lb n="a2"/> ///  ·k·s ramt ekamäcceṃ kUleṅkarñeñ k·  /// <lb n="a3"/> ///  ·ārśkaṃñi ekamäcci kUse yneśaṃñi  /// <lb n="a4"/> ///  ·n· we su kätkāṣtär ypomna kUṣaiṃ ṣpä mā  /// <lb n="a5"/> ///  ·i ·komñe po yiṃ  /// </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl XCVI-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="184-185"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-dd63">
+      <header>
+         <sigla>
+            <primary siglum="Dd 6.3"/>
+            <secondary siglum="Documents divers 6.3"/>
+         </sigla>
+         <physicalProperties material="wall" objectType="Graffito" writingMedium="ink"/>
+         <provenance findspot="Duldur-Akhur"
+                     specificFindspot="Entrance of the temple of the monastery"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  tta ña ktyai śai yā  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ///  tta ñakty aiśai yā(m…)  /// </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl XCVI-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="184-185"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-dd64">
+      <header>
+         <sigla>
+            <primary siglum="Dd 6.4"/>
+            <secondary siglum="Documents divers 6.4"/>
+         </sigla>
+         <physicalProperties material="wall" objectType="Graffito" writingMedium="ink"/>
+         <provenance findspot="Duldur-Akhur"
+                     specificFindspot="Entrance of the temple of the monastery"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  ·i [m]a [l]e pr[i] s[o] ma ra kṣi [t]e  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ///  ·i ma le pri somarakṣite  /// </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl XCVI-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="184-185"/>
+      </editions>
+      <publication/>
+   </record>
+</corpus>

@@ -1,0 +1,2802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schemas/fragments/bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus ../../../schemas/fragments/bte/fragments_bte.xsd">
+    <record id="m-pklc1" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 1"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="5">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+            </text>
+         </content>
+      </header>
+      <transliteration litRef="ching2017" pageRange="138-139">
+         <recto>
+            <line n="a1">20 4 kṣu tsa «yā» śe lā nti ya kw· <lac/>
+            </line>
+            <line n="a2">ṣe ñca sā¯ ¯ṅK prā śni ke[ṃ] a śa ri jñā na so m[e] n[au] ṣu [we] tsa ś[ā] nta ke¯ ¯Ś te sa re tu tse ke¯ ¯Ś</line>
+            <line n="a3">a lyi yriṃ 5</line>
+            <line n="a4">o ro tsa na a wi 7</line>
+            <line n="a5">
+               <lac aks="2"/> ·iṃ [10] ·[e] śe ai y[y]ā [n]a śā nta ta kā re 10«†[4]»8</line>
+         </recto>
+      </transliteration>
+      <transcription litRef="ching2017" pageRange="138-139">
+         <prose>
+            <lb n="a1"/>20-4 kṣutsa yā<commentRef commRef="n3"/>śe lānti yakw(e) <lac/> (wsa)<lb n="a2"/>ṣeñca sāṅk <commentRef commRef="n1"/> prāśnikeṃ aśari jñānasome nauṣuwetsa śānta keś tesare tutse keś
+            <lb n="a3"/>alyi yriṃ 5
+            <lb n="a4"/>orotsana awi 7
+            <lb n="a5"/>
+            <lac aks="2"/>(yr)iṃ 10 ·eśe ai<commentRef commRef="n4"/>yyāna śānta takāre 10-8
+         </prose>
+      </transcription>
+      <!--<translation language="eng">
+         <line n="a1">In the year 24 of the king Śṭhe(?), (a year of) horse <lac/>
+         </line>
+         <line n="a2">The interrogators/investigators (of) the saṃgha [living in] ..., headed up by Jñānasome the Aśari, counted the number of sheep(/goats). (Here is) the count:</line>
+         <line n="a3">Male new-born: 5</line>
+         <line n="a4">Big ewes: 7</line>
+         <line n="a5">... [new-born: 10]. There have been ... ovine livestocks: 18.</line>
+      </translation>-->
+      <translation language="chi" litRef="ching2017" pageRange="138-139">
+         <line n="a1">Yāśe 王 24 年，马（年）<lac/>
+         </line>
+         <line n="a2">在......的僧伽，以 Prāśnike[ṃ] 阿阇利 Jñānasome 为首，点算了羊只。其数额（为）：</line>
+         <line n="a3">阉（？）公绵羊羔：5。</line>
+         <line n="a4">大母绵羊：7。</line>
+         <line n="a5">......绵羊羔：[10]。......绵羊有18只</line>
+      </translation>
+      <translation language="eng">
+         <line n="a1">In regnal year 24 of king Yāśe, in the year of the horse...</line>
+         <line n="a2">The saṅgha living in ... with the <hi rendition="italics">Prāśnike</hi> Jñānasome the ācārya at the head counted the sheep. <commentRef commRef="n2"/> (This is their) account thereof:</line>
+         <line n="a3">Male lambs: 5</line>
+         <line n="a4">Big ewes: 7</line>
+         <line n="a5">... lambs: 10... ovine cattle was: 18.</line>
+      </translation>
+      <comments>
+         <comment id="n1">For the restoration cf. PK DA M 507.32 a1 <hi rendition="italics">samantatirne wsaṣeñca ysomo sāṅk</hi>.</comment>
+         <comment id="n2">The interpretation of the syntax by <ref litRef="ching2010" pageRange="335"/> is wrong. <hi rendition="italics">sāṅk</hi> can never be interpreted as a genitive. Her later translation (<ref litRef="ching2017" pageRange="139"/>) is correct, however. The -ṃ of <hi rendition="italics">prāśnike</hi> is the oblique singular of 'vernunftbegabte Wesen' (<ref litRef="krauseandthomas1960" pageRange="108, §141"/>). The constructio ad sensum of <hi rendition="italics">sāṅk... tesare</hi> also has a parallel in PK DA M 507.32 a1. It almost seems like the plural is actually the expected form in sentences involving <hi rendition="italics">X-ne wsaṣṣeñca sāṅk</hi>.</comment>
+         <comment id="n3" domain="translit">For this reading, cf. <ref litRef="ching2017" pageRange="139"/>, who speculates that the 'yā' looks strange because there was originally a piece of paper glued onto the document which later dropped. This phenomenon indeed sometimes occurs.</comment>
+         <comment id="n4" domain="translit">The 'ai' here is interesting: It is written as an 'a' with an 'ai' diacritic. This way of writing initial vowels/diphthongs is also known from the inscriptions (Kz-211-ZS-R-05, Kz-211-ZS-R-06 and Kz-211-ZS-L-01).</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="ching2010" pageRange="334-335"/>
+         <ref litRef="ching2017" pageRange="138-139"/>
+         <ref litRef="pinault0000" pageRange="93-94"/>
+         <ref litRef="pinault1997c"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc2" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 2"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="2">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1i">ka nte cā neṃ ka mā te wi KA nte cā wa sa a [ś]a ri wa jra se [neṃ] ntsa</line>
+            <line n="a2i">
+               <lac aks="1"/> a śa ri • wa jra •</line>
+            <line n="a1ii">ylai ñi kte wai bra [m]ñi kte we ma ci tre[ṃ] wai ña ke</line>
+            <line n="a2ii">ka nte cā neṃ ka mā te ta rya KA nte cā e cā ne· ka</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1i"/>kante cāneṃ kamāte wi känte cā«neṃ» wasa aśari wajraseneṃntsa
+            <lb n="a2i"/>
+            <lac/> aśari • wajra •
+            <lb n="a1ii"/>ylai-ñikte wai bram-ñikte wemacitreṃ wai ñake
+            <lb n="a2ii"/>kante cāneṃ kamāte tarya känte cā«neṃ» e«tsi» cāne(ṃ) ka
+         </prose>
+      </transcription>
+      <translation language="eng">
+         <line n="a1i">He took one hundred coins, he donated two hundred coins, with Wajrasene the ācārya (?)</line>
+         <line n="a2i">Wajra(sene) the ācārya</line>
+         <line n="a1ii">Indra and Brahman... Wemacitre and now...</line>
+         <line n="a2ii">He took one hundred coins, he... to donate three hundred coins.</line>
+      </translation>
+      <comments>
+         <comment id="n1">The most peculiar part about this text is line a1ii. The rest of the documents is talking about coin donations, and suddenly this line is about Indra, Brahman and Vemacitra.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="pinault0000" pageRange="94-95"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc3" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 3"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="4">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">ṣu kta ñce śa· w· k· <lac aks="1"/> k· ·k·  <lac/>
+            </line>
+            <line n="a2">[ṣu] [kt]a ñc· ·e [i] KAṃ wi ne ka me ki śkaṃ ne ya¯ ¯P te mtsa te ca k· [n]m· <lac aks="2"/>
+            </line>
+            <line n="a3">
+               <lac brac="rnd" aks="6"/> [KA] lwā¯ ¯M ca ka nma 10 8</line>
+         </recto>
+         <verso>
+            <line n="b1">ñ· [n]· sa ma [10] [5] • </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>ṣuktañce śa(k) w(i) k· <lac aks="1"/> k· ·k· <commentRef commRef="n2"/>
+            <lac/>
+            <lb n="a2"/>ṣuktañc(en)e ikäṃ wine kamekiśkaṃne <commentRef commRef="n1"/> yap temtsate cak(a)nm(a) <lac aks="2"/>
+            <lb n="a3"/>
+            <lac aks="6"/>kälwām <commentRef commRef="n3"/> cakanma 10-8
+            <lb n="b1"/>
+            <commentRef commRef="n4"/> ñ· n· sama 10-5 •
+         </prose>
+      </transcription>
+      <!--<translation language="eng">
+         <line n="a1">The [12th] day of the 7th (month), (in <hi rendition="italics">Kamekiśka</hi>*?) <lac/>
+         </line>
+         <line n="a2">In the 7th (month). On the 22nd day, in <hi rendition="italics">Kamekiśka</hi>*, barley has been produced: ... [piculs]</line>
+         <line n="a3">We have [obtained]: 18 piculs.</line>
+         <line n="b1">...</line>
+      </translation>-->
+      <translation language="eng">
+         <line n="a1">(In the) seventh (month), on day twenty two, (in Kamekiśka)...</line>
+         <line n="a2">In the seventh (month), on day twenty two, in Kamekiśka, barley was grown: ... piculs.</line>
+         <line n="a3">... we obtained ...: 18 piculs.</line>
+      </translation>
+      <comments>
+         <comment id="n1">Another example of a place name with the diminutive suffix in the plural, cf. HWB 74(4) a8 <hi rendition="italics">olyīśkaṃtsa</hi>. Could this place name have something to do with <hi rendition="italics">ykāmekeś</hi> in PK DA M 507.37 and 36 a65-66?</comment>
+         <comment id="n2">This may be restored as <hi rendition="italics">K(ame)k(iś)k(aṃne)</hi> (<ref litRef="ching2010" pageRange="336"/>.</comment>
+         <comment id="n3" domain="translit">The '¯M' is so smushed that it barely looks like anything.</comment>
+         <comment id="n4" domain="translit">'(Effectively a scrawl)' (<ref litRef="ching2010" pageRange="336"/>. The akṣaras here are very big and shoddily written.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="ching2010" pageRange="335-336"/>
+         <ref litRef="pinault0000" pageRange="95-97"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc4" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 4"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="2">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac aks="1"/> ·ñ· k· <lac/>
+               <lac/> ·s· [ṣ]ñ· [ṣ]ñ· w· ṣṣa mñe ka <lac/>
+            </line>
+            <line n="a2">śwe rme ña tse ne ka ·[t]i po s·äṃ [p]ai <lac/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac aks="1"/> ·ñ· k· <lac aks="6"/> ·s· ṣñ(a)-ṣñ(a)-w(a)ṣṣamñe <commentRef commRef="n1"/> ka <lac/>
+            <lb n="a2"/>śwer meñatsene ka(n)ti pos(t)äṃ pai <commentRef commRef="n2"/>
+            <lac/>
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">... the own friendship of each of them (?) ...</line>
+         <line n="a2">On day of the month four, finally the bread ...</line>
+      </translation>
+      <comments>
+         <comment id="n1">Normally <hi rendition="italics">waṣamñe</hi>. Since -ṣṣ- often gets simplified to -ṣ- in late texts, <hi rendition="italics">waṣṣamñe</hi> is best explained as hypercorrect.</comment>
+         <comment id="n2">Pinault has <hi rendition="italics">po s·äṃ [p]ai [k]a</hi>, but I can't really see the '[k]a'. Besides, his transliteration as <hi rendition="italics">ka [rt]i</hi> is probably incorrect, since the top of the 'ta' looks pretty much like the top of the 'tse' in <hi rendition="italics">me ña tse</hi>, so it must be 't/n·i'. I have looked through CEToM and came to the conclusion that the only word that would fit here is <hi rendition="italics">kanti</hi> 'bread', and <hi rendition="italics">paika</hi> would not really fit well with that word.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="pinault0000" pageRange="97-98"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc5" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 5"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="4">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">dha te weṃ e ṣe su ntā ryai <lac/>
+            </line>
+            <line n="a2">rsa pre ksau i KAṃ t[r]e [y]·e <lac/>
+            </line>
+            <line n="a3">mka skau me [p]e [lai] ·e <lac/>
+            </line>
+            <line n="a4">si <lac/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1" commRef="n2"/>dhateweṃ eṣe suntāryai <lac/> (yṣuwa)<lb n="a2"/>rsa preksau ikäṃ trey(n)e <lac/>
+            <lb n="a3"/>mkaskaume pelai(kn)e <lac/>
+            <lb n="a4"/>si <lac/>
+         </prose>
+      </transcription>
+      <translation language="eng">
+         <line n="a2">I ask with friendliness. On day twenty three...</line>
+         <line n="a3">I make them/you/us <commentRef commRef="n1"/>... law...</line>
+      </translation>
+      <comments>
+         <comment id="n1">
+            <hi rendition="italics">mkaskaume</hi> might be a kind of scribal error for maskaume. At least that seems to be the only explanation that makes this form parsable.</comment>
+         <comment id="n2">This line is obscure. We could opt for an easy explanation and say that <hi rendition="italics">dhateweṃ</hi> is a name. But since the name starts with a <hi rendition="italics">dha</hi>-, we would expect a Sanskrit equivalent. However, there doesn't appear to be anything suitable. The reading of <hi rendition="italics">dha</hi> itself is also not that certain. The top of it is not the usual shape, but looks more like the top of a 'ca'. However, it is not sure wether this top isn't just smeared ink. <hi rendition="italics">suntāryai</hi> could possibly be related to Sanskrit <hi rendition="italics">sundara</hi>-, however, this is also rather implausible, since one would expect (masculine) sundare or (feminine) sundara. Non liquet.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="pinault0000" pageRange="98"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc6" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 6"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>
+               <lac aks="1"/>[kñu] kṣuṃ ntsa «ra» «pa» «ṣṣe» sa ṅkaṃ ntse pe lykiṃ «†ra» «†pa» «†ṣṣe» «mo» «[k]o» «ke» «pau» «ti» «ś·e» «[w]ai» tsa ñi cai ti ke tSA ṅka n· ka m[ā] nte [p]·<lac aks="1"/>
+               <lac/>
+            </line>
+            <line n="a2">
+               <lac/>·i <lac aks="2"/>[ṃ] <lac aks="1"/> ·i<lac/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>(śa)k ñu kṣuṃntsa rapaṣṣe saṅkaṃntse pelykiṃ moko kepautiś(k)e wai tsañi caitike tsäṅkan(a) kamānte p(iś)<lac/>
+            <lb n="a2"/>
+            <lac/>·i <lac aks="2"/> ṃ <lac aks="1"/> ·i<lac/>
+         </prose>
+      </transcription>
+      <!--<translation language="eng">
+         <line n="a1">
+            <lac/>in ... regnal year, «the day of <hi rendition="italics">Rāp</hi>» <commentRef commRef="n1"/> for the sake of <hi rendition="italics">saṃgha</hi>, «the day of <hi rendition="italics">Rāp</hi>» «<hi rendition="italics">Nepautiśke</hi> the <hi rendition="italics">Moko</hi> [and]» <hi rendition="italics">Caitike</hi> the <hi rendition="italics">Tsañi</hi> took the naked barley: [five]<lac/>
+         </line>
+         <line n="a2">...</line>
+      </translation>-->
+      <translation language="eng">
+         <line n="a1">In regnal year nineteen <commentRef commRef="n2"/>, (the day) of <hi rendition="italics">Rāp</hi>, the <hi rendition="italics">Moko</hi> Kepautiśke and the <hi rendition="italics">tsañi</hi> Caitike brought highland barley <commentRef commRef="n3"/> for the sake of the saṅgha: five...</line>
+      </translation>
+      <comments>
+         <comment id="n1">
+            <ref litRef="ching2010" pageRange="449-451"/>.</comment>
+         <comment id="n2">The 'kñu' isn't really legible.</comment>
+         <comment id="n3">For <hi rendition="italics">tsäṅkana</hi> as highland barley, cf. <ref litRef="ching2017" pageRange="165-166"/>
+         </comment>
+         <comment id="n4">**<hi rendition="italics">Nepautiśke</hi> is wrong. It must be read <hi rendition="italics">kepautiśke</hi>, a name also attested in SI 5874 a7 (cf. also <hi rendition="italics">kepautile</hi> in SI P 117). The confusion lies in the fact that the 'ka' is written open (cf. the 'ko' in <hi rendition="italics">moko</hi>) like in some Berlin and Russian documents and that the bottom part is cut off. Thus it looks a lot like 'n' or 't'.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="ching2010" pageRange="449-451"/>
+         <ref litRef="pinault0000" pageRange="98-99"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc7" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 7"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>¯s we rw· yeṃ tse p[au] tke cā neṃ KA lwā wa yä <lac aks="1"/>
+               <lac/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>…s werw(i)yeṃtse pautke cāneṃ kälwāwa yä(ltse)<lac/>
+         </prose>
+      </transcription>
+      <!--<translation language="eng">
+         <line>
+            <lac/>I have obtained coins (as) the [rental] of the enclosed field ... : [one thousand]<lac/>
+         </line>
+      </translation>-->
+      <translation language="eng">
+         <line n="a1">I have received coins as rent for the garden: one thousand...</line>
+      </translation>
+      <comments/>
+      <references/>
+      <editions>
+         <ref litRef="pinault0000" pageRange="99"/>
+         <ref litRef="ching2010" pageRange="229"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc8" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 8"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="2">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">[ś]·[¯] [¯R] ·ṣu· ·t[s]· <lac/>
+            </line>
+            <line n="a2">[kweṃ] [t]o ·o ·e [w]e r·e [n]·e po k[k]e ṣṣeṃ cā neṃ o kyi ltse so lme ma ṣṣa • sa ma nta ti r[ṣ]e y[o] <lac/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>ś(we)r (k)ṣu(ṃn)ts(a) <lac/>
+            <lb n="a2"/>kweṃto(k)o(nts)e wer(wy)en(ts)e po<sic corr="t">k</sic>keṣṣeṃ cāneṃ ok yiltse solme maṣṣa • samantatirṣe yo <lac/>
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">In regnal year four...</line>
+         <line n="a2">(Someone) paid (lit. made) the coins as rent for the garden of Kweṃtoko fully <commentRef commRef="n1"/>, eight thousand. ... of Samantatir ...</line>
+      </translation>
+      <comments>
+         <comment id="n1">
+            <hi rendition="italics">solme yām</hi>- seems to be a set phrase meaning 'make ready', or in this case 'to pay off fully', cf. PK DA M 507.19 a6, PK DA M 507.37 and 36 a19.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="ching2010" pageRange="230"/>
+         <ref litRef="pinault0000" pageRange="100"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc9" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 9"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="2">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">śa ṣkä sne pa ka cāṃ ṣṣe ya rke tā ka pa ñi kte pa ke nta ka lwa wi ci na se ne kä ryā te wi śa k[ṣ]e [•]</line>
+            <line n="a2">
+               <lac aks="4"/> ṃ <lac aks="1"/> [ñ]i k·e ·ā ·e <lac aks="3"/> ·[e] <lac/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>śaṣkäsne pakacāṃṣṣe yarke tāka pañikte pakenta kalwa wi cinasene käryāte wi śak-ṣe«r» •
+            <lb n="a2"/>
+            <lac aks="4"/> ṃ (pa)ñik(t)e (c)ā(n)e <lac aks="3"/> ·e <lac/>
+         </prose>
+      </transcription>
+      <!--<translation language="eng">
+         <line n="a1">On the 16th day. There is a ceremony(?) of <hi rendition="italics">pakacāṃ</hi>. The portions (that) the Buddha obtained: two. <hi rendition="italics">Cinasene</hi> bought (by/for?) himself: two, (each sold) for eleven (coins?)</line>
+         <line n="a2">... [the Buddha] ... [coin] ... <lac/>
+         </line>
+      </translation>-->
+      <translation language="eng">
+         <line n="a1">On day sixteen, there was a <hi rendition="italics">pakaccāṃ</hi>-ceremony. The Buddha received parts: two. Cinasene bought: two, each for eleven (coins).</line>
+         <line n="a2">... the Buddha... coin(s)...</line>
+      </translation>
+      <comments/>
+      <references/>
+      <editions>
+         <ref litRef="ching2010" pageRange="230, 336-337"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc10" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 10"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus ductus="classical"/>
+            <languages>
+               <language languageName="txb" linguisticStage="late"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">śā saṃ wä rpau sa ma nta</line>
+            <line n="a2">ti rṣe yo tko la¯ ¯T yṣu wa</line>
+            <line n="a3">rsa pre KṢAṃ • tu ye si PA¯ ¯st</line>
+            <line n="a4">KA rso¯ ¯R ste ta ne sa ṅka nma</line>
+            <line n="a5">plo rī ya ceṃ ypa rwe KA rya</line>
+            <line n="a6">kā¯ ¯R ya ma ṣṣa nte • plu wa¯ ¯S</line>
+            <line n="a7">we si śa¯ ¯K me ña tse ne wai pa</line>
+            <line n="a8">rā ce koṃ mne plo ri ya [c]eṃ se</line>
+            <line n="a9">ce yna¯ ¯S pi to «†t»«k»o ro mñe tā</line>
+            <line n="a10">kaṃ tu po ai ske me • se¯ ¯[Ṣ]·</line>
+            <line n="a11">ye sī we ssa sta ma le wä</line>
+            <line n="a12">nta re tā kaṃ tu¯ ¯Ś we¯ ¯S ā</line>
+            <line n="a13">rwe¯ ¯R ne se¯ ¯M • ko ka le <lac aks="1"/>
+            </line>
+            <line n="a14">·[i] ñce¯ ¯K skā ya¯ ¯ñ KA rnā ·[i]</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <s><tr>The one having undergone instruction asks the director of Samantatir with friendliness. <commentRef commRef="n2"/></tr>
+               <lb n="a1"/><s>śāsaṃ wärpau</s> samanta-
+            <lb n="a2"/>tirṣe yotkolat yṣuwa-
+               <lb n="a3"/>rsa prekṣäṃ •</s> 
+            <s><tr>You have knowledge of it,</tr>
+               tu yesi päst
+               <lb n="a4"/>kärsor ste </s>
+            <s><tr>the saṅghas here first agreed to musicians. <commentRef commRef="n3"/></tr>
+               tane saṅkanma
+            <lb n="a5"/>plorīyaceṃ yparwe kärya-
+               <lb n="a6"/>kār yamaṣṣante • </s>
+            <s><tr>Send us musicians on day of the month ten and on the <hi rendition="italics">*parāce</hi>-day! <commentRef commRef="n4"/></tr>
+               pluwas
+            <lb n="a7"/>wesi śak meñatsene wai pa-
+               <lb n="a8"/>rāce koṃmne ploriyaceṃ </s>
+            <s><tr>Whatever their fee (and) <hi rendition="italics">koromñe</hi> is, we give them all of it; </tr>
+               <s>se
+            <lb n="a9"/>ceynas pito ko<commentRef commRef="n6"/>romñe <commentRef commRef="n1"/> tā-
+               <lb n="a10"/>kaṃ</s> tu po aiske-me •</s> se ṣ(p)
+            <s><tr>And whatever matter may need to be tended to by us for you, we are ready for it.</tr>
+               <s><lb n="a11"/><s>yesī wessa stamale</s> wä-
+            <lb n="a12"/>ntare tākaṃ</s> tuś wes ā-
+               <lb n="a13"/>rwer nesem • </s>
+            <s><tr>Try to <commentRef commRef="n5"/> buy one of the wagons for me.</tr>
+               kokale(s) <commentRef commRef="n7"/>
+               <lb n="a14"/>(m)iñcek skāyañ kärnā(ts)i</s>
+         </prose>
+      </transcription>
+      <translation/>
+      <!--<translation language="chi">
+         <line n="a1 a2 a3">遵照指示，Samantatir 的（寺院的）总管僧问好并且要求：</line>
+         <line n="a3 a4 a5 a6">正如您们所知，这里几所寺院事先为乐工准备了 käryakār*。</line>
+         <line n="a6 a7 a8">（这个）月十日与 parāce 日派给我们一些乐工！</line>
+         <line n="a8 a9 a10">如果他们有价（及？）驮（价），我们全付给你们。</line>
+         <line n="a10 a11 a12 a13">其他只要是你们向我们要求的事，我们也都准备好了。</line>
+         <line n="a13 a14">车夫们将会代表我出钱支付它。</line>
+      </translation>-->
+      <comments>
+         <comment id="n1">This looks like a late form of a putative *<hi rendition="italics">korauñe</hi> or even *<hi rendition="italics">kaurauñe</hi>. This would suggest an adjective *<hi rendition="italics">kore</hi>, which seems to be related to koro, whch Adams explains as 'herd-animal; movable chattel (??)' (possibly related to Khotanese *ggūra- 'mule', cf. <ref litRef="dragoni2022" pageRange="115"/>.</comment>
+         <comment id="n2">The interpretation in <ref litRef="ching2017" pageRange="242"/> is impossible. <hi rendition="italics">Yotkolat </hi> is an oblique and cannot be the subject of the clause. We should interpret śāsaṃ wärpau not as 遵照指示, but as a term describing an initiate, the phrase <hi rendition="italics">śāsaṃ wärp</hi>- being equivalent to Chinese 受戒.</comment>
+         <comment id="n3">
+            <hi rendition="italics">käryakār</hi> certainly is Sanskrit kriyākāra-, which <ref litRef="edgerton1953"/> translates as 'resolution, agreement'. He further says that it is used 'commonly as object of a form of kṛ', which would square perfectly with the use of <hi rendition="italics">yām</hi>- here. This sentence thus means that the saṅghas first of all made an agreement to hire musicians.</comment>
+         <comment id="n4">
+            <ref litRef="ching2017" pageRange="241"/> mentions that <hi rendition="italics">parāce</hi> could be the equivalent of 婆罗遮, a holiday clebrated in Kucha according to the 酉阳杂俎. However, this spelling of the holiday is exclusive to this particular text. All other sources have 苏幕遮 or something of that nature, which would not really fit <hi rendition="italics">parāce</hi> phonetically. During the holiday, people were wearing masks, doing dances and pranking bystanders by spraying them with muddy water or trapping them with snares. This allegedly warded off demons (cf. the 一切经音义 commentary on 大乘理趣六波罗蜜多经). This kind of pranking seemed to have been notorius. It was also enhanced by the kinds of masks that people were wearing. The first chapter of the 归依三宝品, discussing the effects of old age, says: 又如苏莫遮帽覆人面首，令诸有情见即戏弄 'Also like when the Sumozhe-cap covers a persons head and face, it makes all beings view it as a mockery.' For a full discussion, cf. <ref litRef="ching2017" pageRange="235ff"/>.</comment>
+         <comment id="n5">For <hi rendition="italics">miñcek</hi> as 'somehow', cf. <ref litRef="peyrot2018" pageRange="78-80"/>
+         </comment>
+         <comment id="n6" domain="translit">The 'ko' in <hi rendition="italics">koromñe</hi> looks like the scribe first wrote 'to' and then corrected himself. This is especially noteworthy, since we have <hi rendition="italics">toromñe</hi> in PK LC 39, which appears to be an uncorrected mistake for <hi rendition="italics">koromñe</hi>.</comment>
+         <comment id="n7">It looks like 'le' has a virāma-stroke, so the restoration <hi rendition="italics">kokale(ci)</hi> (going back to <ref litRef="pinault2008" pageRange="392"/> is very doubtful. There also doesn't seem to be a trace of an <hi rendition="italics">i</hi>-diacritic, which should be visible judging from the height of the other akṣaras. Taking these facts into account, a more plausible restoration would be kokale(s) or kokale(ś). I have decided that the genitive plural reading is better: 'Try to buy any of the wagons'. If we read it as an allative, it would not be clear what is meant: 'Buy something for the wagon'. This new reading has one problem. We would need to accept that skāya-ñ is an imperative singular when we would much rather expect a plural skāyas-ñ (like in a6 pluwas).</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="ching2017" pageRange="242"/>
+         <ref litRef="adams2012" pageRange="9"/>
+         <ref litRef="pinault2008" pageRange="392"/>
+         <ref litRef="peyrot2018" pageRange="78-80"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc11" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 11"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="8">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">snai pe ri pau śye ka rpo <lac/>
+            </line>
+            <line n="a2">kuśi ñño ro cce pi lā nti yai tko rsa <lac/>
+            </line>
+            <line n="a3">kṣa lle ne ci mpa ṣe plā ce ṣe yne· <lac aks="1"/>
+               <lac/>
+            </line>
+            <line n="a4">ra me¯ ¯R śka ka [la] si po ñe ne • e tte ·o
+               <lac/>
+            </line>
+         </recto>
+         <verso>
+            <line n="b1">
+               <lac/>[r]e tu ne¯ ¯K sa ṅkrā mśke meṃ kṣi wRA</line>
+            <line n="b2">
+               <lac/>ṣo lyo rye RA ssā [n]e piśā¯ ¯R</line>
+            <line n="b3">
+               <lac/>ce yna¯ ¯S śwā si kle se ta rya tau¯ ¯M</line>
+            <line n="b4">
+               <lac/>wā ma KA ryā mai ta rya ko rraiṃ [i] <lac/>
+            </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>snai peri pauśye karpo(ññaṃntsa) <lac/>
+            <lb n="a2"/>kᵤśiññ-oroccepi lānti yaitkorsa <lac/> (pre)<lb n="a3"/>kṣallene cimpa ṣe plāce ṣey-ne · <lac aks="1"/>
+            <lac/>
+            <lb n="a4"/>ramer śka kalasi poñene • ette ·o
+            <lac/>
+            <lb n="b1"/>
+            <lac/> re tunek saṅkrāmśkemeṃ <commentRef commRef="n1"/> kṣi wrä <commentRef commRef="n2"/>
+            <lb n="b2"/>
+            <lac/>
+            <lac aks="1"/> ṣo lyo rye rässā-ne pIśār
+            <lb n="b3"/>
+            <lac/>ceynas śwāsi klese tarya taum
+            <lb n="b4"/>
+            <lac/>wāma käryāmai tarya korraiṃ <commentRef commRef="n3"/> i(käṃ) <lac/>
+         </prose>
+      </transcription>
+      <!--<translation language="eng">
+         <line n="a1">... without owing amount, the tax ...<lac/>
+         </line>
+         <line n="a2">By the Great Kuchean king's order, <lac/>
+         </line>
+         <line n="a3">There was his reply (regarding) to the questioning together with you. ... <lac/>
+         </line>
+         <line n="a4">to bring quickly ... here in full. • ... down ...<lac/>
+         </line>
+         <line n="b1">
+            <lac/>... Therein, the monastery hither ... <lac/>
+         </line>
+         <line n="b2">
+            <lac/>... (sb.) has torn/picked (?) ..., each for five (coins) <lac/>
+         </line>
+         <line n="b3">
+            <lac/>The klese as the food to/of these (people): three pecks.</line>
+         <line n="b4">
+            <lac/>I have bought (for/by?) ourselves ... ... three mules (?) ... <lac/>
+         </line>
+      </translation>-->
+      <translation language="eng">
+         <line n="a1">Without debt, the tax... in <hi rendition="italics">karpoñña</hi>s <commentRef commRef="n4"/>
+         </line>
+         <line n="a2">On the order of the great Kuchean king...</line>
+         <line n="a3">In the court (?) <commentRef commRef="n5"/>/on the question, he had a conversation with you.</line>
+         <line n="a4">And quickly tell him <commentRef commRef="n6"/> to bring it! ... down...</line>
+         <line n="b1">... Therein, from the little monastery, two...</line>
+         <line n="b2">... he tore it out, for five (coins?) each...</line>
+         <line n="b3">...their food: klese, three pecks.</line>
+         <line n="b4">... I bought: three <hi rendition="italics">koraiñ</hi>, twenty ...</line>
+      </translation>
+      <comments>
+         <comment id="n1">Ching's reading <hi rendition="italics">saṅkrām śka mai</hi> is untenable, since there is clearly an <hi rendition="italics">e</hi>-diacricic above the 'mśka'. Also, the 'mai' looks more like a 'meṃ'.</comment>
+         <comment id="n2">The second 'w' is smaller than the first, because the scribe tried to fit it in the same line even though there wasn't much space left.</comment>
+         <comment id="n3">There is a word *ggūra- 'mule' in Khotanese (<ref litRef="dragoni2022" pageRange="115"/>, non vidi), which is probably related to this word.</comment>
+         <comment id="n4">Tiny traces of the 'ñña' are still visible. <hi rendition="italics">karpoñña</hi> also occurs in PK DA M 507.37, 36 a88 and in non-secular <fragRef fragment="m-tht1267"/> (in the latter case, it seems to be used in a kind of figura etymologica with kārp-: b2 <hi rendition="italics">ṅke ost karpoñña ñ(äś) k(ār)päsk· </hi>.</comment>
+         <comment id="n5">Adams has <hi rendition="italics">prekṣalle</hi> as 'court'.</comment>
+         <comment id="n6">I interpret <hi rendition="italics">poñe</hi> as a kind of analogical singular to <hi rendition="italics">poñes</hi>, instead of the expected <hi rendition="italics">poñ</hi>.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="ching2010" pageRange="442"/>
+         <ref litRef="pinault1994b" pageRange="91"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc12" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 12"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>m[eṃ] sa ṅka ntse pa ka ccā ñi¯ ¯ś ya¯ ¯M tsmo ññe kā m·<lac/>
+            </line>
+            <line n="a2">
+               <lac/>ya¯ ¯P «†tsmo» «†ññe» «†sa» «kä» «ryā» «mai» wi ca ka nma to waṃ ñu</line>
+            <line n="a3">
+               <lac/>
+               <lac aks="1"/>¯P tsmo ññe sa kā mmai ca ka nma wi</line>
+            <line n="a4">
+               <lac/>·e [ka] mā mte ca¯ ¯K</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>meṃ saṅkantse pakaccāñiś yam tsmoññe kām(ai) <commentRef commRef="n1"/>
+            <lac/>
+            <lb n="a2"/>
+            <lac/>yap käryāmai <commentRef commRef="n2"/> wi cakanma towaṃ ñu
+            <lb n="a3"/>
+            <lac/>(ya)p tsmoññesa kāmmai cakanma wi
+            <lb n="a4"/>
+            <lac/>·e kamāmte cak
+         </prose>
+      </transcription>
+      <!--<translation language="eng">
+         <line n="a1">[from] ... I go for the pakacāṃ of the saṃgha. [I] took (sth.) of production/profit<lac/>
+         </line>
+         <line n="a2">
+            <lac/>barley «in (the category of) the production/profit» «I bought (for/by?) myself»: two piculs, nine pecks.</line>
+         <line n="a3">
+            <lac/>I took the [barley] in (the category of) the production/profit: two piculs.</line>
+         <line n="a4">
+            <lac/>we took (for/by?) ourselves ...: 1 picul.</line>
+      </translation>-->
+      <translation language="eng">
+         <line n="a1">... from ... I go for a <hi rendition="italics">pakaccāṃ</hi> of the saṅgha. I took up interest/profit (?)...</line>
+         <line n="a2">...I bought barley «†with interest»: two piculs, nine pecks.</line>
+         <line n="a3">...I borrowed barley with interest: two piculs.</line>
+         <line n="a4">... we took ... a picul.</line>
+      </translation>
+      <comments>
+         <comment id="n1">While it is clear that <hi rendition="italics">tsmoññesa kām</hi>- means 'borrow with interest', <hi rendition="italics">tsmoññe kām</hi>- is not attested elsewhere and could probably mean something else.</comment>
+         <comment id="n2">
+            <hi rendition="italics">käryāmai</hi> is written on a small fragment that originally covered <hi rendition="italics">tsmoññesa</hi> until recently <ref litRef="ching2010" pageRange="231"/>.</comment>
+         <comment id="n3">It seems likely that the author of this document is a monk, but there is also the possibility of it being a donor. The word this document revolves around is <hi rendition="italics">tsmoññe</hi>, the meaning of which is not entirely clear, but it seems to be something like 'interest', or (from the perspective of the lender) 'profit'. We have a parallel in PK DA M 507.37, 36 a9: <hi rendition="italics">wantiśkenmeṃ tsmoñesa kamāmtte</hi>, which seems to mean 'we borrowed (the ten bolts) from Wantiśke with interest'. Thus, if we want to be consistent, we have to translate tsmoññesa kam- as 'borrow with interest'. Ching seems to avoid this kind of translation, rather opting for the cumbersome 'take in (the category of) the production/profit'. It seems implausible that the phrase tsmoññesa kām- could have meant two opposite things in Tocharian. Ching's hesitation is probably best explained by considerations of Realienkunde. Would it make sense for the author of this document to take out a loan for the monastery? If the author is a donor, it wouldn't make sense to donate to a monastery if you have to take out a loan yourself. If you are a monk, it wouldn't make sense to take out a loan 'for' a pakaccāṃ, a big donation. However, since we don't really know much about the precise nature of pakaccāṃ, it seems best to suspend judgement until we figure out what this kind of donation actually entails. But the possibility raised by Ching that the author could have been a kapyāre can be rejected. The kapyāri were illiterate. Even laymen who were higher in the hierarchy (<hi rendition="italics">tsañi, yirpṣuki</hi>) only mark documents with their finger-measure, never a signature, which suggests that they could not read or write. This doesn't mean that there was no kapyāre involved in the borrowing-process. We're probably dealing with something similar to 'Caesar pontem fecit'. </comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="ching2010" pageRange="230-231, 461"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc13" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 13"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>
+               <lac aks="1"/>ṅka ntse pa ka cci¯ ¯T ste ñi ra no sa tya ga</line>
+         </recto>
+         <verso>
+            <line n="b1">
+               <lac/>¯M tsa pña le[ṃ] lāṃ si śwa «te» sa w[e] «wa» ·e <lac/>
+            </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>(sa)ṅkantse pakaccit ste ñi rano satyaga<lac/>
+            <lb n="b1"/>
+            <lac/>…m tsapñaleṃ lāṃsiś watesa we wa ·e<lac/>
+         </prose>
+      </transcription>
+      <!--<translation language="eng">
+         <line n="a1">
+            <lac/>(sth./sb.) is <hi rendition="italics">pakaccit</hi> of/to the <hi rendition="italics">saṃgha</hi>. In addition, my, (namely) <hi rendition="italics">Satyaga-?</hi> ...<lac/>
+         </line>
+         <line n="b1">
+            <lac/>... in oder to make/build ... <hi rendition="italics">tsapñale</hi> ... secondly ...</line>
+      </translation>-->
+      <translation language="eng">
+         <line n="a1">
+            <lac/>... (something) is donated (?) <commentRef commRef="n1"/> to the saṅgha. Also for me...</line>
+         <line n="a2">
+            <lac/>... for building <hi rendition="italics">tsapñale</hi>, again...</line>
+      </translation>
+      <comments>
+         <comment id="n1">There certainly is a relation between <hi rendition="italics">pakacāṃ</hi> and <hi rendition="italics">pakaccit</hi>. <hi rendition="italics">pakaccit</hi> looks like the Tocharian form of a Sanskrit preterite participle (cf. <hi rendition="italics">nermit, anumodit, cotit</hi>, etc). Thus it seems best to translate it as 'donated'. This also suggests that <hi rendition="italics">pakaccāṃ</hi> really is originally a Sanskrit term.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="ching2010" pageRange="231-232"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc14" status="new" do_not_publish="true">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 14"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus ductus="classical"/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+            </text>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc15" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 15"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>·ñ· ṇa caṃ ndreṃ ṇyā ṇa ra kṣi te yṣu wa rsa pre kṣäṃ lā re ta tteṃ śka ya sa <lac/>
+            </line>
+            <line n="a2">
+               <lac/>te KA ryā mai ka lyā ṇa ra kṣi te ntse ṣe ri pa ryā ne MA rsā wa pa rya na tse tw· <lac/>
+            </line>
+            <line n="a3">
+               <lac/>e tte te su wa pe pre¯ ¯K ne mce¯ ¯K śka plā wa</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>(j)ñ(ā)ṇacaṃndreṃ ṇyāṇarakṣite yṣuwarsa prekṣäṃ lāre tatteṃ śka yasa <lac/>
+            <lb n="a2"/>
+            <lac/>te käryāmai kalyāṇarakṣitentse ṣeri <commentRef commRef="n1"/> paryāne märsāwa paryanatse tw· <lac/>
+            <lb n="a3"/>
+            <lac/>ette tesuwa <commentRef commRef="n2"/> peprek nemcek śka plāwa
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">Jñānarakṣite asks Jñānacandre with friendliness. Also the dear Tatte (?) ...</line>
+         <line n="a2">I bought ... The debt of Kalyāṇarakṣite ... I have forgoten. ...</line>
+         <line n="a3">I put down... immediately send a <hi rendition="italics">peprek</hi>
+            <commentRef commRef="n3"/>!</line>
+      </translation>
+      <comments>
+         <comment id="n1">Might <hi rendition="italics">ṣeri</hi> actually be <hi rendition="italics">peri</hi>?</comment>
+         <comment id="n2">for first person -uwa cf. <hi rendition="italics">pleṅkuwa, prekuwa</hi>. As far as I can see, this is the first attestation of the first person singular preterite of <hi rendition="italics">tā</hi>-.</comment>
+         <comment id="n3">This could be a form derived from <hi rendition="italics">pärk</hi>- 'ask', thus maybe 'request', but the derivation is obscure.</comment>
+      </comments>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc161" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 16.1"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>[c]· <lac aks="2"/> w· <lac aks="1"/> «tka» [k]· <lac/>
+               <lac/>[t]· [n]· <lac aks="2"/> k·</line>
+            <line n="a2">
+               <lac/>kw·i ye¯ [¯S] yṣu wa¯ ¯R tā ka [ce]¯ ¯R ·i ka <lac aks="1"/> si pyā mtso</line>
+            <line n="a3">
+               <lac/>·i· <lac/>
+               <lac/> p·a <lac aks="1"/> PA ta ci we ntse sa</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>c· <lac aks="2"/> w· <lac aks="1"/> tka k· <lac/>
+            <lac/> t(a)n(e) <lac aks="2"/> k·
+            <lb n="a2"/>
+            <lac/>kw(r)i yes yṣuwar tākacer (ñ)i ka <lac aks="1"/> si <commentRef commRef="n1"/> pyāmtso
+            <lb n="a3"/>
+            <lac/>·i· <lac/>
+            <lac/> p·a <lac aks="1"/> pätaciwentse sa
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a2">... if you are friendly <commentRef commRef="n2"/>, do... for me.</line>
+         <line n="a3">... of Pätaciwe (=Buddhajīva) ...</line>
+      </translation>
+      <comments>
+         <comment id="n1">A restoration that would make sense is <hi rendition="italics">ka(la)si</hi>, however the missing akṣara doesn't seem to be an 'l'.</comment>
+         <comment id="n2">For this kind of phrase, cf. PK LC 20 a1.</comment>
+      </comments>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc162" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 16.2"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Literary"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>nTA te yi ·[au] <lac/>
+               <lac/> RA ṣa krau pe¯ ¯Ś <lac/>
+            </line>
+            <line n="a2">
+               <lac/>
+               <lac aks="1"/>PA lsko ṣa na ṣe¯ ¯K krau pā mai yi rpo nta 2 <lac/>
+            </line>
+            <line n="a3">
+               <lac/>sa ṅkrā mnta ne po ne ślā wa ṣa ñke te <lac/>
+            </line>
+            <line n="a4">
+               <lac/>[l]· reṃ so yśke o stmeṃ la ntsi ta rka ste <lac aks="1"/>
+               <lac/>
+            </line>
+            <line n="a5">
+               <lac/>
+               <lac aks="1"/> ske ma¯ ¯R kṣa [n]·i ñ[ñ]e <lac/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>ntä te yi ·au <lac/> räṣa kraupeś<commentRef commRef="n1"/>
+            <lac/>
+            <lb n="a2"/>
+            <lac/>
+            <lac aks="1"/>pälskoṣana ṣek krau<commentRef commRef="n2"/>pāmai yirponta 2 <lac/>
+            <lb n="a3"/>
+            <lac/>saṅkrāmntane pone ślāwa ṣañ kete
+            <lb n="a4"/>
+            <lac/>l(a)reṃ soyśke ostmeṃ lantsi tarka ste <lac aks="1"/>
+            <lac/>
+            <lb n="a5"/>
+            <lac/>
+            <lac aks="1"/> …skemar kṣan(t)iññe <lac/>
+         </prose>
+      </transcription>
+      <translation language="eng">
+         <line n="a1">
+            <lac/>... for the group ... <lac/>
+         </line>
+         <line n="a2">
+            <lac/>... I always gathered good deeds of the mind. <lac/>
+         </line>
+         <line n="a3">
+            <lac/>... I brought ... into all monasteries, whose own ... <lac/>
+         </line>
+         <line n="a4">
+            <lac/>... Let the dear son leave the home... <lac/>
+         </line>
+         <line n="a5">
+            <lac/>... I ... forgiveness... <lac/>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" domain="translit">At first glance, the '¯Ś' at the end of the line looks like a 'sa', but compare the 'sa' at the beginning of a3. Also, there is a very light virāma-stroke between 'pe' and 'ŚA'. So even though the 'ŚA' looks a bit weird, it cannot be anything else.</comment>
+         <comment id="n2" domain="translit">The <hi rendition="italics">au</hi>-diacritics are written in a very peculiar way in this document. They are written like a cross: There's a vertical stroke and a horizontal, slightly bent stroke going through the vertical stroke. The <hi rendition="italics">o</hi>-diacritics are also similar to <fragRef fragment="m-tht2805"/> and <fragRef fragment="m-pkns285"/>.</comment>
+      </comments>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc163" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 16.3"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Literary"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>ṇyā na te wi nā si tā¯ ¯nT yā mṣa <lac aks="3"/> k· ca LA mntsa ku[s]a ntse pyau tka mai mu  <lac aks="1"/> tri kaṃ mp[a] <lac/>
+            </line>
+            <line n="a2">
+               <lac/>me mo [k]au na PA wa rñai ri [y]sa pa rsa sa ṅkrā mnta ne wsā wa śwa le nta pe lai k[n]e <lac/>
+            </line>
+            <line n="a3">
+               <lac/>lai k[n]e klyau si au ṣa¯ ¯P lā re ṣai¯ ¯ñ ṣe me ca me lne ta¯ ¯ṅK <lac/>
+            </line>
+            <line n="a4">
+               <lac/>·ā¯ ¯ñ [pl]ā [k]e pa lsko ne | po sta no¯ ¯[n]T pre ke tai seṃ wa tka skau śa¯ ¯K <lac/>
+            </line>
+            <line n="a5">
+               <lac/>ryā ka pi¯ ¯Ś pi kwa la ye SAṃ mpa ṣṣe ta kā wa mu <lac aks="1"/> tre ke m·a¯ ¯S<lac aks="1"/>
+               <lac/>
+            </line>
+            <line n="a6">
+               <lac/>[mnts]e <lac aks="1"/> si au ṣa¯ ¯P lā re¯ ¯ñ ṣe yce¯ ¯rñ ta ·k· ra ṣṣe<lac/>
+            </line>
+            <line n="a7">
+               <lac/>·mo¯ ¯R kṣā nti ṣṣā mntse ·i ·ū <lac aks="1"/> ka rsau ñai ta kā ne <lac aks="1"/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>ṇyānate«we» <commentRef commRef="n1"/> wināsi<commentRef commRef="n7"/> tānt yāmṣa(te) <lac aks="2"/> k· calämntsa <commentRef commRef="n2"/> kᵤsantse pyautkamai mu <lac aks="1"/> tri kaṃ mpa
+            <lb n="a2"/>
+            <lac/>me mo kau na pä warñai ri ysa<commentRef commRef="n8"/>parsa saṅkrāmntane wsāwa śwalenta pelaikne <lac/>
+            <lb n="a3"/>
+            <lac/>(pe)laikne klyausi auṣap lāre ṣaiñ ṣeme camelne taṅk <lac/>
+            <lb n="a4"/>
+            <lac/>·āñ plāke <commentRef commRef="n3"/> palskone | postanont preke taiseṃ watkaskau śak <lac/>
+            <lb n="a5"/>
+            <lac/>(tä)ryāka piś pikwala yesäṃmpa ṣṣe takāwa mu <lac aks="1"/> tre ke m·as <lac/>
+            <lb n="a6"/>
+            <lac/>mntse <lac aks="1"/> si auṣap lāreñ ṣeycerñ ta ·k· raṣṣe <lac/>
+            <lb n="a7"/>
+            <lac/>·mor kṣā<commentRef commRef="n9"/>nti ṣṣāmntse ·i ·ū <lac aks="1"/> karsauñai takāne <lac/>
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <lac/>Jñānadewe made <hi rendition="italics">tānt</hi> to worship... <commentRef commRef="n4"/>... through the <hi rendition="italics">caläm</hi>, I made ready... <lac/>
+         </line>
+         <line n="a2">
+            <lac/>... beginning with ... close to the city, I donated food in the saṅghas. The law... <lac/>
+         </line>
+         <line n="a3">
+            <lac/>To listen to the law was more dear to me. In one birth, love <commentRef commRef="n5"/>
+            <lac/>
+         </line>
+         <line n="a4">
+            <lac/>... agreement in the mind. | During the final time, I will command: ten... <lac/>
+         </line>
+         <line n="a5">
+            <lac/>... I was together with you for thirty five years... </line>
+         <line n="a6">
+            <lac/>... you were more dear to me...</line>
+         <line n="a7">
+            <lac/>... forgiveness ... he had knowledge <commentRef commRef="n6"/> ... <lac/>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1">Strangely, the only attestation of <hi rendition="italics">Jñānadeva</hi> within the Buddhist canon is an obscure text called 'Vajrayāna darśana mīmāṁsā', a śāstra of the vividha category. The context doesn't seem to fit though. In the Sanskrit text, Jñānadeva is simply a personification of knowledge itself (it also mentions <hi rendition="italics">samayadeva</hi> and <hi rendition="italics">mantradeva</hi>). Thus it can't be related to our text. The same name occurs in the corpus of Tocharian secular texts, cf. <fragRef fragment="m-tht2689" line="a13"/>, <fragRef fragment="m-hwb743" line="a7"/>. Could it be that this is the name of the scribe and could the first line actually be a kind of short 'colophon'?</comment>
+         <comment id="n2">
+            <hi rendition="italics">caläm</hi> also occurs in IOL Toch 1 b5 <hi rendition="italics">ṣñār yāmorntse calämtsa</hi> 'by the <hi rendition="italics">caläm</hi> of everyone's own deed'. It appears that <hi rendition="italics">caläm</hi> means something like 'consequence'.</comment>
+         <comment id="n3">Maybe a scribal error for <hi rendition="italics">plāki</hi>?</comment>
+         <comment id="n4">From the context, it would appear tānt means something like 'effort'.</comment>
+         <comment id="n5">Usually <hi rendition="italics">taṅkw</hi>. The use of the virāma makes clear that <hi rendition="italics">taṅk</hi> is one word.</comment>
+         <comment id="n6">I assume that <hi rendition="italics">karsauñai</hi> is the same kind of derivation as katkauña, i.e. a verbal noun from <hi rendition="italics">kärs</hi>-, so 'knowledge'. The only strange thing is the use of the oblique here. I assume that this is some kind of error, or maybe the diacritic is just ink splotches.</comment>
+         <comment id="n7" domain="translit">
+            <hi rendition="italics">te wi nā si</hi> is gradually descending, <hi rendition="italics">nā si</hi> is actually below <hi rendition="italics">tānt</hi>.</comment>
+         <comment id="n8" domain="translit">The 'y' in the '[y]sa' is the most peculiar looking 'ya' in the whole corpus.</comment>
+         <comment id="n9" domain="translit">The 'kṣā' has a tiny stubble on the top right of it, which I assume to be an <hi rendition="italics">ā</hi>-diacritic.</comment>
+         <comment id="n10">Both the ductus and the content of this document are very similar to the previous document. They certainly belong together.</comment>
+      </comments>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc17" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 17"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>
+            </line>
+            <line n="a2">w· hkhā mttāṃ sta rme a śa ri<lac/>
+            </line>
+            <line n="a3">mo ṣne se¯ ¯M kwri we si nā r· <lac/>
+            </line>
+            <line n="a4">pe lykiṃ po maṃ nte ai ṣṣi ye¯ ¯M <lac/>
+            </line>
+            <line n="a5">mā ra no po sta ñe ṣe me cā ne <lac/>
+            </line>
+            <line n="a6">śa ṅki śpa lka we [ña] [wai] <lac aks="1"/> [sso] <lac aks="1"/>
+               <lac/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>
+            <lb n="a2"/>w· hkhā mttāṃ starme aśari <lac/>
+            <lb n="a3"/>-moṣ nesem kwri wesi nār· <lac/>
+            <lb n="a4"/>pelykiṃ po maṃnte aiṣṣiyem <lac/>
+            <lb n="a5"/>mā ra no postañe ṣeme cāne <lac/>
+            <lb n="a6"/>śaṅkiś <commentRef commRef="n1"/> palka weña wai (skwa)sso(nt) <lac/>
+            <lac/>
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">... we have <hi rendition="italics">hkhā mttāṃ</hi>. The ācārya ...</line>
+         <line n="a2">... we are ... if our ...</line>
+         <line n="a3">... for the sake of ..., we were giving up everything ... </line>
+         <line n="a4">... neither the last one coin ...</line>
+         <line n="a5">... He looked <commentRef commRef="n2"/> to the Śaṅke (and) spoke and ... happy ...</line>
+      </translation>
+      <comments>
+         <comment id="n1">This seems to be the allative form of <hi rendition="italics">śaṅke</hi>. However, since <hi rendition="italics">Śaṅke</hi> has an oblique plural <hi rendition="italics">śaṅkeṃ</hi>, <hi rendition="italics">śaṅk</hi> would be a rather unexpected oblique singular. Maybe this is a different word entirely?</comment>
+         <comment id="n2">The usual form would be <hi rendition="italics">palyka</hi>. However, depalatalization is common in the secular corpus, cf. the nominative plural ending -ṃ (instead of -ñ).</comment>
+         <comment id="n3">It's not entirely clear wether this document is secular or not, but since it seems to mention the <hi rendition="italics">Śaṅke</hi>, I classify it as secular.</comment>
+      </comments>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc18" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 18"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="3">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>
+               <lac aks="1"/>
+               <lac brac="rnd" aks="3"/> [sa]¯ ¯K ca mpeṃ ta tte [s]ā ts·¯ ¯M k· ·ñ·<lac/>
+            </line>
+            <line n="a2">
+               <lac/>÷
+               <lac/>
+            </line>
+            <line n="a3">
+               <lac/>
+               <lac aks="1"/>··e ·i ··e a bhi prā yaṃ 布 <lac/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>
+            <lac aks="5"/>sak campeṃ tatte sā ts(ā)m k· ·ñ·<lac/>
+            <lb n="a2" commRef="n2"/>
+            <lac/>
+            <lac/>
+            <lb n="a3"/>
+            <lac/>
+            <lac aks="1"/>·e ·i ·· e abhiprāyaṃ <monogram>布</monogram>
+            <commentRef commRef="n3"/>
+            <lac/>
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <lac/>... they can... happiness... Tatte...<lac/>
+         </line>
+         <line n="a2">
+            <lac/>... Intention 布 <commentRef commRef="n1"/>.</line>
+      </translation>
+      <comments>
+         <comment id="n1">It isn't really clear what the Sanskrit word <hi rendition="italics">abhiprāya</hi> 'intention' is doing here. It even is in the accusative! Might this line actually be written in Sanskrit?</comment>
+         <comment id="n2" domain="translit">A horizontal line only.</comment>
+         <comment id="n3">Chinese signature bù 布 (literally “cloth”), compare PK LC 20.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="ching2010" pageRange="147-148"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc19" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 19"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>kṣe ne to tto¯ ¯K wū ·i <lac aks="1"/>
+               <lac/>
+            </line>
+            <line n="a2">
+               <lac/>[ś]·¯ ¯Ś e rka ñci ś·eṃ <lac/>
+            </line>
+            <line n="a3">
+               c«†e»«o»  cce <lac aks="2"/> mpa leṃ¯ ¯Ś pa <lac/>
+            </line>
+            <line n="a4">
+               pyā mtso • ye¯ ¯S ṣa <lac/>
+            </line>
+            <line n="a5">
+               pe ri ne śwe¯ ¯R pe ri mi <lac/>
+            </line>
+            <line n="a6">
+               se RA pe ri [ra] ·e <lac/>
+            </line>
+            <line n="a7">
+               lle kne sa mā <lac/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>(śa)k ṣene tottok wū ·i <lac aks="1"/>
+            <lac/>
+            <lb n="a2"/>
+            <lac/>ś· ś erkañciś(k)eṃ <lac/>
+            <lb n="a3"/>
+            co<commentRef commRef="n4"/>cce <commentRef commRef="n1"/>
+            <lac aks="2"/> mpa leṃś pa <lac/>
+            <lb n="a4"/>
+            pyāmtso • yes ṣa <lac/>
+            <lb n="a5"/>
+            perine śwer peri mi <lac/>
+            <lb n="a6"/>
+            se rä peri ra(m)e(r) <lac/>
+            <lb n="a7"/>
+            (pä)llekne samā <commentRef commRef="n2"/>
+            <lac/>
+         </prose>
+      </transcription>
+      <!--<translation language="eng">
+         <line n="a1">In ... <hi rendition="italics">kuṃ</hi>* the <hi rendition="italics">Tottok Wū</hi>
+            <lac/>
+         </line>
+      </translation>-->
+      <translation language="eng">
+         <line n="a1">
+            <lac/> On day twenty one, the Tottok <commentRef commRef="n3"/> Wū... <lac/>
+         </line>
+         <line n="a2">
+            <lac/>... Erkañciśke... <lac/>
+         </line>
+         <line n="a3">... of the Zhou-Dynasty... to the monastic cell with ... <lac/>
+         </line>
+         <line n="a4">Do ... ! You... <lac/>
+         </line>
+         <line n="a5">As debt: four (coins). Debt... <lac/>
+         </line>
+         <line n="a6">... the debt... quickly... <lac/>
+         </line>
+         <line n="a7">On the day of the full moon ... <lac/>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1">This adjective also occurs in Kz-222-ZS-R-02. The editors of that inscription explain it as a -<hi rendition="italics">tstse</hi> adjective of <hi rendition="italics">co</hi>, a loan word from chinese 周 (zhōu), denoting the interregnum of Wu Zetian. If this interpretation is correct, this document may be dated to 690–705.</comment>
+         <comment id="n2">This is an interesting fragment of a word. Maybe this is *<hi rendition="italics">samātstse</hi>, the Tocharian equivalent of Chinese 苏幕遮 (cf. PK LC 10 parāce)?</comment>
+         <comment id="n3">
+            <ref litRef="ching2010" pageRange="438"/> explains this word as Chinese 都督 'governer', Old Turkic <hi rendition="italics">tutuq</hi>.</comment>
+         <comment id="n4" domain="translit">The scribe originally wrote 'ce', but corrected it by writing over the 'e' with 'o'. Thus, the diacritic looks a lot like 'au'. The left stroke of the 'o' is much thicker than on the other 'o's.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="ching2010" pageRange="438"/>
+         <ref litRef="zhaoandrong2020" pageRange=""/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc20" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 20"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="5">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>rsa pre ksau | ta tteṃ yṣū wa rka tā kaṃ ·e <lac/>
+            </line>
+            <line n="a2">
+               <lac/>
+               [ś]ai pyā mtsa¯ ¯R | ceṃ ya kṣaṃ e te mā [TA] [k]· <lac aks="1"/>[¯]tT sr[au] ka[ṃ] MA tsā TA¯ ¯R</line>
+            <line n="a3">
+               <lac/>seṃ e tā si mā KA rrā tTA¯ ¯R we rwyi śke ne [o¯] ¯R  a yā mä te</line>
+            <line n="a4">
+               <lac/>
+               [ai]ś[ś]ai pyā [m]·¯ ¯R [n]· [st]·a si mā TA rka na¯ ¯t[T] ÷</line>
+            <line n="a5">
+               <lac/>nai ma ñe PA leṃ tne 布</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>(yṣuwa)rsa preksau | tatteṃ yṣūwarka tākaṃ ·e <lac/>
+            <lb n="a2"/>
+            <lac/>(ai)śai pyā<commentRef commRef="n7"/>mtsar | ceṃ yakṣaṃ ete mā tä(r)k(ana)tt sraukaṃ mätsātär
+            <lb n="a3"/>
+            <lac/> seṃ etā simā kärrā<commentRef commRef="n8"/>ttär <commentRef commRef="n1"/> werwyiśkene or ayāmäte
+            <lb n="a4"/>
+            <lac/>
+            aiśśai pyām(tsa)r n· st·a si mā tärkanatt ÷
+            <lb n="a5"/>
+            <lac/> naimañe päleṃtne <monogram>布</monogram>
+            <commentRef commRef="n2"/>
+            <lac/>
+            <lac/>
+         </prose>
+      </transcription>
+      <!--<translation language="eng">
+         <line n="a1">
+            <lac/>I ask (sb.) friendly. | Tatte <commentRef commRef="n3"/>: May he be ... friendly ... <lac/>
+         </line>
+         <line n="a2">
+            <lac/>Do ...! | You do not ... this yakṣa(?) down. They/he will die. He will starve.</line>
+         <line n="a3">
+            <lac/>They may not scold this etāsi. Do not (plant?/stake?) [wood] in the small enclosed field.</line>
+         <line n="a4">
+            <lac/>Do ...! Do not let ... (<hi rendition="italics">horizontal line</hi>)</line>
+         <line n="a5">
+            <lac/>
+            <lac/>On the 15th day of the 1st (month). Bù.<lac/>
+         </line>
+      </translation>-->
+      <translation language="eng">
+         <line n="a1">
+            <lac/>I ask with friendliness. | If he is friendly... <commentRef commRef="n4"/>
+            <lac/>
+         </line>
+         <line n="a2">
+            <lac/>Take care of...! | Don't let the <hi rendition="italics">yakṣa</hi>s down below <commentRef commRef="n5"/>. If they die, he will starve.</line>
+         <line n="a3">
+            <lac/>This <hi rendition="italics">etā</hi>-adjutant <commentRef commRef="n6"/> scolds. Wood is not to be made (?) in the garden.</line>
+         <line n="a4">
+            <lac/>Take care of...! Don't let... <lac/>
+         </line>
+         <line n="a5">First month, on the day of the full moon. Bù.</line>
+      </translation>
+      <comments>
+         <comment id="n1">sic! This is a better reading than <hi rendition="italics">kärrāntär</hi>, since seṃ must be a nominative singular. This document in particular has a tendency to write double 'tt' where we would expect a single one (<hi rendition="italics">tärkanatt</hi>). Ching's translation of <hi rendition="italics">seṃ</hi> as the direct object is impossible. In addition, I segment <hi rendition="italics">etā simā</hi>, not <hi rendition="italics">etāsi mā</hi>.</comment>
+         <comment id="n2">Chinese signature bù 布 (literally “cloth”), compare PK LC 18.</comment>
+         <comment id="n3">There seems to be a phenomenon in the letters where the person addressed is simply written in the obliquus. In PK LC 27 a2, wiryaryaupte is written in the obliquus, followed by empty space, followed by a sentence in which Wiryaryaupte does not realy play a role. Cf. also the obscure document PK LC 24 sārwaṃnteṃ. This obliquus might be translated as 'concerning X', i.e. concerning Tatte, concerning Wiryaryaupte etc.</comment>
+         <comment id="n4">This is a set phrase that occurs in the letters, cf. PK LC 16.1 <hi rendition="italics">kwri yes yṣuwar tākacer</hi>.</comment>
+         <comment id="n5">From the context, it would appear that <hi rendition="italics">yakṣa</hi> isn't the mythological creature known from Sanskrit, but rather an animal that was eaten.</comment>
+         <comment id="n6">If <hi rendition="italics">etā</hi> was the name of the adjutant, we would expect <hi rendition="italics">simā etā</hi>, cf. Ot 12 a11: <hi rendition="italics">simā kurriṅkāteṃtse</hi>
+         </comment>
+         <comment id="n7" domain="translit">The 'pyā' looks a lot like 'ryā'. However, because of the direct parallel in  a4, we should regard the top left of the akṣara as a very smushed together 'p'.</comment>
+         <comment id="n8" domain="translit">The 'rrā' has a horizontal line going through it like in 'kka'.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="ching2010" pageRange="148-149"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc21" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 21"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>p[i] ṅKAṃ o lyi śkaṃ ntsa ṣaṃ ntā ye¯ ¯Ś ce <lac/>
+            </line>
+            <line n="a2">
+               <lac/>·ā tre la lāṃ ṣa¯ ¯Ṣ tā ka ce¯ ¯R te ri sa o <lac aks="1"/>
+               <lac/>
+            </line>
+            <line n="a3">
+               <lac/>ke ne la lāṃ ṣa¯ ¯Ṣ [t]ā ka ce¯ ¯R cau ce <lac/>
+            </line>
+            <line n="a4">
+               <lac/>ye¯ ¯S tu kṣi¯ ¯ñ śa te¯ ¯ñä mā mä ske <lac/>
+            </line>
+            <line n="a5">
+               <lac/>[sa] o ko pā te¯ ¯S kā ñne ṣo tri <lac/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>piṅkäṃ olyiśkaṃntsa ṣaṃntāyeś ce <lac/>
+            <lb n="a2"/>
+            <lac/>(ś)ātre lalāṃṣaṣ tākacer terisa o <lac aks="1"/>
+            <lac/>
+            <lb n="a3"/>
+            <lac/>(mäśśa)kene lalāṃṣaṣ tākacer cau ce <lac/>
+            <lb n="a4"/>
+            <lac/>yes tukṣiñ <commentRef commRef="n1"/> śateñ mā mäske(tär) <lac/>
+            <lb n="a5"/>
+            <lac/>sa oko pātes kāñne <commentRef commRef="n2"/> ṣotri <lac/>
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <lac/>writes... for the <hi rendition="italics">ṣaṃntāye</hi> for <hi rendition="italics">Olyīśka</hi>...<lac/>
+         </line>
+         <line n="a2">
+            <lac/>If you have made grain, in the manner of...<lac/>
+         </line>
+         <line n="a3">
+            <lac/>If you have made <hi rendition="italics">mäśśakene</hi>, ... it...</line>
+         <line n="a4">
+            <lac/>You <hi rendition="italics">tukṣiñ</hi> are not rich/You are not rich <hi rendition="italics">tukṣiñ</hi>. <commentRef commRef="n3"/>
+            <lac/>
+         </line>
+         <line n="a5">
+            <lac/>The fruit of the <hi>pāte</hi>s. The sign (is) on the seal (?).<lac/>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1">cf. <hi rendition="italics">tukṣiś</hi> in PK DA M 507.37 and 36.</comment>
+         <comment id="n2">This form might be related to <hi rendition="italics">kāyne</hi> in Ot 19.1, which <ref litRef="ching2017" pageRange="51"/> translates as 'seal' (封泥)</comment>
+         <comment id="n3">On first sight, this sentence could either mean 'you <hi rendition="italics">tukṣiñ</hi> are not rich' or 'you are not rich <hi rendition="italics">tukṣiñ</hi>. I have chosen the first alternative, since in the latter case we would expect *<hi rendition="italics">yes śateñ tukṣiñ mā mäsketär</hi>.</comment>
+      </comments>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc22" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 22"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>[ra] snai kn[e] ·[i]<lac/>
+            </line>
+            <line n="a2">
+               <lac/>·sa mo yṣu wa r[s]a <lac/>
+            </line>
+            <line n="a3">
+               <lac/>·u wa rsa pre ksau snai kne [m]·[i] <lac aks="1"/>
+               <lac/>
+            </line>
+            <line n="a4">
+               <lac/>·ā <lac aks="1"/>·i ·ai | <lac aks="1"/>
+               <lac/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>ra snai kne (m)·i <lac/>
+            <lb n="a2"/>
+            <lac/>(t)samo yṣuwarsa <lac/>
+            <lb n="a3"/>
+            <lac/>(yṣ)uwarsa preksau snai kne m·i <lac aks="1"/>
+            <lac/>
+            <lb n="a4"/>
+            <lac/>·ā <lac aks="1"/>·i ·ai | <lac aks="1"/>
+            <lac/>
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <lac/>... without ... <lac/>
+         </line>
+         <line n="a2">
+            <lac/>... with much friendliness <lac/>
+         </line>
+         <line n="a3">
+            <lac/>... I ask with friendliness. Without...</line>
+      </translation>
+      <comments/>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc23" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 23"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>
+               <lac aks="1"/>
+               <space type="blank"/>si [t]ā r[n]e wai si sa tsa mo <lac/>
+            </line>
+            <line n="a2">
+               <lac/>lñe ya ma sta¯ ¯R ke rca pi «†y»«ś»ke  pa rso <lac/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>
+            <lac aks="1"/>
+            <space type="blank"/>sitārne wai sisa tsamo <lac/>
+            <lb n="a2"/>
+            <lac/>lñe yamastar kercapiśke<commentRef commRef="n2"/> parso <lac/>
+         </prose>
+      </transcription>
+      <translation language="eng">
+         <line n="a1">
+            <lac/>
+            <hi rendition="italics">Sitārne</hi> and <hi rendition="italics">Sisa</hi>... very... <commentRef commRef="n1"/>
+         </line>
+         <line n="a2">
+            <lac/>You make... Kercapiśke... letter...<lac/>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1">Maybe <hi rendition="italics">tsamo yṣuwarsa</hi> 'with much friendliness'.</comment>
+         <comment id="n2" domain="translit">It seems like the scribe initially wrote 'y' and then sloppily corrected it into 'ś'. </comment>
+         <comment id="n3">There are some sort of ornamental lines on the top and the bottom of the fragment. The bottom line seems to consist of 'o'-akṣaras turned by 90°.</comment>
+      </comments>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc24" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 24"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">sā rwaṃ teṃ <space type="blank"/> yṣu wa rsa pre ksau¯ ¯y • kro rye ne ya <lac aks="1"/>
+               <lac/>
+            </line>
+            <line n="a2">ytsi lkā¯ ¯nT ṣe wiṃ mā we¯ ¯S pwi wä rtā ka te tse <lac aks="1"/>
+               <lac/>
+            </line>
+            <line n="a3">ne se¯ ¯M mne ta [tt]e ·[ai] śke te¯ ¯P se ka¯ ¯Ṣ śa kwi kṣu ·t· <lac/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>sārwaṃteṃ <commentRef commRef="n1"/>
+            <space type="blank"/> yṣuwarsa preksauy <commentRef commRef="n2"/> • kroryene <commentRef commRef="n3"/>  ya<lac/>
+            <lb n="a2"/>ytsilkānt ṣewiṃ mā wes pwi <commentRef commRef="n4"/> wärtākatetse <lac aks="1"/>
+            <lac/>
+            <lb n="a3"/>nesemmne tatte ·ai śke tep se kaṣ śak wi kṣu(ṃn)t(sa) <lac/>
+         </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment id="n1">This word also occurs in PK DA M 507.25 as <hi rendition="italics">sarwaṃnte</hi>.</comment>
+         <comment id="n2">One would expect <hi rendition="italics">preksauś</hi> 'I ask you'. However, the akṣara after 'ksau' is clearly the same as the 'y' in 'yṣu'. This form turns out to be sprachwirklich: There is another, fragmentary example in <fragRef fragment="m-tht2806" line="a5"/>.</comment>
+         <comment id="n3">Could this have something to do with krore 'dark-coloured', cf. <ref litRef="imberciadori2022"/>?</comment>
+         <comment id="n4">The reading of this akṣara is not very secure. It could be the color term 'light blue or red', cf. <ref litRef="huard2022" pageRange="426-428"/>.</comment>
+         <comment id="n5">I have decided not to translate this fragment because it is too obscure.</comment>
+      </comments>
+      <references>
+         <ref litRef="huard2022" pageRange="426-428"/>
+         <ref pageRange="imberciadori2022"/>
+      </references>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc25" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 25"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="3">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>
+               <lac aks="1"/> ś· lā wa ne ṢA ryo¯ ¯y pa rso</line>
+            <line n="a2">
+               <lac/>kse plā wa ta tte su kli ki ka me we </line>
+            <line n="a3">
+               <lac/>ṅka ka kā re pi kcye  pi śme ññaṃ tse</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>
+            <lac aks="1"/>ś(i)lāwane <commentRef commRef="n1"/> ṣäryoy <commentRef commRef="n2"/> parso
+            <lb n="a2"/>
+            <lac/>…kse plāwa tatte sukliki kamewe…
+            <lb n="a3"/>
+            <lac/>ṅka <commentRef commRef="n3"/> kakāre pikcye piś meññaṃtse
+         </prose>
+      </transcription>
+      <!--<translation>
+         <line n="a1">
+            <lac/>... <hi rendition="italics">Ś(i)lāwate</hi>. A letter to my love (?).</line>
+         <line n="a2">
+            <lac/>Send ...! Tatte, Sukliki, Kamewe-? ...</line>
+         <line n="a3">
+            <lac/>They have invited the saṃgha ... On the 5th day of the 5th month.</line>
+      </translation>-->
+      <translation language="eng">
+         <line n="a1">
+            <lac/> I brought... to him. The letter of/to the dear one.</line>
+         <line n="a2">
+            <lac/>Send...! Tatte, the Sukliki, Kamewe...</line>
+         <line n="a3">
+            <lac/>They invited... (In the) fifth (month) on day of the month five...</line>
+      </translation>
+      <comments>
+         <comment id="n1">Or<hi rendition="italics"> ś(ä)lāwane</hi>
+         </comment>
+         <comment id="n2">This seems to be the only attestation of the genitive of <hi rendition="italics">ṣarya</hi> 'dear'. It's inflection is like that of <hi rendition="italics">śana</hi> 'wife'.</comment>
+         <comment id="n3">We shouldn't restore <hi rendition="italics">(sa)ṅka</hi> like Ching, because the expected form would be <hi rendition="italics">sāṅk</hi>.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="ching2010" pageRange="149"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc26" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 26"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>t[o] mpo¯ ¯K ya ka tā ka¯ ¯Ś [m]· uKA </line>
+            <line n="a2">
+               <lac/>·ā mma¯ ¯R ta tte ṣa mā ne sa rāṃ ntsa ste</line>
+            <line n="a3">
+               <lac/>·¯ ¯· y«†e»«ā» sa si ce meṃ lye we ma¯ ¯rŚ</line>
+            <line n="a4">
+               <lac/>·w·<lac/>[l]·[ā] l·e ka¯ ¯Ṣ śka plā wa pi ṅKce ¤</line>
+            <line n="a5">
+               <lac/>me ṃne pa rso</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>tompok yaka tākaś m(ā)ᵤk
+            <lb n="a2"/>
+            <lac/>(y)āmmar tatte ṣamāne sarāṃntsa <commentRef commRef="n1"/> ste
+            <lb n="a3"/>
+            <lac/>yā<commentRef commRef="n4"/>sasi <commentRef commRef="n2"/>cemeṃ lyewemarś
+            <lb n="a4"/>
+            <lac/>·w· <lac/>l·ā l·e kaṣ <commentRef commRef="n3"/> śka plāwa piṅkce <monogram>¤</monogram>
+            <lb n="a5" commRef="n5"/>
+            <lac/>meṃne parso
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <lac/>... was for you still now. ... not ...</line>
+         <line n="a2">
+            <lac/>... I will do/if I do... Tatte the monk is a gardener (?).</line>
+         <line n="a3">
+            <lac/>... from this i send to you... to arouse...</line>
+         <line n="a4">
+            <lac/>... send hither a <hi rendition="italics">kaṣ</hi> (?)! </line>
+         <line n="a5">Letter in the fifth month.</line>
+      </translation>
+      <comments>
+         <comment id="n1">Maybe an agent noun of <hi rendition="italics">sāry</hi>- 'plant'.</comment>
+         <comment id="n2">Maybe a form of <hi rendition="italics">yäs</hi>- 'excite (sexually).</comment>
+         <comment id="n3">Could this kaṣ have something to do with the kaṣ in PK LC 24 a3?</comment>
+         <comment id="n4" domain="translit">It looks like the scribe first wrote 'ye' and then corrected the akṣara into 'yā'.</comment>
+         <comment id="n5">This line is very small and written in the bottom right corner.</comment>
+      </comments>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc27" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 27"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="5">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac aks="4"/>·[t]· [r]· [m]·¯ ¯R śk· [p]l· wa[¯] [¯]ñä [n]· ·[k]· m· ma¯ ¯S 米 </line>
+            <line n="a2">wi rya ryau pteṃ tsa mo ytsā¯ ¯M ma skau me ñi śkai PA¯ ¯sT plā wa¯ ¯ñä wa ssī mā ne</line>
+            <line n="a3">sa¯ ¯ñä ce wä nta ne rke mā ma¯ ¯S KA rtse śo mmo tā ka tri ce śa kne米 </line>
+            <line n="b1">prā ña te</line>
+            <line n="b2">wi [s]ya</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac aks="4"/>·t· r(a)m(e)r śk(a) pl(ā)wañ n(er)k(e) m(ā) mas <monogram>米</monogram>
+            <commentRef commRef="n4"/>
+            <lb n="a2"/>wiryaryaupteṃ <space type="blank"/> tsamo ytsām maskau-me ñiśkai päst plāwañ wassī mā ne<lb n="a3"/>sañ ce wänta«re» nerke mā mas kärtse śommo tāka <commentRef commRef="n1"/> trice śakne <monogram>米</monogram>
+            <commentRef commRef="4"/>
+            <lb n="b1"/>prāñate<lb n="b2"/>wisya
+         </prose>
+      </transcription>
+      <!--<translation language="eng">
+         <line n="a1">... [quickly send hither] to me. Do [not] make (any) delay. <hi rendition="italics">Mǐ</hi>
+         </line>
+         <line n="a2">To <hi rendition="italics">Wiryaupte</hi>*: I do much <hi rendition="italics">ytsām</hi> for you/us/them(?). Send the <hi rendition="italics">ñiśka</hi>* back to me. There is no clothing (for/of me (?)).</line>
+         <line n="a3">Do not make (any) delay (of) this [affair]. Be a loyal subject (?). On the 10th day of the 3rd (month). <hi rendition="italics">Mǐ</hi>
+         </line>
+         <line n="b1">of <hi rendition="italics">Prāñate</hi>-</line>
+         <line n="b2">-<hi rendition="italics">we</hi>* (?)</line>
+      </translation>-->
+      <translation language="eng">
+         <line n="a1">
+            <lac/>Quickly send... to me! Don't make delay! 米</line>
+         <line n="a2">(To) Wiryaryaupte <commentRef commRef="n2"/>. I make much <hi rendition="italics">ytsām</hi> for us/you/them. Send the <hi rendition="italics">ñiśka</hi> back to me! I have no clothing.</line>
+         <line n="a3">Do not delay this matter! Be a good person! (In the) third (month) on day ten.</line>
+         <line n="b1 b2">Of Prāñatewe. <commentRef commRef="n3"/>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1">
+            <hi rendition="italics">tāka</hi> is a late form of <hi rendition="italics">ptāka</hi> (<ref litRef="ching2010" pageRange="232"/>, following Pinault).</comment>
+         <comment id="n2">Maybe a mistake for Wiryaupte? There is a space of one akṣara between this word and the next. Maybe this is a kind of shortened form of address, where instead of the phrase <hi rendition="italics">yṣuwarsa pärk</hi>-, we just have the name of the adressee.</comment>
+         <comment id="n3">
+            <hi rendition="italics">Prāñatewisya</hi> might be a strange form of Prajñādevasya.</comment>
+         <comment id="n4">Chinese signature mǐ 米, one of the characteristic Sogdian surnames (<ref litRef="ching2010" pageRange="233"/>).</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="ching2010" pageRange="232-233"/>
+         <ref litRef="pinault0000" pageRange="100-101"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc28" status="new" do_not_publish="true">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 28"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+            </text>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc29" status="new" do_not_publish="true">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 29"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+            </text>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc30" status="new" do_not_publish="true">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 30"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+            </text>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc31" status="new" do_not_publish="true">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 31"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+            </text>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc32" status="new" do_not_publish="true">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 32"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+            </text>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc33" status="new" do_not_publish="true">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 33"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+            </text>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc34" status="new" do_not_publish="true">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 34"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+            </text>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc35" status="new" do_not_publish="true">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 35"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content>
+            <scribalDuctus/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+            </text>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc36" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 36"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="6">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>·ñ· [p]tā s· sp· w·</line>
+            <line n="a2">
+               <lac/>[w]s· wa śwā ra KAṃ nte piśā ka</line>
+            <line n="a3">
+               <lac/>·ū ta te we ca rkwa ri ka mā te</line>
+            <line n="a4">
+               <lac/>[w]· KA[ṃ] nte śwā rka ñi¯ ¯Ś lyi pā re o mo rki ñye sa ka ṅkā laṃ</line>
+            <line n="a5">
+               <lac/>·[e] <lac aks="1"/> l·ā wa ya l[t]·e ysā re pe plya ṅko rṣṣeṃ wi ca kaṃ nma</line>
+            <line n="a6">
+               <lac/>·e<lac/>
+               <lac/>·e<lac/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>·ñ(a)ptās(e) sp· w·
+            <lb n="a2"/>
+            <lac/>ws(ā)wa śwāra käṃnte pIśāka
+            <lb n="a3"/>
+            <lac/>(p)ūtatewe carkwari kamāte
+            <lb n="a4"/>
+            <lac/>w(i) käṃnte śwārka ñiś lyipāre omorkiñyesa kaṅkālaṃ
+            <lb n="a5"/>
+            <lac/>·e (kä)l(w)āwa yalt(s)e ysāre peplyaṅkorṣṣeṃ wi cakaṃnma
+            <lb n="a6"/>
+            <lac/>·e<lac/>
+            <lac/>·e<lac/>
+         </prose>
+      </transcription>
+      <!--<translation language="eng">
+         <line n="a1">
+            <lac/>...</line>
+         <line n="a2">
+            <lac/>[I have given]: four hundred and fifty.</line>
+         <line n="a3">
+            <lac/>
+            <hi rendition="italics">Pūtatewe</hi> has taken/carried ... <hi rendition="italics">carkwari</hi> (?) ...</line>
+         <line n="a4">
+            <lac/>[two hundred] and fifty have been left to me. The animal carcasses for/in <hi rendition="italics">omorkäññe</hi>* ...</line>
+         <line n="a5">
+            <lac/>I have [obtained ...: one thousand]. Wheat: two piculs for sale.</line>
+         <line n="a6">
+            <lac/>...<lac/>
+         </line>
+      </translation>-->
+      <translation language="eng">
+         <line n="a2">
+            <lac/>I gave... : four hundred and fifty...</line>
+         <line n="a3">
+            <lac/>Pūtatewe brought <hi rendition="italics">carkwari</hi>.</line>
+         <line n="a4">
+            <lac/>... two hundred and fourty were left to me. The animal skeletons as <hi rendition="italics">omorkiñe</hi>
+            <lac/>
+            <commentRef commRef="n1"/>
+         </line>
+         <line n="a5">
+            <lac/> I received... : one hundred, for the selling of wheat <commentRef commRef="n2"/>: two piculs.</line>
+      </translation>
+      <comments>
+         <comment id="n1">For a discussion of <hi rendition="italics">kaṅkālaṃ</hi>, cf. <ref litRef="ching2011" pageRange="182"/> and <ref litRef="ching2017" pageRange="174"/>.</comment>
+         <comment id="n2">I interpret ysāre as the direct object of <hi rendition="italics">peplyaṅkorṣṣeṃ</hi> (for a similar construction, cf. PK DA M 507.19 a12.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="ching2010" pageRange="398"/>
+         <ref litRef="ching2011" pageRange="182"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc37" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 37"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="7">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>
+            </line>
+            <line n="a2">
+               <lac/>·s· św[ā] ra ca kaṃ nma : t«†ñ»«n»eṃ ññai sa</line>
+            <line n="a3">
+               <lac/>[m]· 2 wa ce ñweṃ ne ko ro¯ ¯yä lye</line>
+            <line n="a4">
+               <lac/> w· ṣe¯ ¯yä ca ka nma ṣka¯ ¯s tne ññai tau</line>
+            <line n="a5">
+               <lac/>¯Ś to wäṃ ṣka¯ ¯S ci tRA śka ya rpsa</line>
+            <line n="a6">
+               <lac/>wa śwe rne ñwe na kke KA ryau sai lye</line>
+            <line n="a7">
+               <lac/>·e ·i [t]· [ś]·a [y]a rp·a [s]e śi la mi t[r]e</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>
+            <lb n="a2"/>
+            <lac/>·s· śwāra cakaṃnma : tneṃññai sa
+            <lb n="a3"/>
+            <lac/>m· 2 wace ñweṃne koroy lye-
+            <lb n="a4"/>
+            <lac/>w· ṣey cakanma ṣkas tneññai tau
+            <lb n="a5"/>
+            <lac/>…ś towäṃ ṣkas citräśka yarpsa
+            <lb n="a6"/>
+            <lac/>…wa śwerne ñwenakke käryausai lye<lb n="a7"/>(kśai) <lac/> ·e (c)it(rä)ś(k)a yarp(s)a se śilamitre
+         </prose>
+      </transcription>
+      <!--<translation language="eng">
+         <line n="a2">
+            <lac/>... four piculs. : <hi rendition="italics">tneṃññai</hi> ...</line>
+         <line n="a3">
+            <lac/>...: 2. The last day of the 2nd (month), <hi rendition="italics">Koroy</hi> ... millet <hi rendition="italics">l</hi>. ...</line>
+         <line n="a4">
+            <lac/>... was: six piculs. <hi rendition="italics">tneññai</hi>: one peck.</line>
+         <line n="a5">
+            <lac/>(for) ...: six pecks. <hi rendition="italics">Citräśka</hi> has overseen(?).</line>
+         <line n="a6">
+            <lac/>... On the 4th day, <hi rendition="italics">Ñwenakke</hi> ... the bought [<hi rendition="italics">lyekśiye</hi>]</line>
+         <line n="a7">
+            <lac/>... [<hi rendition="italics">Citräśka</hi> has overseen(?). This (is?) <hi rendition="italics">Śilamitre</hi> ...]</line>
+      </translation>-->
+      <translation language="eng">
+         <line n="a2">
+            <lac/>... four piculs. <hi rendition="italics">tneññai</hi>...</line>
+         <line n="a3">
+            <lac/>... 2. (In the) second (month), Koroy... lyekśiye-millet...</line>
+         <line n="a4">
+            <lac/>... was ....: six piculs. tneññai: a peck.</line>
+         <line n="a5">
+            <lac/>... six pecks. Citräśka oversaw it.</line>
+         <line n="a6">
+            <lac/>... on day four, Ñwenakke... the bought lyekśiye-millet.</line>
+         <line n="a7">
+            <lac/>... Citräśka oversaw it. This... Śilamitre...</line>
+      </translation>
+      <comments/>
+      <references/>
+      <editions>
+         <ref litRef="ching2010" pageRange="337-338"/>
+         <ref litRef="pinault0000" pageRange="102"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc38" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 38"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="2">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>[c]· ś· <lac aks="1"/> ·k· <lac aks="1"/> ṣu <lac aks="2"/> ·r· ·ṣ· <lac aks="1"/> ś· [k]n· [y]ṣu w· ·k·<lac/>
+            </line>
+            <line n="a2">
+               <lac/>[ṣ]a ·e ·e ·au ·i <lac aks="1"/> ·o ·i ·i ·i <lac aks="1"/> ·aṃ ·e ·e <lac aks="1"/> ·e ā <lac aks="1"/> ·au la se ykā¯ ¯K ta llā wśk[e] yṣu wa rka ne sau ka rtse we skau¯ ¯Ś mā ·[e]<lac/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>c· ś· <lac aks="1"/>·k· <lac aks="1"/> ṣu <lac aks="2"/> ·r· ·ṣ· <lac aks="1"/>ś(a)kn(e) yṣuw(ar)k(a) <lac/>
+            <lb n="a2"/>
+            <lac/>ṣa ·e ·e ·au ·i <lac aks="1"/> ·o ·i ·i ·i <lac aks="1"/>·aṃ ·e ·e <lac aks="1"/> ·e ā <lac aks="1"/> ·au la se ykāk tallāwśke <commentRef commRef="n1"/> yṣuwarka nesau kartse weskauś mā ·e <lac/>
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <lac/>... friendly ... <lac/>
+         </line>
+         <line n="a2">
+            <lac/>... I am still happily a little miserable. I am wishing you good fortune! ... not... <commentRef commRef="n2"/>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1">Maybe a diminutive form of <hi rendition="italics">tallāw</hi>?</comment>
+         <comment id="n2">This sentence is a bit peculiar. This is the first and only attestation of <hi rendition="italics">tallāwśke</hi>. Strangely, there also is a <hi rendition="italics">tallāñciśke</hi> in <fragRef fragment="m-tht273" line="a5"/>. I assume that the sentence means something like 'I happily take up this burden for you'. For 'I wish you good fortune', cf. PK NS 101 a3.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="pinault0000" pageRange="103"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc39" status="new">
+      <header>
+         <sigla>
+            <primary siglum="PK LC 39"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="3">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac aks="3"/>[r]y· [ty]· m· [ṣ]ṣ· ·t· [e] [p]·<lac/>
+            </line>
+            <line n="a2">pi to to ro mñe KA lwā sta e pe<lac/>
+            </line>
+            <line n="a3">wra tsai e mpreṃ po ñe sā¯ ¯[ṅ]K kā<lac/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac aks="3"/>ry· t y(a)m(a)ṣṣ(an)t(e) ep(e)<lac/>
+            <lb n="a2"/>pito <sic corr="k">t</sic>oromñe <commentRef commRef="n1"/> kälwāsta epe<lac/>
+            <lb n="a3"/>wratsai empreṃ poñe <commentRef commRef="n2"/> sāṅk kā<lac/>
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <lac/>... they made... or... <lac/>
+         </line>
+         <line n="a2">Have you received the price and <hi rendition="italics">koromñe</hi> or (not)?</line>
+         <line n="a3">Answer truthfully! The saṅgha... <lac/>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1">The assumption that the scribe simply made a mistake is not that problematic, since the scribe of PK LC 10 has made the exact same mistake, but corrected himself afterwards.</comment>
+         <comment id="n2">For <hi rendition="italics">poñe</hi> instead of <hi rendition="italics">poñ</hi>, cf. PK LC 11 a4. This is corroborating evidence for <hi rendition="italics">poñe</hi> = <hi rendition="italics">poñ</hi>, since <hi rendition="italics">wrattsai we</hi>- is a set phrase that means 'answer'.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="pinault0000" pageRange="103"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc_a">
+      <header>
+         <sigla>
+            <primary siglum="PK LC A"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="3">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">me ñe ṣu kta nte</line>
+            <line n="a2">wi <lac aks="1" txtStat="illegible"/> klyū tko nta sa klyai na ṣ[ṣa] <lac/>
+            </line>
+            <line n="a3">ṣṣa me[ṃ] ñ· [ne] [TA] lyai [ne] ·e rya <lac aks="1"/>
+               <lac/>
+            </line>
+            <line n="a4">
+               <lac txtStat="illegible"/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>meñe ṣuktante
+            <lb n="a2"/>wi <lac aks="1" txtStat="illegible"/>
+            <commentRef commRef="n1"/> klyūtkontasa klyainaṣṣa <lac/>
+            <lb n="a3"/>ṣṣameṃñ(ä) ne tälyaine ·e rya <lac aks="1"/>
+            <lac/>
+            <lb n="a4"/>
+            <commentRef commRef="n2"/>
+            <lac txtStat="illegible"/>
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">Seventh month.</line>
+         <line n="a2">Two <hi rendition="italics">klyūtko</hi>s of women. <lac/>
+         </line>
+         <line n="a3">They remain for me (?)... <lac/>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" domain="translit">The illegible akṣara looks a little bit like the following 'klyū', but the <hi rendition="italics">u</hi>-diacritic is attached on the left instead of on the right. Maybe the scribe simply wrote the akṣara again and intentionally smeared the first akṣara?</comment>
+         <comment id="n2">The line seems to contain the word <hi rendition="italics">meñantsene</hi>, but I can't figure out the rest.</comment>
+         <comment id="n3">There's Chinese text on the verso. It appears to be from the Lotus-Sutra.</comment>
+      </comments>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc_b">
+      <header>
+         <sigla>
+            <primary siglum="PK LC B"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="3">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>po u ti<lac/>
+            </line>
+            <line n="a2">
+               <lac/>·e w·a sti y[i]<lac/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>po u ti<lac/>
+            <lb n="a2"/>
+            <lac/>e w·a sti yi<lac/>
+         </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc_c">
+      <header>
+         <sigla>
+            <primary siglum="PK LC C"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="3">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>
+               <lac aks="1"/>[ṣ]e <lac aks="2"/>l·a y·· wa rsa pre
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>
+            <lac aks="1"/>ṣe <lac aks="2"/>l·a y(ṣu)warsa pre(ksau)
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <lac/>I ask with friendliness...</line>
+      </translation>
+      <comments/>
+      <references/>
+      <editions>
+         <ref litRef="pinault0000" pageRange="103"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-pklc_d">
+      <header>
+         <sigla>
+            <primary siglum="PK LC D"/>
+         </sigla>
+         <physicalProperties material="paper"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="3">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Letter"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac/>ri meṃ ri ne me <lac/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac/>rimeṃ rine me <lac/>
+         </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references/>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+</corpus>

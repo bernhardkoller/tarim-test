@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schemas/fragments/bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus ../../../schemas/fragments/bte/fragments_bte.xsd">
+    <record id="m-mikiii4048">
+        <header>
+            <sigla>
+                <primary siglum="MIK III 4048"/>
+            </sigla>
+            <physicalProperties material="wood tablet" objectType="Poṭhī" writingMedium="ink"/>
+            <provenance repository="Asian Art Museum (Berlin)" findspot="Unknown"/>
+            <content writtenLines="2">
+                <scribalDuctus/>
+                <languages>
+                    <language languageName="txb"/>
+                </languages>
+                <text>
+                    <genre genre="Non-literary" subgenre="Colophon"/>
+                    <proseVerse proseVerse="prose"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1"> /// mi tra wa rme pai kā nte pa ñä</line>
+                <line n="a2">KTA ñe pe rne ṣṣe a kā lksa ñu weṃ ne sa ṅka tse ā yo¯ ¯R wsa re a mplā KAṃ
+                    tte PA rnā si¯ ¯M mā pra lle ste</line>
+            </recto>
+        </transliteration>
+        <transcription>
+            <prose>
+                <lb n="a1"/> /// mitrawarme paikānte pañä<lb n="a2"/>ktäñe perneṣṣe akālksa ñuweṃne
+                saṅkatse āyor wsare amplākäṃtte pärnā-sim mā pralle ste </prose>
+        </transcription>
+        <translation>
+            <line n="a1">
+                <tr>Mitravarman [and] ... wrote [this book] because of the</tr>
+            </line>
+            <line n="a2">
+                <tr>wish for the dignity of Buddha[hood] [and] they donated [it] to the monastery on the
+                    [day] of the new moon. [It] is not to be taken outside of the boundary [of the
+                    monastery] without permission!</tr>
+            </line>
+        </translation>
+        <comments>
+            <comment id="n1" type="philcomment">Reading and translation based on <ref
+                litRef="ogihara2014" pageRange="114"/>.</comment>
+        </comments>
+        <references/>
+        <editions>
+            <ref litRef="ogihara2014" pageRange="114"/>
+        </editions>
+        <publication>
+            <publicationDate date="2015-12-10">2015-12-10</publicationDate>
+            <contributors>
+                <contributor name="Melanie Malzahn" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+</corpus>

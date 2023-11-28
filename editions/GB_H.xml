@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schemas/fragments/bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus ../../../schemas/fragments/bte/fragments_bte.xsd">
+   <record id="m-h14923">
+      <header>
+         <sigla>
+            <primary siglum="H 149.23"/>
+            <secondary siglum="H 149.X 23"/>
+         </sigla>
+         <physicalProperties material="paper"
+                             objectType="Poṭhī"
+                             writingMedium="ink"
+                             height="7.1"
+                             width="21.3"/>
+         <provenance repository="British Library (London)" findspot="Unknown"/>
+         <content writtenLines="6">
+            <scribalDuctus ductus="classical"/>
+            <languages>
+               <language languageName="san"/>
+               <language languageName="txb" linguisticStage="classical"/>
+            </languages>
+            <text title="Karmavācanā">
+               <genre genre="Literary" subgenre="Vinaya"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">ñcā śaṃ cā tu ṣpa ñcā śaṃ tra yo pa ñcā śaṃ dvā pa ñcā śaṃ e ka pa ñcā śaṃ pa ñc[ā] śa[ṃ] va rṣ[ā] ṇāṃ ś[ai] [yyā]</line>
+            <line n="a2">sa naṃ grā ha yā mi ta ta ḥ pa ścā de ko na pa ñcā śa dva rṣā ṇāṃ a ṣṭa ca tvā riṃ śa dyā va taṃ</line>
+            <line n="a3">ca tvā ri ñśa dva rṣā ṇāṃ śai yyā sa naṃ grā ha yā mi ta ta ḥ pa ścā e ko na ca tvā ri</line>
+            <line n="a4">ñśa dyā va taṃ tri ñśa ti va rṣā ṇāṃ a ne na pa ryā ye ṇa a va rṣi kā nāṃ śai yyā</line>
+            <line n="a5">sa na[ṃ] grā ha yā mi ta ta ḥ pa ścā cchra ma ṇo nde śā nāṃ śai yyā sa naṃ grā ha yā mi sa rve ṣāṃ</line>
+            <line n="a6">ya thā vṛ ddhi ka[ṃ] śa yyā sa naṃ grā ha yi ta vyaṃ ta tsa rve ṣāṃ vi di ta ma stu || te <lac aks="1"/>
+            </line>
+         </recto>
+         <verso>
+            <line n="b1">a nta ra va <lac aks="2"/> y· <lac aks="1"/> c· r· tya ma ṣlo [na] || sa ma tvā <lac aks="1"/> [ṇo] [t]u me ā yu ṣma [n]ta [ḥ] [a]</line>
+            <line n="b2">ha[ṃ] a rya so mo bhi kṣu rglā no ma ha lla ka ḥ saṃ ghā nmā rge da ṇḍa śi kya sa nma</line>
+            <line n="b3">tiṃ yā cā mi saṃ gho me a rya so ma sya bhi kṣo glā na sya ma ha l[l]a ka <lac aks="1"/>
+            </line>
+            <line n="b4">mā rge da ṇḍa śi kya sa[ṃ] ma tiṃ sa nma nya tu • a nu ka mpā mu pā dā ya</line>
+            <line n="b5">e vaṃ dvi ra pi tri ra pi || te sa ṣpī ki ye ya ska ṢṢA lya || śṛ ṇo tu bha da nta ḥ saṃ</line>
+            <line n="b6">gha ḥ a yaṃ a rya so mo bhi kṣu rglā no na ha lla ka ḥ saṃ ghā nmā rge da ṇḍa sa mma tiṃ</line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <passage name="Śayyāsana-vastu"/>
+            <lb n="a1" commRef="n1"/> …ñcāśaṃ cātuṣpañcāśaṃ trayopañcāśaṃ dvāpañcāśaṃ ekapañcāśaṃ pañcāśaṃ varṣāṇāṃ śaiyyā<lb n="a2"/>sanaṃ grāhayāmi tataḥ paścād ekonapañcāśad varṣāṇāṃ aṣṭacatvāriṃśad yāvataṃ <lb n="a3"/> catvāriñśad varṣāṇāṃ śaiyyāsanaṃ grāhayāmi tataḥ paścā ekonacatvāri<lb n="a4"/>ñśad yāvataṃ triñśati varṣāṇāṃ anena paryāyeṇa avarṣikānāṃ śaiyyā<lb n="a5" commRef="n2"/>sanaṃ grāhayāmi tataḥ paścāc chramaṇondeśānāṃ śaiyyāsanaṃ grāhayāmi sarveṣāṃ <lb n="a6"/> yathāvṛddhikaṃ śayyāsanaṃ grāhayitavyaṃ tat sarveṣāṃ viditam astu || te <lac aks="1"/>
+            <lb n="b1"/> antara va <lac aks="2"/> y· <lac aks="1"/> c· r· t yamaṣlona || samatvā <lac aks="1"/> ṇotu me āyuṣmantaḥ a<lb n="b2" commRef="n3"/>haṃ aryasomo bhikṣur glāno mahallakaḥ saṃghān mārge daṇḍaśikyasanma<lb n="b3"/>tiṃ yācāmi saṃgho me aryasomasya bhikṣo glānasya mahallaka <lac aks="1"/>
+            <lb n="b4"/> mārge daṇḍaśikyasaṃmatiṃ sanmanyatu • anukampām upādāya <lb n="b5"/> evaṃ dvir api trir api || tesa ṣpīkiye yaskaṣṣälya || śṛṇotu bhadantaḥ saṃ<lb n="b6" commRef="n4"/>ghaḥ ayaṃ aryasomo bhikṣur glāno nahallakaḥ saṃghān mārge daṇḍasammatiṃ </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment id="n1" type="philcomment">
+            <hi>cātuṣpañcāśaṃ</hi>: the akṣara <hi>tu</hi> has been added under the line.</comment>
+         <comment id="n2" type="philcomment">
+            <hi>chramaṇondeśānāṃ</hi>: for <hi>chramaṇoddeśānāṃ</hi>; the akṣara <hi>ṇo</hi> has been added under the line.</comment>
+         <comment id="n3" type="philcomment">
+            <hi>aryasomo</hi>: the scribe originally wrote <hi>aryasomasya</hi> and corrected it afterwards.</comment>
+         <comment id="n4" type="philcomment">
+            <hi>aryasomo</hi>: the scribe originally wrote <hi>aryasomasya</hi> and corrected it afterwards.</comment>
+      </comments>
+      <references>
+         <ref type="other" litRef="hirakawa1960" pageRange="81-90"/> [CHECK]</references>
+      <editions>
+         <ref litRef="hoernle1916" pageRange="8-11"/>
+         <ref litRef="ogihara2009" pageRange="162-163"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Michaël Peyrot" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-h14935">
+      <header>
+         <sigla>
+            <primary siglum="H 149.35"/>
+            <secondary siglum="H 149.X.35"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance repository="British Library (London)" findspot="Unknown"/>
+         <content writtenLines="5">
+            <scribalDuctus ductus="classical"/>
+            <languages>
+               <language languageName="san"/>
+               <language languageName="txb" linguisticStage="classical"/>
+            </languages>
+            <text title="Varṇārhavarṇastotra">
+               <genre genre="Literary"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  te tva yya pi pra hṛ taṃ ya yā 6 a ho sa[ṃ] sā ra d[au] rā  /// </line>
+            <line n="a2"> ///  ka 7 [nā] nā ga ta bhyaṃ no ktaṃ na ne trī na pra vṛ ti tā • na</line>
+            <line n="a3"> ///  pra mu khā kṛ ta bu ddha ya ḥ gu pta ye na sa mā di ṣṭā ḥ ka</line>
+            <line n="a4"> ///  • sa tyā lo ko pi lo ko yaṃ ta ma se vā va gu ṇṭhi ta 10</line>
+            <line n="a5"> ///  d[au] ra sā 10-1 t[v]a d[ṛ] te tu [ja] gaṃ nā tha ga ta ma rthā n·a [ra]ṃ</line>
+         </recto>
+         <verso>
+            <line n="b1"> ///  ya mā na gu ṇau ja sa ḥ ja ni ta vra ṇa do ṣa sya ka lpā nt·</line>
+            <line n="b2"> ///  da nā ga sya sa ra sa ḥ śrī ri vā ci ra nā śi nī ḥ 10 4</line>
+            <line n="b3"> /// <lac aks="1"/> ṇaṃ bu ddhā nāṃ va śa va rti nā mi ti 10 5 || va rṇā rha va rṇe</line>
+            <line n="b4"> ///  mā pta śca • ca tu ḥ śa ta ka¯ ¯m kṛ ti rā cā rya bha da nta mā</line>
+            <line n="b5"> ///  ·[k]· pai yka tsi : pa ñä kti pe rne ṣ[ṣ]e a kā lk·a : || ||</line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <passage name="12, 6d-end"/>
+            <lb n="a1"/> ///  (sarvākārabalope)te tvayy api prahṛtaṃ yayā 6 aho saṃsāradaurā(tmyam)  /// <lb n="a2"/> ///  (karuṇātma)ka 7 nānāgatabhyaṃ noktaṃ na netrī na pravṛtitā • na <lb n="a3"/> ///  (mahākāśyapānanda)pramukhā kṛtabuddhayaḥ guptaye na samādiṣṭāḥ ka<lb n="a4"/>(lyāṇasyāsya)  ///  • saty āloko 'pi loko 'yaṃ tamasevāvaguṇṭhita 10 <lb n="a5"/> ///  (tva)daurasā 10-1 tvadṛte tu jagaṃ nātha gatam arthān(t)araṃ <lb n="b1"/> ///  (mlā)yamānaguṇaujasaḥ janitavraṇadoṣasya kalpānt(a)<lb n="b2"/>(ramatāntaraiḥ)  ///  (hṛ)danāgasya sarasaḥ śrīr ivāciranāśinīḥ 10-4 <lb n="b3"/> /// <lac aks="1"/> ṇaṃ buddhānāṃ vaśavartinām iti 10-5 || varṇārhavarṇe <lb n="b4"/> ///  (sa)māptaś ca • catuḥśatakam kṛtir ācāryabhadantamā<lb n="b5"/>(tṛceṭasya)  ///  (yāt)k(a) paiykatsi : pañäkti perneṣṣe akālk(s)a : || || </prose>
+      </transcription>
+      <translation>
+         <line n="b5">
+            <tr litRef="thomas1969b" pageRange="54"/>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="philcomment">Also numbered H.149.X.35. The ms. is Sanskrit, but has a Tocharian B postscript after the Sanskrit colophon. I have copied the recto from Hartmann’s and Hoernle’s editions and used these and Hoernle’s facsimile (l.c. facs. 4 on plate 3) for the verso.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="hoernle1916" pageRange="83"/>
+         <ref litRef="couvreur1966" pageRange="180"/>
+         <ref litRef="hartmannju1987" pageRange="318-325"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Michaël Peyrot" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-hadd149153">
+      <header>
+         <sigla>
+            <primary siglum="H add.149.153"/>
+            <secondary siglum="H add.149.153"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance repository="British Library (London)" findspot="Unknown"/>
+         <content writtenLines="2">
+            <scribalDuctus ductus="classical"/>
+            <languages>
+               <language languageName="san"/>
+               <language languageName="txb" linguisticStage="classical"/>
+            </languages>
+            <text title="anaparāddhastotra, 25d-26b">
+               <genre genre="Literary"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> /// <lac aks="1"/> • mā ra sya • ma ra ntse • te  /// </line>
+            <line n="a2"> ///  [¯m] ka krau pau • ji ta ka [le]  /// </line>
+            <line n="a3"> /// <lac aks="1"/> tā ko¯ ¯yä u ddhṛ ta  /// </line>
+            <line n="a4"> ///  ¯m∘ a ke  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> /// <lac aks="1"/> • mārasya • marantse • te  /// <lb n="a2"/> ///  …m kakraupau • jitakale  /// <lb n="a3"/> /// <lac aks="1"/> tākoy uddhṛta  /// <lb n="a4"/> ///  …m ake  /// </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment id="n1" type="philcomment">I have not seen a facsimile of this manuscript, and based myself fully on Couvreur’s edition. The verso is not given by Couvreur, but it contains a Tocharian B - Sanskrit bilingual of a different content (l.c.).</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="couvreur1966" pageRange="180-181"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Michaël Peyrot" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+</corpus>

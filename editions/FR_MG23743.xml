@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schemas/fragments/bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus ../../../schemas/fragments/bte/fragments_bte.xsd">
+    <record id="m-mg23743">
+        <header>
+            <sigla>
+                <primary siglum="MG 23743"/>
+            </sigla>
+            <physicalProperties material="wall" writingMedium="ink"/>
+            <provenance repository="Musée Guimet (Paris)"/>
+            <content writtenLines="">
+                <scribalDuctus ductus="classical"/>
+                <languages>
+                    <language languageName="txb" linguisticStage="classical"/>
+                </languages>
+                <text>
+                    <genre genre="Literary" subgenre="Painting caption"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1">a va dāṃ li pa¯ ¯R [ś]· [v]· <lac aks="1"/> ñc·</line>
+            </recto>
+        </transliteration>
+        <transcription>
+            <prose>
+                <lb n="a1"/> avadāṃ lipar ś· v· <lac aks="1"/> ñc· </prose>
+        </transcription>
+        <translation/>
+        <comments>
+            <comment id="n1" type="remarks">The press mark is provisional!</comment>
+        </comments>
+        <references/>
+        <editions/>
+        <publication>
+            <contributors>
+                <contributor name="Michaël Peyrot" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+</corpus>

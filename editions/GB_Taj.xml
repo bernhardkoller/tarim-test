@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schemas/fragments/bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus ../../../schemas/fragments/bte/fragments_bte.xsd">
+    <record id="m-taj2">
+        <header>
+            <sigla>
+                <primary siglum="Taj 2"/>
+            </sigla>
+            <physicalProperties/>
+            <provenance repository="British Library (London)" findspot="Tajik"/>
+            <content writtenLines="2">
+                <scribalDuctus/>
+                <languages>
+                    <language languageName="txb"/>
+                </languages>
+                <text>
+                    <genre genre="Non-literary" subgenre="Account"/>
+                    <proseVerse proseVerse="prose"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1">| sa ke ta ṣi | mu rwī ri ṣi | cai cā ni pa lkä ṣi</line>
+            </recto>
+            <verso>
+                <line n="b1">mi ke po pta ma ṣeṃ cā neṃ a sā lle ka mā te pśā ka •</line>
+                <line n="b2"> ///  sa kā mai <lac aks="2"/>
+                </line>
+            </verso>
+        </transliteration>
+        <transcription>
+            <prose>
+                <lb n="a1"/> | saketaṣi | murwīriṣi | cai cāni palkäṣi <lb n="b1"/> mike po ptamaṣeṃ cāneṃ asālle kamāte pśāka • <lb n="b2"/> ///  sa kāmai <lac aks="2"/>
+            </prose>
+        </transcription>
+        <translation>
+            <line n="a1">
+                <tr>(Coins) pertaining to *<hi>Saketa</hi>. (Coins) pertaining to *<hi>Murwīri</hi>. These (are) coins pertaining to *<hi>Palkä</hi>.</tr>
+            </line>
+            <line n="b1">
+                <tr>
+                    <hi>Mike</hi> has carried all the <hi>stūpa</hi>(s)' coins (as the ammount) to be brought: fifty. •</tr>
+            </line>
+            <line n="b2">
+                <tr>/// I have carried/taken ... – –</tr>
+            </line>
+        </translation>
+        <comments>
+            <comment id="n1" type="remarks">Line <fragRef line="b2"/> is turned by 180°.</comment>
+        </comments>
+        <references>
+            <ref type="other" litRef="levi1928" pageRange="1030"/>
+            <ref type="other" litRef="ching2010" pageRange="308"/>
+        </references>
+        <editions/>
+        <publication/>
+    </record>
+</corpus>

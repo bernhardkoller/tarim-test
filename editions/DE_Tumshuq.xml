@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schemas/fragments/bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus ../../../schemas/fragments/bte/fragments_bte.xsd">
+    <record id="m-tumsuq97">
+        <header>
+            <sigla>
+                <primary siglum="Tumšuq 97"/>
+            </sigla>
+            <physicalProperties material="wood tablet" objectType="Woodslip" writingMedium="ink"
+                height="4" width="18.5"/>
+            <provenance repository="National Library of China" findspot="Unknown"/>
+            <content writtenLines="4">
+                <scribalDuctus ductus="classical"/>
+                <languages>
+                    <language languageName="txb" linguisticStage="classical">
+                        <secondaryFeatures linguisticStage="late"/>
+                    </language>
+                </languages>
+                <text>
+                    <genre genre="Non-literary" subgenre="Account"/>
+                    <proseVerse proseVerse="prose"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1">PA rwe ṣe kṣu tsa ra paṃ ñe me nne tri y[ā] ka ne ra pa tsai ya ṣi ne
+                    SA[nma] s[so] nTAṃ¯ <lac aks="1" brac="rnd"/>
+                    <lac aks="1"/>
+                </line>
+                <line n="a2">ka le mo¯ ¯T la[¯] [¯]cä o ktau | sa swe klai na[¯] [¯]tS mo¯ ¯T yā tka wi
+                    tau | sa rā tsa[ṃ]¯ ¯tS cā *ñu</line>
+                <line n="a3">tau | ta rma mi ttro rśai w[r]a tsai wi tau | <lac aks="7"/>
+                </line>
+                <line n="a4">wa te yo ka le mo¯ ¯T la cä cā¯ ¯K sa nai tau</line>
+            </recto>
+        </transliteration>
+        <transcription>
+            <prose>
+                <lb n="a1" commRef="n5 n6 n7"/> pärweṣe kṣutsa rapaṃñe menne triyākane rapatsai yaṣine
+                sÄnmassontäṃ(ts) (yo)<lb n="a2" commRef="n8"/>kale mot lac ok tau | saswe klainats mot
+                yātka wi tau | sarātsaṃts cā(k) ñu <lb n="a3"/> tau | tarmamittrorśai wratsai wi tau |
+                <lac aks="7"/>
+                <lb n="a4"/> wate yokale mot lac«†ä» cāk sanai tau </prose>
+        </transcription>
+        <translation>
+            <line n="a1">
+                <tr>In the first regnal year, on the thirtieth [day] of the <hi>Rāp</hi> Month [= the
+                    last month of the year], in the night [of the feast] <hi>Rāp</hi>, for the Appeasers
+                    (?)</tr>
+            </line>
+            <line n="a2">
+                <tr>alcohol for drinking went [out] [in the amount of] eight <hi>tau</hi>. | The lord
+                    ordered [to give] two <hi>tau</hi> of alcohol to the women, | [and an amount of] one
+                    <hi>cāk</hi>, nine <hi>tau</hi> to the planters, |</tr>
+            </line>
+            <line n="a3">
+                <tr>two <hi>tau</hi> towards <hi>Tarmamitrorśa</hi> (or: <hi>Tarmamitre</hi>, the
+                    <hi>Orśa</hi>) | (For ...)</tr>
+            </line>
+            <line n="a4">
+                <tr>again alcohol for drinking went [out] [in the amount of] one <hi>cāk</hi>, one
+                    <hi>tau</hi>.</tr>
+            </line>
+        </translation>
+        <comments>
+            <comment id="n1" type="lingcomment">Note the depalatalization in <hi>menne</hi>.</comment>
+            <comment id="n2" type="philcomment">The translation follows <ref
+                litRef="ogiharaandpinault2010" pageRange="180"/>.</comment>
+            <comment id="n3" type="remarks">Provisorial pressmark;</comment>
+            <comment id="n4" type="remarks">Photograph published in <ref
+                litRef="nationallibraryofchina2006" pageRange="97"/> without press mark; precise find
+                spot is unknown, "Tumšuq" as indicated by the publishers is possible.</comment>
+            <comment id="n5" type="lingcomment">
+                <hi>kṣutsa</hi> for <hi>kṣuntsa</hi> or <hi>kṣuṃntsa</hi> probably reflects the loss of
+                the nasal rather than a simple misspelling (<ref litRef="ogiharaandpinault2010"
+                    pageRange="176f"/>.).</comment>
+            <comment id="n6" type="philcomment">For the feast <hi>Rāp</hi> 'New Year's Eve' (?), see
+                <ref litRef="pinault2008" pageRange="363f"/>., <ref litRef="ogiharaandpinault2010"
+                    pageRange="188-192"/> and <ref litRef="adams2013a" pageRange="573f"/>.</comment>
+            <comment id="n7" type="philcomment">For the meaning of <hi>sänmassu</hi>* adj. 'calm' &gt;
+                'people pertaining to the appeasing ritual', see the discussion by <ref
+                    litRef="ogiharaandpinault2010" pageRange="184f"/>.</comment>
+            <comment id="n8" type="lingcomment">
+                <hi>sarātsaṃts</hi> is a gen.pl. of a nomen agentis in -<hi>ntsa sarāntsa</hi>* made
+                from <lemmaRef lemma="E_B_sār_G"/> 'to plant' (<ref litRef="ogiharaandpinault2010"
+                    pageRange="185"/>).</comment>
+        </comments>
+        <references>
+            <ref type="Publication" litRef="nationallibraryofchina2006" pageRange="97"/>
+        </references>
+        <editions>
+            <ref litRef="ogiharaandpinault2010"/>
+        </editions>
+        <publication>
+            <publicationDate date="2015-09-02">2015-09-02</publicationDate>
+            <contributors>
+                <contributor name="Melanie Malzahn" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+</corpus>

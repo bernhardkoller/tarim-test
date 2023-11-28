@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schemas/fragments/bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus ../../../schemas/fragments/bte/fragments_bte.xsd">
+    <record id="m-s1">
+        <header>
+            <sigla>
+                <primary siglum="S 1"/>
+            </sigla>
+            <physicalProperties/>
+            <provenance/>
+            <content writtenLines="">
+                <scribalDuctus/>
+                <languages>
+                    <language languageName="san"/>
+                    <language languageName="txb"/>
+                </languages>
+                <text/>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1">n· [rvā] [ṇaṃ] <lac aks="2"/> rpā pa ñca yu ga va rga ḥ su khe na ca  /// </line>
+                <line n="a2">na sa mya ksaṁ bu ddha bhā ṣi ta m || || ba hu [p]·  /// </line>
+                <line n="a3">
+                    <lac aks="1"/> • sa tyā nu va rthä KA ntwa sa ai śa mñe sa  /// </line>
+                <line n="a4">LA ktse tse u dāṃ śā stRA • meṃ ñä kte  /// </line>
+                <line n="a5">śpā lmeṃ cwī ślo ka nma ṣṣi • TA ryā ka trai c·  /// </line>
+                <line n="a6">a su re yu ka tsyā rwe¯ ¯R • lā  /// </line>
+            </recto>
+            <verso>
+                <line n="b1">bo dhyā ṅkṣi nau mye nta ce śā sTA n  /// </line>
+                <line n="b2">mu dTA¯ ¯R u tpa tti ṣeṃ pre ṅkeṃ tsa pe ñi y·  /// </line>
+                <line n="b3">• 3 pe lai kne ṣṣai ke ktse nn· a ra ñc· ra  /// </line>
+                <line n="b4">r· mpre nma • nrai kle ṅke ntsa tSA lpā tsi śä  /// </line>
+                <line n="b5"> ///  śpā lmeṃ śā stRA 4 po po yśi ntaṃ  /// </line>
+                <line n="b6">po ·[au] <lac aks="2"/> [nne] LA k[s]e ttse e [ñ]e tsñe sa • po ai ś·  /// </line>
+            </verso>
+        </transliteration>
+        <transcription>
+            <prose>
+                <lb n="a1"/> n(i)rvāṇaṃ (dṛṣṭi)r pāpañ ca yugavargaḥ sukhena ca  /// <lb n="a2"/> na samyaksaṁbuddhabhāṣitam || || bahup·  /// <lb n="a3"/>
+                <lac aks="1"/> • satyānuvarthä käntwasa aiśamñesa  /// <lb n="a4"/> läktsetse udāṃ śāsträ • meṃ-ñäkte  /// <lb n="a5"/> śpālmeṃ cwī ślokanmaṣṣi • täryāka trai c·  /// <lb n="a6"/> asure yukatsy ārwer • lā  /// <lb n="b1"/> bodhyāṅkṣi naumyenta ce śāstän  /// <lb n="b2"/> mudtär utpattiṣeṃ preṅkeṃtsa peñiy·  /// <lb n="b3"/> • 3 pelaikneṣṣai kektsenn· arañc· ra  /// <lb n="b4"/> r= (e)mprenma • nrai kleṅkentsa tsälpātsiśä  /// <lb n="b5"/> ///  śpālmeṃ śāsträ 4 po poyśintaṃ  /// <lb n="b6"/> po · au <lac aks="2"/> nne läksettse eñetsñesa • po aiś·  /// </prose>
+        </transcription>
+        <translation/>
+        <comments>
+            <comment id="n1" type="philcomment">a1. n[i](rvāṇaṁ) [dṛṣṭi]r = pāpañ = ca yugavargaḥ sukhena ca ——————————</comment>
+            <comment id="n2" type="philcomment">a2. na samyaksaṁbuddhabhāṣitam || || bahu (p.) ———————</comment>
+            <comment id="n3" type="philcomment">a3. <txq>.ʃ satyānuvarthä _kantwa sa aiśamñe sa ———</txq>
+            </comment>
+            <comment id="n4" type="philcomment">a4. <txq>_laktse tse udāṁ śāst_r ʃ meṁ ñäkte ————</txq>
+            </comment>
+            <comment id="n5" type="philcomment">a5. <txq>śpālmeṁ cwī ślokanmaṣṣi ʃ _taryāka trai c. ——</txq>
+            </comment>
+            <comment id="n6" type="philcomment">a6. <txq>asure yukatsy = ārwe_r ʃ lā ———————</txq>
+            </comment>
+            <comment id="n7" type="philcomment">b1. <txq>bodhyāṅkṣi naumyenta ce śās_tan —————</txq>
+            </comment>
+            <comment id="n8" type="philcomment">b2. <txq>muddha_r utpattiṣeṁ preṅkeṅ = tsa peñiy. ———</txq>
+            </comment>
+            <comment id="n9" type="philcomment">b3. ʃ III pelaikneṣṣai kektsen n. arañc. ra ————</comment>
+            <comment id="n10" type="philcomment">b4. <txq>r = [e]mprenma ʃ nrai kleṅken = tsa t_salpātsi = śä</txq>
+            </comment>
+            <comment id="n11" type="philcomment">b5. <txq>—— śpālmeṁ śāst_r IV po poyśintaṁ ———</txq>
+            </comment>
+            <comment id="n12" type="philcomment">b6. <txq>po . (au) – – (nne) _lak(s)en = tse e(ñ)etsñe sa ʃ po aiś. ——</txq>
+            </comment>
+        </comments>
+        <references/>
+        <editions/>
+        <publication>
+            <publicationDate date="2014-08-29">29 August 2014</publicationDate>
+            <contributors>
+                <contributor name="Michaël Peyrot" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+</corpus>

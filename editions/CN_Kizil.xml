@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schemas/fragments/bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus ../../../schemas/fragments/bte/fragments_bte.xsd">
+    <record id="m-kizilbs5" status="new">
+        <header>
+            <sigla>
+                <primary siglum="Kizil BS-5"/>
+            </sigla>
+            <physicalProperties objectType="Scroll" writingMedium="ink" material="paper"/>
+            <provenance findspot="Qizil" specificFindspot="谷西区"/>
+            <content>
+                <scribalDuctus/>
+                <languages>
+                    <language languageName="txb"/>
+                </languages>
+                <text/>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1">
+                    <lac/> [ya] <lac/>
+                </line>
+                <line n="a2">
+                    <lac/>·[t]RA a mā cä nts[o] <lac/>
+                </line>
+                <line n="a3">
+                    <lac/>dRA ṣṭā¯ ¯nT me [n]· <lac/>
+                </line>
+                <line n="a4">
+                    <lac/>[rwo] ya ma ṣle :</line>
+            </recto>
+            <verso>
+                <line n="b1">
+                    <lac/>n· ṢA ke [dRA]<lac/>
+                </line>
+                <line n="b2">
+                    <lac/>[¯nT] ā ra 20 1 || <lac/>
+                </line>
+                <line n="b3">
+                    <lac/>[ne] [nt]*e ka rśai ya ma <lac/>
+                </line>
+            </verso>
+        </transliteration>
+        <transcription>
+            <prose>
+                <lb n="a1"/>
+                <lac/>ya<lac/>
+                <lb n="a2"/>
+                <lac/>(n)trä amācäntso<lac/>
+                <lb n="a3"/>
+                <lac/>dräṣṭānt men·<lac/>
+                <lb n="a4"/>
+                <lac/>rwo yamaṣle :<lac/>
+                <lb n="b1"/>
+                <lac/>n· ṣäke drä(ṣtānt)<lac/>
+                <lb n="b2"/>
+                <lac/>(drästā)nt āra 20-1 ||<lac/>
+                <lb n="b3"/>
+                <lac/>nent(s)e karśai yama<lac/>
+            </prose>
+        </transcription>
+        <translation language="chi" litRef="zhaoandrong2020" pageRange="399-400">
+            <line n="a1">［不可译］</line>
+            <line n="a2">
+                <lac/>......他们做......大臣们的......<lac/>
+            </line>
+            <line n="a3">
+                <lac/>......譬喻、譬喻 （？）......<lac/>
+            </line>
+            <line n="a4">
+                <lac/>应该做......<lac/>
+            </line>
+            <line n="b1">
+                <lac/>......譬喻......<lac/>
+            </line>
+            <line n="b2">
+                <lac/>......譬喻终。||...... <lac/>
+            </line>
+            <line n="b3">
+                <lac/>......对沙门 （？）做......<lac/>
+            </line>
+        </translation>
+        <translation>
+            <line n="a2">... of the ministers...</line>
+            <line n="a3">... simile...</line>
+            <line n="a4">... to be done...</line>
+            <line n="b1">... simile...</line>
+            <line n="b2">... the simile is over...</line>
+            <line n="b3">... do <hi rendition="italics">karśai</hi>...</line>
+        </translation>
+        <comments/>
+        <references/>
+        <editions>
+            <ref litRef="zhaoandrong2020" pageRange="399-400"/>
+        </editions>
+        <publication>
+            <contributors>
+                <contributor name="Adrian Musitz" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+    <record id="m-kizilwood0">
+      <header>
+         <sigla>
+            <primary siglum="Kizil Wood 0"/>
+         </sigla>
+         <physicalProperties material="wood tablet" objectType="Woodslip" writingMedium="ink"/>
+         <provenance manuscript="Assemblage VI"
+                     repository="National Museum of Chinese Writing"
+                     findspot="Qizil"/>
+         <content writtenLines="1">
+            <scribalDuctus ductus="cursive"/>
+            <languages>
+               <language languageName="txb" linguisticStage="late"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  k*[ai] śro ta ñai 10 klā te • ṣa mā ne pa ñc[w]a r[i] ke a rya s* m* ly[ā] ka |</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ///  k(l)ai-śrotañai 10 klāte • ṣamāne pañcwarike aryas(o)m(e) lyāka | </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>... brought female goat-kids: 10. The Pañcwarike monk Aryasome has seen [it].</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="parallels">
+            <fragRef fragment="m-kizilwood5"/>
+         </comment>
+         <comment id="n2" type="remarks">Most likely part of the Qizil excavation of 1989 due to the reoccurence of the official <hi>Aryasome the Pañcwarike monk</hi>.</comment>
+      </comments>
+      <references>Photograph by 三猎 (private work) copyright National Museum of Chinese Writing Wikimedia Commons (龟兹文木简JPG) CC-BY-SA-40</references>
+      <editions/>
+      <publication>
+         <publicationDate date="2017-10-05">2017-10-05</publicationDate>
+         <contributors>
+            <contributor name="Melanie Malzahn" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-kizilwood1">
+      <header>
+         <sigla>
+            <primary siglum="Kizil Wood 1"/>
+         </sigla>
+         <physicalProperties material="wood tablet" objectType="Woodslip" writingMedium="ink"/>
+         <provenance manuscript="Assemblage VI"
+                     repository="National Museum of China"
+                     findspot="Qizil"
+                     specificFindspot="in front of Cave No. 89–10 near a former fireplace"/>
+         <content writtenLines="4">
+            <scribalDuctus ductus="classical"/>
+            <languages>
+               <language languageName="txb" linguisticStage="classical"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  ṣi a ka so śkl[e] <lac aks="1"/> [s]ā le ka mā nte cā kto [wa] [4]</line>
+            <line n="a2"> ///  [m]ā [t]e kle se to wa 8</line>
+            <line n="a3"> ///  pte pā rä tse me ña ṣe kle se sā le ka mā nte cā kto wa 9</line>
+            <line n="a4"> ///  [tr]· sa ṣe ma t[ā] te wai la ra ci we kle se sā le ka mā nte cā kto wa 3</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> /// …ṣi akasoś kle(se) sāle kamānte cāk towa 4 <lb n="a2"/> ///  (ka)māte klese towa 8 <lb n="a3"/> /// …pte pārätse meñaṣe klese sāle kamānte cāk towa 9 <lb n="a4"/> ///  tr·sa ṣematāte wai laraciwe klese sāle kamānte cāk towa 3 </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>/// To <hi>Akaso</hi> of ..., (sbs.) took [<hi>klese</hi> (as) provision]: 1 picul, [4 pecks].</tr>
+         </line>
+         <line n="a2">
+            <tr>/// (sb.) [took] : <hi>klese</hi>, 8 pecks.</tr>
+         </line>
+         <line n="a3">
+            <tr>/// ?-<hi>pte</hi> took <hi>Pārä</hi>'s monthly <hi>klese</hi> (as) provision: 1 picul, 9 pecks.</tr>
+         </line>
+         <line n="a4">
+            <tr>/// ... [<hi>Kṣematāte</hi>] and <hi>Laraciwe</hi> took <hi>klese</hi> (as) provision: 1 picul, 3 pecks.</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>
+         <ref type="Photo"
+              litRef="xinjiangkucheinstituteofgrottoes2000"
+              pageRange="10"/>
+         <ref type="Photo" litRef="xinjiangkuchaacademy2013"/> II-4 </references>
+      <editions>
+         <ref litRef="ching2010" pageRange="294-295"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-kizilwood2">
+      <header>
+         <sigla>
+            <primary siglum="Kizil Wood 2"/>
+         </sigla>
+         <physicalProperties material="wood tablet" objectType="Woodslip" writingMedium="ink"/>
+         <provenance manuscript="Assemblage VI" findspot="Qizil"/>
+         <content writtenLines="1">
+            <scribalDuctus ductus="cursive"/>
+            <languages>
+               <language languageName="txb" linguisticStage="late"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  c*e k· me sa a waṃ ta ñai 1 sā ṅkśā wa pa ñcwa ri ke ṣa mā ne jñā ṇa vi re lyā ka o ta krä ktā śka klai yri ta ñai ṣā [r]wai klā te 1 klai śro ta ñai 1 a laṃ śro ta ñai 1 klai na śa wā re yo tko lau śi la wra tti wsā me •</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ///  (oro)c(c)e k(e)mesa awaṃtañai 1 sāṅk śāwa pañcwarike ṣamāne jñāṇavire lyāka otak räktāśka klai-yritañai ṣārwai klāte 1 klai-śrotañai 1 alaṃ-śrotañai 1 klaina śawāre yotkolau śilawratti wsā me • </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>/// [full-mouthed], ovine, 1. The <hi>saṃgha</hi> ate (it). <hi>Jñāṇavire</hi> the <hi>Pañcwarike</hi> monk has seen [it]. Then, <hi>Räktāśka</hi> took the meat of 1 female new-born, 1 female goat kid, (and) 1 male goat kid. Women ate (them). <hi>Śilawratti</hi> the <hi>Yotkolau</hi> gave to them. </tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="remarks">Found in 1989 during excavations in the monastery (<ref litRef="schmidtkt1997" pageRange="244"/>)</comment>
+      </comments>
+      <references>
+         <ref type="other" litRef="schmidtkt1997" pageRange="244 [f"/>rom <hi>otak.</hi>] <ref type="other" litRef="ching2010" pageRange="295"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-kizilwood3">
+      <header>
+         <sigla>
+            <primary siglum="Kizil Wood 3"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance manuscript="Assemblage VI" findspot="Qizil"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  śta rce pä le tne ke re pta ña kau śwā le ma lwe rku nti nta 6 trai wo la śku nti nta 4 | ñweṃ ne ku[ś]i ñe wa lo ś[w]ā le wa sa ma lwe rla śku nti nta 6 trai wo ku nti nta [2]  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ///  śtarce päletne kereptañakau śwāle malwer kuntinta 6 traiwo laś kuntinta 4 | ñweṃne kUśiñe walo śwāle wasa malwer laś kuntinta 6 traiwo kuntinta 2  /// </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>/// On the 15th day of the 4th (month), <hi>Kereptañakau</hi> (gave) food. Milk (was spent): 6 pots; <hi>traiwo</hi> was spent: 4 pots. | On the last day of the month, the Kuchean king gave food. Milk was spent: 6 pots; <hi>traiwo</hi> was spent: [2] pots. ///</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="295-296"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-kizilwood4">
+      <header>
+         <sigla>
+            <primary siglum="Kizil Wood 4"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance manuscript="Assemblage VI" findspot="Qizil"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  pi ṅce pä le tne ka pyā re sṣa ly[w]e wsā wa [mu] tkā tseṃ 2 yo tko lau yā tka klai na te ṅke śru we mau ta na ma ne ma lwe rka mā nte ku nti nta 7 | pi ṅ</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ///  piṅce päletne kapyāres ṣalywe wsāwa mutkātseṃ 2 yotkolau yātka klaina teṅkeś ruwe mau ta na ma ne malwer kamānte kuntinta 7 | piṅ </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>/// On the 15th day of the 5th (month), I gave oil/ghee to <hi>kapyāres</hi>: 2 <hi>mutkāntse</hi>*. The <hi>Yotkolau</hi> monk ordered (it to me). The women, (making the alcoholic beverages?) to <hi>Teṅke</hi>, have taken milk: 7 pots. | [The fifth month]</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="296"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-kizilwood5">
+      <header>
+         <sigla>
+            <primary siglum="Kizil Wood 5"/>
+         </sigla>
+         <physicalProperties material="wood tablet" objectType="Woodslip" writingMedium="ink"/>
+         <provenance manuscript="Assemblage VI" findspot="Qizil"/>
+         <content writtenLines="1">
+            <scribalDuctus ductus="cursive"/>
+            <languages>
+               <language languageName="txb" linguisticStage="late"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> /// <lac aks="1"/> ñu ne m[u] ku sa ṣā rwai klā te klai yna [y]ri[ṃ] 3 o ta kta <lac aks="1"/> ·k· mu yo <lac aks="1"/> ṣe pku we [ṣ]a ll[ā] [w]aṃ ntse ṣā rwai k[l]ā [t]e 1 [pa] ñ[c]wa ri ke ṣa m[ā] n[e] a rya so me lyā ka | pi ṅc* śa [k]ne mu ku sa k[lai] yri ta ñai ṣā rwai klā te 1 o ta ka le śro ta ñai ṣa rw* klā  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> /// <lac aks="1"/> ñune mukusa ṣārwai klāte klaiyna yriṃ 3 otak ta <lac aks="1"/> ·k· mu yo <lac aks="1"/> ṣe pkuweṣ allāwaṃntse ṣārwai klāte 1 pañcwarike ṣamāne aryasome lyāka | piṅc(e) śakne mukusa klai-yritañai ṣārwai klāte 1 otak ale-śrotañai ṣarw(ai) klā(te)  /// </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>/// On the 9th day ..., <hi>Mukusa</hi> took [the meat] of 3 female new-born. Then ..., has taken [the meat] of two-tooth <hi>ālā<hi rendition="subscript">u</hi>
+               </hi>: • <hi>Aryasome</hi> the <hi>Pañcwarike</hi> monk has seen [it]. | On the 10th day of the 5th (month), <hi>Mukusa</hi> took [the meat] of a female lamb: 1. Then (<hi>Mukusa</hi>) took [the meat] of a male goat kid. ///</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="parallels">
+            <fragRef fragment="m-kizilwood0"/>
+         </comment>
+      </comments>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="297"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-kizilwood6">
+      <header>
+         <sigla>
+            <primary siglum="Kizil Wood 6"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance manuscript="Assemblage VI" findspot="Qizil"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">o kta ñce śa ṣkä sne mi kī sā ne ṣā rwai klā te o ro cce ke me sa a saṃ nta ñai 1 | ñu ñce pi śne mi ki sā ne ṣā rwai [k]lā te o ro cce ke me <lac aks="1"/> /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> oktañce śaṣkäsne mikīsāne ṣārwai klāte orocce kemesa asaṃntañai 1 | ñuñce piśne mikisāne ṣārwai klāte orocce keme(sa)  /// </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>On the 16th day of the 8th (month), <hi>Mikīsāne</hi> took meat: of 1 full-mouthed doe (i.e. 'she-goat'). | On the 5th day of the 9th (month), <hi>Mikīsāne</hi> took meat: of 1 full-mouthed ///</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="297"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+</corpus>

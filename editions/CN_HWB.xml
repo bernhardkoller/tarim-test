@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schemas/fragments/bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus ../../../schemas/fragments/bte/fragments_bte.xsd">
+    <record id="m-hbw741">
+      <header>
+         <sigla>
+            <primary siglum="HWB 74(1)"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Scroll" writingMedium="ink"/>
+         <provenance manuscript="Assemblage VII"
+                     repository="National Museum of China"
+                     nextFragment="m-hbw743"
+                     previousFragment="m-hwb742"
+                     findspot="Qumtura"/>
+         <content writtenLines="9">
+            <scribalDuctus ductus="cursive"/>
+            <languages>
+               <language languageName="txb" linguisticStage="late"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">me ñe wa rsa ñe</line>
+            <line n="a2">po me ñā ka pyā re sśwa si ṣṣe lyka śke śā tre tā ka ca kaṃ nma śa kṣka stau wä ṣu k</line>
+            <line n="a3">ysā re la śca kaṃ nma wi tau wä śwe rwä so kä śā ka la śca kpi śto m</line>
+            <line n="a4">yo tko lau ñā na <lac aks="1"/> ttre tse śwa si ṣṣe ysā re la śtau wä ṣka s</line>
+            <line n="a5">su klyi ke mo ko tse me ñe lye kśi ye ca k</line>
+            <line n="a6">sa ṅka ste re a rya kā me tse ṣo tri ā</line>
+            <line n="a7">ste re ñā na te we tse ṣṣo tri ñā</line>
+            <line n="a8">ste re ka lyā na ra kṣi te tse ṣo tri lyā ā</line>
+            <line n="a9">ste re ñā na se ne tse ṣo tri ne</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <s><tr>The 11th month.</tr>
+               <lb n="a1"/> meñe warsañe </s>
+            <s><tr>(During) all the month, fine grain as <hi>kapyāre</hi>s' food has been eaten: </tr>
+               <lb n="a2"/> po meñā kapyāres śwasiṣṣe lykaśke śātre tāka </s>
+            <s><tr>sixteen piculs, seven pecks.</tr>
+               cakaṃnma śak ṣkas tauwä ṣuk <lb n="a3"/></s>
+            <s><tr>Wheat has been spent: </tr>
+               ysāre laś </s>
+            <s><tr>two piculs, four pecks. </tr>
+               cakaṃnma wi tauwä śwer </s>
+            <s><tr>The millet <hi>ā.</hi> for <hi>wäsok</hi>*: </tr>
+               wäsokäś āka laś</s>
+            <s><tr>1 picul, 5 pecks.</tr>
+               cak piś tom </s>
+            <s><tr>As the <hi>Yotkolau</hi> monk <hi>Ñānacandre</hi>'s food, wheat has been spent: </tr>
+               <lb n="a4"/> yotkolau ñāna(caṃ)ttretse śwasiṣṣe ysāre laś </s>
+            <s><tr>six pecks.</tr>
+               tauwä ṣkas </s>
+            <s><tr>The headman <hi>Suklyike</hi>'s monthly millet <hi>l.</hi> : </tr>
+               <lb n="a5"/> suklyike mokotse meñe lyekśiye </s>
+            <s><tr>1 picul.</tr>
+               cak </s>
+            <s><tr><hi>Aryakāme</hi> the <hi>Saṅkastere</hi>'s sign.</tr>
+               <lb n="a6"/> saṅkastere aryakāmetse ṣotri ā</s>
+            <s><tr><hi>Ñānatewe</hi> the Elder's sign.</tr>
+               <lb n="a7"/> stere ñānatewetse ṣ«†ṣ»otri ñā</s>
+            <s><tr><hi>Kalyānarakṣite</hi> the Elder's sign.</tr>
+               <lb n="a8"/> stere kalyānarakṣitetse ṣotri lyāā</s>
+            <s><tr><hi>Ñānasene</hi> the Elder's sign.</tr>
+               <lb n="a9"/> stere ñānasenetse ṣotri ne</s></prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Photo" litRef="huang1958"/> plate 74 </references>
+      <editions>
+         <ref litRef="ching2010" pageRange="309-310"/>
+         <ref litRef="ching2013c"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-hbw743">
+      <header>
+         <sigla>
+            <primary siglum="HWB 74(3)"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Scroll" writingMedium="ink"/>
+         <provenance manuscript="Assemblage VII"
+                     repository="National Museum of China"
+                     previousFragment="m-hbw741"
+                     findspot="Qumtura"/>
+         <content writtenLines="9">
+            <scribalDuctus ductus="cursive"/>
+            <languages>
+               <language languageName="txb" linguisticStage="late"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">me ñe ra wa ñe</line>
+            <line n="a2">ra wa ñe me ñä ka pyā re sśwa si ṣṣe ā ka lye kśi ye la śca kaṃ nma śa kṣu k</line>
+            <line n="a3">su klyi ke mo ko tse me ñe lye kśye ca [k]tau se ko mpi le tse ka pci</line>
+            <line n="a4">ysā re la ś <lac aks="4" txtStat="deleted"/> «ṣka» «sto» «m»</line>
+            <line n="a5">wä nti śke lyā ka se ka pci</line>
+            <line n="a6">sa ṅka ste re a rya kā me tse ṣo tri</line>
+            <line n="a7">ste re ñā na te we tse ṣo tri</line>
+            <line n="a8">ste re ka lyā na ra kṣi te tse ṣo tri</line>
+            <line n="a9">ste re ñā na se ne tse ṣo tri</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> meñe rawañe <lb n="a2"/> rawañe meñ«†ä» kapyāres śwasiṣṣe āka lyekśiye laś cakaṃnma śak ṣuk <lb n="a3"/> suklyike mokotse meñe lyekśye cak tau se kompiletse kapci <lb n="a4"/> ysāre laś ṣkas tom <lb n="a5"/> wäntiśke lyāka se kapci <lb n="a6"/> saṅkastere aryakāmetse ṣotri <lb n="a7"/> stere ñānatewetse ṣotri <lb n="a8"/> stere kalyānarakṣitetse ṣotri <lb n="a9"/> stere ñānasenetse ṣotri </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>The 12th month.</tr>
+         </line>
+         <line n="a2">
+            <tr>(During) the 12th month, millet <hi>ā-l.</hi> as <hi>kapyāre</hi>s' food has been spent: seventeen piculs.</tr>
+         </line>
+         <line n="a3">
+            <tr>The headman <hi>Suklyike</hi>'s monthly millet <hi>l.</hi>: 1 picul, 1 peck. This (is) <hi>Kompile</hi>'s finger-measure.</tr>
+         </line>
+         <line n="a4">
+            <tr>Wheat has been spent: Six pecks.</tr>
+         </line>
+         <line n="a5">
+            <tr>
+               <hi>Wäntiśke</hi> has seen. This (is) finger-measure.</tr>
+         </line>
+         <line n="a6">
+            <tr>
+               <hi>Aryakāme</hi> the <hi>Saṅkastere</hi>'s sign</tr>
+         </line>
+         <line n="a7">
+            <tr>
+               <hi>Ñānatewe</hi> the Elder's sign</tr>
+         </line>
+         <line n="a8">
+            <tr>
+               <hi>Kalyānarakṣite</hi> the Elder's sign</tr>
+         </line>
+         <line n="a9">
+            <tr>
+               <hi>Ñānasene</hi> the Elder's sign.</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>Photos in <ref type="other" litRef="huang1958"/> plate 74 </references>
+      <editions>
+         <ref litRef="ching2010" pageRange="310-311"/>
+         <ref litRef="ching2013c"/>
+      </editions>
+      <publication/>
+   </record>
+    <record id="m-hwb741" status="new">
+      <header>
+         <sigla>
+            <primary siglum="HWB 74(1)"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Scroll" writingMedium="ink"/>
+         <provenance findspot="Duldur-Akhur"
+                     previousFragment="m-hwb742"
+                     nextFragment="m-hwb743"/>
+         <content>
+            <scribalDuctus ductus="cursive"/>
+            <languages>
+               <language languageName="txb" linguisticStage="late"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">me ñe wa rsa ñe</line>
+            <line n="a2">po me¯ ¯ñä ka pyā re¯ ¯S śwa si ṣṣe lyka śke śā tre tā ka ca kaṃ nma śa¯ ¯K ṣKA¯ ¯S tau wä ṣu¯ ¯K</line>
+            <line n="a3">ysā re la¯ ¯Ś ca kaṃ nma wi tau wä śwe¯ ¯R wä so KA¯ ¯Ś ā ka la¯ ¯Ś ca¯ ¯K pi¯ ¯Ś to¯ ¯M</line>
+            <line n="a4">yo tko lau ñā na <lac aks="1"/> [nd]re tse śwa si ṣṣe ysā re la¯ ¯Ś tau wä ṣka¯ ¯S</line>
+            <line n="a5">su klyi ke mo ko tse me ñe lye kśi ye ca¯ ¯K </line>
+            <line n="a6">sa ṅka ste re a rya kā me tse ṣo tri ¤</line>
+            <line n="a7">ste re ñā na te we tse ṣṣo tri ¤</line>
+            <line n="a8">ste re ka lyā na ra kṣi te tse ṣo tri ¤</line>
+            <line n="a9">ste re ñā na se ne tse ṣo tri ¤</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>meñe warsañe
+            <lb n="a2"/>po meñ kapyāres śwasiṣṣe lykaśke śātre tāka cakaṃnma śak ṣkäs <commentRef commRef="n1"/> tauwä ṣuk
+            <lb n="a3"/>ysāre laś cakaṃnma wi tauwä śwer wäsokäś <commentRef commRef="n2"/> āka laś cak piś tom
+            <lb n="a4"/>yotkolau ñāna(caṃ)ndretse śwasiṣṣe ysāre laś tauwä ṣkas
+            <lb n="a5" commRef="n3"/>suklyike mokotse meñe lyekśiye cak
+            <lb n="a6"/>saṅkastere aryakāmetse ṣotri <monogram>¤</monogram>
+            <lb n="a7"/>stere ñānatewetse ṣṣotri <monogram>¤</monogram>
+            <lb n="a8"/>stere kalyānarakṣitetse ṣotri <monogram>¤</monogram>
+            <lb n="a9"/>stere ñānasenetse ṣotri <monogram>¤</monogram>
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">Eleventh month.</line>
+         <line n="a2">For the whole month, fine grain for consumption of the kapyāri was: six piculs, seven pecks.</line>
+         <line n="a3">Wheat was spent: two piculs, four pecks. āka-millet was spent for <hi rendition="italics">wäsok</hi>: a picul, five pecks.</line>
+         <line n="a4">Wheat for consumption of director Jñānacaṃndre was spent: six pecks.</line>
+         <line n="a5">The month of Suklyike the <hi rendition="italics">Moko</hi>: lyekśiye-millet: a picul.</line>
+         <line n="a6">Signature of the Saṅkastere Aryakāme ¤</line>
+         <line n="a7">Signature of the Stere Jñānatewe ¤</line>
+         <line n="a8">Signature of the Stere Kalyānarakṣite ¤</line>
+         <line n="a9">Signature of the Stere Jñānasene ¤</line>
+      </translation>
+      <comments>
+         <comment id="n1">sic! instead of <hi rendition="italics">śak ṣkas</hi>.</comment>
+         <comment id="n2">For <hi rendition="italics">wäsokäś</hi>, <ref litRef="ogihara2014"/> suggests that Tocharian A <hi rendition="italics">wsokäṃ</hi> in THT 1519, plural of a putative *<hi rendition="italics">wsok</hi>, is related. It might plausibly be a kind of grain product. <ref litRef="ching2017" pageRange="169"/> argues that *wäsok could denote a a usage of grain, a kind of dish or activity, rejecting the explanation of this word as some sort of alcoholic beverage (like in <ref litRef="adams2013a" pageRange="650-651"/> and <ref litRef="schmidtkt2002" pageRange="7-8"/>).</comment>
+         <comment id="n3">This line is written much smaller than the others and offset to the right. It was probably added in later.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="adams2013a" pageRange="650-651"/>
+         <ref litRef="ching2010" pageRange="309-310"/>
+         <ref litRef="ching2017" pageRange="100-101; 169"/>
+         <ref litRef="ogihara2014"/>
+         <ref litRef="chingandrong2013"/>
+         <ref litRef="huang1958"/>
+         <ref litRef="schmidtkt2002" pageRange="7-8"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-hwb742">
+      <header>
+         <sigla>
+            <primary siglum="HWB 74(2)"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Scroll" writingMedium="ink"/>
+         <provenance findspot="Duldur-Akhur"/>
+         <content>
+            <scribalDuctus ductus="cursive"/>
+            <languages>
+               <language languageName="txb" linguisticStage="late"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1x">ka pyā re¯ ¯S śwa tsi ṣṣe ā trai kṣu na ṣṣe ñā na caṃ [nd]re tse</line>
+            <line n="a1">me ñe śka nte</line>
+            <line n="a2">po me¯ ¯ñä ka pyā [r]· <lac aks="1"/> [s]i ṣṣe lyka śke śā tre tā ka śe śu sa ca kaṃ nma śa¯ ¯K ñu tau wä ṣu¯ ¯K</line>
+            <line n="a3">ysā re la¯ ¯Ś ca kaṃ nma ta rya tau wä ṣka¯ ¯S mo¯ ¯T la¯ ¯Ś tau wä «†[śwa]» ṣka¯ ¯S</line>
+            <line n="a3x">su kli ke mo ko tse me ñe lye kśi ye ca¯ ¯K</line>
+            <line n="a4">yo tko lau ñā na [ca]ṃ ndre tse śwa si ṣṣe ysā re la¯ ¯Ś tau wä ṣka¯ ¯S</line>
+            <line n="a5">sa ṅka ste re [a] rya kā me tse ṣo tri ¤</line>
+            <line n="a6">ste re ñā na te we tse ṣo tri ¤</line>
+            <line n="a7">ste re ka lyā na ra kṣi te tse ṣo tri ¤</line>
+            <line n="a8">ste re ñā na se ne tse ṣo tri ¤</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1x" commRef="n1"/>kapyāres śwatsiṣṣe ātrai kṣunaṣṣe ñānacaṃndretse 
+            <lb n="a1"/>meñe śkante
+            <lb n="a2"/>po meñ kapyār(es) (śwa)siṣṣe lykaśke śātre tāka śeśusa cakaṃnma śak ñu tauwä ṣuk
+            <lb n="a3"/>ysāre laś cakaṃnma tarya tauwä ṣkas mot laś tauwä ṣkas
+            <lb n="a3x" commRef="n2"/>suklike mokotse meñe lyekśiye cak
+            <lb n="a4"/>yotkolau ñānacaṃndretse śwasiṣṣe ysāre laś tauwä ṣkas
+            <lb n="a5"/>saṅkastere aryakāmetse ṣotri <monogram>¤</monogram>
+            <lb n="a6"/>stere ñānatewetse ṣotri <monogram>¤</monogram>
+            <lb n="a7"/>stere kalyānarakṣitetse ṣotri <monogram>¤</monogram>
+            <lb n="a8"/>stere ñānasenetse ṣotri <monogram>¤</monogram>
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1x">
+            <hi rendition="italics">ātrai</hi> for the consumption of the kapyāri, of a regnal year (?), of Jñānacaṃndre</line>
+         <line n="a1">Tenth month.</line>
+         <line n="a2">For the whole month, fine grain for consumption of the kapyāri was eaten: nineteen piculs, seven pecks.</line>
+         <line n="a3">Wheat was spent: three piculs, six pecks. <hi rendition="italics">mot</hi> was spent: six pecks.</line>
+         <line n="a3x">The month of Suklike the <hi rendition="italics">Moko</hi>: lyekśiye-millet: a picul.</line>
+         <line n="a4">Wheat for consumption of director Jñānacaṃndre was spent: six pecks.</line>
+         <line n="a5">Signature of the Saṅkastere Aryakāme ¤</line>
+         <line n="a6">Signature of the Stere Jñānatewe ¤</line>
+         <line n="a7">Signature of the Stere Kalyānarakṣite ¤</line>
+         <line n="a8">Signature of the Stere Jñānasene ¤</line>
+      </translation>
+      <comments>
+         <comment id="n1">This line is written backwards on top of the document. The word <hi rendition="italics">ātrai</hi> is very obscure. Ogihara apud <ref litRef="ching2017" pageRange="102"/> reads it as ā[ś]rai, connecting it to Sanskrit <hi rendition="italics">āśraya</hi>- and explaining it as a kind of receipt. But <hi rendition="italics">śwasiṣṣe</hi> is usually used in front of foodstuffs. Maybe <hi rendition="italics">ātrai</hi> is a foodstuff?</comment>
+         <comment id="n2">This line is scribbled on the right of line a3.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="ching2010" pageRange="309-310"/>
+         <ref litRef="ching2017" pageRange="100; 102"/>
+         <ref litRef="chingandrong2013"/>
+         <ref type="Photo" litRef="huang1958"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-hwb743" status="new">
+      <header>
+         <sigla>
+            <primary siglum="HWB 74(3)"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Scroll" writingMedium="ink"/>
+         <provenance findspot="Duldur-Akhur"/>
+         <content>
+            <scribalDuctus ductus="cursive"/>
+            <languages>
+               <language languageName="txb" linguisticStage="late"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">me ñe ra wa ñe</line>
+            <line n="a2">ra wa ñe po me¯ ¯ñä ka pyā re¯ ¯S śwa si ṣṣe ā ka lye kśi ye la¯ ¯Ś ca kaṃ ma śa¯ ¯K ṣu¯ ¯K</line>
+            <line n="a3">su klyi ke mo ko tse me ñe lye kśye ca[¯] [¯K] tau se ko mpi le tse ka pci</line>
+            <line n="a4">ysā re la¯ ¯Ś <lac aks="3" txtStat="deleted"/>«†to¯»«†¯M» ṣka¯ ¯S to¯ ¯M</line>
+            <line n="a5">wä nti śke lyā ka se ka pci</line>
+            <line n="a6">sa ṅka ste re a rya kā me tse ṣo tri</line>
+            <line n="a7">ste re ñā na te we tse ṣo tri</line>
+            <line n="a8">ste re ka lyā na ra kṣi te tse ṣo tri</line>
+            <line n="a9">ste re ñā na se ne tse ṣo tri</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>meñe rawañe
+            <lb n="a2"/>rawañe po meñ kapyāres śwasiṣṣe āka lyekśiye laś cakaṃma śak ṣuk
+            <lb n="a3"/>suklyike mokotse meñe lyekśye cak tau se kompiletse kapci
+            <lb n="a4"/>ysāre laś ṣkas tom
+            <lb n="a5"/>wäntiśke lyāka se kapci <commentRef commRef="n1"/>
+            <lb n="a6"/>saṅkastere aryakāmetse ṣotri
+            <lb n="a7"/>stere ñānatewetse ṣotri
+            <lb n="a8"/>stere kalyānarakṣitetse ṣotri
+            <lb n="a9"/>stere ñānasenetse ṣotri
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">Last month.</line>
+         <line n="a2">For the whole last month, āka- and lyekśiye millet for consumption of the kapyāri was spent: seventeen piculs.</line>
+         <line n="a3">The month of Suklyike the <hi rendition="italics">Moko</hi>: lyekśiye-millet: a picul, a peck. This (is) the finger-measure of Kompile.</line>
+         <line n="a4">Wheat was spent: six pecks.</line>
+         <line n="a5">Wäntiśke saw it. This (is his) finger-measure.</line>
+         <line n="a5">Signature of the Saṅkastere Aryakāme.</line>
+         <line n="a6">Signature of the Stere Jñānatewe.</line>
+         <line n="a7">Signature of the Stere Kalyānarakṣite.</line>
+         <line n="a8">Signature of the Stere Jñānasene.</line>
+      </translation>
+      <comments>
+         <comment id="n1">The <hi rendition="italics">kapci</hi>-marking is missing here.</comment>
+         <comment id="n2">This document has never been signed by the people listed in the last 4 lines.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="ching2010" pageRange="309-310"/>
+         <ref litRef="ching2017" pageRange="101"/>
+         <ref litRef="chingandrong2013"/>
+         <ref litRef="huang1958"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-hwb744" status="new">
+      <header>
+         <sigla>
+            <primary siglum="HWB 74(4)"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Scroll" writingMedium="ink"/>
+         <provenance findspot="Duldur-Akhur"/>
+         <content>
+            <scribalDuctus ductus="cursive"/>
+            <languages>
+               <language languageName="txb" linguisticStage="late"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">u tpa¯ ¯T cā ñi eṃ sa lyī ke tā ṣṣi «†[p]i» «†[Ś]» «†[y]ä» «†ltse» ṣu kyi ltse</line>
+            <line n="a2">wa ce trai me ña tse ne pe rnai śe ca¯ ¯K ñu to¯ ¯M mlyo ko tau ple [k]sa <lac aks="2"/> [ka¯] ¯R yä ltse pi ŚKAṃ nte i KAṃ tsa</line>
+            <line n="a3">kā si tse pe rnai śe «†[w]i»«†[]»«†[ka]ṃ» «†[]» «cā» «kpi» «śto¯» «¯M» mlyo ko tau ple ksa ṣu kta ka¯ ¯R <lac aks="2"/> tsa yä ltse «†śwā» «†ra» «†KA» «†nte» «piśā»«ka»</line>
+            <line n="a4">po re ta rya ca kaṃ ma śwā ra to¯ ¯M tsa ṅka na ple ksa wi yā rKAṃ nte pśā ka¯ ¯R cā neṃ tsa o¯ ¯K yä ltse</line>
+            <line n="a5">pe rnai śe ca¯ ¯K ṣu kto¯ ¯M tsä ṅka na ple ksa wi yā rKAṃ nte pśā <lac aks="5"/> śwā rse wi KAṃ nte pśā</line>
+            <line n="a6">pta ma ṣṣe we rwi ye sa kweṃ to ko meṃ pau tke ṣe cā neṃ KA lwā wa <lac aks="2"/>
+            </line>
+            <line n="a7">o lyī śkā ṣṣe śi ṅke ñe we rwi ye sa cā ñi «†śwā» «†rse» ta rsse ṣu kKA nte</line>
+            <line n="a8">o lyī śkaṃ tsa ṣu  pā kī ñe we rwi ye tse pau tke ṣṣi cā ñi pi ś·· te</line>
+            <line n="a9">me śi ñe¯ ¯S si [t]e tse we rwi ye sa pau «†śy»«tk»e  ṣi cā ñi wi [l]ts·</line>
+            <line n="a10">śwā ra ca kaṃ ma lye kśai sa ka kā ma¯ ¯Ṣ cā ñi śwā rse</line>
+            <line n="a11">
+               <lac aks="1"/>rya ca [ka]ṃ ma l[y]e k·ai p[l]e ṅ[ku] [wa] <lac aks="1"/> ·i <lac aks="2"/> ·[ä] l·e</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>utpat cāñi eṃsalyī <commentRef commRef="n1"/> ketāṣṣi ṣuk yiltse 
+            <lb n="a2"/>wace trai meñatsene pernaiśe cak ñu tom mlyokotau pleksa (okta)kar yältse piś käṃnte ikäṃtsa
+            <lb n="a3"/>kāsitse pernaiśe cāk piś tom mlyokotau pleksa ṣuktakar (cāneṃ)tsa yältse pIśāka
+            <lb n="a4"/>pore tarya cakaṃma śwāra tom tsaṅkana pleksa wiyār käṃnte pśākar cāneṃtsa ok yältse
+            <lb n="a5"/>pernaiśe cak ṣuk tom tsäṅkana pleksa wiyār käṃnte pśā(kār) <lac aks="4"/> śwārse wi käṃnte pśā
+            <lb n="a6"/>ptamaṣṣe werwiyesa kweṃtokomeṃ pautkeṣe cāneṃ kälwāwa (wiltse)
+            <lb n="a7"/>olyīśkāṣṣe śiṅkeñe werwiyesa cāñi tarsse ṣuk känte
+            <lb n="a8"/>olyīśkaṃtsa ṣupākīñe <commentRef commRef="n2"/> werwiyetse pautkeṣṣi cāñi piś (käṃ)te
+            <lb n="a9"/>meśiñes sitetse werwiyesa pautke<commentRef commRef="n3"/>ṣi cāñi wilts(e)
+            <lb n="a10"/>śwāra cakaṃma lyekśaisa kakāmaṣ cāñi śwārse
+            <lb n="a11"/>(ta)rya cakaṃma lyek(ś)ai pleṅkuwa (cāñ)i <lac aks="2"/>(y)äl(ts)e
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">Income: <hi rendition="italics">eṃsalyī</hi>-coins of the field: seven thousand.</line>
+         <line n="a2">(In the) second (month), on day of the month three, Pernaiśe sold a picul, nine pecks <hi rendition="italics">mlyokotau</hi>: each for eighty (coins), (amounting to) thousand five hundred twenty.</line>
+         <line n="a3">Pernaiśe of <hi rendition="italics">kāsi</hi> sold a picul, five pecks mlyokotau: for seventy coins each, (amounting to) thousand and fifty.</line>
+         <line n="a4">Pore sold three piculs, four pecks highland barley: for two hundred and fifty coins each, (amounting to) eight thousand.</line>
+         <line n="a5">Pernaiśe sold a picul, seven pecks highland barley: for two hundred and fifty (coins) each, (amounting to) four thousand two hundred fifty.</line>
+         <line n="a6">I received coins as rent from Kweṃtoko for the garden of the stūpa: two thousand.</line>
+         <line n="a7">Coins for the Śiṅke-garden in Olyīśka: three thousand seven hundred.</line>
+         <line n="a8">Coins as rent of the <hi rendition="italics">ṣupākīñe</hi>-garden in Olyīśka: five hundred.</line>
+         <line n="a9">Coins as rent for the garden of Site of the <hi rendition="italics">meśiñi</hi> (?)</line>
+         <line n="a10">Coins taken for four piculs lyekśiye-millet: four thousand.</line>
+         <line n="a11">I sold three piculs lyekśiye-millet: coins: ... thousand.</line>
+      </translation>
+      <comments>
+         <comment id="n1">
+            <ref litRef="ching2012" pageRange="312"/> argues that this word is derived from the prefix <hi rendition="italics">yn</hi>- 'in' and <hi rendition="italics">sāle</hi> 'earth, place', thus she glosses it as 'within the country, within the borders'. She reads it as esalyī. However, there is an anusvāra visible above the 'e'.</comment>
+         <comment id="n2">
+            Ogihara apud <ref litRef="ching2012" pageRange="313"/> connects this word to <hi rendition="italics">ṣpakīye</hi> 'pill', itself a loan word from Khotanese <hi rendition="italics">ṣvakye</hi>. However, the assumption of a sound change <hi rendition="italics">ṣp -&gt; ṣup</hi> seems to be rather ad hoc.</comment>
+         <comment id="n3" domain="translit">It looks like the scribe first wrote <hi rendition="italics">pauśye</hi>, but then corrected himself.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="ching2010" pageRange="309-310"/>
+         <ref litRef="ching2017" pageRange="102-103"/>
+         <ref litRef="ching2012" pageRange="312-313"/>
+         <ref litRef="huang1958"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+</corpus>

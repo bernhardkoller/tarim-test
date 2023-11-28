@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schemas/fragments/bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus ../../../schemas/fragments/bte/fragments_bte.xsd">
+    <record id="m-ot12">
+        <header>
+            <sigla>
+                <primary siglum="Ot 12"/>
+                <secondary siglum="Otani I ()"/>
+                <secondary siglum="Otani-Klosterrechnung 018 (Couvreur)"/>
+                <secondary siglum="O. 18 (Mironov)"/>
+                <secondary siglum="Ot. 018 (Broomhead)"/>
+                <secondary siglum="Ot. II (Schmidt KT)"/>
+                <secondary siglum="inventory no. 541"/>
+            </sigla>
+            <physicalProperties material="paper" objectType="Scroll" writingMedium="ink"/>
+            <provenance findspot="Qizil Miŋ-Öy" repository="Ryukoku University (Kyoto)"/>
+            <content>
+                <scribalDuctus ductus="cursive"/>
+                <languages>
+                    <language languageName="txb" linguisticStage="late"/>
+                </languages>
+                <text>
+                    <genre genre="Non-literary" subgenre="Account"/>
+                    <proseVerse proseVerse="prose"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1">me ñye ā ra me ññe śka nte śa kme ñya tse meṃ ma nte śi mprā yai śo pai¯ ¯Ś ṣe ke¯ ¯Ś ysā</line>
+                <line n="a2">re wa ltsā¯ ¯M TA ryā ka ñu ca kaṃ nma o k to¯ ¯M śā ṅke wā ltsa</line>
+                <line n="a3">sthe re dha rma ra kṣi te śa rsa sthe re śla wa rme [ś]a rsa</line>
+                <line n="a4">wa rwa ltsai tse pa rra ma ñi ne ke wye ṣa lywe KA ryā mte trai ṣa ṅKAṃ pi śśā rto¯ ¯M ysā re wsa¯ ¯[M] cā kpi śto¯ ¯M</line>
+                <line n="a5">pa ṣka ro ṣe ṣa lywe KA ryā mte śwe¯ ¯R ṣa ṅKAṃ ysā re sa o kto¯ ¯M</line>
+                <line n="a6">tsyā¯ ¯ṅK trai ṣa ṅKAṃ KA ryā mte ṣka sto¯ ¯M ysā re sa</line>
+                <line n="a7">sthe re dha rma ra kṣi te tse a slyai ma ṣai ysā re PA¯ ¯sT wsa¯ ¯M pi śca kaṃ nma wi to¯ ¯M</line>
+                <line n="a8">me ññe ā ra me ñye wa rsa ññe ṣka sme ñya tse ne ka pyā re¯ ¯S wä si tse¯ ¯Ś</line>
+                <line n="a9">ysā re ri ne plya si wā ya to ṅkā ṣa rmi re śa kca kaṃ nma ṣa rmi re tse ka pci</line>
+                <line n="a10">pra jñā ka ra so me tse wrä tsai se¯ ¯Ś ke wye ṣa lywe [KA] ryā mte trai ṣa ṅKAṃ ysā re sa cā kpi śto¯ ¯M</line>
+                <line n="a11">si mā ku rri ṅkā teṃ tse yai tko rsa ywā¯ ¯rŚ ṣma ñe pau [ś]ye nta a ṣkā¯ ¯R sa sā kau wa ṣe yeṃ yā ywyeṃ yku we¯ ¯Ś re</line>
+                <line n="a12">cye cā sā mtse ysā re wsa¯ ¯M śa kTA rya ca kaṃ nma pi śto¯ ¯M ṣau ne SAṃ</line>
+                <line n="a13">wä rsa ññe PA le nti¯ ¯Ś mlyo ko tau ṣṣe ṣa lywe KA ryā mte śwe¯ ¯R ṣa ṅKAṃ o kto¯ ¯M ysā re sa</line>
+                <line n="a14">pa ta la kṣā ṣṣeṃ¯ ¯S pa ke ñe śwe¯ ¯R ko mtsa laṃ ṣṣā te pi to ysā re ka mā te cā kwi to¯ ¯M</line>
+                <line n="a15">mi kka swi ñi tse ynai ke nta hkhai nta [KA] ryā mysā re sa pi śto¯ ¯m</line>
+            </recto>
+        </transliteration>
+        <transcription>
+            <prose>
+                <s><tr>The month ended. </tr>
+                    <lb n="a1"/>meñye āra </s>
+                <s><tr>Tenth month. </tr>
+                    meññe śkante</s>
+                <s><tr>From day of the month ten onward to <hi rendition="italics">śimprāyai śopai</hi>
+                    <commentRef commRef="n1"/>, in sum:</tr>
+                    śak meñyatsemeṃ mante śimprāyai śopaiś ṣe keś </s>
+                <s><tr>We ground wheat: </tr>
+                    ysā<lb n="a2"/>re waltsām</s>
+                <s><tr>thirty nine piculs, eight pecks. </tr>
+                    täryāka ñu cakaṃnma ok tom </s>
+                <s><tr>Śāṅke ground it.</tr>
+                    śāṅke wāltsa</s>
+                <s><tr>The <hi rendition="italics">Sthere</hi> Dharmarakṣite knew about it. </tr>
+                    <lb n="a3"/>sthere dharmarakṣite śarsa </s>
+                <s><tr>The <hi rendition="italics">Sthere</hi> Ślawarme knew about it.</tr>
+                    sthere ślawarme śarsa</s>
+                <s><tr>On the <hi rendition="italics">parramañi</hi> of the <hi rendition="italics">warwaltsai</hi>
+                    <commentRef commRef="n2"/>, we bought bovine oil: </tr>
+                    <lb n="a4"/>warwaltsaitse parramañine kewye ṣalywe käryāmte</s>
+                <s><tr>three pints, </tr>
+                    trai ṣaṅkäṃ</s>
+                <s><tr>we gave three pecks wheat for each: </tr>
+                    piśśār tom ysāre wsam</s>
+                <s><tr>a picul, five pecks.</tr>
+                    cāk piś tom</s>
+                <s><tr>We bought <hi rendition="italics">paṣkaro</hi>-oil: </tr>
+                    <lb n="a5"/>paṣkaroṣe ṣalywe käryāmte </s>
+                <s><tr>four pints, </tr>
+                    śwer ṣaṅkäṃ </s>
+                <s><tr>for wheat: eight pecks.</tr>
+                    ysāresa ok tom</s>
+                <s><tr>We bought three pints of sauce for six pecks wheat.</tr>
+                    <lb n="a6"/>tsyāṅk trai ṣaṅkäṃ käryāmte ṣkas tom ysāresa</s>
+                <s><tr>We gave  the <hi rendition="italics">aslyaimaṣai</hi>-wheat to the <hi rendition="italics">Sthere</hi> Dharmarakṣite: </tr>
+                    <lb n="a7"/>sthere dharmarakṣitetse aslyaimaṣai ysāre päst wsam </s>
+                <s><tr>five piculs, two pecks.</tr>
+                    piś cakaṃnma wi tom</s>
+                <s><tr>The month ended. </tr>
+                    <lb n="a8"/>meññe āra </s>
+                <s><tr>Eleventh month. </tr>
+                    meñye warsaññe </s>
+                <s><tr>On day of the month six, for the clothing of the kapyāri, the Toṅkā <commentRef commRef="n3"/> Ṣarmire conveyed wheat to sell in the city: </tr>
+                    ṣkas meñyatsene kapyāres wäsitseś
+                    <lb n="a9"/>ysāre <s>rine plyasi</s> wāya toṅkā ṣarmire </s>
+                <s><tr>ten piculs. </tr>
+                    śak cakaṃnma </s>
+                <s><tr>The novice's finger-measure. </tr>
+                    ṣarmiretse kapci</s>
+                <s><tr>For the reception <commentRef commRef="n4"/> of Prajñākarasome, we bought bovine oil: </tr>
+                    <lb n="a10"/>prajñākarasometse wrätsaiseś kewye ṣalywe käryāmte </s>
+                <s><tr>three pints, </tr>
+                    trai ṣaṅkäṃ </s>
+                <s><tr>with wheat: a picul, five pecks.</tr>
+                    ysāresa cāk piś tom</s>
+                <s><tr>On the order of the adjutant kurriṅkāte, the mid summer levies <commentRef commRef="n5"/> had been apportioned (?) back. </tr>
+                    <lb n="a11"/>simā kurriṅkāteṃtse yaitkorsa ywārś ṣmañe pauśyenta <s>aṣkār sasākauwa</s> ṣeyeṃ </s>
+                <s><tr>We gave the wheat to Cāsām, a soldier going to yāwyeṃ: </tr>
+                    <s>yāywyeṃ ykuweś</s> re<lb n="a12"/>cye cāsāmtse ysāre wsam </s>
+                <s><tr>thirteen piculs, five pecks. </tr>
+                    śak tärya cakaṃnma piś tom</s>
+                <s><tr>There is a receipt. </tr>
+                    ṣau nesäṃ</s>
+                <s><tr>We bought <hi rendition="italics">mlyokotau</hi>-oil for the day of the full moon in the eleventh month: </tr>
+                    <lb n="a13"/>wärsaññe pälentiś mlyokotauṣṣe ṣalywe käryāmte </s>
+                <s><tr>four pints, eight pecks, for wheat.</tr>
+                    śwer ṣaṅkäṃ ok tom ysāresa</s>
+                <s><tr>Pakeñe worked for four days for <hi rendition="italics">patalakṣāṣṣe</hi>s (?). </tr>
+                    <lb n="a14"/>patalakṣāṣṣeṃs pakeñe śwer komtsa laṃṣṣāte </s>
+                <s><tr>As a wage, he took wheat: </tr>
+                    pito ysāre kamāte </s>
+                <s><tr>a picul, two pecks.</tr>
+                    cāk wi tom</s>
+                <s><tr>We bought <hi rendition="italics">ynaikenta</hi>-shoes <commentRef commRef="n6"/> for Mikkaswiñi, </tr>
+                    <lb n="a15"/>mikkaswiñitse ynaikenta hkhainta käryām </s>
+                <s><tr>for wheat: five pecks.</tr>
+                    ysāresa piś tom</s>
+            </prose>
+        </transcription>
+        <translation/>
+        <comments>
+            <comment id="n1">
+                <hi rendition="italics">śimprāyai</hi> almost certainly has something to do with <hi rendition="italics">śimpraye</hi> in THT 1574 a6</comment>
+            <comment id="n2">For a tentative explanation of these two terms, see <ref litRef="chingandogihara2012" pageRange="90-91"/> and <ref litRef="ching2017" pageRange="371"/>.</comment>
+            <comment id="n3">For the name, cf THT 289 a2 <hi rendition="italics">tᵤṅā</hi>. <ref litRef="chingandogihara2012" pageRange="92"/> connect it to Niya Prakrit <hi rendition="italics">toṃga</hi>, Runic Turkic <hi rendition="italics">Toŋa</hi> and Uyghur <hi rendition="italics">Toŋa</hi>. In Gāndhārī, <hi rendition="italics">toṃga</hi>- is used as a title.</comment>
+            <comment id="n4">For <hi rendition="italics">wrätsaise</hi>, cf. THT 2712 a7, Kucha 0190 a2.</comment>
+            <comment id="n5">One would expect <hi rendition="italics">ṣmañana</hi>.</comment>
+            <comment id="n6">For <hi rendition="italics">hkhai</hi> as a loan from Chinese 鞋, see <ref litRef="chingandogihara2012" pageRange="94"/> and <ref litRef="ching2017" pageRange="183"/>.</comment>
+        </comments>
+        <references>
+            <ref type="Online access" litRef="idp0000">
+                <link href="http://idp.bbaw.de/database/oo_loader.a4d?pm=MS00541">MS00541</link>
+            </ref>
+        </references>
+        <editions>
+            <ref litRef="siegandsiegling1949" pageRange="63"/>
+            <ref litRef="couvreur1954" pageRange="90"/>
+            <ref litRef="thomas1957" pageRange="145-146, 208, 213, 306"/>
+            <ref litRef="ching2010" pageRange="142"/>
+            <ref litRef="chingandogihara2012"/>
+        </editions>
+        <publication>
+            <contributors>
+                <contributor name="Adrian Musitz" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+    <record id="m-ot131">
+        <header>
+            <sigla>
+                <primary siglum="Ot 13.1"/>
+            </sigla>
+            <physicalProperties material="paper" objectType="Scroll" writingMedium="ink"/>
+            <provenance repository="National Museum Tokyo" findspot="Kuča"/>
+            <content>
+                <scribalDuctus ductus="cursive"/>
+                <languages>
+                    <language languageName="txb" linguisticStage="late"/>
+                </languages>
+                <text>
+                    <genre genre="Non-literary" subgenre="Account"/>
+                    <proseVerse proseVerse="prose"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1">
+                    <lac txtStat="illegible"/>
+                </line>
+                <line n="a2">tne¯ ¯K pta ce pa kre ṣṣai lāṃ sa spa wā¯ ¯R ta rya tma ne wi ltse pi</line>
+                <line n="a3">¯Ś KAṃ nte pśā ka : wi wä ssa nma¯ ¯Ś cā [ñ]i pi[¯] [¯]Ś tma ne ṣka syi ltse</line>
+                <line n="a4">wi KAṃ nte i KAṃ o¯ ¯K : kro śśe maṃ ñe KA ryau wi KAṃ nte śa kkau mma sa</line>
+                <line n="a5">a le ka¯ ¯K yā śa kau mñe¯ ¯S pau śye e ñci¯ ¯L kaṃ nte i KAṃ kau mma sa</line>
+            </recto>
+        </transliteration>
+        <transcription>
+            <prose>
+                <lb n="a1"/>
+                <lac txtStat="illegible"/>
+                <lb n="a2"/>tnek ptace pakreṣṣai lāṃs aspawār tarya tmane wiltse pi<lb n="a3"/>ś käṃnte pśāka : wi wässanmaś cāñi piś tmane ṣkas yiltse
+                <lb n="a4"/>wi käṃnte ikäṃ ok : krośśemaṃñe käryau wi käṃnte śak kaummasa
+                <lb n="a5"/>alekak yāśa kaumñes pauśye eñcil kaṃnte ikäṃ kaummasa
+            </prose>
+        </transcription>
+        <translation>
+            <line n="a2">Therein, the the procession <commentRef commRef="n1"/> work <hi rendition="italics">aspawār</hi>: thirty two thousand five</line>
+            <line n="a3">hundred fifty two (coins). Coins for clothes: fifty six thousand</line>
+            <line n="a4">two hundred twenty eight. A krośśe-maṃñe (was) bought for two hundred ten bolts of silk.</line>
+            <line n="a5">Another thing: <hi rendition="italics">yāsa</hi> was levied for the <hi rendition="italics">kaumñe</hi>s: one hundred twenty bolts of silk.</line>
+        </translation>
+        <comments>
+            <comment id="n1">For <hi rendition="italics">ptace-prakreṣṣei</hi> and chin. 行像, see <ref litRef="ching2010" pageRange="342"/>.</comment>
+        </comments>
+        <references>
+            <link href="http://dsr.nii.ac.jp/toyobunko/I-1-E-18/V-2/page/0279.html.en">Digital Archive of Toyo Bunko Rare Books</link>
+        </references>
+        <editions>
+            <ref litRef="ching2010" pageRange="341-342"/>
+            <ref litRef="kagawa1915"/>
+            <ref litRef="inokuchi1961"/>
+            <ref litRef="inokuchi1980" pageRange="279"/>
+        </editions>
+        <publication>
+            <contributors>
+                <contributor name="Adrian Musitz" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+    <record id="m-ot191">
+        <header>
+            <sigla>
+                <primary siglum="Ot 19.1"/>
+                <secondary siglum="inventory no. 174"/>
+            </sigla>
+            <physicalProperties material="wood tablet"
+                objectType="Woodslip"
+                writingMedium="ink"
+                height="12"
+                width="19.5"/>
+            <provenance repository="National Museum Tokyo" findspot="Kuča"/>
+            <content writtenLines="6">
+                <scribalDuctus ductus="cursive"/>
+                <languages>
+                    <language languageName="txb"
+                        linguisticStage="late"
+                        linguisticStagePeyrot="C"
+                        tamaiC14="true"/>
+                </languages>
+                <text>
+                    <genre genre="Non-literary" subgenre="Unknown"/>
+                    <proseVerse proseVerse="prose"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1">mi tra wa rddha ne • wi rya śā nti • a rya ra kṣi te • ka lya na mo kṣe • a rya ko ṣe • sa tya ra kṣi te • mi</line>
+                <line n="a2">tra so me • śā nti se ne • mo ko pu tta wa rme • ynai ymyā ṣṣi ke ta sa cā neṃ ka mā nte yä ltse</line>
+                <line n="a3">pi śKA nte • tā yä sa ṅk[r]ā mi ññai ke tā ntse ko mpi rko [meṃ] a r[m]o ki ññe ca ke si¯ ¯M o</line>
+                <line n="a4">mo tru ññai ṣṣe ya te ññe cke ṣṣe ā rte si¯ ¯M ko mkLA sko meṃ o ro tsa ne wi ya si¯ ¯M</line>
+                <line n="a5">o ṣṣa <lac aks="1" txtStat="deleted"/> le meṃ a rmo ki ññe cke ṣṣe ā rte si¯ ¯M o ro tsai ne wi yai TA ṅtsi •</line>
+                <line n="a6">
+                    <space type="blank"/>kā yne ṣo tri ṣe ca ki a ṣkā rLA kā ske ma ne</line>
+            </recto>
+        </transliteration>
+        <transcription>
+            <prose>
+                <lb n="a1"/> mitrawarddhane • wiryaśānti • aryarakṣite • kalyanamokṣe • aryakoṣe • satyarakṣite • mi<lb n="a2"/>trasome • śāntisene • moko puttawarme • ynaiymyāṣṣi ketasa cāneṃ kamānte yältse <lb n="a3" commRef="n4"/> piś känte • tāy«†ä» saṅkrāmiññai ketāntse kom pirkomeṃ armokiññe cake sim o<lb n="a4"/>motruññaiṣṣe yateññe ckeṣṣe ārte sim kom kläskomeṃ orotsa newiya sim <lb n="a5"/> oṣṣa lemeṃ armokiññe ckeṣṣe ārte sim orotsai newiyai täṅtsi • <lb n="a6"/> kāyne ṣotri ṣecaki aṣkār läkāskemane </prose>
+        </transcription>
+        <translation>
+            <line n="a1">
+                <tr>
+                    <hi>Mitrawarddhane, Wiryaśānti, Aryarakṣite, Kalyanamokṣe, Aryakoṣe, Satyarakṣite,</hi>
+                </tr>
+            </line>
+            <line n="a2">
+                <tr>
+                    <hi>Mitrasome, Śāntisene,</hi> (and) <hi>Puttawarme</hi> the <hi>Moko</hi>. (The people) of <hi>Ynaimyā</hi> carried (here) the coins (produced in? / as the price of?) the field: one thousand</tr>
+            </line>
+            <line n="a3">
+                <tr>five hundred. (The four limits) of this field belong to the monastery: on the east the river <hi>Armoki</hi> (is) the boundary;</tr>
+            </line>
+            <line n="a4">
+                <tr>on the south the branch of the river <hi>Yāte</hi> (is) the boundary; on the west the great canal (is) the boundary;</tr>
+            </line>
+            <line n="a5">
+                <tr>on the north the branch of the river <hi>Armoki</hi> (is) the boundary, just until the great canal.</tr>
+            </line>
+            <line n="a6">
+                <tr>The mark of a lion on the clay (?) (is) seen on the <hi>verso</hi>.</tr>
+            </line>
+        </translation>
+        <comments>
+            <comment id="n1" type="philcomment">The translation follows <ref litRef="pinault1998a"/> and <ref litRef="ching2010"/>.</comment>
+            <comment id="n2" type="remarks">Thickness 0,7 cm. Only recto.</comment>
+            <comment id="n3" type="remarks">There is an image of this tablet on <link href="http://commons.wikimedia.org/wiki/File:Tocharian.JPG">Wikimedia Commons</link>.</comment>
+            <comment id="n4" type="philcomment">Note the spelling <hi>tayä</hi>.</comment>
+        </comments>
+        <references>
+            <ref type="Publication" litRef="kagawa1915"/> pl 191 (see <link href="http://dsr.nii.ac.jp/toyobunko/I-1-E-18/V-2/page/0291.html.en">Digital Archive of Toyo Bunko Rare Books</link>) <ref type="Publication" litRef="otanicatalogue1971" pageRange="157"/>
+            <ref type="Publication" litRef="inokuchi1980" pageRange="291"/>
+        </references>
+        <editions>
+            <ref litRef="pinault1998a" pageRange="364-365"/>
+            <ref litRef="adams1998a" pageRange="372-378"/>
+            <ref litRef="tamai2004"/>
+            <ref litRef="ching2010" pageRange="323-324"/>
+        </editions>
+        <publication>
+            <publicationDate date="2015-08"/>
+            <contributors>
+                <contributor name="CEToM" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+</corpus>

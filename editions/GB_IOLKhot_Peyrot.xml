@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schemas/fragments/bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus ../../../schemas/fragments/bte/fragments_bte.xsd">
+    <record id="m-iolkhot2037">
+        <header>
+            <sigla>
+                <primary siglum="IOL Khot 203.7"/>
+                <secondary siglum="H 149"/>
+            </sigla>
+            <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+            <provenance repository="British Library (London)" findspot="Unknown"/>
+            <content writtenLines="">
+                <scribalDuctus/>
+                <languages>
+                    <language languageName="txb"/>
+                </languages>
+                <text/>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1"> ///  KA ske m·  /// </line>
+            </recto>
+        </transliteration>
+        <transcription>
+            <prose>
+                <lb n="a1"/> ///  käskem(ane)  /// </prose>
+        </transcription>
+        <translation>
+            <line n="a1">
+                <tr>... strewing ...</tr>
+            </line>
+        </translation>
+        <comments>
+            <comment id="n1" type="remarks">The verso seems to be in another language, perhaps Tumshuqese.</comment>
+        </comments>
+        <references>
+            <ref type="Online access" litRef="idp0000">
+                <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Khot%20203/7">IOL Khot 203/7</link>
+            </ref>
+        </references>
+        <editions>
+            <ref litRef="skjaervo2002" pageRange="446"/>
+        </editions>
+        <publication>
+            <contributors>
+                <contributor name="Michaël Peyrot" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+    <record id="m-iolkhot20310">
+        <header>
+            <sigla>
+                <primary siglum="IOL Khot 203.10"/>
+            </sigla>
+            <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+            <provenance repository="British Library (London)" findspot="Unknown"/>
+            <content writtenLines="">
+                <scribalDuctus/>
+                <languages>
+                    <language languageName="txb"/>
+                </languages>
+                <text/>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1"> ///  ne PA¯ ¯sTä tsa  /// </line>
+            </recto>
+            <verso>
+                <line n="b1"> /// <lac aks="1"/>
+                    <lac aks="1" brac="rnd"/>
+                    <lac aks="2"/> /// </line>
+                <line n="b2"> /// <lac aks="1"/> tno [su] pā¯ ¯rścä  /// </line>
+            </verso>
+        </transliteration>
+        <transcription>
+            <prose>
+                <lb n="a1"/> ///  ne päst tsa  /// <lb n="b1"/> /// <lac aks="4"/> /// <lb n="b2"/> /// <lac aks="1"/> t no su pārśc  /// </prose>
+        </transcription>
+        <translation>
+            <line n="a1">
+                <tr>... away ...</tr>
+            </line>
+            <line n="b1">
+                <tr>...</tr>
+            </line>
+            <line n="b2">
+                <tr>... but he towards <hi>pār</hi> (?) ...</tr>
+            </line>
+        </translation>
+        <comments/>
+        <references>
+            <ref type="Online access" litRef="idp0000">
+                <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Khot%20203/10">IOL Khot 203/10</link>
+            </ref>
+        </references>
+        <editions>
+            <ref litRef="skjaervo2002" pageRange="447"/>
+        </editions>
+        <publication>
+            <contributors>
+                <contributor name="Michaël Peyrot" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+    <record id="m-iolkhotw65">
+        <header>
+            <sigla>
+                <primary siglum="IOL Khot W 65"/>
+                <secondary siglum="Mi.vii.1"/>
+            </sigla>
+            <physicalProperties material="object" writingMedium="ink"/>
+            <provenance repository="British Library (London)" findspot="Unknown"/>
+            <content writtenLines="">
+                <scribalDuctus/>
+                <languages>
+                    <language languageName="und"/>
+                </languages>
+                <text/>
+            </content>
+        </header>
+        <transliteration/>
+        <transcription/>
+        <translation/>
+        <comments>
+            <comment id="n1" type="remarks">Reportedly possibly Tocharian B. No image available yet.</comment>
+        </comments>
+        <references>
+            <ref type="Online access" litRef="idp0000">
+                <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20Khot%20W%2065">IOL Khot W 65</link>
+            </ref>
+        </references>
+        <editions>
+            <ref litRef="stein1921" pageRange="1201"/>
+            <ref litRef="hoernle1921" pageRange="1448"/>
+            <ref litRef="skjaervo2002" pageRange="573"/>
+        </editions>
+        <publication>
+            <contributors>
+                <contributor name="Michaël Peyrot" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+</corpus>

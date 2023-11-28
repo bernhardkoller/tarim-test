@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schemas/fragments/bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus ../../../schemas/fragments/bte/fragments_bte.xsd">
+       <record id="m-or8212163">
+      <header>
+         <sigla>
+            <primary siglum="Or 8212.163"/>
+            <secondary siglum="Or.8212/163"/>
+            <secondary siglum="BM 163"/>
+            <secondary siglum="BM 1"/>
+         </sigla>
+         <physicalProperties material="paper"
+                             objectType="Poṭhī"
+                             writingMedium="ink"
+                             height="7.6"
+                             width="24.1"/>
+         <provenance manuscript="Endere"
+                     repository="British Library (London)"
+                     findspot="Endere"
+                     specificFindspot="Temple cella E.I"/>
+         <content writtenLines="6">
+            <scribalDuctus ductus="archaic"/>
+            <languages>
+               <language languageName="txb"
+                         linguisticStage="archaic"
+                         linguisticStageMalzahn="A3"
+                         tamaiC14="true"/>
+            </languages>
+            <text title="buddhastotra">
+               <genre genre="Literary" subgenre="Buddhastotra"/>
+               <proseVerse proseVerse="verse"/>
+            </text>
+         </content>
+      </header>
+      <transliteration TranskribusDocument="140520"/>
+      <transcription>
+         <prose>
+            <lb n="a1" commRef="n3"/>
+         </prose>
+         <verse>
+            <strophe n="9">
+               <pada n="b"> ///  (tā)k= (e)p(i)ṅte no ;<phr type="NP"> kalendraśur= , amācäś </phr>; ro <lac aks="1"/> se ñke ñem ; speltkessont täṃne  /// <lb n="a2" commRef="n4 n5"/>
+               </pada>
+               <pada n="c">
+                  <lac syll="4"/> ///  ñem ; tākā ñī se , akälṣle 9 </pada>
+            </strophe>
+            <strophe n="10">
+               <pada n="a"> artā(dha)ne ñem ; ṣuktänte no , a(kälṣle) </pada>
+               <pada n="b"> /// <lb n="a3"/>
+                  <lac syll="4"/> ///  …ntā ; pelaikne se , wertsyaine </pada>
+               <pada n="c"> tpärṣke kätkäre ; yäkne postäṃ , onolme  /// </pada>
+            </strophe>
+            <strophe n="11">
+               <pada n="a">
+                  <lb n="a4" commRef="n6"/>
+                  <lac syll="5"/> ///  ; te mäṃnt wñāre , pūdñäkteśc </pada>
+               <pada n="b"> reme (we)s ñ(ä)ktā ; nesem ce ñke , wäntre(n)t(se) </pada>
+               <pada n="c"> /// <lb n="a5" commRef="n7"/>
+                  <lac syll="4"/> ///  lāñc ; pātri lānte , kälymiññi </pada>
+            </strophe>
+            <strophe n="12">
+               <pada n="a"> ente sudä <lac aks="1"/> ; ś·ä no tsekär , brahmaṇiṃ • </pada>
+               <pada n="b"> pwārmeṃ sälk(āmai) ;  /// <lac syll="4"/>,<lac syll="3"/>
+               </pada>
+               <pada n="c">
+                  <lb n="a6"/> /// <lac aks="1"/> ke 10-2 </pada>
+            </strophe>
+            <strophe n="13">
+               <pada n="a"> kUce cai śtorweś no ; kärkänamo , ñ(k)e <lac aks="2"/> ke </pada>
+               <pada n="b"> śtwer lāñc cai ñäke ; śaiṣṣe paṣṣi(yentär)  /// <lb n="b1"/>
+               </pada>
+               <pada n="c">
+                  <phr type="S">
+                     <lac syll="1"/> /// <phr type="NP"> brahma-ñäkte </phr>;<phr type="AP">
+                        <phr type="NP"> po ñäkteṃntsa </phr>, śvālmeṃ </phr>
+                     <phr type="AdvP"> ñke </phr>
+                  </phr> 10-3 </pada>
+            </strophe>
+            <strophe n="14">
+               <pada n="a"> ente procer ñi ; tsāka eśne , wärkṣä(ltsa) </pada>
+               <pada n="b"> /// <lb n="b2"/>
+                  <phr type="S">
+                     <lac syll="2"/> /// <phr type="NP"> (tu)meṃ </phr>
+                     <phr type="AdvP"> ot </phr>;<phr type="V'"> reki weñä </phr>,<phr type="NP"> ñäśäścä </phr>
+                  </phr>
+               </pada>
+               <pada n="c"> se se ylai-ñäkte ; ñäkteṃnts säswe , ñäke ste </pada>
+            </strophe>
+            <strophe n="15">
+               <pada n="a"> /// <lb n="b3" commRef="n8"/>
+                  <lac syll="1"/> ///  (de)vadatte ; procer ṣai ñi , ceU preke </pada>
+               <pada n="b"> kUse su myārsā-ne ; ette lyowwa ,  /// <lac syll="3"/>
+               </pada>
+               <pada n="c">
+                  <lb n="b4"/>
+               </pada>
+            </strophe>
+            <strophe n="16">
+               <pada n="a">
+                  <phr type="S">
+                     <lac syll="2"/> ///  śtorwonā ; rākṣātsānā,ṣeṃ <phr type="AdvP"> otä </phr>
+                  </phr>
+               </pada>
+               <pada n="b"> pärweṣṣe wsär-ñi ; cintamani , wme(r)  /// <lac syll="2"/>
+               </pada>
+               <pada n="c">
+                  <lb n="b5" commRef="n9"/>
+                  <lac syll="5"/>;<lac syll="1"/> ///  ·āwa toṃ , kälymine 10-6 </pada>
+            </strophe>
+            <strophe n="17">
+               <pada n="a">
+                  <phr type="S">
+                     <phr type="NP"> mäktoṃ okt </phr> no <phr type="NP"> toṃ ; rakṣātsanā </phr>,<phr type="V'"> kmeñ-ñäścä </phr>
+                  </phr>
+               </pada>
+               <pada n="b"> /// <lb n="b6"/>
+                  <lac syll="5"/>;<lac syll="4"/> /// <lac aks="1"/> , wrotsānā </pada>
+               <pada n="c">
+                  <phr type="S">
+                     <phr type="V'"> piṅkäṃ <phr type="NP"> ersna toṃ ; onolmeṃntsä </phr>
+                     </phr>,<phr type="NP"> tā keṃntsa </phr>
+                  </phr> 10-7 </pada>
+            </strophe>
+         </verse>
+         <prose> śä <lac aks="1"/> /// </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr litRef="hackstein1995" pageRange="78"/>
+            <tr>Meanwhile however [he ...] to the minister Kalendrasura ... now the name amongst those who are zealous [is] Dhaṃne </tr>
+         </line>
+         <line n="a2">
+            <tr>by name was my disciple Artadhana. By name however [there were] seven disciples. </tr>
+         </line>
+         <line n="a3">
+            <tr>... the dharma, in this retinue, the shallow and the deep manner [and] afterwards the beings ... </tr>
+         </line>
+         <line n="a4">
+            <tr>Thus [he] spoke like a Buddha. "We, O God! are witnesses to this thing. </tr>
+         </line>
+         <line n="a5">
+            <tr litRef="thomas1957" pageRange="236"/>
+            <tr>The vassal kings of the father-king. When they burnt the brahmin woman ... and pulled [her] out of the fire. </tr>
+         </line>
+         <line n="a6">
+            <tr litRef="thomas1979b" pageRange="51"/>
+            <tr>... away. These four kings now preserve the world. [i.e. become cakravartins.] </tr>
+         </line>
+         <line n="b1">
+            <tr litRef="thomas1979b" pageRange="58"/>
+            <tr>Brahma is now the best of all gods. When my brother put out [my] eyes with violence... </tr>
+         </line>
+         <line n="b1 b2">
+            <tr litRef="thomas1957" pageRange="235"/>
+         </line>
+         <line n="b2">
+            <tr>Thereupon he spoke a word to me. He who is now Indra, lord of gods ... </tr>
+         </line>
+         <line n="b3">
+            <tr litRef="thomas1957" pageRange="228"/>
+            <tr>Devadatta was my brother at that time, [and] caused him to forget ... </tr>
+         </line>
+         <line n="b4">
+            <tr>[were] ... the rākṣasas. Thereupon for the first time they gave me the cintamaṇi-jewel. </tr>
+         </line>
+         <line n="b5">
+            <tr litRef="hackstein1995" pageRange="90, 163"/>
+            <tr>in these regions. 16. In these same eight regions however these rākṣasas came to me. </tr>
+         </line>
+         <line n="b6">
+            <tr>He paints these great figures of men upon this earth. </tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="philcomment">For a parallel in THT3602 see Schmidt and Malzahn.</comment>
+         <comment id="n2" type="remarks">According to <ref litRef="broomhead1962" pageRange="106"/> "[w]ritten in a medium sized ductus, of a cursive type, rather similar to that in [<fragRef fragment="m-ioltoch285"/>, <fragRef fragment="m-ioltoch301"/>, <fragRef fragment="m-ioltoch302"/>]. The MS. is fairly clear, except for a line nearly two akṣaras wide down the centre from top to bottom, where the MS. has faded or been abraded."</comment>
+         <comment id="n3" type="philcomment">"<txq>ñe_m\</txq>": "<txq>_m</txq>" like "<txq>_n</txq>"</comment>
+         <comment id="n4" type="philcomment">"<txq>ñe_m\</txq>": "<txq>_m</txq>" like "<txq>_n</txq>"</comment>
+         <comment id="n5" type="philcomment">
+            <hi>9</hi>: ornamentary in hanging stroke</comment>
+         <comment id="n6" type="philcomment">"<txq>nese_m\</txq>": "<txq>_m</txq>" like "<txq>_n</txq>"</comment>
+         <comment id="n7" type="philcomment">"•": unusually high</comment>
+         <comment id="n8" type="philcomment">"ly": written with normal "y" sign instead of ligature "Xy" sign</comment>
+         <comment id="n9" type="philcomment">"<txq>_m_a</txq>": "<txq>_m</txq>" like "<txq>_n</txq>"</comment>
+      </comments>
+      <references>
+         <ref type="Online access" litRef="idp0000">
+            <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=Or.8212/163">Or.8212/163</link>
+         </ref>
+      </references>
+      <editions>
+         <ref litRef="broomhead1962" pageRange="106-107"/>
+         <ref litRef="schmidtkt1983a"/>
+         <ref litRef="malzahn2007a"/>
+         <ref litRef="schmidtkt1983a"/>
+         <ref litRef="malzahn2007a"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Michaël Peyrot" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-or82121379">
+      <header>
+         <sigla>
+            <primary siglum="Or 8212.1379"/>
+            <secondary siglum="Or.8212/1379"/>
+            <secondary siglum="Kucha0187"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance repository="British Library (London)" findspot="Kuča"/>
+         <content writtenLines="10">
+            <scribalDuctus ductus="archaic"/>
+            <languages>
+               <language languageName="txb"
+                         linguisticStage="archaic"
+                         linguisticStagePeyrot="A1"
+                         tamaiC14="true"
+                         linguisticStageMalzahn="A4"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references> Lévi apud <ref type="Published" litRef="stein1928"/> plate CXXIII <ref type="Online access" litRef="idp0000">
+            <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=Or.8212/1379">Or.8212/1379</link>
+         </ref>
+      </references>
+      <editions>
+         <ref litRef="stein1928" pageRange="1029"/>
+      </editions>
+      <publication/>
+    </record>
+    <record id="m-kucha189">
+        <header>
+            <sigla>
+                <primary siglum="Kucha 189"/>
+                <secondary siglum="Or. 8212/1854"/>
+            </sigla>
+            <physicalProperties writingMedium="ink" objectType="Scroll" material="paper"/>
+            <provenance repository="British Library (London)"/>
+            <content>
+                <scribalDuctus ductus="cursive"/>
+                <languages>
+                    <language languageName="txb" linguisticStage="late"/>
+                </languages>
+                <text>
+                    <genre genre="Non-literary" subgenre="Account"/>
+                    <proseVerse proseVerse="prose"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1">
+                    <lac/>[yä] ltse pi ŚKä nte</line>
+                <line n="a2">
+                    <lac/>t· rya KA nte </line>
+                <line n="a3">
+                    <lac/>w· t· ā śsa ki mśo¯ ¯K cā neṃ wa sa ṣka SKA nte</line>
+                <line n="a4">
+                    <lac/>
+                </line>
+            </recto>
+        </transliteration>
+        <transcription>
+            <prose>
+                <lb n="a1"/>
+                <lac/>yältse piś känte
+                <lb n="a2"/>
+                <lac/>t(a)rya känte
+                <lb n="a3"/>
+                <lac/>w(i) t(au) āśsa kimśok <commentRef commRef="n1"/> cāneṃ wasa ṣkas känte
+                <lb n="a4"/>
+                <lac/>
+            </prose>
+        </transcription>
+        <translation>
+            <line n="a1">... thousand five hundred.</line>
+            <line n="a2">... three hundred.</line>
+            <line n="a3">... two pecks. Kimśok gave coins as head (?) <commentRef commRef="n2"/>: six hundred.</line>
+        </translation>
+        <comments>
+            <comment id="n1">Maybe <hi rendition="italics">kimśok</hi> has something to do with chinese 金? cf. <hi rendition="italics">kimña</hi> in THT 466 a2, THT 2904 a1.</comment>
+            <comment id="n2">It's not entirely clear what is meant here. The context is just too fragmentary.</comment>
+        </comments>
+        <references/>
+        <editions>
+            <ref litRef="levi1928" pageRange="1029-1030"/>
+            <ref litRef="ching2010" pageRange="338"/>
+        </editions>
+        <publication>
+            <contributors>
+                <contributor name="Adrian Musitz" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+    <record id="m-kucha190">
+        <header>
+            <sigla>
+                <primary siglum="Kucha 190"/>
+                <secondary siglum="Or. 8212/1855(a)"/>
+            </sigla>
+            <physicalProperties writingMedium="ink" objectType="Scroll" material="paper" height="9.2" width="23.1"/>
+            <provenance repository="British Library (London)"
+                previousFragment="m-hwb744"
+                nextFragment="m-kucha191"/>
+            <content writtenLines="3">
+                <scribalDuctus ductus="cursive"/>
+                <languages>
+                    <language languageName="txb" linguisticStage="late"/>
+                </languages>
+                <text>
+                    <genre genre="Non-literary" subgenre="Account"/>
+                    <proseVerse proseVerse="prose"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1">wa nti śke wi ca kaṃ ma sa nai tau mlyokotau ple ksa o kta ka¯ ¯[R] <lac/>
+                </line>
+                <line n="a2">su ta ne pe rnai yśe ntse pa ka na re tke meṃ a ṣkā rka meṃ wrä ttsai se¯ ¯Ś ṣka sto¯ ¯M tre yṣa ṅKAṃ ly[e] <lac/>
+                </line>
+                <line n="a3">ca nta ne cā¯ ¯K ñu to¯ ¯M mlyo ko tau ple ksa ṣu kta ka¯ ¯R pi¯ ¯Ś cā ñi yä</line>
+            </recto>
+        </transliteration>
+        <transcription>
+            <prose>
+                <lb n="a1"/>wantiśke wi cakaṃma sanai tau mlyokotau pleksa oktakar <lac/>
+                <lb n="a2"/>sutane pernaiyśentse pakana retkemeṃ aṣkār kameṃ wrättsaiseś ṣkas tom trey ṣaṅkäṃ lye(kśai) <lac/>
+                <lb n="a3"/>cantane cāk ñu tom mlyokotau pleksa ṣuktakar piś cāñi yä(ltse)
+            </prose>
+        </transcription>
+        <translation>
+            <line n="a1">Wantiśke sold two piculs, one peck <hi rendition="italics">mlyokotau</hi>: for eighty (coins) each...</line>
+            <line n="a2">(Some people) came back from the army for the sake of Sutane and Pernaiyśe. For their reception, six pecks, three pints lyekśiye-millet... </line>
+            <line n="a3">Cantane sold a picul, nine pecks <hi rendition="italics">mlyokotau</hi>: for seventy five (coins) each, (amounting to) a thousand coins.</line>
+        </translation>
+        <translation>
+            <line n="a1">
+                <tr litRef="thomas1957" pageRange="146"/>
+            </line>
+            <line n="a2">
+                <tr litRef="thomas1957" pageRange="147"/>
+            </line>
+            <line n="a3">
+                <tr litRef="thomas1957" pageRange="146"/>
+            </line>
+        </translation>
+        <comments/>
+        <references>
+            <ref type="Online access" litRef="idp0000">
+                <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=Or.8212/1855(a)">Or.8212/1855(a)</link>
+            </ref>
+        </references>
+        <editions>
+            <ref litRef="ching2010" pageRange="338"/>
+            <ref litRef="ching2017" pageRange="103"/>
+            <ref litRef="chingandogihara2012" pageRange="92"/>
+            <ref litRef="ching2012" pageRange="314-315"/>
+        </editions>
+        <publication>
+            <contributors>
+                <contributor name="Adrian Musitz" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+    <record id="m-kucha191">
+        <header>
+            <sigla>
+                <primary siglum="Kucha 191"/>
+                <secondary siglum="Or 8212.1855.b"/>
+                <secondary siglum="Or. 8212/1855(b)"/>
+            </sigla>
+            <physicalProperties writingMedium="ink" objectType="Scroll" material="paper" height="10" width="21.9"/>
+            <provenance repository="British Library (London)" findspot="Kuča"/>
+            <content writtenLines="4">
+                <scribalDuctus ductus="cursive"/>
+                <languages>
+                    <language languageName="txb" linguisticStage="late"/>
+                </languages>
+                <text>
+                    <genre genre="Non-literary" subgenre="Account"/>
+                    <proseVerse proseVerse="prose"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1">
+                    <lac/>k· <lac aks="4"/> [k]· <lac aks="2"/>ñ· <lac aks="3"/>
+                    <lac/>
+                </line>
+                <line n="a2">cā¯ ¯K lye kśai sa cā neṃ kā mai po re tse pa ka na yä <lac/>
+                </line>
+                <line n="a3">ma ṅku SA ko sa śwā ra ca kaṃ ma pi śto¯ ¯M ysā re sa cāneṃ śā [m]· <lac/>
+                </line>
+                <line n="a4">·[i] <lac aks="3"/> sa nai tau ysā re ple ṅ[k]· wa ṣ··¯ ¯S yä l··e o <lac/>
+                </line>
+            </recto>
+        </transliteration>
+        <transcription>
+            <prose>
+                <lb n="a1"/>
+                <lac/>k· <lac aks="3"/>(pa)k(ana) (cā)ñ(i) <lac aks="3"/>
+                <lac/>
+                <lb n="a2"/>cāk lyekśaisa cāneṃ kāmai poretse pakana yä(ltse) <lac/>
+                <lb n="a3"/>maṅkusäkosa śwāra cakaṃma piś tom ysāresa cāneṃ śām· <lac/>
+                <lb n="a4"/>(w)i (cakaṃma) sanai tau ysāre pleṅk(u)wa ṣ(ka)s yäl(ts)e o(k) <lac/>
+            </prose>
+        </transcription>
+        <translation>
+            <line n="a1">... for the sake of... coins...</line>
+            <line n="a2">I took coins for a picul lyekśiye-millet: for the sake of Pore, thousand...</line>
+            <line n="a3">For four piculs five pecks wheat as <hi rendition="italics">maṅkusäko</hi>, coins...</line>
+            <line n="a4">I sold two piculs, one peck wheat: six thousand eight...</line>
+        </translation>
+        <translation>
+            <line n="a1">
+                <tr litRef="thomas1957" pageRange="147"/>
+            </line>
+            <line n="a3">
+                <tr litRef="thomas1957" pageRange="146"/>
+            </line>
+        </translation>
+        <comments/>
+        <references>
+            <ref type="Online access" litRef="idp0000">
+                <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=Or.8212/1855(b)">Or.8212/1855(b)</link>
+            </ref>
+        </references>
+        <editions>
+            <ref litRef="ching2010" pageRange="338"/>
+            <ref litRef="ching2012" pageRange="315"/>
+            <ref litRef="ching2017" pageRange="104"/>
+        </editions>
+        <publication>
+            <contributors>
+                <contributor name="Adrian Musitz" contribution="editor"/>
+            </contributors>
+        </publication>
+   </record>
+   <record id="m-or150036">
+      <header>
+         <sigla>
+            <primary siglum="Or 15003.6"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance repository="British Library (London)" findspot="Toŋguzbaš"/>
+         <content writtenLines="">
+            <scribalDuctus ductus="very archaic"/>
+            <languages>
+               <language languageName="txb"
+                         linguisticStage="archaic"
+                         linguisticStageMalzahn="A1"
+                         tamaiC14="true"/>
+            </languages>
+            <text>
+               <genre genre="Literary"/>
+            </text>
+         </content>
+      </header>
+      <transliteration TranskribusDocument="138897"/>
+      <transcription>
+         <prose>
+            <lb n="a1"/> /// <lac aks="1"/> ·y· nauṣä  /// <lb n="a2"/> /// <lac aks="1"/> y sū aiśe <lac aks="1"/> /// <lb n="a3"/> /// <lac aks="1"/> m· lla ṅtse pä  /// <lb n="b1"/> ///  st· aknā(t)s(a)  /// <lb n="b2"/> /// <lac aks="1"/> k yāmīträ <lac aks="1"/> /// <lb n="b3"/> ///  l· o yolo <lac aks="1"/> /// <lb n="b4"/> /// <lac aks="2"/> /// </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment id="n1" type="philcomment">Transliteration <hi>pace</hi>
+            <ref litRef="tamai2007a"/>.</comment>
+         <comment id="n2" type="remarks">One of the most archaic Tocharian manuscripts with a leftward bound 〈e〉; for the script type see <ref litRef="malzahn2007a" pageRange="268"/>.</comment>
+      </comments>
+      <references> with plate 2 <ref type="Online access" litRef="idp0000">
+            <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=Or.15003/6">Or.15003/6</link>
+         </ref>
+      </references>
+      <editions>
+         <ref litRef="tamai2006" pageRange="267"/>
+         <ref litRef="wille2006" pageRange="27"/>
+         <ref litRef="peyrot2014a" pageRange="144-145"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Hannes A. Fellner" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-or15003121">
+      <header>
+         <sigla>
+            <primary siglum="Or 15003.121"/>
+            <secondary siglum="Or.15003/121"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance repository="British Library (London)" findspot="Unknown"/>
+         <content writtenLines="4">
+            <scribalDuctus ductus="classical"/>
+            <languages>
+               <language languageName="san"/>
+               <language languageName="txb" linguisticStage="classical"/>
+            </languages>
+            <text title="Karmavācanā">
+               <genre genre="Literary" subgenre="Vinaya"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> /// <lac aks="2"/>
+            </line>
+            <line n="a2"> ///  ss· || <lac aks="2"/> [n]v[ā]</line>
+            <line n="a3"> ///  mi a nu mo dā</line>
+            <line n="a4"> ///  rmne <lac aks="2"/> ·[e]</line>
+         </recto>
+         <verso>
+            <line n="b1"> ///  tta : a <lac aks="1"/> [m]·</line>
+            <line n="b2"> ///  || kā rmne e ne</line>
+            <line n="b3"> ///  gha <lac aks="2"/> ·[i]</line>
+            <line n="b4"> /// <lac aks="2"/>
+            </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <passage name="Pravāraṇā-vastu"/>
+            <lb n="a1" commRef="n3"/> /// <lac aks="2"/>
+            <lb n="a2"/> ///  ss· || <lac aks="2"/> nvā <lb n="a3"/> ///  mi anumodā <lb n="a4"/> ///  rmne <lac aks="2"/> ·e <lb n="b1"/> ///  tta : a <lac aks="1"/> m· <lb n="b2"/> ///  || kārmne ene <lb n="b3" commRef="n3"/> ///  gha <lac aks="2"/> ·i <lb n="b4" commRef="n3"/> /// <lac aks="2"/>
+         </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment id="n1" type="parallels">
+            <fragRef fragment="m-iolsan404"/>
+         </comment>
+         <comment id="n2" type="remarks">The right margin is preserved.</comment>
+         <comment id="n3" type="philcomment">CHECK Tamai: (two characters from another manuscript) (about a1 and b3-4)</comment>
+      </comments>
+      <references> (= ) <ref type="Online access" litRef="idp0000">
+            <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=Or.15003/121">Or.15003/121</link>
+         </ref>
+         <ref type="Identification" litRef="wille2006" pageRange="121"/> (= <ref type="Identification" litRef="wille2007" pageRange="№124"/>)</references>
+      <editions>
+         <ref litRef="tamai2006" pageRange="268"/>
+         <ref litRef="tamai2007b" pageRange="№3"/>
+         <ref litRef="ogihara2009" pageRange="157"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Michaël Peyrot" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-ioltoch15003258">
+      <header>
+         <sigla>
+            <primary siglum="Or 15003.258"/>
+            <secondary siglum="Or.15003/258"/>
+            <secondary siglum="H 156 [unnumbered]"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance repository="British Library (London)" findspot="Unknown"/>
+         <content writtenLines="3">
+            <scribalDuctus ductus="classical"/>
+            <languages>
+               <language languageName="san"/>
+               <language languageName="txb" linguisticStage="classical"/>
+            </languages>
+            <text title="Karmavācanā">
+               <genre genre="Literary" subgenre="Vinaya"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  [i] <lac aks="1" brac="rnd"/> bh· ṣa jy·  /// </line>
+            <line n="a2"> /// <lac aks="1"/> cya¯ ¯m∘ || se ṣu¯ ¯KT y··  /// </line>
+            <line n="a3"> ///  rma sa ma yaṃ s[n]ā  /// </line>
+         </recto>
+         <verso>
+            <line n="b1"> /// <lac aks="1"/> [p]· sa mai 10 7 ||  /// </line>
+            <line n="b2"> /// <lac aks="1"/> vi ta pa ri ṣkā raṃ cī  /// </line>
+            <line n="b3"> /// <lac aks="1"/> ·[a]ṃ gha sya <lac aks="1"/> /// </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <passage name="Cīvara-vastu"/>
+            <lb n="a1"/> ///  i <lac aks="1"/> bh·ṣajy·  /// <lb n="a2"/> /// <lac aks="1"/> cyam || se ṣukt y··  /// <lb n="a3"/> ///  …rma samayaṃ snā…  /// <lb n="b1"/> /// <lac aks="1"/> p· samai 10-7 ||  /// <lb n="b2"/> /// <lac aks="1"/> vitapariṣkāraṃ cī  /// <lb n="b3"/> /// <lac aks="1"/> ·aṃghasya <lac aks="1"/> /// </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment id="n1" type="remarks">After <ref litRef="ogihara2009" pageRange="164-165"/>, recto and verso have been reversed compared to <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=Or.15003/258">IDP</link>.</comment>
+      </comments>
+      <references>
+         <ref type="Identification" litRef="wille2006" pageRange="143"/> (= <ref type="Identification" litRef="wille2007" pageRange="№262"/>)<ref type="Online access" litRef="idp0000">
+            <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=Or.15003/258">Or.15003/258</link>
+         </ref> (= ) </references>
+      <editions>
+         <ref litRef="tamai2006" pageRange="269"/>
+         <ref litRef="tamai2007b" pageRange="№7"/>
+         <ref litRef="ogihara2009" pageRange="164-165"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Michaël Peyrot" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+    <record id="m-or1500987">
+        <header>
+            <sigla>
+                <primary siglum="Or 15009.87"/>
+                <secondary siglum="Or.15009/87"/>
+                <secondary siglum="H 149.60"/>
+            </sigla>
+            <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+            <provenance repository="British Library (London)" findspot="Unknown"/>
+            <content writtenLines="5">
+                <scribalDuctus ductus="classical"/>
+                <languages>
+                    <language languageName="san"/>
+                    <language languageName="txb" linguisticStage="classical"/>
+                </languages>
+                <text title="Karmavācanā">
+                    <genre genre="Literary" subgenre="Vinaya"/>
+                    <proseVerse proseVerse="prose"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1"> /// <lac aks="1"/> r· <lac aks="1"/> [a] bhi mu kha[ṃ] vai bhaṃ gi [k]· sa ma va hi ta ḥ saṃ [m]u  /// </line>
+                <line n="a2"> ///  [y]· tsaṃ gha sya prā pta kā la ḥ kṣa ma te ā jñā ca saṃ gha sya ya tsa <lac aks="1" brac="rnd"/>
+                    <lac aks="1"/> /// </line>
+                <line n="a3"> ///  ta pa ri ṣkā raṃ cī va raṃ vā a cī va raṃ vā bhi mu khaṃ vai bhaṃ ·i kaṃ sa ma  /// </line>
+                <line n="a4"> ///  [gha] sya vi bha ja mā na pra sā da ka ra sya saṃ gha ka rme ṇa da dyā ·e  /// </line>
+                <line n="a5"> ///  ma bhi kṣu kā la ga ta ḥ ta sya yā va de [v]a la ghu jī vi ta <lac aks="1"/> /// </line>
+            </recto>
+            <verso>
+                <line n="b1"> /// <lac aks="1"/> [ḥ] kā la ga ta ḥ ta sy[a] yā [v]· <lac aks="1"/> v· l· ·[u] j· vi ta p[a] r· [ṣ]k·  /// </line>
+                <line n="b2"> ///  bha ṅgi kaṃ sa ma va hi taṃ saṃ mu khī bhū ta sya saṃ gha sya vi [bh]·  /// </line>
+                <line n="b3"> ///  [pr]· tyaṃ śa prā pno ti sa ā yu ṣma ta e vaṃ bha va tu ta mā <lac aks="1"/> ṣmaṃ svi  /// </line>
+                <line n="b4"> ///  a dhi ti ṣṭha tu e vaṃ dvi ra pye vaṃ tri ra pi vā cya¯ ¯m∘ || śtwe ra meṃ ṣe srau [k]aṃ  /// </line>
+                <line n="b5"> /// <lac aks="1"/> ta ḥ saṃ gha ḥ i t[th]aṃ nā ma bhi [kṣu] ḥ kā la ga ta ḥ ta sya ·ā  /// </line>
+            </verso>
+        </transliteration>
+        <transcription>
+            <prose>
+                <passage name="Cīvara-vastu"/>
+                <lb n="a1"/> /// <lac aks="1"/> r· <lac aks="1"/> abhimukhaṃ vaibhaṃgik· samavahitaḥ saṃmu  /// <lb n="a2"/> ///  y·t saṃghasya prāptakālaḥ kṣamate ājñā ca saṃghasya yat sa <lac aks="2"/> /// <lb n="a3"/> ///  tapariṣkāraṃ cīvaraṃ vā acīvaraṃ vābhimukhaṃ vaibhaṃ·ikaṃ sama  /// <lb n="a4"/> ///  …ghasya vibhajamāna prasādakarasya saṃghakarmeṇa dadyā ·e  /// <lb n="a5"/> ///  ma bhikṣu kālagataḥ tasya yāvad eva laghujīvita <lac aks="1"/> /// <lb n="b1"/> /// <lac aks="1"/> ḥ kālagataḥ tasya yāv· <lac aks="1"/> v· l··uj·vitapar· ṣk·  /// <lb n="b2"/> ///  bhaṅgikaṃ samavahitaṃ saṃmukhībhūtasya saṃghasya vibh·  /// <lb n="b3"/> ///  pr·tyaṃśa prāpnoti sa āyuṣmata evaṃ bhavatu tam ā <lac aks="1"/> ṣmaṃ svi  /// <lb n="b4"/> ///  adhitiṣṭhatu evaṃ dvir apy evaṃ trir api vācyam || śtwerameṃ ṣe sraukaṃ  /// <lb n="b5"/> /// <lac aks="1"/> taḥ saṃghaḥ itthaṃnāma bhikṣuḥ kālagataḥ tasya ·ā  /// </prose>
+        </transcription>
+        <translation>
+            <line n="b4">
+                <tr litRef="peyrot2013b" pageRange="680">If from four one dies (cf 661)</tr>
+            </line>
+        </translation>
+        <comments>
+            <comment id="n1" type="parallels">See <ref litRef="hartel1956" pageRange="§94-103"/>, <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=SHT%20132">SHT 132</link>.</comment>
+            <comment id="n2" type="remarks">In accordance with all editions listed below, recto and verso have been reversed compared to <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=Or.15009/87">IDP</link>.</comment>
+        </comments>
+        <references> (=  №Or15009/87)  (=  №Or15009/87) <ref type="Identification" litRef="hartmannandwille1992" pageRange="28"/> [CHECK] <ref type="Online access" litRef="idp0000">
+            <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=Or.15009/87">Or.15009/87</link>
+        </ref>
+        </references>
+        <editions>
+            <ref litRef="nagashima2009" pageRange="156-157"/>
+            <ref litRef="yeea2009"/>
+            <ref litRef="tamai2009" pageRange="661"/>
+            <ref litRef="tamai2010"/>
+            <ref litRef="ogihara2009" pageRange="165"/>
+        </editions>
+        <publication>
+            <contributors>
+                <contributor name="Michaël Peyrot" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+    <record id="m-or1500989">
+        <header>
+            <sigla>
+                <primary siglum="Or 15009.89"/>
+                <secondary siglum="Or.15009/89"/>
+            </sigla>
+            <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+            <provenance repository="British Library (London)" findspot="Unknown"/>
+            <content writtenLines="">
+                <scribalDuctus/>
+                <languages>
+                    <language languageName="san"/>
+                    <language languageName="txb"/>
+                </languages>
+                <text>
+                    <genre genre="Literary" subgenre="Gloss"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <verso>
+                <line n="b4x">ka [r]sa na l[e]</line>
+                <line n="b4y">ka <lac aks="1"/>
+                </line>
+                <line n="b5x">
+                    <unedited/>
+                </line>
+                <line n="b5y">wa k[ī] pa ke [ñ]e</line>
+                <line n="b6x">
+                    <unedited/>
+                </line>
+                <line n="b6y">
+                    <unedited/>
+                </line>
+                <line n="b6z">po o <lac aks="1"/> /// </line>
+            </verso>
+        </transliteration>
+        <transcription>
+            <prose>
+                <lb n="b4x" commRef="n1 n2"/> karsanale <lb n="b4y"/> ka <lac aks="1"/>
+                <lb n="b5x"/>
+                <unedited/>
+                <lb n="b5y" commRef="n3 n4"/> wakī-pakeñe <lb n="b6x"/>
+                <unedited/>
+                <lb n="b6y"/>
+                <unedited/>
+                <lb n="b6z" commRef="n5 n6"/> po o(nolmi) </prose>
+        </transcription>
+        <translation>
+            <line n="b4x">
+                <tr>to be recognized</tr>
+            </line>
+            <line n="b5y">
+                <tr>belonging to a distinction part</tr>
+            </line>
+            <line n="b6z">
+                <tr>all b(eings)</tr>
+            </line>
+        </translation>
+        <comments>
+            <comment id="n1" type="lingcomment">
+                <hi>karsanale</hi>: <ref litRef="tamai2009" pageRange="662"/> reads <hi>... sa na la</hi>. The classical form of this word is <hi>kärsanalle</hi>.</comment>
+            <comment id="n2" type="philcomment">
+                <hi>karsanale</hi> glosses Skt. <hi>'bhijñeyaḥ</hi> 'to be recognised (intuitively)'. The <hi>r</hi> of the akṣara <hi>[r]sa</hi> is inclined very far to the right and difficult to read.</comment>
+            <comment id="n3" type="lingcomment">
+                <hi>wakī-pakeñe</hi>: <ref litRef="tamai2009" pageRange="661"/> reads <hi>wa ki pa ke ...</hi> suggesting a connection with <hi>wāki</hi> 'difference' and <hi>pakenta</hi> 'parts'. In my view, it is more likely that it is one word, and that the last akṣara is a deformed <hi>ñe</hi>. Obviously, the Tocharian gloss is literal and impossible to understand without recourse to the Sanskrit model.</comment>
+            <comment id="n4" type="philcomment">
+                <hi>wakī-pakeñe</hi> glosses Skt. <hi>viśeṣabhāgīya</hi> 'zur Vorzüglichkeit führend' ('leading to excellence', <ref litRef="swft1973"/>: IV, 137b).</comment>
+            <comment id="n5" type="lingcomment">
+                <hi>po o(nolmi)</hi>. <ref litRef="tamai2009" pageRange="662"/> reads <hi>[v]yo tu</hi>.</comment>
+            <comment id="n6" type="philcomment">
+                <hi>po o(nolmi)</hi> glosses Skt. <hi>sarv(asatvā)</hi> (<ref litRef="hartmannju1991"/>; <ref litRef="mittal1957" pageRange="55"/>, I.9).</comment>
+        </comments>
+        <references>
+            <ref type="other" litRef="peyrot2015b" pageRange="122-123"/>
+            <ref type="Online access" litRef="idp0000">
+                <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=Or.15009/89">Or.15009/89</link>
+            </ref>
+        </references>
+        <editions/>
+        <publication>
+            <contributors>
+                <contributor name="Michaël Peyrot" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+    <record id="m-or15009392">
+        <header>
+            <sigla>
+                <primary siglum="Or 15009.392"/>
+                <secondary siglum="Or.15009/392"/>
+                <secondary siglum="H 149.add [unnumbered]"/>
+            </sigla>
+            <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+            <provenance repository="British Library (London)" findspot="Unknown"/>
+            <content writtenLines="5">
+                <scribalDuctus ductus="classical"/>
+                <languages>
+                    <language languageName="san"/>
+                    <language languageName="txb" linguisticStage="classical"/>
+                </languages>
+                <text title="Karmavācanā">
+                    <genre genre="Literary" subgenre="Vinaya"/>
+                    <proseVerse proseVerse="prose"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1"> /// <lac aks="1"/> yaṃ na va kā nāṃ a tha vā a yaṃ  /// </line>
+                <line n="a2"> /// <lac aks="1"/> te weṃ wa [t]e tri te ma <space type="string_hole"/> /// </line>
+                <line n="a3"> ///  ṣmaṃ e vaṃ nā mā bhi kṣu <space type="string_hole"/> /// </line>
+                <line n="a4"> ///  ta saṃ mu khī bhū ta sya <space type="string_hole"/> /// </line>
+                <line n="a5"> ///  ya tu a dhi ti [ṣ]ṭha tu • e v[a]  /// </line>
+            </recto>
+            <verso>
+                <line n="b1"> ///  ·y· yā va de va la ghu jī vi [t]·  /// </line>
+                <line n="b2"> ///  ·ā ma ma i ya tā va <space type="string_hole"/> /// </line>
+                <line n="b3"> /// <lac aks="1"/> va¯ ¯t∘ dvi ra pi tṛ ra pi <space type="string_hole"/> /// </line>
+                <line n="b4"> /// <lac aks="1"/> te we ṣle yo to tRA mā <space type="string_hole"/> /// </line>
+                <line n="b5"> ///  la ga ta ta sya yā va de va l· [ghu]  /// </line>
+            </verso>
+        </transliteration>
+        <transcription>
+            <prose>
+                <passage name="Cīvara-vastu"/>
+                <lb n="a1"/> /// <lac aks="1"/> yaṃ navakānāṃ atha vā ayaṃ  /// <lb n="a2"/> /// <lac aks="1"/> te weṃ wate trite ma  /// <lb n="a3"/> ///  (āyu)ṣmaṃ evaṃnāmā bhikṣu  /// <lb n="a4"/> ///  (samavahi)ta saṃmukhībhūtasya  /// <lb n="a5"/> ///  (mamā)yatu adhitiṣṭhatu • eva  /// <lb n="b1"/> ///  ·y· yāvad eva laghujīvit·  /// <lb n="b2"/> ///  ·ā mama iya tāva  /// <lb n="b3"/> /// <lac aks="1"/> vat dvir api tṛr api  /// <lb n="b4"/> /// <lac aks="1"/> te weṣle yototrä mā  /// <lb n="b5"/> ///  (kā)lagata tasya yāvad eva l(a)ghu  /// </prose>
+        </transcription>
+        <translation/>
+        <comments>
+            <comment id="n1" type="parallels">See <ref litRef="hartel1956" pageRange="§94-103"/>, <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=SHT%20132">SHT 132</link>, <fragRef fragment="m-or1500987"/>.</comment>
+        </comments>
+        <references>
+            <ref type="Identification" litRef="hartmannandwille1992" pageRange="28"/>
+            <ref type="Online access" litRef="idp0000">
+                <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=Or.15009/392">Or.15009/392</link>
+            </ref> (=  №Or15009/392) </references>
+        <editions>
+            <ref litRef="tamai2009" pageRange="663"/>
+            <ref litRef="tamai2010"/>
+            <ref litRef="ogihara2009" pageRange="165-166"/>
+        </editions>
+        <publication>
+            <contributors>
+                <contributor name="Michaël Peyrot" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+    <record id="m-or15009552">
+        <header>
+            <sigla>
+                <primary siglum="Or 15009.552"/>
+                <secondary siglum="Or.15009/552"/>
+            </sigla>
+            <physicalProperties material="paper"
+                objectType="Poṭhī"
+                writingMedium="ink"
+                height="7.1"
+                width="17.1"/>
+            <provenance repository="British Library (London)" findspot="Unknown"/>
+            <content writtenLines="">
+                <scribalDuctus/>
+                <languages>
+                    <language languageName="san"/>
+                    <language languageName="txb"/>
+                </languages>
+                <text>
+                    <genre genre="Literary" subgenre="Gloss"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <verso>
+                <line n="b1x">ṣe¯ ¯K∘ so mo TKA ñe ya ma ṢAṃ</line>
+                <line n="b2x">[pa]¯ ¯P</line>
+                <line n="b3x">·e <lac aks="1"/> mp·</line>
+                <line n="b3y">ka [k]rau pau</line>
+                <line n="b3z">tu <lac aks="1"/> [śa] m[o]</line>
+                <line n="b5x">
+                    <lac aks="1"/> ·r· ·[ko]</line>
+            </verso>
+        </transliteration>
+        <transcription>
+            <prose>
+                <lb n="b1x" commRef="n2"/> ṣek somotkäñe yamaṣäṃ <lb n="b2x" commRef="n3 n4"/> pa p <lb n="b3x"/> ·e <lac aks="1"/> mp· <lb n="b3y" commRef="n5"/> kakraupau <lb n="b3z" commRef="n6"/> tu (ai)śamo <lb n="b5x"/>
+                <lac aks="1"/> ·r· ·ko </prose>
+        </transcription>
+        <translation>
+            <line n="b1x">
+                <tr>he always acts constantly</tr>
+            </line>
+            <line n="b2x">
+                <tr>...</tr>
+            </line>
+            <line n="b3x">
+                <tr>...</tr>
+            </line>
+            <line n="b3y">
+                <tr>gathered</tr>
+            </line>
+            <line n="b3z">
+                <tr>knowing this</tr>
+            </line>
+            <line n="b5x">
+                <tr>without fear</tr>
+            </line>
+        </translation>
+        <comments>
+            <comment id="n1" type="philcomment">The last element <fragRef line="b5x"/> glosses Skt. <hi>[a]bhayāṃ</hi> 'unfearful, not dangerous' (<ref litRef="hartmannju1991"/>). As the paper is severely abraded, this gloss is essentially illegible; only the <hi>r</hi> can be read with relative certainty. It is even uncertain whether the akṣara with <hi>r</hi> is preceded by one or rather by two other akṣaras.</comment>
+            <comment id="n2" type="philcomment">glosses Skt. <hi>[ni]tyaṃ satatakāritā[ṃ]</hi> 'always a constant performance' (<ref litRef="hartmannju1991"/>).</comment>
+            <comment id="n3" type="lingcomment">The interpretation is unclear; <hi>[pa]</hi> would suggest <hi>[pa]«lsko»</hi> 'mind'.</comment>
+            <comment id="n4" type="philcomment">glosses Skt. <hi>cittaṃ</hi> 'mind' (<ref litRef="hartmannju1991"/>). There is a large space between the two akṣaras and, probably, something in between is missing.</comment>
+            <comment id="n5" type="philcomment">
+                <hi>kakraupau</hi> glosses Skt. <hi>upa[c]ittaṃ</hi> 'gathered' (for <hi>upacitaṃ</hi>; <ref litRef="hartmannju1991"/>, who notes that the second <hi>t</hi> may have been added later because the ink is fainter). The interpretation of the preceding gloss <fragRef line="b3x"/>
+                <hi>·e – mp·</hi> as well as that of the damaged Sanskrit akṣaras is uncertain. <fragRef line="b3z"/>
+                <hi>tu (ai)śamo</hi> (reading suggested by Georges-Jean Pinault - p.c.) glosses Skt. <hi>[t]at [prat]i[saṃ]</hi> 'this ...' (<ref litRef="hartmannju1991"/>).</comment>
+            <comment id="n6" type="lingcomment">
+                <hi>tu (ai)śamo</hi>: It is likely that <hi>tu</hi> 'this' translates Skt. <hi>tat</hi> 'this', but the correspondence of the verbal roots is more difficult. The Tocharian word is probably a verbal adjective in <hi>-mo</hi>. The restoration to <hi>(ai)śamo</hi> 'knowing' is based on the assumption that the Sanskrit text has a form of <hi>pratisaṃvedin</hi> 'experiencing'.</comment>
+        </comments>
+        <references>
+            <ref type="other" litRef="peyrot2015b" pageRange="123-124"/>
+            <ref type="Online access" litRef="idp0000">
+                <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=Or.15009/552">Or.15009/552</link>
+            </ref>
+        </references>
+        <editions/>
+        <publication>
+            <contributors>
+                <contributor name="Michaël Peyrot" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+</corpus>

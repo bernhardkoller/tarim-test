@@ -1,0 +1,1504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schemas/fragments/bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus ../../../schemas/fragments/bte/fragments_bte.xsd">
+   <record id="m-psbl13">
+      <header>
+         <sigla>
+            <primary siglum="PS Bl 13"/>
+            <secondary siglum="Pelliot Sanskrit numéro bleu 13"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"
+                     expeditionCode="635; 616"/>
+         <content writtenLines="4">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+               <language languageName="txb"/>
+            </languages>
+            <text title="Pravāraṇa-sūtra, Dhvajāgra-sūtra">
+               <genre genre="Literary" subgenre="Gloss"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <verso>
+            <line n="b2">
+               <lac aks="1"/> [nd]ri śke <lac aks="1" brac="rnd"/> l[p]yā re ke¯ ¯[T] pyā Kä le śi lne m[e] <lac aks="1"/>
+            </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="b2" commRef="n5 n6"/> (i)ndriśke (ka)lpyāre ket pyākäle śilne me <lac aks="1"/>
+         </prose>
+      </transcription>
+      <translation>
+         <line n="b2">
+            <tr>... the <hi>kalpikāraka</hi> (monastery servant) Indriśke ... by whom is to be beaten ... in moral behaviour ...</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="lingcomment">The relationship with the following word is not clear. <hi>pyākäle</hi> '(is to) be beaten' can be read with relative certainty. For the preceding word, Couvreur reads <hi>ke[<hi rendition="underline">ś</hi>]<hi rendition="subscript">\</hi>
+            </hi> 'number', which is agood option as far as the palaeography is concerned, but makes semantically little sense together with <hi>pyākäle</hi>. It must be admitted, however, that also <hi>ket</hi> 'whom; by whom'is dificult to understand.</comment>
+         <comment id="n2" type="lingcomment">For the last akṣara, which he reads as <hi>‹m[i]›</hi>, Couvreur suggests that it is the abbreviation of a name, for instance Mitra. However, the <hi>i</hi>-diacritic would then have to be quite different from the other instances, which does not seem very likely. I therefore opt for <hi>‹m[e]›</hi>. Instead of <hi>me</hi>, one could also read <hi>śm·</hi>, but then this akṣara would be placed much higher than the preceding ones. If it is only <hi>m</hi>, the vocalism could also be <hi>[ai]</hi>.</comment>
+         <comment id="n3" type="philcomment">Contains the end of the Pravāraṇa-sūtra and the beginning of the Dhvajāgra-sūtra.</comment>
+         <comment id="n4" type="remarks">Two fragments, with TB gloss</comment>
+         <comment id="n5" type="lingcomment">Following <ref litRef="couvreur1970" pageRange="182"/>, the first two words are probably a proper name, Indriśke (also attested GQo 1), and his title, <hi>kalpikāraka</hi> (monastery servant). It should be noted, however, that the akṣara <hi>‹l[p]yā›</hi>, if it is so to be read, is not formed correctly, and that '<hi>kalpikāraka</hi>' is normally <hi>kapyāre</hi>: the variant <hi>kalpyāre</hi> is so far attested only here.</comment>
+         <comment id="n6" type="philcomment">This scribbling is found under Skt. <hi>hartāraṃ sarvaśalyānāṃ vande</hi> 'I greet the remover of all thorns [of lust]' in the Pravāraṇa-sūtra [[Hartmann, forth.]]. The vowel diacritic <hi>i</hi> is formed with an extra loop; it is here transcribed as a short <hi>i</hi>. The interpretation of the scribbling is problematic; in any case, it can be excluded that it is a gloss translating the Sanskrit text directly above.</comment>
+      </comments>
+      <references>
+         <ref type="other" litRef="peyrot2015b" pageRange="112-113"/>
+         <ref type="other" litRef="couvreur1970" pageRange="181-182"/>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="137"/>
+      </references>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Michaël Peyrot" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-psbl17">
+      <header>
+         <sigla>
+            <primary siglum="PS Bl 17"/>
+            <secondary siglum="Pelliot Sanskrit numéro bleu 17"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"
+                     findspot="Duldur-Akhur"
+                     specificFindspot="563"/>
+         <content writtenLines="5">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+               <language languageName="txb"/>
+            </languages>
+            <text title="Mahāsamājasūtra">
+               <genre genre="Literary" subgenre="Colophon"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <verso>
+            <line n="b1">ce sū TA¯ ¯R śī la bh[ā] dr[e] y· ·[k]· <lac aks="1"/>
+               <lac aks="1" brac="rnd"/>
+               <lac aks="1"/>
+            </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="b1" commRef="n3"/> ce sūtär śīlabhādre y(āt)k(a) (paiykatsi) </prose>
+      </transcription>
+      <translation>
+         <line n="b1">
+            <tr>this sūtra Śīlabhadra has ordered (to be written)</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="remarks">This probably completes <fragRef fragment="m-pkns17and900"/> (<ref litRef="pinault2007" pageRange="208"/>)</comment>
+         <comment id="n2" type="remarks">The Sanskrit text has been omitted from the transcription/transliteration.</comment>
+         <comment id="n3" type="philcomment">The top of the akṣara <hi>bh[ā]</hi> is covered by a piece that is flipped over from the recto. The reading is nevertheless certain. The traces of the last akṣara are compatible with <hi>tsi</hi> (for <hi>si</hi> they would be too low).</comment>
+      </comments>
+      <references>
+         <ref type="other" litRef="peyrot2015b" pageRange="111"/>
+         <ref type="other" litRef="hartmannju1991"/>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="137"/>
+      </references>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Michaël Peyrot" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-psbl181">
+      <header>
+         <sigla>
+            <primary siglum="PS Bl 18.1"/>
+            <secondary siglum="Pelliot Sanskrit numéro bleu 18.1"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="7">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Literary" subgenre="Gloss"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a2x">
+               <lac aks="1" brac="rnd"/> l[l]ā lle</line>
+            <line n="a3x">·ai tku</line>
+            <line n="a4x">m[t]s· ts[e] [k]ā y[e]</line>
+            <line n="a4y">ye [nt]· ·u kā RA  /// </line>
+         </recto>
+         <verso>
+            <line n="b1x"> ///  ·ñ· <lac aks="1"/> ¯tS</line>
+            <line n="b1y">
+               <lac aks="1"/>
+               <lac aks="1" brac="rnd"/> [s]tsi¯ ¯Ś</line>
+            <line n="b3x">[p]e l[k]i[¯] [¯]ñ</line>
+            <line n="b3y">snai [trai] [ko] [ñ]e ttse</line>
+            <line n="b3z">[a] [yā] [t]o ññe¯ ¯ś ṢPA</line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a2x" commRef="n1 n2"/> (pä)llālle <lb n="a3x" commRef="n3"/> (y)aitku <lb n="a4x"/> mts·tse kāye <lb n="a4y" commRef="n5"/> yent(e) ·ukārä  /// <lb n="b1x" commRef="n6 n7"/> ///  ·ñ· <lac aks="1"/> ts <lb n="b1y" commRef="n8 n9"/> (wikä)stsiś <lb n="b3x" commRef="n10"/> pelkiñ <lb n="b3y" commRef="n11 n12"/> snai tr<sic corr="i">ai</sic>ko«r»ñettse <lb n="b3z" commRef="n13 n14"/> ayātoññeś ṣpä </prose>
+      </transcription>
+      <translation>
+         <line n="a2x">
+            <tr>to be praised</tr>
+         </line>
+         <line n="a3x">
+            <tr>ordered</tr>
+         </line>
+         <line n="a4x">
+            <tr>...</tr>
+         </line>
+         <line n="a4y">
+            <tr>wind ...</tr>
+         </line>
+         <line n="b1x">
+            <tr>...</tr>
+         </line>
+         <line n="b1y">
+            <tr>in order to drive off (?)</tr>
+         </line>
+         <line n="b3x">
+            <tr>because of</tr>
+         </line>
+         <line n="b3y">
+            <tr>without confusion (?)</tr>
+         </line>
+         <line n="b3z">
+            <tr>and for the benefit</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="lingcomment">The number of verbs that form a gerund in <hi>°llālle</hi> is very restricted, and this is the only verb with a suitable meaning.</comment>
+         <comment id="n2" type="philcomment">Glosses Skt. <hi>(a)[nu]m[o]d·[n]· –</hi>, a form of <hi>anumodana</hi> 'gratification' (<ref litRef="edgerton1953" pageRange="II, 32b"/>; <ref litRef="hartmannju1991"/>). The reading is relatively safe; the first akṣara is probably lost in a little hole to the left.</comment>
+         <comment id="n3" type="philcomment">Glosses Skt. <hi>anujñāta[ṃ]</hi> 'erlaubt, genehmigt (granted, allowed)' (<ref litRef="swft1973" pageRange="I, 60a"/>; <ref litRef="hartmannju1991"/>). The problem with this gloss is that the two akṣaras are placed very far apart. One could be tempted to read the first as <hi>[ss]i</hi> for <hi>(wa)ssi</hi> 'garment' as a gloss of the preceding Skt. term <hi>cīvaram</hi> 'garment'. However, <hi>(wa)ssi</hi> would then lack its first syllable; it would be placed remarkably far to the right; and <hi>ktu</hi> would also lack any preceding syllable, in spite of the fact that in this place, the paper is not particularly abraded. The simplest seems to be, therefore, to read <hi>(y)aitku</hi> or perhaps <hi>[y]aitku</hi>, with the two akṣaras placed very far apart because of the large Skt. <hi>jñā</hi> in the middle.</comment>
+         <comment id="n4" type="lingcomment">This gloss is very interesting because it contains apparently three Tocharian lexical items that were so far unknown. Ironically, however, precisely these three words can hardly be read with any certainty. Even the word division is not clear. The only clear item is <hi>yent(e)</hi> 'wind', which glosses <hi>°vāta°</hi> 'id.'. It is likely that the translation of <hi>daṃśa°</hi> 'gadfly' begins with <hi>m[t]s· ts[e]</hi>; this may even be the whole word. The reading of the lower consonantal elements is far from certain. The following akṣara <hi>[k]ā</hi> is probably the beginning of the next word, the translation of <hi>maśaka</hi> 'mosquito', because no word may end in <hi>-ā</hi>. Since the paper is abraded, it is not clear whether any akṣaras are completely lost until <hi>yent(e)</hi>: there may also simply be a space between these two words. As the last word of the gloss, we expect the translation of <hi>°ā[t](a)[p](a)°</hi> 'heat', but no known lexeme can be recognized. The normal word for 'heat' is <hi>emalya</hi> or <hi>emalle</hi> (<ref litRef="adams2013a" pageRange="839"/>).</comment>
+         <comment id="n5" type="philcomment">Glosses Skt. <hi>daṃśamaśakavātā[t](a)[p](a)°</hi> 'Bremse, Mücke, Wind, Hitze (gadfly, gnat, wind, heat)' (<ref litRef="swft1973" pageRange="II, 414b"/>; <ref litRef="hartmannju1991"/>); probably followed by <hi>°sarīsṛpa°</hi> 'Kriechtier (critter, creeping creature)'. The final akṣara in <hi>ukārä</hi> seems to be a little lower, so that it may be in virāma.</comment>
+         <comment id="n6" type="lingcomment">For the first element, in view of the <hi>·ñ·</hi> that is preserved, a restoration to an abstract in <hi>-ññe</hi>, i.e. gen.pl. (cf. the Skt. reference above) <hi>°(ñ)ñ(enta)ts</hi>, is a possibility.</comment>
+         <comment id="n7" type="philcomment">The first element glosses Skt. <hi>/// vāṇāṃ</hi>, a gen.pl. (<ref litRef="hartmannju1991"/>).</comment>
+         <comment id="n8" type="lingcomment">As for the root of the second element, a trace of one akṣara can be discerned, but we would expect at any rate two akṣaras. The preserved trace may belong to the lower part of <hi>
+               <hi rendition="underline">ka</hi>
+            </hi> = <hi>kä</hi>, or of <hi>wi</hi>. However, the root may also have to be restored differently; only the reading of the causative infinitive in the allative case is assured.</comment>
+         <comment id="n9" type="philcomment">The second element glosses Skt. <hi>pratigh(ā)t(āya)</hi> 'for warding off' (<ref litRef="hartmannju1991"/>). The root is essentially illegible.</comment>
+         <comment id="n10" type="philcomment">
+            <hi>pelkiñ</hi> glosses Skt. <hi>/// danārtham</hi> 'because of ...' (<ref litRef="hartmannju1991"/>), but obviously only the last part <hi>°artham</hi>; perhaps the preceding was originally also glossed. The <hi>k</hi> is written through the long <hi>ā</hi> vowel diacritic of the line below. The virāma cannot be seen, but the <hi>ñ</hi> is significantly lowered compared to the preceding <hi>l[k]i</hi>. The first akṣara is the most uncertain, as it seems to be closed. Nevertheless, it can hardly have to be read differently.</comment>
+         <comment id="n11" type="lingcomment">
+            <hi>snai-tr{i}ko(r)ñettse</hi>: The reading of the gloss is very uncertain. The beginning <hi>snai</hi> and the end <hi>ñettse</hi> can be read with relative certainty, so that it must be a negated abstract in any case. However, precisely the part where the root must be is hardly legible. The second akṣara, transliterated as <hi>[trai]</hi>, seems not to have been formed correctly; therefore, a reading <hi>[tri]</hi> remains a possibility. The word <hi>trikor*</hi> is not attested so far, but would have been formed from <hi>trəyka-</hi> 'be confused' in the same way as <hi>snai-ykorñe</hi> 'diligence' from <hi>yəka-</hi> 'neglect'.</comment>
+         <comment id="n12" type="philcomment">
+            <hi>snai tr{i}ko(r)ñettse</hi> glosses Skt. <hi>avyā[b]ādha°</hi> 'frei von Beschwerden' ('without complaints', <ref litRef="swft1973" pageRange="I, 178b"/>; <ref litRef="hartmannju1991"/>).</comment>
+         <comment id="n13" type="lingcomment">
+            <hi>ayātoññeś ṣpä</hi>: The end of the gloss is clear: <hi>ṣpä</hi> 'and' renders Skt. <hi>ca</hi>; the all. <hi>-ś</hi> corresponds to the dat. <hi>°āyai</hi>; and even the suffix <hi>-ññe</hi> matches the Skt. abstr. in <hi>-tā-</hi>. The interpretation of the preceding akṣaras is more difficult. One problem is that there would seem to be an akṣara between the <hi>[a]</hi> and the <hi>[yā]</hi>. This would be illegible in any case, and I assume that there was simply a space betwen the two akṣaras because of the anusvāra of the Sanskrit line below. A possible reading then seems to be <hi>ayāto</hi>, which already means 'benefit' by itself (next to 'suitable'), but the suffix <hi>-ññe</hi> was very productive and may have been added to this word nevertheless. Although the semantic match is not perfect, this seems at least an acceptable translation of <hi>paramatā</hi> 'highest position; highest end'. For the first part of the compound, <hi>avyā[b]ādha°</hi>, see the preceding gloss.</comment>
+         <comment id="n14" type="philcomment">
+            <hi>ayātoññeś ṣpä</hi> glosses Skt. <hi>avyā[b]ādhaparamatāyai ca</hi> 'and only for the sake of non-suffering' (<ref litRef="hartmannju1991"/>; <ref litRef="trenckneretal1924" pageRange="I, 485b"/> under <hi>a-vyāpajjha-paramatā</hi>).</comment>
+      </comments>
+      <references>
+         <ref type="other" litRef="peyrot2015b" pageRange="113-116"/>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="137"/>
+      </references>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Michaël Peyrot" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-psbl183">
+      <header>
+         <sigla>
+            <primary siglum="PS Bl 18.3"/>
+            <secondary siglum="Pelliot Sanskrit numéro bleu 18.3"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="137"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-psbl184">
+      <header>
+         <sigla>
+            <primary siglum="PS Bl 18.4"/>
+            <secondary siglum="Pelliot Sanskrit numéro bleu 18.4"/>
+            <secondary siglum="PS Bl 81"/>
+            <secondary siglum="Pelliot Sanskrit numéro bleu 81"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"
+                     findspot="Duldur-Akhur"
+                     expeditionCode="DA"/>
+         <content writtenLines="4+?">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Literary" subgenre="Gloss"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a3x">[p]ra tsā kai tso <lac aks="1"/> [¯R]</line>
+            <line n="a3y">kwa snā tRA</line>
+            <line n="a3z">[t]ri kā lñe ya [n]mā ṢAṃ</line>
+            <line n="a4x">
+               <lac aks="1"/> [t]·</line>
+            <line n="a4y">sa¯ ¯[K] yā [so] wa· [pau] ca ṢA¯ ¯P</line>
+            <line n="a4z">yā <lac aks="1"/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a3x" commRef="n1 n2"/> pratsākai tso(ptä)r <lb n="a3y" commRef="n3"/> kwasnāträ <lb n="a3z" commRef="n4 n5"/> trikālñe yanmāṣäṃ <lb n="a4x" commRef="n6"/>
+            <lac aks="1"/> t· <lb n="a4y" commRef="n7 n8"/> sak yāso wa(r)pauca ṣäp <lb n="a4z" commRef="n9"/> yā(so) </prose>
+      </transcription>
+      <translation>
+         <line n="a3x">
+            <tr>pokes [his] chest</tr>
+         </line>
+         <line n="a3y">
+            <tr>he laments</tr>
+         </line>
+         <line n="a3z">
+            <tr>he obtains confusion</tr>
+         </line>
+         <line n="a4x">
+            <tr>...</tr>
+         </line>
+         <line n="a4y">
+            <tr>an experience of happiness [and] passion</tr>
+         </line>
+         <line n="a4z">
+            <tr>passion</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="lingcomment">The middle <hi>tso(ptä)r</hi> may have been used instead of the active because the subject beats their own chest. The akṣara <hi>tso</hi> is the last on PS bleu 18.4, the left-hand fragment. On PS bleu 81, the right-hand fragment, traces of apparently two different akṣaras can be discerned. The second can, with relative certainty, be read as <hi>
+               <hi rendition="underline">r</hi>
+            </hi>, and if this akṣara is lowered compared to the preceding akṣara, this, at once, makes the reading of a virāma likely as well as the restoration of the traces of the first akṣara as <hi>p<hi rendition="underline">ta</hi>
+            </hi> possible. If correct, these traces belong to the upper part, i.e. <hi>p</hi>, and part of the virāma stroke would be visible as well.</comment>
+         <comment id="n2" type="philcomment">The first element glosses Skt. <hi>uras tāḍ(a)yati</hi> 'beats the chest' (<ref litRef="hartmannju1991"/>).</comment>
+         <comment id="n3" type="philcomment">
+            <hi>kwasnāträ</hi> glosses Skt. <hi>krandati</hi> 'roars, cries out' (<ref litRef="hartmannju1991"/>). In the latter, the reading of the first syllable seems certain: no vocalism can be seen, even though the correct form would probably be <hi>kwäsnāträ</hi> (as attested in <fragRef fragment="m-tht88"/>: b1). The dots were probably simply left out, as in other cases of <hi>wa</hi> for <hi>wä</hi> (<ref litRef="peyrot2014" pageRange="133"/>).</comment>
+         <comment id="n4" type="lingcomment">
+            <hi>trikālñe yanmāṣäṃ</hi>: Although the akṣara <hi>mnā</hi> looks a little like a lowered <hi>mo</hi>, the reading seems certain. In particular, a reading <hi>mna</hi> is excluded. This is relevant since <hi>āpadyate</hi> means 'attains', i.e. TB <hi>yänmāṣṣäṃ</hi>, as well as 'enters', i.e. TB <hi>yänmaṣṣäṃ</hi> (it should be noted in addition that with <hi>yänmaṣṣäṃ</hi> 'enters', a locative would be expected rather than an oblique (accusative) as is found here). The akṣara <hi>ṣäṃ</hi> is lowered, but the reading appears to be safe. There are no <hi>ä</hi>-dots on the <hi>ya</hi>, which would have been regular; evidently, they were left out (as occurs more often; <ref litRef="peyrot2014" pageRange="133"/>).</comment>
+         <comment id="n5" type="philcomment">
+            <hi>trikālñe yanmāṣäṃ</hi> glosses Skt. <hi>(sa)ṃmoham āpadyate</hi> 'gets in confusion' (<ref litRef="hartmannju1991"/>). A faint trace can be seen under the akṣara <hi>ya</hi>, but this does not seem to belong to it.</comment>
+         <comment id="n6" type="philcomment">
+            <hi>– [t]·</hi> glosses Skt. <hi>[bha]vat[i]</hi> 'is, becomes' (<ref litRef="hartmannju1991"/>). Since the gloss is illegible, its function cannot be determined. The normal translation of <hi>bhavati</hi> would be <hi>mäsketär</hi>, but it would be surprising to have this word glossed here.</comment>
+         <comment id="n7" type="lingcomment">
+            <hi>sak</hi> etc.: the <hi>ä</hi>-dots that would have been regular in the agent noun <hi>wa(r)[pau]ca</hi>, i.e. <hi>wärpoṣ</hi>, have evidently been left out.</comment>
+         <comment id="n8" type="philcomment">
+            <hi>sak</hi> etc. glosses Skt. <hi>sukha(saṃrā)gapratisaṃvedī</hi> 'experiencing happiness and passion' (<ref litRef="hartmannju1991"/>; see also the following). The space between the akṣaras <hi>[so]</hi> and <hi>wa</hi> of the gloss on PS bleu 18.4 belongs right under the traces of Skt. <hi>[s](a)[ṃ]</hi> on PS bleu 81. No akṣara of the gloss is therefore lost between <hi>wa</hi> and <hi>·[pau]</hi>. The <hi>au</hi> of <hi>·[pau]</hi> is rather high, which is neatly explained by an original <hi>r</hi> between the <hi>au</hi> and the <hi>p</hi>.</comment>
+         <comment id="n9" type="philcomment">As for the single left-over <hi>yāso</hi> in this line, it glosses Skt. <hi>sukhasaṃrā(gap)r(a)tisaṃ(ved)i(naḥ)</hi> 'experiencing happiness and passion' (gen.sg.; <ref litRef="hartmannju1991"/>, see also the preceding). The restoration is unproblematic since the paper is completely effaced, even decomposed, after <hi>yā</hi>.</comment>
+      </comments>
+      <references>
+         <ref type="other" litRef="peyrot2015b" pageRange="116-118"/>
+         <ref type="other" litRef="pinault2007" pageRange="208"/>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="137"/>
+      </references>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Michaël Peyrot" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-psbl186">
+      <header>
+         <sigla>
+            <primary siglum="PS Bl 18.6"/>
+            <secondary siglum="Pelliot Sanskrit numéro bleu 18.6"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="3+?">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Literary" subgenre="Gloss"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <verso>
+            <line n="b1x"> /// <lac aks="1"/> ·[o]¯ ¯u ·[k]· <lac aks="1"/> /// </line>
+            <line n="b2x">·ai [n]·o rmeṃ</line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="b1x" commRef="n1 n2"/> /// <lac aks="1"/> (s)oU(ś)k(e) <lac aks="1"/> /// <lb n="b2x" commRef="n3"/> (y)ain(m)ormeṃ </prose>
+      </transcription>
+      <translation>
+         <line n="b1x">
+            <tr>dear son/little son(?)</tr>
+         </line>
+         <line n="b2x">
+            <tr>having attained</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="lingcomment">I tentatively assume that <hi>(s)o<hi rendition="subscript">u</hi>(ś)k(e)</hi> is a further variant of <hi>soṃśke</hi> and <hi>sauśke</hi> (<ref litRef="peyrot2008" pageRange="92"/>).</comment>
+         <comment id="n2" type="philcomment">Possibly glosses Skt. <hi> yaṃ kumāraṃ</hi> 'that ... youth'. This gloss is hardly readable, and the interpretation is uncertain. The corresponding Sanskrit text is unfortunately lost. On the basis of a text reconstruction of this passage of the Mahāgovindasūtra of the Dīrghāgama by Gudrun Melzer (Munich), I suggest that the text above the gloss may have been the <hi>yaṃ kumāraṃ</hi> cited above.</comment>
+         <comment id="n3" type="philcomment">Glosses Skt. <hi>āsādya</hi> 'near' (reading and identification by Klaus Wille with the help of a text reconstruction by Gudrun Melzer). If correctly read, the gloss does not translate <hi>āsādya</hi> in its grammaticalised sense of 'near, close by', but in a more literal sense 'having approached, obtained'. The reading of the first two akṣaras is made difficult by a piece of paper from another fragment that sticks on the surface (i.e. the text itself is probably not abraded). A large part of the second consonantal element of the second akṣara can be seen, which seems compatible with <hi>m</hi>, although this <hi>m</hi> must then have been a little different from that of the following akṣara. The akṣara <hi>rmeṃ</hi> is lowered compared to the preceding akṣaras, in order to remain under the lower part of the akṣara <hi>dya</hi> of the Skt. text.</comment>
+      </comments>
+      <references>
+         <ref type="other" litRef="peyrot2015b" pageRange="121"/>
+      </references>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Michaël Peyrot" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-psbl45">
+      <header>
+         <sigla>
+            <primary siglum="PS Bl 45"/>
+            <secondary siglum="Pelliot Sanskrit numéro bleu 45"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"
+                     findspot="Duldur-Akhur"
+                     specificFindspot="DA cour"/>
+         <content writtenLines="5?">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Literary" subgenre="Gloss"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1x">snai tu¯ ¯[ṅK]ä</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1x"/> snai tuṅk </prose>
+      </transcription>
+      <translation>
+         <line n="a1x">
+            <tr>without ... (?)</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="lingcomment">The interpretation is uncertain. No word <hi>tuṅk</hi> is attested so far (a mixture of TB with <hi>snai</hi> and TA with <hi>tuṅk</hi> 'love' seems improbable).</comment>
+         <comment id="n2" type="philcomment">Glosses Skt. <hi>/// [s]th· ·[t]· c· – ///</hi> (<ref litRef="pauly1967" pageRange="239"/> reads <hi>(s?)th· – c·</hi>). The reading of the first two akṣaras is certain, as well as the <hi>ä</hi>-dots and the virāma. The rest of the third akṣara seems not to be correct. It looks like <hi>ṅ<hi rendition="underline">k</hi>
+            </hi>, but the <hi>ṅ</hi> would be too high, as if added later when the <hi>
+               <hi rendition="underline">k</hi>
+            </hi> was already there. However, the <hi>ä</hi>-dots seem to indicate that the element here read as <hi>ṅ</hi> does indeed belong to the consonantal part of the akṣara.</comment>
+      </comments>
+      <references>
+         <ref type="other" litRef="peyrot2015b" pageRange="122"/>
+      </references>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Michaël Peyrot" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-psbl138">
+      <header>
+         <sigla>
+            <primary siglum="PS Bl 138"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="136"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-psbl185">
+      <header>
+         <sigla>
+            <primary siglum="PS Bl 185"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+               <language languageName="txb"/>
+            </languages>
+            <text title="Udānavarga"/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="136, 141"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-psbl356">
+      <header>
+         <sigla>
+            <primary siglum="PS Bl 356"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="136, 143"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-psbl3941">
+      <header>
+         <sigla>
+            <primary siglum="PS Bl 394.1"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="136, 144"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-psbl3942">
+      <header>
+         <sigla>
+            <primary siglum="PS Bl 394.2"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="136, 144"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-psbl3943">
+      <header>
+         <sigla>
+            <primary siglum="PS Bl 394.3"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="136, 144"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt212b">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 212.b"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt225">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 225"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt256">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 256"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt316">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 316"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt568">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 568"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt587">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 587"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt655">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 655"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt722">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 722"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt813">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 813"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt820">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 820"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt979">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 979"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt1004">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 1004"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt1013">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 1013"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt1041">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 1041"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt1065">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 1065"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt1084">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 1084"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt1096">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 1096"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt1100">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 1100"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt1111">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 1111"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt1124">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 1124"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt1177">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 1177"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt1190">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 1190"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt1204">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 1204"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt1213">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 1213"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt1218">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 1218"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt1219">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 1219"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pspt1349">
+      <header>
+         <sigla>
+            <primary siglum="PS Pt 1349"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration/>
+      <transcription/>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Catalogue" litRef="hartmannandwille1997" pageRange="146"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-psrouge101">
+      <header>
+         <sigla>
+            <primary siglum="PS rouge 10.1"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Literary" subgenre="Gloss"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <verso>
+            <line n="b2">klu</line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="b2"/> klu </prose>
+      </transcription>
+      <translation>
+         <line n="b2">
+            <tr>rice</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="lingcomment">As remarked by <ref litRef="filliozatandkuno1938" pageRange="28"/>, the gloss is probably in TB, even though the TA word for 'rice' is identical, because another gloss in the same manuscript (see <fragRef fragment="m-psrouge102"/>) is unambigously in TB.</comment>
+         <comment id="n2" type="philcomment">Glosses Skt. <hi>odanena</hi> (instr.sg.) 'porridge, boiled rice'. Apparently the case ending was not glossed.</comment>
+      </comments>
+      <references>
+         <ref type="other" litRef="peyrot2014" pageRange="170"/>
+         <ref type="other" litRef="filliozatandkuno1938"/> A Fol 191</references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-psrouge102">
+      <header>
+         <sigla>
+            <primary siglum="PS rouge 10.2"/>
+         </sigla>
+         <physicalProperties/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="5+">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Literary" subgenre="Gloss"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a5">Kwä sa rtse</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a5"/> kwäsartse </prose>
+      </transcription>
+      <translation>
+         <line n="a5">
+            <tr>in a string (?)</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="lingcomment">The gloss is identified by <ref litRef="filliozatandkuno1938" pageRange="29"/> as TB, but no interpretation is offered. <hi>kwäsartse</hi> reminds of TB <fragRef fragment="m-ioltoch263"/>: a4 <hi>k<hi rendition="subscript">u</hi>sär</hi> (arch) as well as of <fragRef fragment="m-a378"/>
+            <hi>kusraṃ</hi> (<ref litRef="hilmarsson1996" pageRange="195"/>). For <hi>k<hi rendition="subscript">u</hi>sär</hi>, <ref litRef="adams2013a" pageRange="199"/> cautiously suggests 'braid' on the basis of TA <hi>kusraṃ</hi> and points out that an alternative word division <hi>k<hi rendition="subscript">u</hi>särsā</hi> would also be possible, in which case it could be a plural (a perl. sg. would of course be an additional posibility). While <fragRef fragment="m-ioltoch263"/> is too fragmentary, the context of <fragRef fragment="m-a378"/> suggests 'hairdress' (<ref litRef="itkin2011" pageRange="51"/>). Carling's 'braid of hair' (<ref litRef="carlingetal2009" pageRange="157b-158"/>a) would seem to fit the context better, but has to cope with the problem that it needs <hi>kusraṃ</hi> to be a nom.du., while it can only be a loc.sg., as pointed out by Itkin (p.c.). The precise meaning of Skt. <hi>sāvadānaṃ</hi> is uncertain, and the semantic connection with TA <hi>kusraṃ</hi>, if related, is not obvious. Possible semantic links to consider are the ones between e.g. 'strand of hair, string' and 'uninterruptedly', or between 'hair braid' and 'in regular order'. In any case, <hi>kwäsartse</hi> must be an adjective derived from the noun <hi>k<hi rendition="subscript">u</hi>sar*</hi>, here apparently in adverbial use.</comment>
+         <comment id="n2" type="philcomment">Glosses Skt. <hi>(sāvadā)naṃ</hi> 'in regular order, uninterruptedly' (corrected reading due to Klaus Wille, p.c.).</comment>
+      </comments>
+      <references>
+         <ref type="other" litRef="peyrot2014" pageRange="170-1"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-psstotrai42">
+      <header>
+         <sigla>
+            <primary siglum="PS Stotra I.42"/>
+         </sigla>
+         <physicalProperties material="paper" objectType="Poṭhī" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"
+                     findspot="Unknown"/>
+         <content writtenLines="5?">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+               <language languageName="txb"/>
+            </languages>
+            <text title="Śatapañcāśatka (Prasādapratibhodbhava) of Mātṛceṭa">
+               <genre genre="Literary" subgenre="Colophon"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  ///  ///  [¯]m[∘] 100 [40]  /// </line>
+            <line n="a2"> /// <lac aks="1"/> ///  /// <lac aks="9"/> /// </line>
+            <line n="a3"> ///  : 100 50 [a]  ///  ///  ya ma  /// </line>
+            <line n="a4"> ///  te gu ·[āṃ]  /// </line>
+         </recto>
+         <verso>
+            <line n="b2"> /// <lac aks="1"/> cā ry[a]  /// </line>
+            <line n="b3"> ///  yā tka pai [k]·  ///  ///  s· ·[m]·  /// </line>
+            <line n="b4"> ///  ///  ///  mp· • so¯ ¯[y]ä  /// </line>
+            <line n="b5"> ///  ///  ///  a knā tsa  /// </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <passage name="vv. 148-152"/>
+            <lb n="a1"/> ///  ///  ///  m 100-40  /// <lb n="a2"/> /// <lac aks="1"/> ///  /// <lac aks="9"/> /// <lb n="a3"/> ///  : 100-50 a  ///  ///  yam a  /// <lb n="a4"/> ///  te gu·āṃ  /// <lb n="b2"/> /// <lac aks="1"/> cārya  /// <lb n="b3"/> ///  yātka paik(atsi)  ///  ///  s· ·m·  /// <lb n="b4"/> ///  ///  ///  mp· • soy  /// <lb n="b5"/> ///  ///  ///  aknātsa  /// </prose>
+      </transcription>
+      <translation>
+         <line n="b3">
+            <tr>ordered to be written</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="lingcomment">In line a3, the two akṣaras (<hi>prame</hi> of PPU 151a <hi>aprameyam asaṃkhyeyam</hi> are missing between the two fragments. It is therefore certain that the inf. ending <hi>tsi</hi> was lost in the lacuna in b3. Moreover, the <hi>s·</hi> in b3 after the lacuna is not in a ligature, so that it cannot be <hi>tsi</hi>.</comment>
+         <comment id="n2" type="philcomment">This colophon is found at the end of the Śatapañcāśatka (Prasādapratibhodbhava) of Mātṛceṭa. The Tocharian text, identified by <ref litRef="pinault2007" pageRange="208"/>, is longer, covering apparently three lines, but apart from <hi>aknātsa</hi> 'fool' no text reconstruction is possible.</comment>
+         <comment id="n3" type="philcomment">Line a1 = PPU 148d; line a2 = PPU 150a; a3 = PPU 151a; a4 = PPU 152a; b2 = PPU end.</comment>
+         <comment id="n4" type="remarks">Two small fragments from the same leaf; the Śatapañcāśatka is followed by a colophon and a text in TB.The left-hand fragment measures 3.0 cms in height and 3.0 cms in width and contains parts of lines a2-4 and b2-3. The right-hand fragment, measuring 3.9 cms in height and 3.1 cms in width, contains parts of lines a1-3 and b3-5 and preserves the upper margin of the recto (lower margin of the verso).</comment>
+      </comments>
+      <references>
+         <ref type="other" litRef="peyrot2015b" pageRange="111"/>
+         <ref type="other" litRef="pinault2007" pageRange="208"/>
+      </references>
+      <editions/>
+      <publication>
+         <contributors>
+            <contributor name="Michaël Peyrot" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-psuv67">
+      <header>
+         <sigla>
+            <primary siglum="PS Uv 67"/>
+         </sigla>
+         <physicalProperties material="paper"
+                             objectType="Poṭhī"
+                             writingMedium="ink"
+                             height="7.5"
+                             width="11.3"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"
+                     findspot="Duldur-Akhur"
+                     specificFindspot="DA fd"/>
+         <content writtenLines="">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="san"/>
+               <language languageName="txb" linguisticStage="classical"/>
+            </languages>
+            <text title="Udānastotra, Udānavarga ">
+               <genre genre="Literary" subgenre="Doctrine"/>
+               <proseVerse proseVerse="verse"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  [9] u da ke na ni ja [n]ti n· j· k[ā] i [ṣu]  /// </line>
+            <line n="a2"> ///  su ga[ṃ] [bh]ī ro v[i] pra saṃ no hya nā vi la [ḥ] e v·* ·[ru]  /// </line>
+            <line n="a3"> ///  va da pra kaṃ pa ya ḥ hra da i va hi [v]i [n]ī  /// </line>
+            <line n="a4"> ///  u da ka vā¯ ¯rg po e k[ṣ]a l*iṃ po <lac aks="1"/> /// </line>
+            <line n="a5"> ///  ·[sñ]· ne ·eṃ ṣī ma¯ ¯R ·[au]  /// </line>
+            <line n="a6"> ///  [lo] ·[aṃ]  /// </line>
+         </recto>
+         <verso>
+            <line n="b1"> ///  [k]·  /// </line>
+            <line n="b2"> ///  sa mū la *tu ni* [v]· <lac aks="1"/> /// </line>
+            <line n="b3"> ///  [t]· tra [v]ai va tsa kṣī ra pa ka i va [m]·  /// </line>
+            <line n="b4"> ///  nni rvā ṇaṃ su ga te na d[e] śi ta¯ ¯m∘ 5 ya [th]·  /// </line>
+            <line n="b5"> /// <lac aks="1"/> [th]ā tu ru ci raṃ pu ṣpaṃ va rṇa va tsyā tsu [g]·  /// </line>
+            <line n="b6"> ///  va he ṭha [ya¯] [¯n∘] [pa] [r]ai <lac aks="1"/> [ra] sa mā dā [ya]  /// </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <passage name="24a, 24c [shorter version], Uv17.10a-Uv18.8c, "/>
+            <lb n="a1" commRef="n3"/> ///  9 udakena nijanti n·j·kā iṣu  /// <lb n="a2" commRef="n4"/> ///  sugaṃbhīro viprasaṃno hy anāvilaḥ ev·· ·ru  /// <lb n="a3" commRef="n5"/> ///  vad aprakaṃpayaḥ hrada iva hi vinī  /// <lb n="a4" commRef="n6"/>
+         </prose>
+         <verse>
+            <strophe n="X">
+               <pada n="x"> ///  ; udakavārg </pada>
+               <pada n="x"> po ekṣal(y)iṃ , po(yśñana) ;  /// <lb n="a5" commRef="n7"/> ///  ; (orot)sñ(e)ne , (m)eṃṣīmar ; (yn)au(ṣkak) <lac syll="2"/> /// </pada>
+            </strophe>
+         </verse>
+         <prose>
+            <lb n="a6" commRef="n8"/> ///  lo ·aṃ  /// <lb n="b1" commRef="n9"/> ///  k·  /// <lb n="b2" commRef="n10"/> ///  samūla· tu ni·v· <lac aks="1"/> /// <lb n="b3" commRef="n11"/> ///  t·tra vai vatsa kṣīrapaka iva m·  /// <lb n="b4" commRef="n12"/> ///  n nirvāṇaṃ sugatena deśitam 5 yath·  /// <lb n="b5" commRef="n13"/> /// <lac aks="1"/> thā tu ruciraṃ puṣpaṃ varṇavat syāt sug·  /// <lb n="b6" commRef="n14"/> ///  v aheṭhayan parai <lac aks="1"/> rasam ādāya  /// </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment id="n1" type="parallels">
+            <fragRef fragment="m-pkns27"/>
+         </comment>
+         <comment id="n2" type="remarks">Translation: See <fragRef fragment="m-pkns27"/> b2-b3.</comment>
+         <comment id="n3" type="philcomment">= Uv17.10a–b</comment>
+         <comment id="n4" type="philcomment">= Uv17.11a–c</comment>
+         <comment id="n5" type="philcomment">= Uv17.12b–c</comment>
+         <comment id="n6" type="philcomment">= UdS24a</comment>
+         <comment id="n7" type="philcomment">= UdS24c. Note that the parallel <fragRef fragment="m-pkns27"/> b3 has the perlative sg. <lemmaRef lemma="B_orotsñesa"/>.</comment>
+         <comment id="n8" type="philcomment">= Uv18.1b</comment>
+         <comment id="n9" type="philcomment">= Uv18.2b</comment>
+         <comment id="n10" type="philcomment">= Uv18.3c–d</comment>
+         <comment id="n11" type="philcomment">= Uv18.4c–d</comment>
+         <comment id="n12" type="philcomment">= Uv18.5c–6a</comment>
+         <comment id="n13" type="philcomment">= Uv18.7a–b</comment>
+         <comment id="n14" type="philcomment">= Uv18.8b–c</comment>
+      </comments>
+      <references/>
+      <editions/>
+      <publication>
+         <publicationDate date="2015-02-23">23.02.2015</publicationDate>
+         <contributors>
+            <contributor name="Michaël Peyrot" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+</corpus>

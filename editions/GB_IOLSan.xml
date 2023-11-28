@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schemas/fragments/bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus ../../../schemas/fragments/bte/fragments_bte.xsd">
+    <record id="m-iolsan400">
+        <header>
+            <sigla>
+                <primary siglum="IOL San 400"/>
+                <secondary siglum="Ch.00262.9"/>
+            </sigla>
+            <physicalProperties material="paper"
+                objectType="Poṭhī"
+                writingMedium="ink"
+                height="4.7"
+                width="17.8"/>
+            <provenance manuscript="IOL San 400-404"
+                repository="British Library (London)"
+                findspot="Dunhuang"
+                specificFindspot="Mogao"/>
+            <content writtenLines="4">
+                <scribalDuctus ductus="classical"/>
+                <languages>
+                    <language languageName="san"/>
+                    <language languageName="txb" linguisticStage="classical"/>
+                </languages>
+                <text title="Karmavācanā">
+                    <genre genre="Literary" subgenre="Vinaya"/>
+                    <proseVerse proseVerse="prose"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="lf">100 20 3</line>
+                <line n="a1"> /// </line>
+                <line n="a2">pra ti gṛ hī <space type="string_hole"/>tā e vaṃ dvi ra pi tṛ ra pi || se ccha¯ ¯nT pā ri śu ddh[i] <lac aks="1"/>
+                </line>
+                <line n="a3">sā tne e ne ṅka <space type="string_hole"/>we ṣle || sa ma nvā ha rā yu ṣmāṃ a dya saṃ ṅgha sya</line>
+                <line n="a4">po ṣa tha pā ñca da śi ka ma mā pya • dya ra kta śā nte na sya bhi kṣo ḥ po ṣa tha</line>
+            </recto>
+            <verso>
+                <line n="b1">pā ñca da śi ka ḥ pa ri śu ddha ma mā yu ṣmaṃ dhā ra ya a nta rā yi ke ṣu dha rme [ṣu]</line>
+                <line n="b2">pa ri śu ddha ma <space type="string_hole"/>haṃ po ṣa tha ka ri ṣyā mi śī la ska ndha sya pā ri pū [ra]</line>
+                <line n="b3">ye e vaṃ dvi ra <space type="string_hole"/>pi tri ra pi || se tri vā ci¯ ¯[K] po sā¯ ¯T || sa ma nvā ha ·ā</line>
+                <line n="b4">
+                    <lac aks="1"/> [ṣm]· a [dy]· [s]·ṃ  ///  ///  ·i  /// </line>
+            </verso>
+        </transliteration>
+        <transcription>
+            <lf>100-20-3</lf>
+            <prose>
+                <passage name="Pravāraṇā-vastu"/>
+                <lb n="a1"/> /// <lb n="a2"/>
+            </prose>
+            <prose language="san"> pratigṛhītā evaṃ dvir api tṛr api </prose>
+            <prose> || se cchant pāriśuddhi <lac aks="1"/>
+                <lb n="a3"/> sātne eneṅka weṣle || </prose>
+            <prose language="san"> samanvāharāyuṣmāṃ adya saṃṅghasya </prose>
+            <prose>
+                <lb n="a4"/>
+            </prose>
+            <prose language="san"> poṣatha pāñcadaśika mamāpya • dya raktaśāntenasya bhikṣoḥ poṣatha </prose>
+            <prose>
+                <lb n="b1"/>
+            </prose>
+            <prose language="san"> pāñcadaśikaḥ pariśuddha mamāyuṣmaṃ dhāraya antarāyikeṣu dharmeṣu </prose>
+            <prose>
+                <lb n="b2"/>
+            </prose>
+            <prose language="san"> pariśuddham ahaṃ poṣatha kariṣyāmi śīlaskandhasya pāripūra </prose>
+            <prose>
+                <lb n="b3"/>
+            </prose>
+            <prose language="san"> ye evaṃ dvir api trir api </prose>
+            <prose> || se trivācik posāt || samanvāha·ā <lb n="b4"/>
+                <lac aks="1"/> ṣm· ady· s·ṃ  ///  ///  ·i  /// </prose>
+        </transcription>
+        <translation/>
+        <comments>
+            <comment id="n1" type="parallels">See <ref litRef="hartel1956" pageRange="109"/>, §69</comment>
+            <comment id="n2" type="remarks">See <fragRef fragment="m-iolsan404"/>. After <ref litRef="ogihara2009" pageRange="153"/>, recto and verso have been reversed compared to <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20San%20400">IDP</link>.</comment>
+        </comments>
+        <references>
+            <ref type="Online access" litRef="idp0000">
+                <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20San%20400">IOL San 400</link>
+            </ref>
+            <ref type="Identification" litRef="lavalleepoussin1913" pageRange="846"/>
+        </references>
+        <editions>
+            <ref litRef="lavalleepoussin1913" pageRange="846"/>
+            <ref litRef="ogihara2009" pageRange="153"/>
+        </editions>
+        <publication>
+            <contributors>
+                <contributor name="Michaël Peyrot" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+    <record id="m-iolsan404">
+        <header>
+            <sigla>
+                <primary siglum="IOL San 404"/>
+                <secondary siglum="Ch.00262.10"/>
+            </sigla>
+            <physicalProperties material="paper"
+                objectType="Poṭhī"
+                writingMedium="ink"
+                height="5.8"
+                width="17.7"/>
+            <provenance manuscript="IOL San 400-404"
+                repository="British Library (London)"
+                findspot="Dunhuang"
+                specificFindspot="Mogao"/>
+            <content writtenLines="4">
+                <scribalDuctus ductus="classical"/>
+                <languages>
+                    <language languageName="san"/>
+                    <language languageName="txb" linguisticStage="classical"/>
+                </languages>
+                <text title="Karmavācanā">
+                    <genre genre="Literary" subgenre="Vinaya"/>
+                    <proseVerse proseVerse="prose"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="lf">100 20 4</line>
+                <line n="a1"> /// </line>
+                <line n="a2">dha [rm]· ṣu sa <space type="string_hole"/>ṅgha ka rma ṇi ccha nda[ṃ] da dā mi a [nu] mo [d]ā mi [a]</line>
+                <line n="a3">bhyu pa ga cchā <space type="string_hole"/>mi dhā rmi kīṃ sa ṅgha sā mī ciṃ pra vā ra ṇa po ṣa the</line>
+                <line n="a4">śī la pā ri śu ddhiṃ ā ro ca yā mi ma mā rthā ya ā yu ṣmaṃ pra vā ra ṇa e [va]</line>
+            </recto>
+            <verso>
+                <line n="b1">dvi ra pi tṛ ra pi || se pra va ri tṣe ccha ndo pa rna ve ṣle || sa ma nvā ha rā y[u]</line>
+                <line n="b2">ṣmaṃ ra kta śā nte <space type="string_hole"/>no bhi kṣu ṇā dhā rmi ke ṣu sa ṅgha ka rma ṇī ccha ndo da</line>
+                <line n="b3">tta a nu mo di <space type="string_hole"/>ta a bhyu pa ga to dhā rmi kī sa ṅgha sā mī ci pra vā ra ṇa</line>
+                <line n="b4">
+                    <lac aks="2"/> [the] śī la [pā] [ri] śu d·iṃ [ā] [r]o [ci]  /// </line>
+            </verso>
+        </transliteration>
+        <transcription>
+            <lf>100-20-4</lf>
+            <prose language="san">
+                <passage name="Pravāraṇā-vastu"/>
+                <lb n="a1"/> ///
+                <lb n="a2"/> dharm·ṣu saṅghakarmaṇi cchandaṃ dadāmi anumodāmi a<lb n="a3"/>bhyupagacchāmi
+                dhārmikīṃ saṅghasāmīciṃ pravāraṇa poṣathe
+                <lb n="a4"/> śīlapāriśuddhiṃ ārocayāmi mamārthāya āyuṣmaṃ pravāraṇa eva
+                <lb n="b1"/> dvir api tṛr api </prose>
+            <prose>
+                || se pravaritṣe cchando parna veṣle ||
+            </prose>
+            <prose language="san">
+                samanvāharāyu<lb n="b2"/>ṣmaṃ raktaśānte no bhikṣuṇā dhārmikeṣu saṅghakarmaṇī cchando da<lb n="b3"/>tta
+                anumodita abhyupagato dhārmikī saṅghasāmīci pravāraṇa
+                <lb n="b4"/> <lac aks="2"/> the śīlapāriśud·iṃ āroci ///
+            </prose>
+        </transcription>
+        <translation/>
+        <comments>
+            <comment id="n1" type="parallels">See <ref litRef="hartel1956" pageRange="117-118"/>, §79; see also <fragRef fragment="m-or15003121"/>.</comment>
+            <comment id="n2" type="remarks">See <fragRef fragment="m-iolsan400"/>. After <ref litRef="ogihara2009" pageRange="154"/>, recto and verso have been reversed compared to <link href="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL%20San%20404">IDP</link>.</comment>
+        </comments>
+        <references>
+            <ref type="Online access" litRef="idp0000">
+                <link href="http:///idp.bl.uk/database/oo_loader.a4d?pm=IOL%20San%20404">IOL San 404</link>
+            </ref>
+            <ref type="Identification" litRef="lavalleepoussin1913" pageRange="846"/>
+        </references>
+        <editions>
+            <ref litRef="lavalleepoussin1913" pageRange="846"/>
+            <ref litRef="ogihara2009" pageRange="153-154"/>
+        </editions>
+        <publication>
+            <contributors>
+                <contributor name="Michaël Peyrot" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+</corpus>

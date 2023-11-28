@@ -1,0 +1,2641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schemas/fragments/bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus ../../../schemas/fragments/bte/fragments_bte.xsd">
+    <record id="m-gqa1">
+      <header>
+         <sigla>
+            <primary siglum="G-Qa 1"/>
+            <secondary siglum="Kg-025-ZS-R-01"/>
+         </sigla>
+         <physicalProperties material="wall" objectType="Graffito" writingMedium="ink"/>
+         <provenance repository="In situ"
+                     findspot="Qizil Qargha"
+                     specificFindspot="Cave 25"/>
+         <content writtenLines="4">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"
+                         linguisticStage="late"
+                         linguisticStagePeyrot="C"
+                         tamaiC14="true"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Graffito (wall)"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">śa¯ ¯K ñ* <lac aks="1" brac="rnd"/> ṃ ntsa sva rṇa de veṃ lāṃ ntsa po sta no[¯] [¯nT] ṣka sce o kme ññaṃ ntse me wye pi ku lne <lac aks="1"/> [ṣṣ]e [ñc]aṃ ñe [ṣi] la ntsi</line>
+            <line n="a2">wa au[ṃ] ntsa <lac aks="2" brac="rnd"/> ·[k]a [t]vu ri [ṣ]i koṃ nmai kaṃ kau śke cai ti ke ta ne ka meṃ tuṃ¯ ¯ñ pyā pyai sa p[a] ttiṃ winā [ṣ]ṣAṃ ñe sa k[i]</line>
+            <line n="a3">ka ri¯ ¯Ś sa ··ä r·ai sa pa ñi kteṃ KA ṣṣiṃ ntse ya rke ma ṣṣa re pā ñi kti tā ko¯ ¯yM tai seṃ a [k]e [s]o¯ ¯nT y*aṃ <lac aks="1"/> ·[i]</line>
+            <line n="a4">ke m[n]a mā¯ ¯[ṣP] [yi] m··</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> śak ñ(u) (kṣu)ṃntsa svarṇadeveṃ lāṃntsa postanont ṣkasce ok meññaṃntse mewye pikulne <lac aks="1"/> ṣṣeñcaṃñe ṣi lantsi <lb n="a2"/> wa auṃntsa(nte) <lac aks="1"/> ·katvu riṣi koṃnmaikaṃkauśke caitike tane kameṃ tuṃñ pyāpyaisa pattiṃ wInāṣṣäṃñesa ki <lb n="a3"/> kariś sa ··är·aisa pañikteṃ käṣṣiṃntse yarke maṣṣare pāñikti tākoym taiseṃ akesont y·aṃ <lac aks="1"/> ·i <lb n="a4"/> kemna mā ṣp yim·· </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment id="n1" type="remarks">Inscription in red [paint]</comment>
+      </comments>
+      <references> pl LXXX LXXXI </references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="160-166"/>
+         <ref litRef="xinjiangkuchaacademy2013a" pageRange="7-8"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gqa2">
+      <header>
+         <sigla>
+            <primary siglum="G-Qa 2"/>
+         </sigla>
+         <physicalProperties material="wall" objectType="Graffito" writingMedium="ink"/>
+         <provenance findspot="Qizil Qargha" specificFindspot="Grotte 25"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  ·u [lne] [p]u tta ra kṣi te ¤ wai ya śā ra kṣī te ta ne ka meṃ re· [k]e [ś]· <lac aks="1" brac="rnd"/> [lau] [k]·</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ///  ·ulne puttarakṣite ¤ wai yaśārakṣīte tane kameṃ re·ke ś· <lac aks="1"/> lauk· </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment id="n1" type="remarks">Inscription in white [paint]</comment>
+      </comments>
+      <references> pl LXXX LXXXI</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="166"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gqa3">
+      <header>
+         <sigla>
+            <primary siglum="G-Qa 3.A"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Qizil Qargha" specificFindspot="Grotte 25"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">i KA* w* *ṣ[u]* ts* <lac aks="2" brac="rnd"/> [i] [nā] ke pi [k]·  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ikä(ṃ) w(i) (k)ṣu(n)ts(a) (yāśi) (lānt)i nāke pik·  /// </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment id="n1" type="philcomment">Reconstructed after <fragRef fragment="m-gqa3b"/>.</comment>
+         <comment id="n2" type="remarks">Inscription in white paint</comment>
+      </comments>
+      <references> pl LXXXII</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="166-167"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gqa3b">
+      <header>
+         <sigla>
+            <primary siglum="G-Qa 3.B"/>
+         </sigla>
+         <physicalProperties material="wall" objectType="Graffito" writingMedium="ink"/>
+         <provenance findspot="Qizil Qargha" specificFindspot="Grotte 25"/>
+         <content writtenLines="4">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">i KAṃ wi kṣu ntsa yā śi lā</line>
+            <line n="a2">nti nā ke pi ku lne ṣa mā n[e] <lac aks="1"/>
+            </line>
+            <line n="a3">ye pa ka cāṃ n[d]*e ta [ne] [ś]e  /// </line>
+            <line n="a4">k*a lā ·[e] ·[e]  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ikäṃ wi kṣuntsa yāśi lā<lb n="a2"/>nti nāke pikulne ṣamāne <lac aks="1"/>
+            <lb n="a3"/> ye pakacāṃnd(r)e tane śe(m)  /// <lb n="a4"/> k·a lā ·e ·e  /// </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment id="n1" type="remarks">Inscription in white paint</comment>
+      </comments>
+      <references> pl LXXXII</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="166-167"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gqa4">
+      <header>
+         <sigla>
+            <primary siglum="G-Qa 4.A"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Qizil Qargha" specificFindspot="Grotte 25"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">ñā na w[i]  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ñānawi  /// </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXXXIII-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="167-168"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gqa4b">
+      <header>
+         <sigla>
+            <primary siglum="G-Qa 4.B"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Qizil Qargha" specificFindspot="Grotte 25"/>
+         <content writtenLines="3">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">jñ· na wi r[y]e</line>
+            <line n="a2">[śi] lo pa ke</line>
+            <line n="a3">
+               <lac aks="1" brac="rnd"/> ·e ·e <lac aks="1"/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> jñ(ā)nawirye <lb n="a2"/> śilopake <lb n="a3"/>
+            <lac aks="1"/> (st)e(r)e <lac aks="1"/>
+         </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXXXIII-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="167-168"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gqa5">
+      <header>
+         <sigla>
+            <primary siglum="G-Qa 5"/>
+            <secondary siglum="Kg-025-YD-W-1"/>
+         </sigla>
+         <physicalProperties material="wall" objectType="Graffito" writingMedium="chalk"/>
+         <provenance findspot="Qizil Qargha" specificFindspot="Grotte 25"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text>
+               <proseVerse proseVerse="verse"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">[o] [k]au¯ ¯R a lā se śau mo ke ta tse <lac aks="1"/> pe rpe te : mā su mlu tke TA[¯] [¯R] <lac aks="2"/> meṃ ke ta ra : ke tra [ś]· <lac aks="2"/> ykai [p]e [l]e sa kre[¯] <lac aks="1"/> : pau su swkä [n]meṃ kre tau na meṃ pRA¯ ¯K ke ta¯ ¯R |</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <verse>
+            <strophe n="1">
+               <pada n="a">
+                  <s type="m-gqa5-a1.1"><tr><txq>okaur</txq> (?) an inert person whose burden is heavy [lit. thick] - he does not escape from ... of anyone.</tr>
+                     <lb n="a1" commRef="n2"/> okaur alāse śaumo <s>ket= atse <lac aks="1"/> perpete : </s></s></pada>
+               <pada n="b"> <s type="m-gqa5-a1.1">mā su mlutketär <lac aks="2"/> meṃ ketara : </s></pada>
+               <pada n="c"> <s type="m-gqa5-a1.2"><tr>Whose ... through the good law, he ... from bliss and virtues ....</tr>
+                  <s>ket ra ś· <lac aks="2"/> ykai pelesa kre(nt)<commentRef commRef="n3"/> : </s></s></pada>
+               <pada n="d"> <s type="m-gqa5-a1.2">pau su swkänmeṃ kretaunameṃ präk ketar | <commentRef commRef="n4"/></s></pada>
+            </strophe>
+         </verse>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment id="n1" type="philcomment">14+11+11+11 syllables</comment>
+         <comment id="n2" type="philcomment" resp="Adrian Musitz">Zhao and Rong read <txq>ket= ats[e] ·ṣu perpette</txq>, Pinault reads <txq>ket= atseṣ[ṣ]e perpette</txq>. The first seems to be closer to the truth: There appears to be a u-diacritic present. The main body of the akṣara is obscured by damage on the wall.</comment>
+         <comment id="n3" type="philcomment" resp="Adrian Musitz" domain="translit">The akṣara is not legible. Zhao and Rong read kre[n]ta[n], explaining it as a mistake for krentäṃ. I follow Pinault here. However, maybe we could read <txq>pele sakre[nts]</txq> "the law/manner of the blissful" - to my eyes, the akṣara looks most like <txq>ntS</txq>.</comment>
+         <comment id="n4" type="philcomment" resp="Adrian Musitz">There are three hapax legomena here: <txq>pau, präk, ketar</txq>. Zhao and Rong read <txq>präkketär</txq>, which they explain as a late form of <txq>präṅketär</txq>. However, the <txq>präk</txq> is written with virāma, making this rather unlikely. I would conjecture that <txq>ketar</txq> is some sort of late shortened form of <txq>ketara</txq>. This would make the two clauses in this inscription parallel in form.</comment>
+      </comments>
+      <references> pl LXXXIV-LXXXVIII</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="168-169"/>
+         <ref litRef="zhaoandrong2020" pageRange="278"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="commentary translation"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-gqa6">
+      <header>
+         <sigla>
+            <primary siglum="G-Qa 6"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Qizil Qargha" specificFindspot="Grotte 25"/>
+         <content writtenLines="3">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">ste re jñā <lac aks="1" brac="rnd"/>
+            </line>
+            <line n="a2">caṃ ndre st[e] re ā</line>
+            <line n="a3">[ryo] t[t]ā me ce</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> stere jñā(na)<lb n="a2"/>caṃndre stere ā<lb n="a3"/>ryo ttāme ce… </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXXXIII-2</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="169-170"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gqm1">
+      <header>
+         <sigla>
+            <primary siglum="G-Qm 1"/>
+            <secondary siglum="Kz-039-ZS-L-01"/>
+         </sigla>
+         <physicalProperties objectType="Graffito" writingMedium="ocher" material="wall"/>
+         <provenance findspot="Qizil Sayram" specificFindspot="Grotte E"/>
+         <content writtenLines="2">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">[b]a hu [p]a yi kne || m[ā] [wa] ·[k]· [ṅk]· [e] pi kte ka [r]t·e [ā] k·a p[e] l· [k]·e <lac aks="1"/> [NA] [k]· <lac aks="2"/> ¯[R] : [t]· ya¯ ¯K [p]ta nma sa [kr]ā ma tau wi tā kaṃ snai l[y]ī PA¯ ¯R <lac aks="1"/>
+               <lac aks="1" brac="rnd"/>
+            </line>
+            <line n="a2">[yke] po [sTAṃ] : s·¯ ¯K ñke [t]e po <lac aks="1"/> ·[e] ma <lac aks="1"/> [¯K] <lac aks="1"/> lī ·e m· [nai] ce¯ ¯y a lye k[o] <lac aks="1"/> meṃ yo ksi KA lwā ske¯ ¯[m] pe lai</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <s><tr>In the Bahu-upāyika tune:</tr>
+               <lb n="a1"/> bahupayikne ||</s> 
+            <s><tr>Not for long did he teach the law well.</tr>
+               mā wa(l)k(e) ṅk(e) epikte kart(s)e āk(ṣ)a pel(ai)kne </s>
+            <s><tr>In these stūpas, if there are two... completely... bit by bit now this later... never ...</tr>
+               <s><lac aks="1"/> näk· <lac aks="2"/> r : t(o)yak ptanmasa krāma tau wi tākaṃ snai lyīpär <lac aks="2"/></s>
+               <lb n="a2"/> yke-postäṃ : s· k ñke te post(aññ)e ma(nta)k <lac aks="1"/> lī ·e m·nai </s>
+            <s><tr>They get drink from another home.</tr>
+               cey alyek o(sta)meṃ yoksi kälwāskem pelai </s></prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment>The transcription is a compromise between Pinault and Zhao and Rong. The plaster on top of which the inscription is written has broken off in a lot of places. This makes the inscription exceedingly difficult to read.</comment>
+      </comments>
+      <references> pl LXXXIX-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="170-172"/>
+         <ref litRef="zhaoandrong2020" pageRange="72-73"/>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Adrian Musitz" contribution="commentary transcription translation transliteration"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-gqm2">
+      <header>
+         <sigla>
+            <primary siglum="G-Qm 2"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Qizil Sayram" specificFindspot="Grotte E"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">pu ṇya [se] ne pa ñi kte KA ṣi[ṃ] <unedited/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> puṇyasene pañikte käṣiṃ <unedited/>
+         </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXXXIX-2</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="172-173"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gqm3">
+      <header>
+         <sigla>
+            <primary siglum="G-Qm 3"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Qizil Sayram" specificFindspot="Grotte E"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">te pu ña kā me [p]ai yka :</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> te puñakāme paiyka : </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>Puṇyakāma has painted this.</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>
+         <ref type="Edition and translation" litRef="pinault1987" pageRange="173"/> pl LXXXIX-2</references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-gqm4">
+      <header>
+         <sigla>
+            <primary siglum="G-Qm 4"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Qizil Sayram" specificFindspot="Grotte Ω"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">sa tya gu pte śka śe¯ ¯M tu ntse ṣo tri ||</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> satyagupte śka śem tuntse ṣotri || </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl XC-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="173"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gqm5">
+      <header>
+         <sigla>
+            <primary siglum="G-Qm 5"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Qizil Sayram" specificFindspot="Grotte Ω"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  ra kṣi te wai wa mśo¯ ¯K śka mai ta re tu ntse te ṣo tri p[ai] ykā re</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ///  rakṣite wai wamśok śka maitare tuntse te ṣotri paiykāre </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl XC-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="173-174"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gqm6">
+      <header>
+         <sigla>
+            <primary siglum="G-Qm 6"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Qizil Sayram" specificFindspot="Grotte Ω"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">jñ[ā] na so me śka śe¯ ¯M tu ntse ṣ[ṣ]o tri</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> jñānasome śka śem tuntse ṣṣotri </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl XC-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="174"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gqm7">
+      <header>
+         <sigla>
+            <primary siglum="G-Qm 7"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Qizil Sayram" specificFindspot="Grotte Ω"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  pu ñi [kā] me wai ñā na se ne mo kṣa ca ndre ñā na tte we [ṣ]a rmi re  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ///  puñikāme wai ñānasene mokṣacandre ñānattewe ṣarmire  /// </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl XC-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="174"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gqm8">
+      <header>
+         <sigla>
+            <primary siglum="G-Qm 8"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Qizil Sayram" specificFindspot="Grotte Ω"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">bha ra· [ca]ṃ [tr]e se na wā rke sa tya ra kṣī śī la ra kṣī</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> bhara·caṃtre senawārke satyarakṣī śīlarakṣī </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl XC-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="176"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gqm9">
+      <header>
+         <sigla>
+            <primary siglum="G-Qm 9"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Qizil Sayram" specificFindspot="Grotte Ω"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">mo kṣa so me</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> mokṣasome </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl XC-2</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="176"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gqm10">
+      <header>
+         <sigla>
+            <primary siglum="G-Qm 10"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Qizil Sayram" specificFindspot="Grotte Ω"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">pra jñā wa rme śke śe¯ ¯M</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> prajñāwarme śke śem </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl XCI-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="176-177"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gqm11">
+      <header>
+         <sigla>
+            <primary siglum="G-Qm 11"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Qizil Sayram" specificFindspot="Grotte Ω"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">pa¯ ¯T pi ku¯ ¯L ra paṃ ñe meṃ ne ta ti || tu hkā e c[c]e win[ā] s[i] ka meṃ tu ntse ṣo tri</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> pat pikul rapaṃñe meṃne tati || tuhkā ecce wInāsi kameṃ tuntse ṣotri </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl XCI-2</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="177"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gqm12">
+      <header>
+         <sigla>
+            <primary siglum="G-Qm 12"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Qizil Sayram" specificFindspot="Grotte Ω"/>
+         <content writtenLines="2">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">6 kṣu ntsa tri cce [k]o cce teṃ śka v[ye] ñu ne [w]ai tsya ku ne ··o lmī śi [r]m· <lac aks="1"/>
+            </line>
+            <line n="a2">nau ṣweṃ tsa m[ai] we¯ ¯ñ <lac aks="1"/> śkā ñce <lac aks="1"/> [ṣ]i [ma] ṣa to ṅk· te ṣi [r]mtsa mai ta re tu ntse [ṣo] tri pai yke re [||]</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> 6 kṣuntsa tricce kocce teṃ śka vyeñune wai tsyakune ··olmī śirm· <lac aks="1"/>
+            <lb n="a2"/> nauṣweṃtsa mai weñ <lac aks="1"/> śkāñce <lac aks="1"/> ṣi maṣa to ṅk· te ṣirmtsa maitare tuntse ṣotri paiykere || </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl XCI-2</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="177-178"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gqm13">
+      <header>
+         <sigla>
+            <primary siglum="G-Qm 13"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Qizil Sayram" specificFindspot="Grotte M"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">mo [k]ṣa [w]a rme ta ne śe¯ ¯M tu ntse ṣo t[ri]</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> mokṣawarme tane śem tuntse ṣotri </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl XCII-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="179"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gqo1">
+      <header>
+         <sigla>
+            <primary siglum="G-Qo 1"/>
+         </sigla>
+         <physicalProperties material="wall" objectType="Graffito" writingMedium="ink"/>
+         <provenance repository="In situ" findspot="Qumtura" specificFindspot="Grotte Y"/>
+         <content writtenLines="1">
+            <scribalDuctus ductus="cursive"/>
+            <languages>
+               <language languageName="txb"
+                         linguisticStage="classical"
+                         linguisticStagePeyrot="C"
+                         tamaiC14="true"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Graffito (wall)"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  [s]u wa [p]i ku lne wa ce [m]· ñā[ṃ] nts· <lac aks="4"/> k· <lac aks="1"/> ·n· s· śc· [||] na w[ā] ke de <lac aks="1"/> ra kṣte ya śa s[eṃ] i ndri ··e [m]pa [t]ā¯ ¯u ṣa rmtsa tu ntse ṣo tri <lac aks="5"/> ||</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ///  suwa pikulne wace m(e)ñāṃnts(e) <lac aks="4"/> k· <lac aks="1"/> ·n· s· śc· || nawāke de(wa)rakṣte yaśaseṃ indri(śk)empa tāU ṣarmtsa tuntse ṣotri <lac aks="5"/> || </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>... In the year of the Pig, of the second month ...</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="remarks">Photographie no. 431 Pelliot Collection in the Musee Guimet.</comment>
+      </comments>
+      <references> pl XCII-2</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="179-180"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu1">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 1"/>
+         </sigla>
+         <physicalProperties material="wall" objectType="Graffito" writingMedium="ink"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text>
+               <proseVerse proseVerse="verse"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               sa lpeṃ pi¯ ¯Ś cme la a ñi tyā tṣe pu wa [r]sa •
+               ko¯ ¯y[N]ä ka kā ya ṣp[o] [k]a ṣā nta [ṣṣ]i kā ri po •
+               tā ṣṭä¯ ¯R pe lai kne śau la nma sa KA ryau se •
+               [tn]e ka pre ksau me kā snai meṃ «ts[i]» KLA[ṃ] tsa ñce¯ ¯R
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <verse meter="M12">
+            <lb n="a1"/>
+            <strophe n="1">
+               <pada n="a">salpeṃ piś cmela ; añityātṣe , puwarsa •</pada>
+               <pada n="b"><s>koyn kakāyaṣ</s> po ; kaṣāntaṣṣi , kāri po • </pada>
+               <pada n="c"><s>tāṣṭär pelaikne ; <s>śaulanmasa , käryau</s> se • </s></pada>
+               <pada n="d"><s>tneka preksaume ; </s> <s>kā snai meṃtsi , kläṃtsañcer</s></pada>
+            </strophe>
+         </verse>
+      </transcription>
+      <translation language="fre" litRef="pinault1987" pageRange="135">
+           <strophe n="1">
+              <pada n="a">Les cinq naissances brûlent dans le feu de l'impermanence.</pada>
+              <pada n="b">Tous ayant ouvert la bouche [sont] tous des fosses d'ordures.</pada>
+              <pada n="c">La loi est établie, elle qui [a été] achetée par les vies.</pada>
+              <pada n="d">Ici donc je vous demande : Pourquoi dormez-vous sans souci?</pada>
+           </strophe>
+      </translation>
+      <translation language="eng" litRef="adams2013" pageRange="12-13">
+         <strophe n="1">
+            <pada n="a">Those of the five-births burn in the fire of inconstancy,</pada>
+            <pada n="b">all having opened their mouths, all are pits of <hi>kapānta</hi>,</pada>
+            <pada n="c">he establishes the law and bought [it] with lives,</pada>
+            <pada n="d">here indeed I ask you, "how do you sleep without a care?"</pada>
+         </strophe>
+      </translation>
+      <comments>
+         <comment id="n1" type="philcomment">metre 4x12, rythm 5/7</comment>
+      </comments>
+      <references>
+         <ref type="Edition and translation"
+              litRef="pinault1987"
+              pageRange="134-137"/> pl LIII-LVI-1 </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-gsu2">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 2"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">ra vai ññe meṃ nne śa¯ ¯Kä vi ne a mp[R]ä ta śa rme • mo k[ṣ]a gu pte • dha rma kā me ta ne spe lke ya ma ṣṣa re a bhi dhā¯ ¯RMä tu ntse te ṣo tri dha rma kā me pai yka :</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ravaiññe meṃnne śak vine amprätaśarme • mokṣagupte • dharmakāme tane spelke yamaṣṣare abhidhārm tuntse te ṣotri dharmakāme paiyka : </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references>
+         <ref type="Edition and translation" litRef="pinault1987" pageRange="137"/> pl LIII-1 LIV-LVI-1</references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-gsu3">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 3"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">|| dha rma wa rme wai gu na caṃ ndre ā śtā wiṃ tse na nāṃ te pa¯ ¯R ra lyā kāṃ te tuṃ tse te ṣo tri ||</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> || dharmawarme wai gunacaṃndre āśtāwiṃtse nanāṃte parra lyākāṃte tuṃtse te ṣotri || </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>|| Dharmavarman and Guṇacandra have presented themselves to Āśtāwi. Besides they have been seen. This is the sign thereof. ||</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references> pl LV-LVII</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="138-139"/>
+      </editions>
+      <publication>
+         <publicationDate date="2015-07-13">13 July 2015</publicationDate>
+         <contributors>
+            <contributor name="Michaël Peyrot" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-gsu4">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 4"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">|| dha rma wa rme wai gu na caṃ tre ta ne me TA¯ ¯R wī y[ū] śke ||</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> || dharmawarme wai gunacaṃtre tane metär wī yū śke || </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LIV-1 LV-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="139"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu5">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 5"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">ra pa ññe meṃ nne a o¯ ¯K  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> rapaññe meṃnne aok  /// </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment id="n1" type="philcomment">
+            <txq>
+               <hi rendition="subscript">a</hi>o_k\</txq> written with single vowel sign <hi>a</hi> plus diacritic vowel sign <hi>o</hi> above.</comment>
+      </comments>
+      <references> pl LIII-2 LIV-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="139"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu6">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 6"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">jñ[ā] na ku pt[e]</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> jñānakupte </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LVIII-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="140"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu7">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 7"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">nai ma ñe meṃ ne i KAṃ śwe rne dha rma so me mi tra kṣe me ka lyā ṇa vra ddhi sa ṅka [d]e ve a rju ne ta ne k· <lac aks="1"/> ñ· ka meṃ tu ntse te ṣo tri co wa [śk]e ¤</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> naimañe meṃne ikäṃ śwerne dharmasome mitrakṣeme kalyāṇavraddhi saṅkadeve arjune tane k· <lac aks="1"/> ñ· kameṃ tuntse te ṣotri cowaśke ¤</prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LIX-LXI-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="140"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu8">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 8"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">se pra jñā ra kṣi te ntse</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> se prajñārakṣitentse </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LIX-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="140-141"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu9">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 9"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">se pu ṇya mi tre</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> se puṇyamitre </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LIX-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="141"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu10">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 10"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  meṃ ne «i» «KAṃ» «ṣka» «ne» mo ka [s]e [n]e dha rma trā te te ne ka meṃ spte lke ya ma ṣṣa re</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ///  meṃne ikäṃ ṣka«s»ne mokasene dharmatrāte tene kameṃ sptelke yamaṣṣare </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXI-2 LXII</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="141"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu11">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 11"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">jñā na ku pte śpā la ññe m·  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> jñānakupte śpālaññe m·  /// </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LVIII-2</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="141-142"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu12">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 12"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">jñā na kū pte a mpRA ta se ne ta ne ka meṃ wi na ya dha ri a śa ri dha rma trā te[ṃ] ts[e] wi nai [ṣa¯] [¯K] ke¯ ¯śä we si ye[ṃ] no : tte</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> jñānakūpte amprätasene tane kameṃ winayadhari aśari dharmatrāteṃtse winai ṣak keś wesiyeṃ no : tte </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>Jñānagupta (and) Amṛtasena came here ...</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references> pl LXIII LXIV-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="142-144"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu13">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 13"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">jñā na so me ntse ṣo tri</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>jñānasomentse ṣotri
+         </prose>
+      </transcription>
+      <translation>
+         <line n="a1">Jñānasoma's sign.</line>
+	  </translation>
+      <comments>
+         <comment id="n1">Apparently written with some flourish, starting with fairly large characters that become smaller towards the end of the line.</comment>
+      </comments>
+      <references/>
+      <editions>
+         <ref litRef="pinault1987" pageRange="144"> pl LXIV</ref>
+      </editions>
+      <publication>
+         <contributors>
+            <contributor name="Martin Braun" contribution="editor"/>
+         </contributors>
+      </publication>
+   </record>
+   <record id="m-gsu14">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 14"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">ña ña so <lac aks="1" brac="rnd"/> ·i <lac aks="1" brac="rnd"/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ñañaso <lac aks="1"/> ·i <lac aks="1"/>
+         </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXIV-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="144-145"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu15">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 15"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">dha rma kā mi śke ta ne śe¯ ¯M spe lke ya ma ṣṣa || tu  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> dharmakāmiśke tane śem spelke yamaṣṣa || tu…  /// </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXVI-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="145"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu16">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 16"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">ññā na se ne ṣṣa mā ne spe lla ke  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <sic corr="j">ñ</sic>ñānasene ṣṣamāne spellake  /// </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXVI-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="145"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu17">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 17"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac aks="1"/> la mi tre wai śi la d[e] wi mo kṣa mi tre śi la wa rme [p]ai kka tu ntse te ṣṣo tri ||</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> (śi)lamitre wai śiladewi mokṣamitre śilawarme paikka tuntse te ṣṣotri || </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXVII LXIX</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="146"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu18">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 18"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">[pu] tta mi tri ra kta de we ā rya [ś]ke ṣa rmi [r]e</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> puttamitri raktadewe āryaśke ṣarmire </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>Buddhamitra ...</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="lingcomment">According to <ref litRef="pinault1987" pageRange="146"/>, <hi>puttamitri</hi> is a fault for the expected <hi>puttamitre</hi>.</comment>
+      </comments>
+      <references> pl LXVIII</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="146"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu19">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 19"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">a mRA ta se ne</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> amrätasene </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>Amṛtasena.</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references> pl LXVI-2</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="146"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu20">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 20"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">s[i] [dh]a saṃ gha</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> sidhasaṃgha </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXVI-2</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="147"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu21">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 21"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">klpā pā tre</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> klpāpātre </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>Kalpapātra</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references> pl LXIX-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="147"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu22">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 22"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">sa rvva jñā na tra <lac aks="1"/> ka</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> sarvvajñāna tra <lac aks="1"/> ka </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXIX-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="147"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu23">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 23"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">pu ṇya mi tre</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> puṇyamitre </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXIX-2</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="147-148"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu24">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 24"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">wa rwa ttsa ke ta ne śe¯ ¯M</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> warwattsake tane śem </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXIX-2</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="148"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu25a">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 25.A"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  wai śi la so ma ta ne ka [m]eṃ</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ///  wai śilasoma tane kameṃ </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXX</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="148"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu25b">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 25.B"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <unedited/>[j]ñā na [m]o k[ṣe] [ta] ne <unedited/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <unedited/> jñānamokṣe tane <unedited/>
+         </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references/>
+      <editions>
+         <ref litRef="pinault1987" pageRange="148"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu25c">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 25.C"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">śa¯ ¯K ṣu¯ ¯K ne ṣe ṣa rmi re śka ta ne [śe]  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> śak ṣukne ṣe ṣarmire śka tane śe(m)  /// </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>Le dix-sept, un novice aussi est venu ici ...</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references/>
+      <editions>
+         <ref litRef="pinault1987" pageRange="148"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu26">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 26"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">[w]a ce me[ṃ] ne pu ñai yśe a ṣkā [r]la¯ ¯c pa [y]ka TA ryā ka tu ntse te ṣo tri</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> wace meṃne puñaiyśe aṣkār lac payka täryāka tuntse te ṣotri </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXXI</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="149"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu27">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 27"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <unedited/>tu ntse te ṣo tri</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <unedited/> tuntse te ṣotri </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXXI-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="149"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu28">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 28"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac aks="1"/> ce meṃ ne [śa] <lac aks="1"/> [t]r[e] [y]·e sa ṅgha śā rme «ta» «ne» «śe»«[¯]» «[¯]»«[M]»</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> (wa)ce meṃne śa <lac aks="1"/> trey·e saṅghaśārme tane śem </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXXII</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="149-150"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu29">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 29"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">a [ry]ā ra kī te p[u] ṇya ra kī te</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> aryārakīte puṇyarakīte </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXXII-2</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="150"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu30">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 30"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">a śo ka mi tre ta ne śe¯ ¯M</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> aśokamitre tane śem </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXXIII-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="150"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu31">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 31"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  spe lke ya ma ṣṣa tu ntse te ṣo tri ||</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ///  spelke yamaṣṣa tuntse te ṣotri || </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXXIV</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="150-151"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu32">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 32"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">ka lyā na wa rta ne | śi la ya śe | wi rya de we tu ntse ṣo tri «pai» ykā m</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> kalyānawartane | śilayaśe | wiryadewe tuntse ṣotri paiykām </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXXV-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="151"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu33">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 33"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">prā śni ke jñā na gho ṣe</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> prāśnike jñānaghoṣe </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXXV</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="151"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu34">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 34"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="2">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">ṣka skṣu ntsa kṣe [m]ā r[j]u ne lā nti ya kwe pi ku lne [ś]ka ñce meṃ ne pra ti pa tne trai ṣa rmi ri śkaṃ pu ñi caṃ ndre jñā na caṃ ndre a m[RA] ta ra kṣi te te ne ka meṃ tu ntse ṣo tri</line>
+            <line n="a2">pai yka jñā na caṃ ndre :</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ṣkas kṣuntsa kṣemārjune lānti yakwe pikulne śkañce meṃne pratipatne trai ṣarmiriśkaṃ puñicaṃndre jñānacaṃndre amrätarakṣite tene kameṃ tuntse ṣotri <lb n="a2"/> paiyka jñānacaṃndre : </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>Dans la sixième année de règne du roi Kṣemārjuna, dans l'année du Cheval, dans le dixième mois, le premier jour, trois jeunes novices – Puṇyacandra, Jñānacandra, Amṛtarakṣita – sont venus ici ; de cela</tr>
+         </line>
+         <line n="a2">
+            <tr>Jñānacandra a écrit le signe.</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>
+         <ref type="Edition and translation"
+              litRef="pinault1987"
+              pageRange="151-152"/> pl LXXIII-2</references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-gsu35">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 35"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">ta ne tri ce meṃ ne ke rca wi śke wai ke rdi po le śe ma re ka meṃ</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> tane trice meṃne kercawiśke wai kerdipole śemare kameṃ </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXXVI</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="152-153"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu36">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 36"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte Bokoff"/>
+         <content writtenLines="2">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">pra ya sva ti ne || kuśi ñño ro [c]ce pi [lā] nte <lac aks="5"/> ·e <lac aks="1"/> [k]w[e] pi ku lne <lac aks="1"/> ṣka cce meṃ ne śa¯ ¯K ṣka sne <unedited/>
+            </line>
+            <line n="a2"> ///  ṣo tri <lac aks="1"/> pai yka  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> prayasvatine || kUśiññ= oroccepi lānte <lac aks="5"/> ·e (ya)kwe pikulne <lac aks="1"/> ṣkacce meṃne śak ṣkasne <unedited/>
+            <lb n="a2"/> ///  ṣotri <lac aks="1"/> paiyka  /// </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references/>
+      <editions>
+         <ref litRef="pinault1987" pageRange="153-154"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu37">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 37"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte Bokoff"/>
+         <content writtenLines="2">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">ke rca pi śke ta ne śe¯ ¯M</line>
+            <line n="a2">te ṣo tri pai yka śta rcce [m]·  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> kercapiśke tane śem <lb n="a2"/> te ṣotri paiyka śtarcce m(eṃne)  /// </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>...</tr>
+         </line>
+         <line n="a2">
+            <tr>... in the fourth month ///</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references> pl LXXVII-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="154-155"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu38">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 38"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte Bokoff"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">ke rca [w]i śke spe lke ya ma ṣa <lac aks="1"/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> kercawiśke spelke yamaṣa <lac aks="1"/>
+         </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXXVII-2</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="155"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu39">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 39"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte Bokoff"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb" linguisticStagePeyrot="C" tamaiC14="true"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">ta ne wi nā si ka meṃ tā rma ra kṣi te «ṣ»a rmi re kumā ra pu ṇye mpa</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1" commRef="n1"/> tane wināsi kameṃ tārmarakṣite ṣarmire kUmārapuṇyempa </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>Ici sont venus ... Dharmarakṣita en companie de Kumārapuṇya.</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="philcomment">
+            <hi>«ṣ»armire</hi>: <hi>śarmire</hi> seems to have been changed to <hi>ṣarmire</hi>
+         </comment>
+      </comments>
+      <references> pl LXXVII-2</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="155"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu40">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 40"/>
+         </sigla>
+         <physicalProperties objectType="Graffito" writingMedium="engraving"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte Aliakoum"/>
+         <content writtenLines="3">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="zxx"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">1 2 3 4 5</line>
+            <line n="a2">6 7 8 9 10 20</line>
+            <line n="a3">
+               <lac aks="1"/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> 1 2 3 4 5 <lb n="a2"/> 6 7 8 9 10 20 <lb n="a3"/>
+            <lac aks="1"/>
+         </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment id="n1" type="remarks">The first fields of a chequered area within a circle are filled with numbers.</comment>
+      </comments>
+      <references> pl LXXIX-2</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="155-156"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu41">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 41"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">śe [w]·[ā] s[ā] lye śi la ye śi ma ra ñi we na au no ku ri</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> śe w·ā sālye śi la ye śi ma ra ñi we na au no ku ri </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXXVIII</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="156"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu42">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 42"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">ḍha khṅa pā bi tpa 5 tha ṇṭi ppa nau [rd]a ppa dh[tha] pa ṇi ppa</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ḍha khṅa pā bi tpa 5 tha ṇṭi ppa nau rda ppa dhtha pa ṇi ppa </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LXXIX-1</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="157"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu43">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 43"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus ductus="kharoṣṭhī"/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">bo sa ka lu rvya tva ga [l]u sta [tre] dhe pa ka [śa] rṇa [ka] bo sa vi [ba] [ṇe] lu <lac aks="1"/> [sta]</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> bosakalurvyatvagalustatre dhepakaśarṇaka bosavibaṇe lu <lac aks="1"/> sta </prose>
+      </transcription>
+      <translation/>
+      <comments/>
+      <references> pl LVI-1 LVII</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="157-158"/>
+      </editions>
+      <publication/>
+   </record>
+   <record id="m-gsu44">
+      <header>
+         <sigla>
+            <primary siglum="G-Su 44"/>
+         </sigla>
+         <physicalProperties objectType="Graffito"/>
+         <provenance findspot="Subeši" specificFindspot="Grotte aux inscriptions"/>
+         <content writtenLines="1">
+            <scribalDuctus ductus="unknown"/>
+            <languages>
+               <language languageName="und"/>
+            </languages>
+            <text/>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  [saṃ] gho  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ///  saṃgho  /// </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>/// communauté des moines [bouddhistes] ///</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references> pl LXIV LXV</references>
+      <editions>
+         <ref litRef="pinault1987" pageRange="158"/>
+      </editions>
+      <publication/>
+   </record>
+    <record id="m-km034zsl01">
+        <header>
+            <sigla>
+                <primary siglum="Km-034-ZS-L-01"/>
+                <secondary siglum="paroi de droite"/>
+            </sigla>
+            <physicalProperties material="wall" objectType="Graffito" writingMedium="ink"/>
+            <provenance manuscript="Km 34"
+                repository="In situ"
+                previousFragment="m-km034zsz01"
+                findspot="Qumtura"
+                specificFindspot="Cave no. 34"/>
+            <content writtenLines="8">
+                <scribalDuctus ductus="classical"/>
+                <languages>
+                    <language languageName="txb" linguisticStage="classical"/>
+                </languages>
+                <text>
+                    <genre genre="Non-literary" subgenre="Painting caption"/>
+                    <proseVerse proseVerse="prose"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1">
+                    <lac aks="1"/> ñ· KTA ñ[ñe] yā tka¯ ¯cä ||</line>
+                <line n="a2">|| [na] [no] śi khiṃ pa ñä k·e śwā tsi ka kā tai sa ṅkrā¯ ¯M ya ma ṣa ·[ai] [wa] [lo] [ṣai¯] [¯T] ||</line>
+                <line n="a3">wa lo ·ai <lac aks="1"/> [ś]i [khiṃ] ··[s]· pk[ai] kṣ·· [r]e· ·s· [y]· [rke] [yā] m· <lac aks="1"/> st· sa ṅkrā¯ ¯M ya ma ṣa <lac aks="1"/>
+                </line>
+                <line n="a4">|| na no wa lo ṣai¯ ¯T śi khiṃ wra ntsai la¯ ¯c pkai kṣā treṃ ntsa ya rke ya ma ṣa sta ne śau ltsa wa rñai ri śka kā tai ne</line>
+                <line n="a5">|| na no a lye ke pi śi khiṃ ntse pkai kṣā treṃ ntsa ya rke yā mo rmeṃ [r]ī ne [sTA] MA ṣṣa tai ne</line>
+                <line n="a6">|| ta ne śi khiṃ pa ñä kte ntse śa rka plo ri yai sa ya rke ya ma ṣa sta wa lo ṣai¯ ¯T</line>
+                <line n="a7">|| na no śi khiṃ [ra] [ka] [kā] tai s[ā] ṅ[KA] ṣṣ· pe lai k[n]e [kly]· [ṣtsi] ra no ya rke yā mṣa sta</line>
+                <line n="a8">|| na no wa lo ṣai¯ ¯T śi khiṃ g· kne nā SKA ṣṣa tai <lac aks="1"/> ka ri¯ ¯T ya ma  /// </line>
+            </recto>
+        </transliteration>
+        <transcription>
+            <prose>
+                <lb n="a1"/> (pa)ñ(ä)ktäññe yātka-c || <lb n="a2" commRef="n2"/> || nano śikhiṃ pañäk(t)e śwātsi kakātai saṅkrām yamaṣa(t)ai walo ṣait || <lb n="a3" commRef="n3"/> walo (ṣ)ai(t) śikhiṃ(nt)s(e) pkai kṣ(āt)re(ṃnt)s(a) y(a)rke yām(aṣa)st(a) saṅkrām yamaṣa(sta) <lb n="a4"/> || nano walo ṣait śikhiṃ wrantsai lac pkai kṣātreṃntsa yarke yamaṣasta-ne śaultsa warñai riś kakātai-ne <lb n="a5"/> || nano alyekepi śikhiṃntse pkai kṣātreṃntsa yarke yāmormeṃ rīne stämäṣṣatai-ne <lb n="a6"/> || tane śikhiṃ pañäktentse śarka ploriyaisa yarke yamaṣasta walo ṣait <lb n="a7" commRef="n4"/> || nano śikhiṃ ra kakātai sāṅkäṣṣ(e) pelaikne kly(au)ṣtsi rano yarke yāmṣasta <lb n="a8"/> || nano walo ṣait śikhiṃ g(ā)kne nāskäṣṣatai (vyā)karit yama  /// </prose>
+        </transcription>
+        <translation>
+            <line n="a1">
+                <tr>... the Buddha-like commanded you.</tr>
+            </line>
+            <line n="a2">
+                <tr>Again you invited Buddha Śikhin for eating; you made a monastery; you were a king. </tr>
+            </line>
+            <line n="a3">
+                <tr>Tu étais roi; (après avoir rendu hommage à Śikhin avec parasol [et] chasse-mouches), pour la durée de la vie tu établis un monastère.</tr>
+            </line>
+            <line n="a4">
+                <tr>Derechef, tu étais roi; tu sortis à la rencontre de Śikhin; avec parasol [et] chasse-mouches tu lui rendis hommage; (pour le temps) tout au long de la vie (= pour toute la vie) tu l'invitas à la ville.</tr>
+            </line>
+            <line n="a5">
+                <tr>Derechef, après avoir rendu hommage à un autre Śikhin avec parasol [et] chasse-mouches, dans la ville tu l'installas.</tr>
+            </line>
+            <line n="a6">
+                <tr>Ici, au Buddha Śikhin tu rendis hommage avec (de la musique de) flûte [et] luth; tu etais roi.</tr>
+            </line>
+            <line n="a7">
+                <tr>Derechef, tu invitas aussi Śikhin; désireux d'observer la loi de la Communauté, tu rendis hommage.</tr>
+            </line>
+            <line n="a8">
+                <tr>Derechef tu étais roi; Śikhin se laissa baigner (?) dans le Gange (...).</tr>
+            </line>
+        </translation>
+        <comments>
+            <comment id="n1" type="remarks">Drawings in <ref litRef="xinjiangkuchaacademy2014" pageRange="11-15"/>; photos in <ref litRef="su1989" pageRange="127-128"/>, pl. 163, 164.</comment>
+            <comment id="n2" type="philcomment">
+                <ref litRef="xinjiangkuchaacademy2014"/> read <hi>śwātsi</hi> against <ref litRef="pinault1994a" pageRange="177"/> (<hi>[ṣaul]tsa</hi>).</comment>
+            <comment id="n3" type="philcomment">
+                <ref litRef="xinjiangkuchaacademy2014"/> read and restore <hi>[yā]m(aṣa)st(a)</hi> against <ref litRef="pinault1994a" pageRange="177"/> (<hi>(yā)m(ormeṃ) [ś](au)[ltsa]</hi>).</comment>
+            <comment id="n4" type="philcomment">
+                <ref litRef="xinjiangkuchaacademy2014"/> read and restore against <ref litRef="pinault1994a" pageRange="177"/> (<hi>[pāṣ]ts(i) r[i]tau</hi>).</comment>
+        </comments>
+        <references/>
+        <editions>
+            <ref litRef="pinault1994a"/>
+            <ref litRef="xinjiangkuchaacademy2014"/>
+        </editions>
+        <publication/>
+    </record>
+   <record id="m-km34">
+      <internalComments>
+         <comment resp="Adrian Musitz" scope="a4">Why dīpamālṣa? From what I can recognize from the (poor quality) photograph in Zhao and Rong's edition, there seem to be a Fremdzeichen L.</comment>
+      </internalComments>
+        <header>
+            <sigla>
+                <primary siglum="Km-034-ZS-R-01"/>
+                <secondary siglum="paroi de gauche"/>
+            </sigla>
+            <physicalProperties material="wall" objectType="Graffito" writingMedium="ink"/>
+            <provenance manuscript="Km 34"
+                repository="In situ"
+                nextFragment="m-km034zsz01"
+                findspot="Qumtura"
+                specificFindspot="Cave no. 34"/>
+            <content writtenLines="">
+                <scribalDuctus ductus="classical"/>
+                <languages>
+                    <language languageName="txb" linguisticStage="classical">
+                        <secondaryFeatures linguisticStage="late"/>
+                    </language>
+                </languages>
+                <text>
+                    <genre genre="Non-literary" subgenre="Painting caption"/>
+                    <proseVerse proseVerse="prose"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a4">|| tu meṃ w[ā] s[a] vi lā nte tkā ce¯ ¯R ra tna śi khiṃ dī pa mā lṣa e ka ññe wa sa ||</line>
+                <line n="a5">pra ṇā deṃ ri śka kā tai ñu mka pta nma tsai ka tai ||</line>
+                <line n="a6">ṣe ma ṅka rsa kwa rSA¯ ¯R o ro cce pa¯ ¯T laṃ ṣā tai ||</line>
+                <line n="a7">brā hma ṇe śrī sa mbha veṃ l[y]ā [ka] ytā ri sa wṣe ñai wsā ne ||</line>
+                <line n="a8">rṣā k[e] ṣai¯ ¯T k[au] ṇḍi nye ntse w· pai ne wṣe ñai wsā sta o ko nta ṢPA ||</line>
+                <line n="a9">di pa ṅka rsa ṣu ktu ppā lnta ṣa lā sta brā hmaṃ ñe kā lśke ṣai¯ ¯T ||</line>
+                <line n="a10">rṣā ke ṣai¯ ¯T su da rśa neṃ pa ñä kte wra ntsai la¯ ¯cä ||</line>
+                <line n="a11">na no rṣā ke ṣai¯ ¯T su ne tri wa rto ne ya rk[e] y[ā] mṣa sta ||</line>
+                <line n="a12">
+                    <lac aks="1"/> ṣṭ· <lac aks="1"/> [dh]ṛ [ti] rā ṣṭre ntse kuṣā tre <lac aks="1"/> [y]· [r]·e  /// </line>
+            </recto>
+        </transliteration>
+        <transcription>
+            <prose>
+               <s><tr>Thereupon the daughter of king Vāsava gave Ratnaśikhin the equipement for a lamp garland. </tr>
+                  <lb n="a4" commRef="n3"/> || tumeṃ wāsavi lānte tkācer ratnaśikhiṃ dīpamālṣa ekaññe wasa || </s>
+               <s><tr>You invited Praṇāda to the city; </tr>
+                  <lb n="a5"/> praṇādeṃ riś kakātai </s>
+               <s><tr>you built ninety stūpas. </tr>
+                  ñumka ptanma tsaikatai || </s>
+               <s><tr>During [the age of] Kṣemaṅkara, you established a one-league large stūpa. </tr>
+                  <lb n="a6"/> ṣemaṅkarsa kwarsär orocce pat laṃṣātai || </s>
+               <s><tr>A Brahmin saw Śrīsambhava; </tr>
+                  <lb n="a7" commRef="n4"/> brāhmaṇe śrīsambhaveṃ lyāka </s>
+               <s><tr>on the way he gave him a resting place. </tr>
+                  ytārisa wṣeñai wsā-ne || </s>
+               <s><tr>You were a Rṣi; </tr>
+                  <lb n="a8" commRef="n5"/> rṣāke ṣait </s>
+               <s><tr>to Kauṇḍinya you gave a footstool and fruits. </tr>
+                  kauṇḍinyentse w(i)-paine-wṣeñai wsāsta okonta ṣpä || </s>
+               <s><tr>On Dipaṅkara you threw seven lotus [flowers]; </tr>
+                  <lb n="a9"/> dipaṅkarsa ṣukt uppālnta ṣalāsta</s>
+               <s><tr>you were a Brahmin boy [then]. </tr>
+                  brāhmaṃñe kālśke ṣait || </s>
+               <s><tr>You were a Rṣi; </tr>
+                  <lb n="a10"/> rṣāke ṣait </s>
+               <s><tr>you went out towards the Buddha Sudarśana. </tr>
+                  sudarśaneṃ pañäkte wrantsai lac || </s>
+               <s><tr>Again you were a Rṣi; </tr>
+                  <lb n="a11"/> nano rṣāke ṣait </s>
+               <s><tr>to Sunetra you did homage in the forest. </tr>
+                  sunetri wartone yarke yāmṣasta || </s><lb n="a12"/>
+               <s><tr>... (with) a parasol (you did) homage to Dhṛtarāṣṭra ...</tr>
+                  <lac aks="1"/> ṣṭ· <lac aks="1"/> dhṛtirāṣṭrentse kUṣātre(sa) y(a)r(k)e  /// </s></prose>
+        </transcription>
+        <translation/>
+        <comments>
+            <comment id="n1" type="philcomment">The reading is based on <ref litRef="xinjiangkuchaacademy2014" pageRange="5-9"/>, the translation on <ref litRef="pinault1994a" pageRange="179"/>.</comment>
+            <comment id="n2" type="remarks">Drawings in <ref litRef="xinjiangkuchaacademy2014" pageRange="5-9"/>; photos in <ref litRef="su1989" pageRange="127-128"/>, pl. 163, 164.</comment>
+            <comment id="n3" type="lingcomment">Note <hi>dīpamālṣa</hi> (thus read by <ref litRef="xinjiangkuchaacademy2014" pageRange="5"/> with fn. 1 contra <ref litRef="pinault1994a" pageRange="175"/> with fn. 2, p. 176), which stands either for masculine <hi>dīpamālṣe</hi> or for fem. <hi>dīpamālṣai</hi>.</comment>
+            <comment id="n4" type="philcomment">Note that <ref litRef="xinjiangkuchaacademy2014" pageRange="7"/> read <hi>l[y]ā[ka]</hi> 'he saw' instead of <hi>[<hi rendition="underline">ka</hi>tko]<hi rendition="underline">ṣ</hi>\</hi>, as per <ref litRef="pinault1994a" pageRange="175"/>.</comment>
+            <comment id="n5" type="philcomment">Note that <ref litRef="xinjiangkuchaacademy2014" pageRange="7"/> read <hi>okonta</hi> 'fruits' instead of <hi>okronta</hi>, as per <ref litRef="pinault1994a" pageRange="175"/> and 182.</comment>
+        </comments>
+        <references/>
+        <editions>
+            <ref litRef="pinault1994a"/>
+            <ref litRef="xinjiangkuchaacademy2014"/>
+        </editions>
+        <publication>
+            <publicationDate date="2015-09-04">2015-09-04</publicationDate>
+            <contributors>
+                <contributor name="Melanie Malzahn" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+    <record id="m-km034zsz01">
+        <header>
+            <sigla>
+                <primary siglum="Km-034-ZS-Z-01"/>
+                <secondary siglum="paroi de droite"/>
+            </sigla>
+            <physicalProperties material="wall" objectType="Graffito" writingMedium="ink"/>
+            <provenance manuscript="Km 34"
+                repository="In situ"
+                nextFragment="m-km034zsl01"
+                previousFragment="m-km34"
+                findspot="Qumtura"
+                specificFindspot="Cave no. 34"/>
+            <content writtenLines="">
+                <scribalDuctus ductus="classical"/>
+                <languages>
+                    <language languageName="txb" linguisticStage="classical"/>
+                </languages>
+                <text>
+                    <genre genre="Non-literary" subgenre="Painting caption"/>
+                    <proseVerse proseVerse="prose"/>
+                </text>
+            </content>
+        </header>
+        <transliteration>
+            <recto>
+                <line n="a1"> ///  ·[ā] tai <lac aks="1"/> ¯[T] s· [ṅ]· rā[¯] [¯M] [ya] [ma] <lac aks="1"/> sta ne ||</line>
+                <line n="a2">[n]· n[o] ·e <lac aks="1"/> se n[a] [j]i wa [lo] pa ñä kte [p]· ·[a]ṃ <lac aks="1"/> [n]e <lac aks="2"/> [ṣṣ]e [sa] ṅk·[ā]¯ ¯[M]</line>
+            </recto>
+        </transliteration>
+        <transcription>
+            <prose>
+                <lb n="a1"/> (kak)ātai (pa)t s(a)ṅ(k)rām yama(ṣa)sta-ne || <lb n="a2"/> n(a)no (tw)e (pra)senaji walo pañäkte p··aṃ <lac aks="1"/> ne <lac aks="2"/> ṣṣe saṅk(r)ām </prose>
+        </transcription>
+        <translation>
+            <line n="a1">
+                <tr>You invited (Buddha xy); you made a stūpa [and] a monastery. </tr>
+            </line>
+            <line n="a2">
+                <tr>Again you [were] king Prasenajit; the Buddha ... the monastery of ...</tr>
+            </line>
+        </translation>
+        <comments>
+            <comment id="n1" type="remarks">Drawing in <ref litRef="xinjiangkuchaacademy2014" pageRange="10"/>.</comment>
+        </comments>
+        <references/>
+        <editions>
+            <ref litRef="xinjiangkuchaacademy2014" pageRange="10"/>
+        </editions>
+        <publication>
+            <publicationDate date="2015-09-04">2015-09-04</publicationDate>
+            <contributors>
+                <contributor name="Melanie Malzahn" contribution="editor"/>
+            </contributors>
+        </publication>
+    </record>
+</corpus>

@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schemas/fragments/bte/fragments_bte.xsd" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<corpus xmlns="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus ../../../schemas/fragments/bte/fragments_bte.xsd">
+   <record id="m-pdboisb55">
+      <header>
+         <sigla>
+            <primary siglum="PD Bois B55"/>
+            <secondary siglum="Pelliot Divers Bois B55"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Tag"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">mai tri ye ntse <space type="string_hole"/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1" commRef="n1"/> maitriyentse </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>(sth.) of/to <hi>Maitriye</hi>*.</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="philcomment">
+            <hi>Maitriye</hi>*: i.e. <hi>Maitreye</hi>* &lt; Buddhist Skt. <hi>Maitreya-</hi>.</comment>
+      </comments>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="318"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pdboisb56">
+      <header>
+         <sigla>
+            <primary siglum="PD Bois B56"/>
+            <secondary siglum="Pelliot Divers Bois B56"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="2">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">se ṣ[a] lywe mu tkā tseṃ 70 3</line>
+            <line n="a2">śi prā y· [s]</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> se ṣalywe mutkātseṃ 70-3 <lb n="a2"/> śiprāy·s </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>The oil/ghee: 73 <hi>mutkāntse</hi>*.</tr>
+         </line>
+         <line n="a2">
+            <tr>... of <hi>śi(m)prāyes</hi> (?) ...</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="318-319"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pdboisb57">
+      <header>
+         <sigla>
+            <primary siglum="PD Bois B57"/>
+            <secondary siglum="Pelliot Divers Bois B57"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Tag"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <space type="string_hole"/>cai kuśā ni śā nti kṣe mi</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> cai kUśāni śāntikṣemi </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>These <hi>k<hi rendition="subscript">u</hi>śāne</hi>s (are) of/to <hi>Śāntikṣeme</hi>*.</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="319"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pdboisb58">
+      <header>
+         <sigla>
+            <primary siglum="PD Bois B58"/>
+            <secondary siglum="Pelliot Divers Bois B58"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Tag"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <space type="string_hole"/>cai cā ni saṃ tke nta ṣṣi</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> cai cāni saṃtkentaṣṣi </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>These coins belong to (the property for) medicines.</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="319"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pdboisb69">
+      <header>
+         <sigla>
+            <primary siglum="PD Bois B69"/>
+            <secondary siglum="Pelliot Divers Bois B69"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Tag"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <space type="string_hole"/>sa ma nta ti rne l·ā <lac aks="1" brac="rnd"/> ye <lac aks="1"/> [ñ]i [ś]</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> samantatirne l ·ā <lac aks="1"/> ye <lac aks="1"/> ñiś </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>In <hi>Samantatir</hi>, ...</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="319"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pdboisb70">
+      <header>
+         <sigla>
+            <primary siglum="PD Bois B70"/>
+            <secondary siglum="Pelliot Divers Bois B70"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="2">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Tag"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <space type="string_hole"/>cai ñā na ra kṣi ti</line>
+            <line n="a2">[ā] yo rma ṣi</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> cai ñānarakṣiti <lb n="a2" commRef="n1"/> āyor maṣi </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>These are of/to <hi>(J)ñānarakṣite</hi>
+            </tr>
+         </line>
+         <line n="a2">
+            <tr>gift/offering ...</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="philcomment">
+            <hi>maṣi</hi>: Maybe for <hi>yamaṣi</hi> (impf. 3sg. act. of <lemmaRef lemma="E_B_yām_G"/>), as suggested by Pinault. Thus <hi>āyor (ya)maṣi</hi> can be translated as “he made a gift” (<ref litRef="ching2010" pageRange="319"/>).</comment>
+      </comments>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="319"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pdboisb72">
+      <header>
+         <sigla>
+            <primary siglum="PD Bois B72"/>
+            <secondary siglum="Pelliot Divers Bois B72"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Tag"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <space type="string_hole"/>dha rma nā ndi</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> dharmanāndi </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>of/to <hi>Dharmanānde</hi>*</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="319"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pdboisb73">
+      <header>
+         <sigla>
+            <primary siglum="PD Bois B73.a"/>
+            <secondary siglum="Pelliot Divers Bois B73"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Tag"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">se wa ssi mo kṣa ra kṣi ti <space type="string_hole"/>
+            </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> se wassi mokṣarakṣiti </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>This cloth/clothing is of/to <hi>Mokṣarakṣite</hi>*.</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="319"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pdboisb73b">
+      <header>
+         <sigla>
+            <primary siglum="PD Bois B73.b"/>
+            <secondary siglum="Pelliot Divers Bois B73"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Tag"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <space type="string_hole"/>p[t]a ṣṣi kṣe ma tyu ti ntse ā yo ṣ</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> ptaṣṣi kṣematyutintse āyoṣ </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>(sths.) of <hi>stūpa</hi>(s) (are) donated by <hi>Kṣematyuti</hi>.</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>
+         <ref type="other" litRef="pinault1994b" pageRange="99"/>
+         <ref type="other" litRef="ching2010" pageRange="319-320"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pdboisb87">
+      <header>
+         <sigla>
+            <primary siglum="PD Bois B87"/>
+            <secondary siglum="Pelliot Divers Bois B87"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="3-4">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">sa rk· ly· nta [7] | i s· p· t·· ṣṣa n· p· lyw· sa [6] |  /// </line>
+            <line n="a2">ka sa siṃ 6 | ka tti tsa wa ṣe ki tä mi ṣṣa tā s 1 wa rña ṣṣ·</line>
+            <line n="a3">[v]st[t]a rta sā [nn]i l[y]a p[o] [ś]a rṣ[o] pa ne e ñci ll·ā 20 5 •</line>
+         </recto>
+         <verso>
+            <line n="b1">maṃ t[t]e w· lṣe pa <lac aks="1"/> t[e] <lac aks="3"/> ·yw· ·[k]· <lac aks="1"/> /// </line>
+            <line n="b2">o ro tsa na śe kaṃ 3 o ro ci pi lywe śkaṃ 20 5 | pa tri ·a ·i  /// </line>
+            <line n="b3">[o] ksa na cā kä 1 [tri] kä 3 | śe ke tä ṣṣa pā ñ[e] 1 | śi [r]ṣk[a] <lac aks="1"/> /// </line>
+            <line n="b4">[ta] s 1 | e ka lya [n]a 1 | ka rā śo 1 | [p]i l·e ·e <lac aks="1"/> /// </line>
+         </verso>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1" commRef="n2"/> sark(a)ly(i)nta 7 | i s· p· t·· ṣṣan · p(i)lyw(e)sa 6 |  /// <lb n="a2"/> kasasiṃ 6 | kattitsa wa ṣe ki tä mi ṣṣa tās 1 warñaṣṣ· <lb n="a3" commRef="n3"/> vsttarta sā nni lya po śa rṣo pa ne eñcil l·ā 20-5 • <lb n="b1"/> maṃtte w· lṣe pa <lac aks="1"/> te <lac aks="3"/> ·yw· ·k· <lac aks="1"/> /// <lb n="b2"/> orotsana śekaṃ 3 oroci pilyweśkaṃ 20-5 | patri ·a ·i  /// <lb n="b3"/> oksana cākä 1 trikä 3 | śeke täṣṣa pā ñe 1 | śi rṣka <lac aks="1"/> /// <lb n="b4"/> tas 1 | ekalyana 1 | karāśo 1 | pil(yw)e(ṣ)e <lac aks="1"/> /// </prose>
+      </transcription>
+      <translation/>
+      <comments>
+         <comment id="n1" type="remarks">Assignment of recto/verso uncertain.</comment>
+         <comment id="n2" type="philcomment">
+            <hi>sark(a)ly(i)nta</hi>, <hi>p(i)lyw(e)sa</hi>: suggested restoration in <ref litRef="ching2010" pageRange="320"/>, after <fragRef fragment="m-si5872"/>.</comment>
+         <comment id="n3" type="philcomment">
+            <hi>l·ā</hi>: maybe <hi>100</hi> (<ref litRef="ching2010" pageRange="320"/>).</comment>
+      </comments>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="320"/> (with no translation)</references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pdboisb92">
+      <header>
+         <sigla>
+            <primary siglum="PD Bois B92"/>
+            <secondary siglum="Pelliot Divers Bois B92"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="2">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">ce y[ku] lse ro [śai] ñä ā yo ṣla pa ṣṣi</line>
+            <line n="a2">pu ña vra tt[e]· tse ā yo ṣ</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> cey kulserośaiñ«†ä» āyoṣ lapaṣṣi <lb n="a2"/> puñavratte(ṃ)tse āyoṣ </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>These <hi>kulserośo</hi>*(?) are donated ... pertaining to *<hi>lāp</hi>.</tr>
+         </line>
+         <line n="a2">
+            <tr>(They are) donated by <hi>Puñavratte</hi>*.</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="320-321"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pdboisb97">
+      <header>
+         <sigla>
+            <primary siglum="PD Bois B97"/>
+            <secondary siglum="Pelliot Divers Bois B97"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="2">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">s[o] [m]· de v[e]  /// </line>
+            <line n="a2">pe rṇi śke ysā ri pe ri cā k • śa nti va <lac aks="1"/> [ccha]  /// </line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> som(a)deve  /// <lb n="a2"/> perṇiśke ysāri peri cāk • śantiva <lac aks="1"/> ccha  /// </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>[<hi>Somadeve</hi>] ///</tr>
+         </line>
+         <line n="a2">
+            <tr>
+               <hi>Perṇiśke</hi>, the wheat to be paid: one picul. <hi>Śanti</hi>-? ... ///</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="321"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pdboisb112">
+      <header>
+         <sigla>
+            <primary siglum="PD Bois B112"/>
+            <secondary siglum="Pelliot Divers Bois B112"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="2">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1"> ///  [re] sa wā re to wa 3</line>
+            <line n="a2"> ///  la cto wa 6</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1" commRef="n1"/> ///  …re sawāre towa 3 <lb n="a2"/> ///  lac towa 6 </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>/// ... (sbs.) have eaten .... : 3 pecks.</tr>
+         </line>
+         <line n="a2">
+            <tr>/// (sth.) was spent: 6 pecks.</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="philcomment">
+            <hi>/// [re]</hi>: perhaps <hi>(ysa)[re]</hi> “wheat” (<ref litRef="ching2010" pageRange="321"/>).</comment>
+      </comments>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="321"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pdboisb114">
+      <header>
+         <sigla>
+            <primary siglum="PD Bois B114"/>
+            <secondary siglum="Pelliot Divers Bois B114"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="2">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Tag"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">cai kuśā ni piṃ wa ti kne pa ryā [ṣṣ]i t[rä]</line>
+            <line n="a2">[bh]ā [g]i</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> cai kUśāni piṃwatikne paryāṣṣi trä <lb n="a2"/> bhāgi </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>These <hi>k<hi rendition="subscript">u</hi>śāne</hi>s ... in alms ... pertaining to <hi>paryā</hi> ...</tr>
+         </line>
+         <line n="a2">
+            <tr>...</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="321-322"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pdboisb123">
+      <header>
+         <sigla>
+            <primary siglum="PD Bois B123"/>
+            <secondary siglum="Pelliot Divers Bois B123"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">[wa] [ly]· wyai ta kā re 3 1000 100 30 6</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> waly· wyai takāre 3 1000 100 30 6 </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>The expense of ... have been: 3136.</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="322"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pdboisb124">
+      <header>
+         <sigla>
+            <primary siglum="PD Bois B124"/>
+            <secondary siglum="Pelliot Divers Bois B124"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Tag"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <space type="string_hole"/>se sa[ṃ] tke nta ṣṣe ṣa lype</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> se saṃtkentaṣṣe ṣalype </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>This oil/ghee belongs to (the property of) medicines.</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="322"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pdboisb131">
+      <header>
+         <sigla>
+            <primary siglum="PD Bois B131"/>
+            <secondary siglum="Pelliot Divers Bois B131"/>
+         </sigla>
+         <physicalProperties material="object" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Tag"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">sā e śna r· ntse pau cci ya</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> sā eśnar(e)ntse paucciya </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>This is the <hi>paucciya</hi> of/to <hi>Eśnar</hi>*</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="remarks">A long stick.</comment>
+      </comments>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="322"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pdboisb133">
+      <header>
+         <sigla>
+            <primary siglum="PD Bois B133"/>
+            <secondary siglum="Pelliot Divers Bois B133"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">tä rvi sa raṃ ssā le</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> tärvisaraṃs sāle </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>The allotment to/of (the men of) <hi>Tärvisara</hi>*.</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="322"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pdboisb140">
+      <header>
+         <sigla>
+            <primary siglum="PD Bois B140"/>
+            <secondary siglum="Pelliot Divers Bois B140"/>
+         </sigla>
+         <physicalProperties material="object" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="1">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">pi ṅkā le ṣa lyp[e]</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/> piṅkāle ṣalype </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>The oil for painting/writing.</tr>
+         </line>
+      </translation>
+      <comments>
+         <comment id="n1" type="remarks">A <hi>taille</hi> (tally) to measure the quantity of oil (<ref litRef="ching2010" pageRange="323"/>).</comment>
+      </comments>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="322-323"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+   <record id="m-pdboisb143">
+      <header>
+         <sigla>
+            <primary siglum="PD Bois B143"/>
+            <secondary siglum="Pelliot Divers Bois B143"/>
+         </sigla>
+         <physicalProperties material="wood tablet" writingMedium="ink"/>
+         <provenance repository="Bibliothèque nationale de France, fonds Pelliot Koutchéen (Paris)"/>
+         <content writtenLines="2">
+            <scribalDuctus/>
+            <languages>
+               <language languageName="txb"/>
+            </languages>
+            <text>
+               <genre genre="Non-literary" subgenre="Account"/>
+               <proseVerse proseVerse="prose"/>
+            </text>
+         </content>
+      </header>
+      <transliteration>
+         <recto>
+            <line n="a1">
+               <lac aks="5"/> ca [k]a nma 8 to wa 6</line>
+            <line n="a2">
+               <lac aks="1"/> ·[i] [pā] k· m· sk· ca ka n[m]a 10 6 to wa 5</line>
+         </recto>
+      </transliteration>
+      <transcription>
+         <prose>
+            <lb n="a1"/>
+            <lac aks="5"/> cakanma 8 towa 6 <lb n="a2"/>
+            <lac aks="1"/> ·ipāk· m· sk· cakanma 10-6 towa 5 </prose>
+      </transcription>
+      <translation>
+         <line n="a1">
+            <tr>... 8 piculs, 6 pecks.</tr>
+         </line>
+         <line n="a2">
+            <tr>... 16 piculs, 5 pecks.</tr>
+         </line>
+      </translation>
+      <comments/>
+      <references>
+         <ref type="other" litRef="ching2010" pageRange="323"/>
+      </references>
+      <editions/>
+      <publication/>
+   </record>
+</corpus>
