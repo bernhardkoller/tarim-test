@@ -1,0 +1,108 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:feat="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/features" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/features" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+
+    <xs:element name="features">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="f" minOccurs="1" maxOccurs="unbounded" type="feat:feature"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="feature">
+        <xs:sequence>
+            <xs:element name="cat" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="optional" type="feat:restriction" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="parent" type="feat:restriction" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="climb" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                    <xs:attribute name="cat" type="xs:token"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="fDesc" type="xs:string" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="cetom" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:attribute name="name" type="xs:ID"/>
+                    <xs:attribute name="category" type="xs:token"/>
+                    <xs:attribute name="prop_name" type="xs:token"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="location" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                    <xs:attribute name="tei" type="xs:token"/>
+                    <xs:attribute name="bte" type="xs:token"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="value" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="primary" type="feat:restriction" minOccurs="0" maxOccurs="unbounded"/>
+                        <xs:element name="super" type="feat:restriction" minOccurs="0" maxOccurs="unbounded"/>
+                        <xs:element name="parent" type="feat:restriction" minOccurs="0" maxOccurs="unbounded"/>
+                        <xs:element name="fixedValues" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:attribute name="lang" type="xs:string"/>
+                                <xs:attribute name="valref" type="xs:token"/>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="measure" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:attribute name="quantity" type="xs:integer"/>
+                                <xs:attribute name="ana" type="xs:token"/>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="location" minOccurs="0" maxOccurs="1">
+                            <xs:complexType>
+                                <xs:attribute name="north" type="xs:decimal"/>
+                                <xs:attribute name="east" type="xs:decimal"/>
+                                <xs:attribute name="GeoNamesID" type="xs:decimal"/>
+                                <xs:attribute name="modifier">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:token">
+                                            <xs:enumeration value="approximation"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="valDesc" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                    <xs:attribute name="id" type="xs:ID"/>
+                    <xs:attribute name="ref" type="xs:token">
+                        <xs:annotation>
+                            <xs:documentation>References a different feature value by ID.</xs:documentation>
+                        </xs:annotation>
+                    </xs:attribute>
+                    <xs:attribute name="val" type="xs:string"/>
+                    <xs:attribute name="abbrev" type="xs:string"/>
+                    <xs:attribute name="display" type="xs:string"/>
+                    <xs:attribute name="super" type="xs:token"/>
+                    <xs:attribute name="lang" type="xs:string"/>
+                    <xs:attribute name="ana" type="xs:token"/>
+                    <xs:attribute name="entry" type="xs:boolean"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="attract" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                <xs:annotation>
+                    <xs:documentation>This element is specifically included for converting CarlingPinault2023 to TEI. It specifies that if a form contains a value for the current feature, the XSL-stylesheet should search the preceding form-elements for all features specified through attract elements and copy the closest one available.</xs:documentation>
+                </xs:annotation>
+                <xs:attribute name="ref" type="xs:token">
+                    <xs:annotation>
+                        <xs:documentation>Contains the name (not the ID) of a feature.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:ID"/>
+        <xs:attribute name="name" type="xs:string"/>
+        <xs:attribute name="field" type="xs:boolean"/>
+        <xs:attribute name="facet" type="xs:boolean"/>
+        <xs:attribute name="percolate" type="xs:boolean"/>
+    </xs:complexType>
+    
+    <xs:complexType name="restriction">
+        <xs:attribute name="cat" type="xs:token"/>
+        <xs:attribute name="lang" type="xs:token"/>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:bte="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+    targetNamespace="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus"
+    elementFormDefault="qualified">
+    
+    <xs:include schemaLocation="value_list.xsd"/>
+
+    <xs:annotation>
+        <xs:appinfo>
+            <sch:ns uri="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/corpus" prefix="bte"/>
+        </xs:appinfo>
+    </xs:annotation>
+    
+    <xs:element name="corpus">
+        <xs:complexType>
+                <xs:choice>
+                    <xs:element name="record" type="bte:recordType" minOccurs="1" maxOccurs="unbounded"/>
+                    <xs:element name="transliteration" type="bte:transliterationType" minOccurs="1" maxOccurs="unbounded"/>
+                </xs:choice>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="recordType">
+        <xs:annotation>
+            <xs:appinfo>Contains the edition of a single manuscript fragment.</xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="internalComments" type="bte:internalCommentsType" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="header" type="bte:headerType">
+            </xs:element>
+            <xs:element name="transliteration" type="bte:transliterationType">
+                <xs:unique name="translitLineId">
+                    <xs:selector xpath="./*/bte:line"/>
+                    <xs:field xpath="@n"/>
+                </xs:unique>
+            </xs:element>
+            <xs:element name="transcription" type="bte:transcriptionType">
+                <xs:unique name="transcrLineId">
+                    <xs:selector xpath=".//bte:lb"/>
+                    <xs:field xpath="@n"/>
+                </xs:unique>
+            </xs:element>
+            <xs:element name="translation" type="bte:translationType" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="comments">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="comment" type="bte:publicCommentType" minOccurs="0"
+                            maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="references" type="bte:referencesType"/>
+            <xs:element name="editions" type="bte:editionsType"/>
+            <xs:element name="publication" type="bte:publicationType"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="bte:fragIdType">
+            <xs:annotation>
+                <xs:documentation>The unique id used to identify the XML-document pertaining to the object. Must start with "m-", followed only by lower-case letters and numbers.</xs:documentation>
+            </xs:annotation>            
+        </xs:attribute>
+        <xs:attribute name="status">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="new">
+                        <xs:annotation>
+                            <xs:documentation>Indicates that there is currently no corresponding CEToM-record for this fragment.</xs:documentation>
+                        </xs:annotation>
+                    </xs:enumeration>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="do_not_publish">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="true">
+                        <xs:annotation>
+                            <xs:documentation>The edition of the fragment is not complete and should not be publicly visible.</xs:documentation>
+                        </xs:annotation>
+                    </xs:enumeration>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="n" type="xs:token"/>
+    </xs:complexType>
+
+
+    <!--MATERIAL FOR HEADER-->
+
+    <xs:complexType name="headerType">
+        <xs:annotation>
+            <xs:appinfo>Contains information pertaining to the classification of the manuscript fragment according to a predefined set of parameters.</xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="sigla">
+                <xs:annotation>
+                    <xs:documentation>Contains all sigla identifying the manuscript fragment. The primary siglum is obligatory.</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="primary" type="bte:siglumType">
+                            <xs:annotation>
+                                <xs:documentation>The primary siglum by which the manuscript fragment will be referred to.</xs:documentation>
+                            </xs:annotation>
+                        </xs:element>
+                        <xs:element name="secondary" type="bte:siglumType" minOccurs="0" maxOccurs="unbounded">
+                            <xs:annotation>
+                                <xs:documentation>Additional siglum used to identify the manuscript fragment.</xs:documentation>
+                            </xs:annotation>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="physicalProperties" type="bte:physicalPropertiesType"/>
+            <xs:element name="provenance" type="bte:provenanceType"/>
+            <xs:element name="content" type="bte:contentType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="siglumType">
+        <xs:attribute name="siglum" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="physicalPropertiesType">
+        <xs:annotation>
+            <xs:documentation>The attributes on this element specify the physical properties of the manuscript fragment.</xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="material" type="bte:frg-object_material"/>
+        <xs:attribute name="objectType" type="bte:frg-object_type"/>
+        <xs:attribute name="writingMedium" type="bte:frg-writing_material"/>
+        <xs:attribute name="height" type="xs:string"/>
+        <xs:attribute name="width" type="xs:string"/>
+    </xs:complexType>
+
+    <xs:complexType name="provenanceType">
+        <xs:annotation>
+            <xs:documentation>The attributes on this element pertain to where the manuscript fragment was found an where it is currently stored.</xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="findspot" type="bte:frg-findspot"/>
+        <xs:attribute name="specificFindspot" type="xs:string"/>
+        <xs:attribute name="repository" type="bte:frg-repository"/>
+        <xs:attribute name="expeditionCode" type="xs:string"/>
+        <xs:attribute name="manuscript" type="xs:string">
+            <xs:annotation>
+                <xs:documentation>The name of the manuscript the manuscript fragment belongs to.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="previousFragment" type="bte:fragmentIds">
+            <xs:annotation>
+                <xs:documentation>Previous manuscript fragment, in case the current fragment is part of a continuous series of preserved manuscript pages.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="nextFragment" type="bte:fragmentIds">
+            <xs:annotation>
+                <xs:documentation>Previous manuscript fragment, in case the current fragment is part of a continuous series of preserved manuscript pages.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="contentType">
+        <xs:annotation>
+            <xs:documentation>Contains information pertaining to the text content of the manuscript fragment.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="scribalDuctus" type="bte:scribalDuctusType"/>
+            <xs:element name="languages" type="bte:languagesType"/>
+            <xs:element name="text" type="bte:textType"/>
+        </xs:sequence>
+        <xs:attribute name="writtenLines" type="xs:string">
+            <xs:annotation>
+                <xs:documentation>Number of written lines on the manuscript fragment.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="lineSpacing" type="xs:string">
+            <xs:annotation>
+                <xs:documentation>Distance between lines in cm.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="scribalDuctusType">
+        <xs:complexContent>
+            <xs:extension base="bte:ductusType">
+                <xs:sequence>
+                    <xs:element name="secondaryFeatures" type="bte:ductusType" minOccurs="0"
+                        maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="languagesType">
+        <xs:annotation>
+            <xs:documentation>Each child element "language" represents one of the languages occurring  on the manuscript fragment. In case the fragment only contains meaningless writing (e.g. syllabaries), this element should be left empty.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="language" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="secondaryFeatures" minOccurs="0" maxOccurs="unbounded">
+                            <xs:annotation>
+                                <xs:documentation>Linguistic stages that are reflected in a minority of the classifiable linguistic features attested on the manuscript fragment. Each attested secondary linguistic stage should be specified on a separate instance of this element.</xs:documentation>
+                            </xs:annotation>
+                            <xs:complexType>
+                                <xs:attribute name="linguisticStage" type="bte:frg-language_add" use="required"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:attribute name="languageName" use="required" type="bte:frg-language"/>
+                    <xs:attribute name="linguisticStage" type="bte:frg-language_stage">
+                        <xs:annotation>
+                            <xs:documentation>The linguistic stage the majority of classifiable linguistic features on the manuscript fragments adhere to.</xs:documentation>
+                        </xs:annotation>
+                    </xs:attribute>
+                    <xs:attribute name="linguisticStageMalzahn" type="xs:token">
+                        <xs:annotation>
+                            <xs:documentation>This attribute doesn't apply to newly created database records.</xs:documentation>
+                        </xs:annotation>
+                    </xs:attribute>
+                    <xs:attribute name="linguisticStagePeyrot" type="xs:token">
+                        <xs:annotation>
+                            <xs:documentation>This attribute doesn't apply to newly created database records.</xs:documentation>
+                        </xs:annotation>
+                    </xs:attribute>
+                    <xs:attribute name="linguisticStageTamai" type="xs:token">
+                        <xs:annotation>
+                            <xs:documentation>This attribute doesn't apply to newly created database records.</xs:documentation>
+                        </xs:annotation>
+                    </xs:attribute>
+                    <xs:attribute name="tamaiC14" type="xs:token">
+                        <xs:annotation>
+                            <xs:documentation>This attribute doesn't apply to newly created database records.</xs:documentation>
+                        </xs:annotation>
+                    </xs:attribute>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="ductusType">
+        <xs:attribute name="ductus" type="bte:frg-scribal_ductus"/>
+    </xs:complexType>
+
+    <xs:complexType name="textType">
+        <xs:annotation>
+            <xs:documentation>Used to specify the genre and metrical properties of the text contained on the manuscript fragment.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="genre" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:attribute name="genre" use="required" type="bte:frg-genre"/>
+                    <xs:attribute name="subgenre" type="bte:frg-subgenre"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="proseVerse" minOccurs="0" maxOccurs="2">
+                <xs:annotation>
+                    <xs:documentation>Specifies whether the text on the manuscript fragment contains prose or verse. If the manuscript fragment contains both prose and verse, each of these values should be specified on a separate instance of this element.</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                    <xs:attribute name="proseVerse" use="required" type="bte:frg-prose_verse"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="title" type="xs:string">
+            <xs:annotation>
+                <xs:documentation>The title of the text the content of the manuscript fragment belongs to.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:complexType>
+
+<!--    SHARED MATERIAL FOR COMMENTS AND TRANSLATION-->
+
+    <xs:simpleType name="lineNumberType">
+        <xs:restriction base="xs:token">
+<!--            CHANGE to stricter rule!-->
+            <xs:pattern value="[ab]\d+[a-z]*|lf"/>
+<!--            <xs:pattern value=".*"/>-->
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:complexType name="refType" mixed="true">
+        <xs:annotation>
+            <xs:documentation>A literary reference.</xs:documentation>
+        </xs:annotation>
+        <xs:group ref="bte:commentGroup"/>
+        <xs:attributeGroup ref="bte:litRefAttGr"/>
+        <xs:attribute name="type" type="xs:token"/>
+    </xs:complexType>
+    
+    <xs:attributeGroup name="litRefAttGr">
+        <xs:attribute name="litRef" type="bte:bibliography">
+            <xs:annotation>
+                <xs:documentation>Contains the Zotero key of a literary reference. The page range should be specified in the separate attribute pageRange.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="pageRange" type="xs:string"/>
+        <xs:attribute name="zotero_status">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="missing">
+                        <xs:annotation>
+                            <xs:documentation>There is currently no Zotero entry for the given litRef key.</xs:documentation>
+                        </xs:annotation>
+                    </xs:enumeration>
+                    <xs:enumeration value="ambiguous">
+                        <xs:annotation>
+                            <xs:documentation>The given litRef key is ambiguous with respect to the Zotero entry it refers to.</xs:documentation>
+                        </xs:annotation>
+                    </xs:enumeration>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+    
+    <xs:complexType name="fragRefType" mixed="true">
+        <xs:annotation>
+            <xs:documentation>A reference to a manuscript fragment. The fragment can be specified in the form of a) a siglum in the text content of the element (e.g. &lt;fragRef&gt;A 220&lt;/fragRef&gt;) or b) the xml-id of the corresponding database record  (e.g. &lt;fragRef fragment="m-a220"/&gt;). </xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="fragment" type="bte:fragmentIds"/>
+        <xs:attribute name="line" type="xs:token"/>
+    </xs:complexType>
+    
+    <xs:complexType name="lemmaRefType" mixed="true">
+        <xs:annotation>
+            <xs:documentation>A reference to a dictionary entry. The entry can be specified in the form of a) a word form in the text content of the element (e.g. &lt;lemmaRef&gt;snai&lt;/lemmaRef&gt;) or b) the xml-id of the corresponding database record  (e.g. &lt;lemmaRef lemma="B_snai"/&gt;). </xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="lemma" type="xs:token"/>
+    </xs:complexType>
+    
+    <xs:attributeGroup name="commRefGroupAttGr">
+        <xs:attribute name="commRef" type="xs:token"/>
+    </xs:attributeGroup>
+    
+    <xs:complexType name="linkType" mixed="true">
+        <xs:attribute name="href" type="xs:anyURI"/>
+    </xs:complexType>
+    
+    <xs:complexType name="hiType" mixed="true">
+        <xs:annotation>
+            <xs:documentation>Text that is rendered in the source edition using some form of special formatting. If the attribute @rendition is omitted, the text will be rendered in italics.</xs:documentation>
+        </xs:annotation>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="hi" type="bte:hiType"/>
+        </xs:choice>
+        <xs:attribute name="rendition">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="italics"/>
+                    <xs:enumeration value="underline"/>
+                    <xs:enumeration value="boldface"/>
+                    <xs:enumeration value="subscript"/>
+                    <xs:enumeration value="superscript"/>
+                    <xs:enumeration value="strikethrough"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+
+    <!--COMMENTARIES-->
+
+    <xs:group name="commentGroup">
+        <xs:sequence>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="hi" type="bte:hiType"/>
+                <xs:element name="ref" type="bte:refType"/>
+                <xs:element name="txq" type="bte:txqType"/>
+                <xs:element name="fragRef" type="bte:fragRefType"/>
+                <xs:element name="lemmaRef" type="bte:lemmaRefType"/>
+                <xs:element name="link" type="bte:linkType"/>
+                <xs:element name="list" type="bte:listType"/>
+                <xs:element name="table" type="bte:tableType"/>
+            </xs:choice>
+        </xs:sequence>
+    </xs:group>
+    
+    <xs:complexType name="txqType" mixed="true">
+        <xs:annotation>
+            <xs:documentation>Contains any form of manuscript text quoted in a comment.</xs:documentation>
+        </xs:annotation>
+        <xs:group ref="bte:commentGroup"/>
+        <xs:attribute name="language" type="bte:frg-language">
+            <xs:annotation>
+                <xs:documentation>This attribute can be omitted if the language of the quoted text is the same as the language of the fragment described in the current record.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="type">
+            <xs:annotation>
+                <xs:documentation>This attribute indicates that the quoted text contains a transliteration (= narrow transcription), rather than a (broad) transcription.</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="translit"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    
+    <xs:complexType name="commentType" mixed="true">
+        <xs:annotation>
+            <xs:documentation/>
+        </xs:annotation>
+        <xs:group ref="bte:commentGroup"/>
+        <xs:attribute name="type">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="lingcomment">
+                        <xs:annotation>
+                            <xs:documentation>Linguistic comment</xs:documentation>
+                        </xs:annotation>
+                    </xs:enumeration>
+                    <xs:enumeration value="philcomment">
+                        <xs:annotation>
+                            <xs:documentation>Philological comment</xs:documentation>
+                        </xs:annotation>
+                    </xs:enumeration>
+                    <xs:enumeration value="remarks"/>
+                    <xs:enumeration value="parallels">
+                        <xs:annotation>
+                            <xs:documentation>Information on parallel text(s).</xs:documentation>
+                        </xs:annotation>
+                    </xs:enumeration>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="scope" type="xs:token">
+            <xs:annotation>
+                <xs:documentation>Contains the ids of the lines the comment refers to.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="domain">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="translit">
+                        <xs:annotation>
+                            <xs:documentation>Indicates that the relevant comment refers to the corresponding passage within the transliteration.</xs:documentation>
+                        </xs:annotation>
+                    </xs:enumeration>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="id" type="xs:token"/>
+    </xs:complexType>
+    
+    <xs:complexType name="publicCommentType">
+        <xs:complexContent>
+            <xs:extension base="bte:commentType">
+                <xs:attribute name="resp" type="bte:resp-collaborators" use="optional"/>
+                <xs:attributeGroup ref="bte:litRefAttGr"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    
+    <xs:complexType name="internalCommentType">
+        <xs:complexContent>
+            <xs:extension base="bte:commentType">
+                <xs:attribute name="resp" type="bte:resp-collaborators" use="required"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+<!--    <xs:complexType name="inlineCommentType">
+        <xs:annotation>
+            <xs:documentation>This element should be placed directly into the passage within the transliteration/transcription/translation to which the comment applies. The comment itself must be placed in the attribute, not the element content.</xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="comment" type="xs:string"/>
+        <xs:attribute name="type">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="passage">
+                        <xs:annotation>
+                            <xs:documentation>Identifies the specific text passage beginning after the element.</xs:documentation>
+                        </xs:annotation>
+                    </xs:enumeration>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="id" type="xs:token"/>
+        <xs:attribute name="resp" type="xs:token"/>
+    </xs:complexType>-->
+    
+    <xs:complexType name="listType">
+        <xs:sequence>
+            <xs:element name="item" type="bte:commentType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="tableType">
+        <xs:sequence>
+            <xs:element name="tableHeader" minOccurs="0" maxOccurs="1" type="bte:rowType"/>
+            <xs:element name="row" minOccurs="1" maxOccurs="unbounded" type="bte:rowType"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="rowType">
+        <xs:sequence>
+            <xs:element name="cell" type="bte:commentType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <!--    TYPES FOR TRANSLATION-->
+    <xs:complexType name="translationType">
+        <xs:annotation>
+            <xs:documentation>Each unit of translation corresponds either to a specific line or a strophe.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="line" type="bte:translationLineType">
+                    <xs:annotation>
+                        <xs:documentation>Translation of a specific line of text.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="strophe" type="bte:translationStropheType">
+                    <xs:annotation>
+                        <xs:documentation>Translation of a specific strophe.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+            </xs:choice>
+        </xs:sequence>
+        <xs:attribute name="language">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="eng">
+                        <xs:annotation>
+                            <xs:documentation>English</xs:documentation>
+                        </xs:annotation>
+                    </xs:enumeration>
+                    <xs:enumeration value="fre">
+                        <xs:annotation>
+                            <xs:documentation>French</xs:documentation>
+                        </xs:annotation>
+                    </xs:enumeration>
+                    <xs:enumeration value="jpn">
+                        <xs:annotation>
+                            <xs:documentation>Japanese</xs:documentation>
+                        </xs:annotation>
+                    </xs:enumeration>
+                    <xs:enumeration value="chi">
+                        <xs:annotation>
+                            <xs:documentation>Chinese</xs:documentation>
+                        </xs:annotation>
+                    </xs:enumeration>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attributeGroup ref="bte:litRefAttGr"/>
+    </xs:complexType>
+    
+    <xs:group name="translationTextGroup">
+        <xs:sequence>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="hi" type="bte:hiType"/>
+                <xs:element name="txq" type="bte:txqType"/>
+                <xs:element name="lac">
+                    <xs:annotation>
+                        <xs:documentation>Lacuna; corresponds to [...]</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType/>
+                </xs:element>
+<!--                <xs:element name="comment" type="bte:inlineCommentType"/>-->
+                <xs:element name="commentRef">
+                    <xs:complexType>
+                        <xs:attributeGroup ref="bte:commRefGroupAttGr"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:choice>
+        </xs:sequence>
+    </xs:group>
+    
+    <xs:complexType name="translationLineType" mixed="true">
+        <xs:choice>
+            <xs:group ref="bte:translationTextGroup"/>
+            <xs:element name="tr" type="bte:trType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:choice>
+        <xs:attributeGroup ref="bte:lineNumberRefAttGr"/>
+    </xs:complexType>
+    
+    <xs:complexType name="trType" mixed="true">
+        <xs:annotation>
+            <xs:documentation>Contains a translation of some text constituent. If it is contained within a translation-elment, it must contain a translation of a text line. Otherwise, it contains a translation of the immediately containing constituent, such as a pada or a strophe. It can also be placed inside an lb-element, in order to indicate that it contains a translation of the corresponding line.</xs:documentation>
+        </xs:annotation>
+        <xs:group ref="bte:translationTextGroup"/>
+        <xs:attributeGroup ref="bte:litRefAttGr"/>
+        <xs:attribute name="translatedBy" type="xs:token"/>
+    </xs:complexType>
+    
+    <xs:complexType name="translationStropheType" mixed="true">
+        <xs:choice>
+            <xs:group ref="bte:translationTextGroup"/>
+            <xs:element name="pada" type="bte:translationPadaType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:choice>
+        <xs:attribute name="n" type="xs:string"/>
+    </xs:complexType>
+    
+    <xs:complexType name="translationPadaType" mixed="true">
+        <xs:group ref="bte:translationTextGroup"/>
+        <xs:attribute name="n" type="xs:string"/>
+    </xs:complexType>
+
+<!--REFERENCES-->
+<!--    REMOVE THE mixed-property when done!-->
+<!--    REMOVE THE fragRef element when done!-->
+    <xs:complexType name="referencesType" mixed="true">
+        <xs:annotation>
+            <xs:appinfo>This section allows the editor(s) to include literary references that are relevant to the current fragment but haven't been cited elsewhere within the edition of the fragment. Note that this section is distinct from the bibliography of the edition. The latter will be generated automatically when the edition is rendered on a web page, a pdf, etc., based on all the literature cited within the edition, including the references in this section.</xs:appinfo>
+        </xs:annotation>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ref" type="bte:refType"/>
+          <xs:element name="fragRef" type="bte:fragRefType"/>
+          <xs:element name="link" type="bte:linkType"/>
+          <xs:element name="hi" type="bte:hiType"/>
+        </xs:choice>
+    </xs:complexType>
+
+<!--ACCREDITING EDITORS-->
+
+    <xs:complexType name="publicationType">
+        <xs:annotation>
+            <xs:documentation>This elements pertains to fragments/inscriptions that have been edited by members of the CEToM/Tarim-Brahmi projects or collaborators. If the content has simply been taken over from a print editions, this element should be left empty and the relevant attributions should be made elsewhere.</xs:documentation>
+        </xs:annotation>
+        <xs:choice>
+            <xs:sequence>
+                <xs:element name="publicationDate" minOccurs="0" maxOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>The exact date should be placed in the date attribute. The text content of the element may contain a comment regarding the publication date.</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType mixed="true">
+                        <xs:attribute name="date" use="required">
+                            <xs:simpleType>
+                                <xs:annotation>
+                                    <xs:documentation>The date when the online edition of the fragment/inscription was completed.</xs:documentation>
+                                </xs:annotation>
+                                <xs:restriction base="xs:token">
+                                    <xs:pattern value="\d\d\d\d\-\d\d(-\d\d)?"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="contributors" minOccurs="0" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="contributor" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="name" type="bte:resp-collaborators"/>
+                                    <xs:attribute name="note" type="xs:string"/>
+                                    <xs:attribute name="contribution" type="bte:contributionType" use="required"/>                     
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:choice>
+    </xs:complexType>
+
+    <xs:complexType name="editionsType">
+        <xs:annotation>
+            <xs:documentation>Contains a list of previous editions of the fragment.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="ref" type="bte:refType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="lacunaType">
+        <xs:annotation>
+            <xs:documentation>Represents a lacuna. The element <lac/> without attributes indicates the point at which the leaf breaks off (corresponding to /// in most editions).</xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="aks" type="xs:unsignedByte">
+            <xs:annotation>
+                <xs:documentation>Number of missing akṣaras.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="uncert">
+            <xs:annotation>
+                <xs:documentation>Indicates that the editor expresses uncertainty as to the exact number of missing/illegible akṣaras.</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="1"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="txtStat">
+            <xs:annotation>
+                <xs:documentation>Indicates whether the text in the lacuna is merely illegible, has been lost entirely due to damage to the paper or has been intentionally deleted by the scribe.</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="illegible"/>
+                    <xs:enumeration value="lost"/>
+                    <xs:enumeration value="deleted"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="brac">
+            <xs:annotation>
+                <xs:documentation>Indicates that the original edition enclosed the dashes representing missing akṣaras in some form of brackets. This attribute is only relevant for the digitization of existing print editions.</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="rnd">
+                        <xs:annotation>
+                            <xs:documentation>Corresponds to parentheses, eg. (– –)</xs:documentation>
+                        </xs:annotation>
+                    </xs:enumeration>
+                    <xs:enumeration value="sqr">
+                        <xs:annotation>
+                            <xs:documentation>Corresponds to square brackets, eg. [– –]</xs:documentation>
+                        </xs:annotation>
+                    </xs:enumeration>
+                    <xs:enumeration value="crl">
+                        <xs:annotation>
+                            <xs:documentation>Corresponds to braces, eg. {– –}</xs:documentation>
+                        </xs:annotation>
+                    </xs:enumeration>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="lacunaTypeTransliteration">
+        <xs:complexContent>
+            <xs:extension base="bte:lacunaType">
+                
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    
+    <xs:complexType name="lacunaTypeTranscription">
+        <xs:complexContent>
+            <xs:extension base="bte:lacunaType">
+                <xs:attribute name="syll" type="xs:unsignedByte">
+                    <xs:annotation>
+                        <xs:documentation>Number of missing syllables.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    
+
+    <!--    ELEMENTS FOR TRANSLITERATION-->
+
+    <xs:complexType name="transliterationType">
+        <xs:annotation>
+            <xs:appinfo>A narrow transcription of the text on the manuscript fragment.</xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="recto" type="bte:surfaceType" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="verso" type="bte:surfaceType" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="bte:litRefAttGr"/>
+        <xs:attribute name="TranskribusDocument" type="xs:token">
+            <xs:annotation>
+                <xs:documentation>The id of the Transkribus document the images for this manuscript fragment are located in.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="surfaceType">
+        <xs:sequence>
+            <xs:element name="line" type="bte:lineType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="pageId" type="xs:token">
+            <xs:annotation>
+                <xs:documentation>Id of the corresponding page on Transkribus.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="lineType" mixed="true">
+        <xs:annotation>
+            <xs:appinfo>
+                <sch:pattern>
+                    <sch:rule context="bte:transliteration//bte:line">
+                        <sch:assert test="
+                                not(
+                                matches(., '\[[^\] ]*(\s|$)') or
+                                matches(., '(\s|^)[^\[]*\]'))
+                                "> Brackets must be closed within the same akṣara. </sch:assert>
+                        <sch:assert
+                            test="matches(., '^[¯*\[\]''0-9\-aAāäiᵢīuᵤūeoṛpPbmMcjñṭḍṇtTdnNkKgṅśŚṣṢsSyrRlLwvhḥṃ \n·()«»†•∘|:÷¤/\p{IsCJKUnifiedIdeographs}]*$')"
+                            > Only the following characters are allowed within the transliteration: ¯ * [ ] ' 0-9 - a A ā ä i ᵢ ī u ᵤ ū e o ṛ p P b m M c j ñ ṭ ḍ ṇ t T d n N k K g ṅ ś Ś ṣ Ṣ s S y r R l L w v h ḥ ṃ · « » † • ∘ | : ÷ / ¤
+                        </sch:assert>
+                    </sch:rule>
+                </sch:pattern>
+            </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="lac" type="bte:lacunaTypeTransliteration"/>
+                <xs:element name="space" type="bte:spaceType"/>
+                <xs:element name="unedited" type="bte:uneditedType"/>
+            </xs:choice>
+        </xs:sequence>
+        <xs:attribute name="n" type="bte:lineNumberType"/>
+    </xs:complexType>
+
+    <!--ELEMENTS FOR TRANSCRIPTION  -->
+
+    <xs:complexType name="transcriptionType">
+        <xs:annotation>
+            <xs:appinfo>A broad transcription of the text on the manuscript fragment.</xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="lf" type="bte:transcriptionTextType">
+                    <xs:annotation>
+                        <xs:documentation>Encodes a leaf number.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="lb" type="bte:lineBreakType"/>
+                <xs:element name="prose" type="bte:transcriptionTextType"/>
+                <xs:element name="verse">
+                    <xs:complexType>
+                        <xs:choice minOccurs="1" maxOccurs="unbounded">
+                            <xs:element name="lb" type="bte:lineBreakType" minOccurs="0" maxOccurs="unbounded"/>
+                            <xs:element name="strophe" type="bte:stropheType" minOccurs="1"
+                                maxOccurs="unbounded"/>
+                        </xs:choice>
+                        <xs:attribute name="meter" type="bte:met-strophe"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="unedited" type="bte:uneditedType"/>
+            </xs:choice>
+        </xs:sequence>
+        <xs:attributeGroup ref="bte:litRefAttGr"/>
+    </xs:complexType>
+    
+    <xs:complexType name="transcriptionTextType" mixed="true">
+        <xs:annotation>
+            <xs:appinfo>
+                <sch:pattern>
+                    <sch:rule context="text()[ancestor::bte:transcription and not(ancestor::bte:monogram or ancestor::bte:tr)]">
+                        <sch:assert test="
+                                not(
+                                matches(., '\([^\) ]*(\s|$)') or
+                                matches(., '\{[^\} ]*(\s|$)') or
+                                matches(., '(\s|^)[^\(]*\)') or
+                                matches(., '(\s|^)[^\{]*\}'))
+                                "> Parentheses must be closed within the
+                            same word. </sch:assert>
+                        <sch:assert
+                            test="matches(., '^[¤*''0-9aāäÄiᵢIīuᵤUūeoṛpbmcjñṭḍṇtdnkgṅśṣsyrlwvhḥṃ \n·()«»†•|:÷,;…=\-/]*$')"
+                            > Only the following characters are allowed within the transcription: * [ ] ' 0-9 a ā ä Ä i ᵢ I ī u ᵤ U ū e o ṛ p b m c j ñ ṭ ḍ ṇ t d n k g ṅ ś ṣ s y r l w v h ḥ ṃ · ( ) « » † • | : ÷ , ; … = - ¤ / </sch:assert>
+                    </sch:rule>
+                </sch:pattern>
+            </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="tr" type="bte:trType"/>
+                <xs:element name="lb" type="bte:lineBreakType"/>
+                <xs:element name="lac" type="bte:lacunaTypeTranscription"/>
+                <xs:element name="space" type="bte:spaceType"/>
+                <xs:element name="commentRef">
+                    <xs:complexType>
+                        <xs:attributeGroup ref="bte:commRefGroupAttGr"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="monogram" type="xs:string">
+                    <xs:annotation>
+                        <xs:documentation>A monogram that can be rendered using Unicode characters (e.g. Chinese characters). Monograms that do not correspond to any Unicode characters can be rendered with ¤.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="sic" type="bte:sicType"/>
+                <xs:element name="unedited" type="bte:uneditedType"/>
+                <xs:element name="passage" type="bte:passageType"/>
+                <xs:element name="phr" type="bte:phrType"/>
+                <xs:element name="s" type="bte:phrType"/>
+            </xs:choice>
+        </xs:sequence>
+        <xs:attribute name="language" type="bte:frg-language"/>
+    </xs:complexType>
+    
+    <xs:complexType name="sicType">
+        <xs:annotation>
+            <xs:documentation>Encodes corrections. The element content itself contains the text on the manuscript leave. The correction proposed by the editor is contained within the attribute “corr”.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="corr" type="xs:string" use="required">
+                    <xs:annotation>
+                        <xs:documentation>Contains the correction proposed by the editor.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:complexType name="passageType">
+        <xs:annotation>
+            <xs:documentation>Identifies the specific text passage beginning after the element.</xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="name" type="xs:string">
+            <xs:annotation>
+                <xs:documentation>Name of the passage.</xs:documentation>
+            </xs:annotation>    
+        </xs:attribute>
+    </xs:complexType>
+    
+    <xs:complexType name="stropheType" mixed="true">
+        <xs:complexContent>
+            <xs:extension base="bte:transcriptionTextType">
+                <xs:sequence>
+                    <xs:sequence minOccurs="0" maxOccurs="unbounded">
+                        <xs:element name="pada" type="bte:padaType"/>
+                        <xs:element name="lb" type="bte:lineBreakType" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:sequence>
+                <xs:attribute name="n" type="xs:string"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="padaType">
+        <xs:complexContent>
+            <xs:extension base="bte:transcriptionTextType">
+                <xs:attribute name="n">
+                    <xs:annotation>
+                        <xs:documentation>Contains a letter identifying the pada within the strophe (typically a-d). This attribute can be omitted in order to indicate that the position of the pada within the strophe cannot be determined.</xs:documentation>
+                    </xs:annotation>
+                    <xs:simpleType>
+                        <xs:restriction base="xs:token">
+                            <xs:pattern value="[a-z]"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+        
+    <xs:complexType name="lineBreakType">
+        <xs:annotation>
+            <xs:documentation>Marks a line break within the transcription.</xs:documentation>
+        </xs:annotation>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="tr" type="bte:trType"/>
+        </xs:choice>
+        <xs:attribute name="n" type="bte:lineNumberType">
+            <xs:annotation>
+                <xs:documentation>Specifies the number of the line that immediately follows this element.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attributeGroup ref="bte:commRefGroupAttGr"/>
+    </xs:complexType>
+
+    <xs:complexType name="spaceType">
+        <xs:annotation>
+            <xs:documentation>Represents a portion of the leaf that intentionally contains no writing.</xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="type" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="blank"/>
+                    <xs:enumeration value="string_hole"/>
+                    <xs:enumeration value="circle"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    
+    <xs:complexType name="uneditedType">
+        <xs:annotation>
+            <xs:documentation>Represents a portion of text on a fragment that has intentionally been ignored in the edition.</xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="reason" type="xs:string"/>
+    </xs:complexType>
+    
+    <xs:complexType name="phrType">
+        <xs:complexContent>
+            <xs:extension base="bte:transcriptionTextType">
+                <xs:attribute name="type" type="xs:string"/>
+                <xs:attribute name="discont" type="xs:token">
+                    <xs:annotation>
+                        <xs:documentation>Indicates that the phrase/clause is discontinuous. The value of this attribute is an identifier that is common to all segments of the discontinuous phrase/clause.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="internalCommentsType">
+        <xs:annotation>
+            <xs:documentation>This element contains comments meant for other project collaborators. These comments will not be publicly displayed.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="comment" type="bte:internalCommentType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+<!--ATTRIBUTE RESTRICTIONS-->
+    
+    <xs:simpleType name="fragIdType">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="m\-[a-z0-9_-]+"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:attributeGroup name="lineNumberRefAttGr">
+        <xs:attribute name="n" type="bte:lineNumberRefType">
+            <xs:annotation>
+                <xs:documentation>Contains a sequence of one or more line numbers separated by spaces.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:attributeGroup>
+    
+    <xs:simpleType name="lineNumberRefType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value=".*"/>
+<!--            <xs:pattern value="((m-[^.]+\.)?[ab][0-9]+[ivx]* ?)+"/>-->
+<!--            <xs:pattern value="[ab][0-9]+.*"/>-->
+<!--This is a temporary relaxation of the rule for line number references. Once these have been unified, change it back!-->
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="contributionType">
+        <xs:list>
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="editor"/>
+                    <xs:enumeration value="collaborator"/>
+                    <xs:enumeration value="transliteration"/>
+                    <xs:enumeration value="transcription"/>
+                    <xs:enumeration value="translation"/>
+                    <xs:enumeration value="commentary"/>
+                    <xs:enumeration value="text"/>
+                    <xs:enumeration value="revision"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:list>
+    </xs:simpleType>
+    
+    <xs:attribute name="respType" type="bte:resp-collaborators">
+        <xs:annotation>
+            <xs:documentation>Contains the initials of the project collaborator responsible for the comment in question.</xs:documentation>
+        </xs:annotation>
+    </xs:attribute>
+
+</xs:schema>

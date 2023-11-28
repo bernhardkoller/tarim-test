@@ -1,0 +1,40 @@
+<xs:schema xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://www.tei-c.org/ns/1.0" elementFormDefault="qualified" vc:minVersion="1.1">
+
+    <xs:complexType name="noteType" mixed="true">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="hi" type="tei:hiType"/>
+            <xs:element name="w">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="lemmaRef" type="xs:token"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="bibl"/>
+            <xs:element name="ref">
+                <xs:complexType>
+                    <xs:attribute name="type" type="xs:string"/>
+                    <xs:attribute name="target" type="xs:token"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:choice>
+        <xs:attribute name="resp" type="xs:string"/>
+    </xs:complexType>
+
+    <xs:complexType name="hiType" mixed="true">
+        <xs:sequence>
+            <xs:element name="hi" type="tei:hiType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="rend">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="subscript"/>
+                    <xs:enumeration value="superscript"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+
+</xs:schema>

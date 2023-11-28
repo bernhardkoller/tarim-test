@@ -1,0 +1,3286 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">
+
+
+<!--citedRange bibl date head hi label listBibl note p pb  publisher ref resp name respStmt rs term title-->
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TEI customization for tarim-Brahmi</title>
+        <author>Bernhard Koller</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Project-internal</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Starting from a basic template on <ref target="http://www.tei-c.org/Guidelines/Customization/odds.xml"/>
+                </p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>TEI Specifications for the Project <emph>The Characters that Shaped the Silk Road – A Database and Digital Paleography of Tarim Brahmi</emph>
+                    </titlePart>
+        </docTitle>
+        <docDate>March 2020</docDate>
+      </titlePage>
+      <div xml:id="preface">
+                <head>Prefatory note</head>
+        <p/>
+      </div>
+    </front>
+    <body>
+
+      <div>
+        <head xml:id="main_introduction">Introduction</head>
+        <p>
+          Each document consists of three main parts, represented by the
+          elements <gi>teiHeader</gi>, <gi>sourceDoc</gi> and <gi>text</gi>,
+          respectively. Each of these three elements, which will be discussed
+          in detail in the following sections, is directly dominated by the
+          top-level element <gi>TEI</gi>.
+        </p>
+        <p>
+          <specList>
+            <specDesc key="TEI" atts="xml:lang prev next"/>
+            <specDesc key="teiHeader"/>
+            <specDesc key="sourceDoc"/>
+            <specDesc key="text"/>
+          </specList>
+        </p>
+        <p>
+          The element <gi>TEI</gi> obligatorily contains the attribute
+          <att>xml:lang</att> with the value <val>en</val> (since all
+          components of the project are in English). The optional attributes
+          <att>prev</att> and <att>next</att> can be used to indicate the
+          xml-Files containing the immediately preceding/following fragments
+          within the same manuscript.
+        </p>
+        <p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <TEI xml:lang="en" prev="a1" next="a3.xml">
+              <teiHeader>
+                <!--header-->
+              </teiHeader>
+              <sourceDoc>
+                <!--transliteration-->
+              </sourceDoc>
+              <text>
+                <!--interpretative content-->
+              </text>
+            </TEI>
+          </egXML>
+        </p>
+      </div>
+
+      <div>
+        <head xml:id="main_teiHeader">Header</head>
+        <p>
+          The first part of the TEI document is the header contained within the element <gi>teiHeader</gi>. It contains an array of criteria for classifying a fragment accordings to its provinence, physical characteristics, textual content, etc. The header consists of three main parts, represented by the lements <gi>fileDesc</gi>, <gi>encodingDesc</gi> and <gi>profileDesc</gi>.
+        </p>
+        <p>
+          <specList>
+            <specDesc key="fileDesc"/>
+            <specDesc key="encodingDesc"/>
+            <specDesc key="profileDesc"/>
+          </specList>
+        </p>
+
+        <p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <teiHeader>
+              <fileDesc>
+                <!--publication, sigla, physical description of fragment-->
+              </fileDesc>
+              <encodingDesc>
+                <!--information pertaining to the processing of the TEI document-->
+              </encodingDesc>
+              <profileDesc>
+                <!--information on the textual content of the fragment-->
+              </profileDesc>
+            </teiHeader>
+          </egXML>
+        </p>
+
+        <div>
+          <head xml:id="main_teiHeader_fileDesc">The Element <gi>fileDesc</gi>
+                    </head>
+          <p>
+            The first major component of the header ist the element
+            <gi>fileDesc</gi>, which contains information regarding its
+            publication, cataloguing and physical characteristics. The
+            information contained within <gi>fileDesc</gi> is distributed
+            accross the three elements <gi>titleStmt</gi>,
+            <gi>publicationStmt</gi> and <gi>sourceDesc</gi>. The document may
+            contain up to two instances of <gi>sourceDesc</gi>, but must
+            contain at least one, which obligatorily contains the single
+            element <gi>msDesc</gi>.
+          </p>
+
+          <p>
+            <specList>
+              <specDesc key="titleStmt"/>
+              <specDesc key="publicationStmt"/>
+              <specDesc key="sourceDesc"/>
+              <specDesc key="msDesc"/>
+            </specList>
+          </p>
+
+          <p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <fileDesc>
+                <titleStmt>
+                  <!--document title and editor-->
+                </titleStmt>
+                <publicationStmt>
+                  <!--information on the availability of the document-->
+                </publicationStmt>
+                <sourceDesc>
+                  <msDesc>
+                    <!--information on cataloguing, location, provinence and physical properties of the fragment -->
+                  </msDesc>
+                </sourceDesc>
+                <sourceDesc>
+                  <!--resources the edition of the fragment is based on-->
+                </sourceDesc>
+              </fileDesc>
+            </egXML>
+          </p>
+
+        <div>
+          <head xml:id="main_teiHeader_titleStmt">The Element <gi>titleStmt</gi>
+                        </head>
+          <p>
+            The element <gi>titleStmt</gi> may contain the following elements:
+          </p>
+          <p>
+            <specList>
+              <specDesc key="title"/>
+              <specDesc key="respStmt"/>
+              <specDesc key="resp"/>
+              <specDesc key="name"/>
+            </specList>
+          </p>
+          <p>
+            The title of the the document occurs within the element
+            <gi>title</gi>, as well as a list of collaborators who contributed
+            to the edition of the fragment. Each contributing individual is
+            representend by the elmement <gi>respStmt</gi>, which contains the
+            nature of the persons contribution (under <gi>resp</gi>) and the
+            persons name (under <gi>name</gi>).
+          </p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <titleStmt>
+              <title>A 68</title>
+              <respStmt>
+                <resp>editor</resp>
+                <name>Gerd Carling</name>
+              </respStmt>
+              <respStmt>
+                <resp>editor</resp>
+                <name>Georges-Jean Pinault</name>
+              </respStmt>
+              <respStmt>
+                <resp>editor</resp>
+                <name>Melanie Malzahn</name>
+              </respStmt>
+            </titleStmt>
+          </egXML>
+        </div>
+
+        <div>
+          <head xml:id="main_teiHeader_publicationStmt">The Element <gi>publicationStmt</gi>
+                        </head>
+          <p>
+            The element <gi>publicationStmt</gi> may contain the following elements:
+          </p>
+          <p>
+            <specList>
+              <specDesc key="publisher"/>
+              <specDesc key="date" atts="when"/>
+              <specDesc key="availability"/>
+              <specDesc key="p"/>
+            </specList>
+          </p>
+          <p>
+            The element <gi>publisher</gi> has only one possible value, which is the name of the project. The element <gi>date</gi> contains the publication date of the fragment, whose attribute <att>when</att> contains the date in a form that adheres to the w3c standard. The element <gi>availability</gi> contains exactly on <gi>p</gi> with the the word “public” or “restricted”, depending on whether the document is available to the general public or can only be accessed by members of the project.
+
+          </p>
+          <!--A 68-->
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <publicationStmt>
+              <publisher>The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim</publisher>
+              <date when="2014-05-31">Major revision 31 May 2014</date>
+              <availability>
+                <p>public</p>
+              </availability>
+          </publicationStmt>
+          </egXML>
+        </div>
+
+        <div>
+          <head xml:id="main_teiHeader_sourceDesc">The Element <gi>sourceDesc</gi>
+                        </head>
+          <p>
+            The element <gi>sourceDesc</gi> may contain the following elements.
+          </p>
+          <p>
+            <specList>
+              <specDesc key="msDesc"/>
+              <specDesc key="msIdentifier"/>
+              <specDesc key="msContents"/>
+              <specDesc key="physDesc"/>
+              <specDesc key="history"/>
+              <specDesc key="p"/>
+            </specList>
+          </p>
+          <!--one of two types of content-->
+          <p>
+            <!--A 4-->
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <sourceDesc>
+                  <msDesc>
+                    <msIdentifier>
+                      <!--information pertaining to cataloguing-->
+                    </msIdentifier>
+                    <msContents>
+                      <!--the title of the text contained on the fragment-->
+                    </msContents>
+                    <physDesc>
+                      <!--physical properties of the fragment-->
+                    </physDesc>
+                    <history>
+                      <!--information pertaining to the provenance of the fragment-->
+                    </history>
+                  </msDesc>
+              </sourceDesc>
+            </egXML>
+          </p>
+
+          <div>
+            <head xml:id="main_teiHeader_sigla">Encoding the Fragment Sigla and Repository within <gi>msIdentifier</gi>
+                            </head>
+            <p>
+            The element <gi>msIdentifier</gi> contains all sigla that have been assigned to the manuscript fragment, as well as its current location,  using the following elements.
+            </p>
+            <p>
+              <specList>
+                <specDesc key="repository"/>
+                <specDesc key="idno"/>
+                <specDesc key="altIdentifier"/>
+                <specDesc key="msName"/>
+              </specList>
+            </p>
+            <p>
+              <!--text goes here-->
+            </p>
+            <p>
+              <!--THT 13-->
+              <egXML xmlns="http://www.tei-c.org/ns/Examples">
+               <msIdentifier>
+                  <repository>Berlin Turfan Collection (BBAW)</repository>
+                  <idno>THT 13</idno>
+                  <altIdentifier>
+                     <idno>B 13</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Bleistiftnummer 3327</idno>
+                  </altIdentifier>
+               </msIdentifier>
+              </egXML>
+            </p>
+          </div>
+
+          <div>
+            <head xml:id="main_teiHeader_texttitle">Identifying the Text within <gi>msContents</gi>
+                            </head>
+            <p>
+              The element <gi>msContents</gi> may contain the following elements:
+            </p>
+            <p>
+              <specList>
+                <specDesc key="msItem"/>
+                <specDesc key="title"/>
+              </specList>
+            </p>
+            <p>
+              Each text found on the fragment (typically no more than one) is represented by an instance of the elmement <gi>msItem</gi>, with <gi>title</gi> containing the title of the text in question (if known).
+            </p>
+            <p>
+              <!--THT 13-->
+              <egXML xmlns="http://www.tei-c.org/ns/Examples">
+               <msContents>
+                  <msItem>
+                     <title>Udānālaṅkāra</title>
+                  </msItem>
+               </msContents>
+              </egXML>
+            </p>
+          </div>
+
+          <div>
+            <head xml:id="main_teiHeader_physcDesc">Encoding the Physical Properties of the Fragment with <gi>physDesc</gi>
+                            </head>
+            <p>
+              The element <gi>physDesc</gi> may contain the following elements:
+            </p>
+            <p>
+              <specList>
+                <specDesc key="objectDesc"/>
+                <specDesc key="supportDesc"/>
+                <specDesc key="support"/>
+                <specDesc key="extent"/>
+                <specDesc key="dimensions" atts="type unit"/>
+                <specDesc key="height"/>
+                <specDesc key="width"/>
+                <specDesc key="material"/>
+                <specDesc key="objectType"/>
+                <specDesc key="layoutDesc"/>
+                <specDesc key="layout"/>
+                <specDesc key="measure" atts="type"/>
+                <specDesc key="handDesc" atts="hands"/>
+                <specDesc key="handNote" atts="medium"/>
+                <specDesc key="scriptDesc"/>
+                <specDesc key="scriptNote"/>
+              </specList>
+            </p>
+            <p>
+              <!--text goes here-->
+            </p>
+            <p>
+              <!--THT 13-->
+              <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                <physDesc>
+                  <objectDesc>
+                      <supportDesc>
+                        <support>
+                            <material>Ink on paper</material>
+                            <objectType>Poṭhī</objectType>
+                        </support>
+                        <extent>
+                            <dimensions type="leaf" unit="cm">
+                              <height>14</height>
+                              <width>9</width>
+                            </dimensions>
+                        </extent>
+                      </supportDesc>
+                      <layoutDesc>
+                        <layout>
+                            <dimensions type="line_distance" unit="cm">
+                              <height>1</height>
+                            </dimensions>
+                            <measure type="lines">8</measure>
+                        </layout>
+                      </layoutDesc>
+                  </objectDesc>
+                  <scriptDesc>
+                      <scriptNote>Classical</scriptNote>
+                  </scriptDesc>
+                </physDesc>
+              </egXML>
+            </p>
+          </div>
+
+          <div>
+            <head xml:id="main_teiHeader_history">Encoding Provenance with <gi>history</gi>
+                            </head>
+            <p>
+              The element <gi>history</gi> may contain the following elements:
+            </p>
+            <p>
+              <specList>
+                <specDesc key="provenance"/>
+                <specDesc key="region"/>
+                <specDesc key="rs"/>
+              </specList>
+            </p>
+            <p>
+              <!--text goes here-->
+            </p>
+            <p>
+              <!--THT 13-->
+              <egXML xmlns="http://www.tei-c.org/ns/Examples">
+               <history>
+                  <provenance>found in <region>Šorčuq</region>during <rs type="expedition_code">T III Š 102</rs>
+                  </provenance>
+               </history>
+              </egXML>
+            </p>
+          </div>
+
+        </div>
+
+          <!--<p>-->
+      <!--availability fileDesc idno keywords langUsage language profileDesc publicationStmt sourceDesc extent teiHeader textClass titleStmt scriptNote-->
+      <!--msDesc msIdentifier msName msFrag repository altIdentifier msContents msItem physDesc objectDesc support supportDesc material objectType layout layoutDesc dimensions scriptDesc height history provenance width additional adminInfo-->
+      <!--region placeName-->
+          <!--</p>-->
+
+        </div>
+
+        <div>
+          <head xml:id="main_teiHeader_content">The Element <gi>encodingDesc</gi>
+                    </head>
+          <p>
+          </p>
+          <p>
+            <specList>
+              <specDesc key="listPrefixDef"/>
+              <specDesc key="prefixDef" atts="ident matchPattern replacementPattern"/>
+            </specList>
+          </p>
+          <p>
+            <!--THT 13-->
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <encodingDesc>
+                <listPrefixDef>
+                    <prefixDef ident="lex" matchPattern="(.+)" replacementPattern="../Dictionary/toch_dict.xml#$1"/>
+                    <prefixDef ident="ref" matchPattern="(.+)" replacementPattern="../Bibliography/#$1"/>
+                </listPrefixDef>
+              </encodingDesc>
+            </egXML>
+          </p>
+
+        </div>
+
+        <div>
+          <head xml:id="main_teiHeader_profileDesc">The Element <gi>profileDesc</gi>
+                    </head>
+          <p>
+          </p>
+          <p>
+            <specList>
+              <specDesc key="langUsage"/>
+              <specDesc key="language" atts="ident"/>
+              <specDesc key="textClass"/>
+              <specDesc key="keywords"/>
+              <specDesc key="term" atts="type"/>
+            </specList>
+          </p>
+          <p>
+            <!--THT 13-->
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <profileDesc>
+                <langUsage>
+                    <language ident="txb"/>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                      <term type="genre">Literary</term>
+                      <term type="subgenre">Doctrine</term>
+                      <term type="metric_form">Verse</term>
+                    </keywords>
+                </textClass>
+              </profileDesc>
+            </egXML>
+          </p>
+        </div>
+
+      </div>
+
+      <div>
+        <head xml:id="main_sourceDoc">Transliteration</head>
+<!--line sourceDoc space surface surfaceGrp zone-->
+<!--add del gap graphic milestone unclear-->
+
+        <div>
+          <head xml:id="main_sourceDoc_overview">Overview</head>
+          <p>The second main part of the TEI document contains a narrow transcription (= transliteration) of the manuscript fragment, in which groups of characters are associated with the corresponding akṣara on a photograph. The transliteration consists of the following elements, each of which is documented in the following sections.</p>
+          <p>
+            <specList>
+              <specDesc key="sourceDoc"/>
+              <specDesc key="surfaceGrp"/>
+              <specDesc key="surface" atts="type points"/>
+              <specDesc key="graphic" atts="url rend source"/>
+              <specDesc key="line" atts="xml:id points n"/>
+              <specDesc key="zone" atts="type points"/>
+              <specDesc key="unclear"/>
+              <specDesc key="add"/>
+              <specDesc key="del"/>
+              <specDesc key="gap" atts="reason quantity"/>
+              <specDesc key="milestone" atts="unit type"/>
+            </specList>
+          </p>
+        </div>
+
+        <div>
+          <head xml:id="main_sourceDoc_toplevel">Encoding Transliterations within <gi>sourceDoc</gi>
+                    </head>
+          <p>The top level element of the transliteration is <gi>sourceDoc</gi>, which immediately follows <gi>teiHeader</gi> and always contains the element <gi>surfaceGrp</gi>.</p>
+          <p>
+            <specList>
+              <specDesc key="sourceDoc"/>
+              <specDesc key="surfaceGrp"/>
+              <specDesc key="surface" atts="type points"/>
+              <specDesc key="graphic" atts="url rend source"/>
+            </specList>
+          </p>
+          <p>A <gi>surfaceGrop</gi> represents the text-bearing surfaces of the described object, each of which is represented by the element <gi>surface</gi>. Typically, there will be between one and two instances of the elements <gi>surface</gi> depending on whether only one or both sides of the manuscript leaf contain writing. The attribute <att>type</att> on <gi>surface</gi> is mandatory. If there is only a single instance of <gi>surface</gi> for a given object (e.g. graffiti or manuscript leaves where the verso is blank), the attribute always carries the value <val>recto</val>. If there is a photograph available for a given surface, the empty element <gi>graphic</gi> occurs as the first daughter of <gi>surface</gi> and points to the image file via a relative path through the attribute <att>url</att>.</p>
+<!--add remark on @rend-->
+          <p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <teiHeader>
+                <!--header-->
+              </teiHeader>
+              <sourceDoc>
+                <surfaceGrp>
+                    <surface type="recto">
+                      <graphic url=""/>
+                      <!--transliteration of text-->
+                    </surface>
+                  <surface>
+                  </surface>
+                </surfaceGrp>
+              </sourceDoc>
+              <text>
+                <!--interpretative content-->
+              </text>
+            </egXML>
+          </p>
+        </div>
+
+        <div>
+        <head xml:id="main_sourceDoc_aksaras">Marking up Text</head>
+
+        <p>
+            <specList>
+              <specDesc key="line" atts="xml:id points n"/>
+              <specDesc key="zone" atts="type"/>
+              <specDesc key="milestone" atts="unit type"/>
+            </specList>
+          <!--Fremdzeichen-->
+          <!--Virāma-->
+          <!--non-syllabic high segments-->
+          <!--blanks-->
+        </p>
+
+        <p>
+          Most text objects are organized into lines, each of which is
+          represented an an instance of the element <gi>line</gi>. Each
+          intance of <gi>line</gi> contains a unique identifier through the
+          attribute <att>xml:id</att>. Each identifier begins with the letters
+          <hi>a</hi> (for recto) or <hi>b</hi> (for verso), immediately
+          followed by the line number.
+        </p>
+
+        <p>
+          Each instance of the element <gi>zone</gi> contains exactly one
+          akṣara or an equivalent unit of writing (such as a punctuation mark
+          or a number). Conversely, each unit of writing must be contained
+          withing a <gi>zone</gi> element. The attribute <att>type</att> is
+          reserved for the rare occasion when some charactera are not properly
+          part of a line (e.g. when indicating page numbers). In this case,
+          the attribute contains a term describing the function of the text in
+          question. A virāma relation between two akṣaras is expressed by
+          nesting the relevent <gi>zone</gi> elements under a higher level
+          <gi>zone</gi>. Note that in this configuration the character representing
+          the connecting virāma stroke (<hi>¯</hi>) is directly contained within the 
+          higher level <gi>zone</gi>.
+
+          <!--PK NS 1 b1-->
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <zone>
+              <zone>Tā</zone>¯<zone>R</zone>
+            </zone>
+          </egXML>
+
+          This is the only circumstance under which a <gi>zone</gi> element
+          is allowed to contain a unit of writing that is larger than an
+          akṣara.
+        </p>
+
+        <p>
+          The empty element <gi>milestone</gi> serves to indicate
+          word-boundaries, as well as (under certain circumstances) the
+          absence thereof.  The element <gi>milestone</gi> can occur both
+          within and between instances of <gi>zone</gi>. A position, in which
+          <gi>milestone</gi> is not legal is at the very end of a
+          <gi>zone</gi>, in which case it should be placed outside of the
+          element instead. Within the transliteration this element always has
+          the attribute <att>unit</att> with the value <val>w</val> (for “word
+          boundary“). The attribute <att>type</att> indicates special subtypes
+          of boundaries: The values <val>ldel</val> and <val>rdel</val>
+          indicate that a vowel has been deleted due to sandhi on the left or
+          right side of the word boundary, respectively.  The value
+          <val>cpd</val> is used at the boundary of two compound members.
+          Finally, the value <val>cont</val> can be used at the edge of a
+          string to indicate the <emph>absence</emph> of a word boundary, such
+          as in cases where a word spans a line break.
+        </p>
+
+        <p>
+        <!--PK NS 1-->
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <line xml:id="b1">
+              <zone>¯<zone>T</zone>
+              </zone>
+              <milestone unit="w"/>
+              <zone>:</zone>
+              <zone>kā</zone>
+              <zone>kMA</zone>
+              <zone>rti</zone>
+              <zone>kā</zone>
+              <zone>s<milestone unit="w"/>wra</zone>
+              <zone>ssa</zone>
+              <zone>śśä</zone>
+              <zone>l<milestone unit="w"/>tñi</zone>
+              <milestone unit="w"/>
+              <zone>
+                  <zone>wa</zone>¯<zone>cä</zone>
+              </zone>
+              <!--more text-->
+            </line>
+          </egXML>
+        </p>
+
+        </div>
+        <div>
+          <head xml:id="main_sourceDoc_damage">Indicating Damaged and Unused Space</head>
+        <p>
+          There are two elements for indicating damage within the transliteration: <gi>unclear</gi> and <gi>gap</gi>.
+            <specList>
+              <specDesc key="unclear"/>
+              <specDesc key="gap" atts="reason quantity"/>
+              <specDesc key="space" atts="type"/>
+            </specList>
+        </p>
+        <p>
+            <gi>unclear</gi> indicates that the enclosed passage is damaged
+            but still legible and must be contained within an instance of
+            <gi>zone</gi>. 
+        </p>
+
+        <p>
+          The empty element <gi>gap</gi> represents a section on the leaf
+          that cannot be read due to damage. If it is contained within a
+          <gi>zone</gi> it marks damage to the akṣara in question and must
+          contain the attribute <att>unit</att> with the value
+          <val>part</val>. The attribute <att>reason</att> indicates the
+          nature of the damage and may contain the values <val>lost</val> (in
+          case the text in question has been lost together with the
+          text-carrying material), <val>illegible</val>. The attribute
+          <att>quantity</att> contains a positive integer that represents the
+          number of akṣaras that have been lost in the lacuna.  Therefore, it
+          is only legal if the <gi>gap</gi> is not located within a
+          <gi>zone</gi>. It can also be omitted in cases the number of missing
+          akṣaras is unknown.
+        </p>
+        <p>
+          <!--A 60 a6-->
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <zone>ni</zone>
+            <zone>ṣpa</zone>
+            <gap reason="illegible" quantity="1"/>
+            <zone>
+              <unclear>ntu</unclear>
+            </zone>
+          </egXML>
+        </p>
+        <p>
+          <gi>space</gi> indicates an area within the text area of the leaf
+          which contains no writing. The mandatory attribute <att>type</att> is used to distinguish between two type of cases: The value <val>string_hole</val> indicates the area of a leaf that has been cut out for binding purposes. The value <val>blank</val> indicates an area where the paper is still intact but has been left blank.
+
+          <!--THT 107 a4-->
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <space type="string_hole"/>
+          </egXML>
+        </p>
+
+        </div>
+        <div>
+          <head xml:id="main_sourceDoc_add_del">Additions and Deletions</head>
+            <p>
+              The elements <gi>add</gi> and <gi>del</gi> serve to indicate text that the scribe has added or deleted, respectively.
+              <specList>
+                <specDesc key="add"/>
+                <specDesc key="del"/>
+              </specList>
+            </p>
+
+            <p>
+              Both elements can either contain or be contained by the elmement <gi>zone</gi>, depending on whether it is an entire akṣara (or akṣaras) that is added/deleted or merely part of an akṣara.
+            </p>
+
+            <p>
+              <!--THT 424 a2-->
+              <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                <add>
+                    <zone>
+                      <zone>PA</zone>¯<zone>S</zone>
+                    </zone>
+                </add>
+              </egXML>
+              <!--THT 22 a7-->
+              <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                <zone>k<milestone unit="w"/>
+                    <add>k</add>re</zone>
+                <zone>nta</zone>
+              </egXML>
+            </p>
+            <p>
+              Additionally, both elements can contain the element <gi>gap</gi>, in case the added/deleted text is no logner legible.
+            </p>
+            <p>
+              <!--THT 424 a2-->
+              <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                <del>
+                    <gap reason="illegible" quantity="3"/>
+                </del>
+              </egXML>
+            </p>
+        </div>
+
+      </div>
+      <div>
+        <head xml:id="main_text">Interpretation</head>
+        <p>The third part of the TEI document comprises various sections dealing with the interpretation of the text contained on the fragment.</p>
+          <p>
+            <specList>
+              <specDesc key="text"/>
+              <specDesc key="body"/>
+              <specDesc key="div" atts="type"/>
+            </specList>
+          </p>
+          <p>
+            The top-level element of this part of the document is <gi>text</gi>, which is directly dominated by <gi>TEI</gi> and contains the single element <gi>body</gi>. The latter contains a set of <gi>div</gi>, each of which represents a separate category of text interpretation, specified by the attribute <att>type</att>.
+          </p>
+          <p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <text>
+                  <body>
+                    <div type="transcription">
+                      <!--broad transcription-->
+                    </div>
+                    <div type="translation">
+                      <!--translations-->
+                    </div>
+                    <div type="remarks">
+                      <!--general notes on the fragment-->
+                    </div>
+                    <div type="phil_comment">
+                      <!--philological commentary-->
+                    </div>
+                    <div type="ling_comment">
+                      <!--linguistic commentary-->
+                    </div>
+                    <div type="para">
+                      <!--parallel texts-->
+                    </div>
+                    <div type="bibliography">
+                        <!--additional literature on the fragment-->
+                    </div>
+                  </body>
+                </text>
+            </egXML>
+          </p>
+
+        <div>
+          <head xml:id="main_text_transcription">Transcription</head>
+          <p>
+            The broad transcription of the text is contained within the element <gi>div</gi> with the value <val>transcription</val> on the attribute <att>type</att>. It makes use of the following elements:
+          </p>
+          <p>
+            <specList>
+              <specDesc key="p"/>
+              <specDesc key="w" atts="lemmaRef"/>
+              <specDesc key="pc"/>
+              <specDesc key="num"/>
+              <specDesc key="lb" atts="corresp"/>
+              <specDesc key="milestone" atts="n unit"/>
+              <specDesc key="lg" atts="type met subtype"/>
+              <specDesc key="l" atts="n real"/>
+              <specDesc key="caesura" atts="ana"/>
+              <specDesc key="gap" atts="unit quantity"/>
+              <specDesc key="supplied"/>
+              <specDesc key="add"/>
+              <specDesc key="surplus"/>
+              <specDesc key="corr"/>
+            </specList>
+          </p>
+
+          <p>All text is contained within the element <gi>p</gi> which is itself directly contained within <gi>div</gi>
+                    </p>
+
+        <div>
+        <head xml:id="main_text_transcription_text">Marking up Text</head>
+          <p>
+              <specList>
+                <specDesc key="w" atts="lemmaRef"/>
+                <specDesc key="pc"/>
+                <specDesc key="num"/>
+                <specDesc key="lb" atts="corresp"/>
+                <specDesc key="milestone" atts="n unit"/>
+              </specList>
+          </p>
+          <p>
+            The element <gi>w</gi> contains a single word. The attribute
+            <att>lemmaRef</att> contains the xml:id the corresponding entry
+            within the dictionary. The elements <gi>pc</gi> and <gi>num</gi>
+            contain punctuation marks and numbers, respectively. In general,
+            each text node that represents any form of writing must be
+            contained within one of these three elements. <gi>lb</gi>
+            indicates the beginning of a new line on the leaf. The attribute
+            <att>corresp</att> contains the xml:id of the corresponding line
+            within the transliteration of the text. The attribute
+            <att>corresp</att> is mandatory, unless the line in question has
+            no equivalent within the transliteration. The only cases where
+            this is applicable involve supplied text that (had it been
+            preserved) would have been located at the end of the preceding or
+            the beginning of the following leaf.
+          </p>
+        </div>
+
+        <div>
+        <head xml:id="main_text_transcription_meter">Metrical Passages</head>
+          <p>
+              <specList>
+                <specDesc key="lg" atts="type met subtype"/>
+                <specDesc key="l" atts="n real"/>
+                <specDesc key="caesura" atts="ana"/>
+              </specList>
+          </p>
+        </div>
+
+        <div>
+        <head xml:id="main_text_transcription_damage">Damaged Text</head>
+          <p>
+              <specList>
+                <specDesc key="gap" atts="unit quantity"/>
+                <specDesc key="supplied"/>
+              </specList>
+          </p>
+        </div>
+
+        <div>
+        <head xml:id="main_text_transcription_corr">Corrections</head>
+          <p>
+              <specList>
+                <specDesc key="add"/>
+                <specDesc key="surplus"/>
+                <specDesc key="corr"/>
+              </specList>
+          </p>
+        </div>
+
+        </div>
+        <div>
+          <head xml:id="main_text_translation">Translation</head>
+        </div>
+        <div>
+          <head xml:id="main_text_commentary">Commentary</head>
+        </div>
+        <div>
+          <head xml:id="main_text_references">References</head>
+        </div>
+        <div>
+          <head xml:id="main_text_parallel">Parallel Texts</head>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div>
+        <schemaSpec ident="odd-tarim-brahmi" start="TEI">
+          <moduleRef key="tei"/>
+          <moduleRef key="iso-fs" include="fs f symbol binary vColl fsdDecl fsDecl fsDescr fDecl fDescr vRange vAlt"/>
+          <moduleRef key="core" include="teiCorpus citedRange add bibl choice corr date del distinct foreign gap graphic head hi item l label lb lg list milestone note num orig p publisher ref resp measure name respStmt rs sic term title unclear"/>
+          <moduleRef key="header" include="availability encodingDesc handNote listPrefixDef prefixDef fileDesc idno keywords langUsage language profileDesc publicationStmt sourceDesc extent teiHeader textClass titleStmt scriptNote"/>
+          <moduleRef key="figures" include="table row cell"/>
+          <moduleRef key="textstructure" include="TEI body div text"/>
+          <moduleRef key="linking" include="ab seg"/>
+          <moduleRef key="namesdates" include="region placeName"/>
+          <moduleRef key="msdescription" include="msDesc msIdentifier msName repository altIdentifier msContents msItem physDesc objectDesc support supportDesc material objectType layout layoutDesc dimensions handDesc scriptDesc height history provenance width additional adminInfo"/>
+          <moduleRef key="verse" include="caesura"/>
+          <moduleRef key="transcr" include="line sourceDoc space supplied surface surfaceGrp surplus zone fw"/>
+          <moduleRef key="analysis" include="pc w phr"/>
+
+          <classRef key="att.coordinated" include="points"/>
+          <classRef key="att.pointing" include="target"/>
+          <classRef key="att.global.linking" include="next prev corresp"/>
+          <classSpec type="atts" ident="att.global.linking" mode="change">
+            <attList>
+              <attDef ident="prev" mode="change">
+                <desc>link to the fragment that precedes the current fragment within the manuscript (if any).</desc>
+              </attDef>
+              <attDef ident="next" mode="change">
+                <desc>link to the fragment that follows the current fragment within the manuscript (if any).</desc>                
+              </attDef>
+            </attList>
+          </classSpec>
+          
+          <classSpec type="atts" ident="att.global.responsibility" mode="change">
+            <attList>
+              <attDef ident="resp" mode="change">
+                <valList type="open">
+                  <valItem ident="TI"/>
+                  <valItem ident="HF"/>
+                  <valItem ident="MB"/>
+                  <valItem ident="BK"/>
+                </valList>
+              </attDef>
+            </attList>
+          </classSpec>
+          
+          <classSpec type="atts" ident="att.coordinated" mode="change">
+            <attList>
+              <attDef ident="points" mode="change">
+                <desc>specifies the coordinates of the area of the photograph that containing writing.</desc>
+              </attDef>
+             </attList>
+          </classSpec>
+          
+          <classSpec type="atts" ident="att.global.responsibility" mode="change">
+            <attList>
+              <attDef ident="cert" mode="change">
+                <valList type="closed" mode="replace">
+                  <valItem ident="unknown"/>
+                </valList>
+              </attDef>
+             </attList>
+          </classSpec>
+          
+          <!--HEADER-->
+
+          <elementSpec ident="TEI" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+            </classes>
+            <content>
+              <sequence>
+                <elementRef key="teiHeader"/>
+                <elementRef key="sourceDoc" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="text" minOccurs="0" maxOccurs="1"/>
+              </sequence>
+            </content>
+            <!--<constraintSpec ident="next_ms" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:assert test="not(@next) or matches(@next, '.*\.xml$')">The value of the attribute "next" on TEI must end in ".xml.</s:assert>
+                <s:assert test="not(@prev) or matches(@prev, '.*\.xml$')">The value of the attribute "prev" on TEI must end in ".xml.</s:assert>
+              </constraint>
+            </constraintSpec>-->
+            <attList>
+              <attRef class="att.global" name="xml:id"/>
+              <attRef class="att.global" name="xml:lang"/>
+              <attDef ident="version" mode="delete"/>
+              <attRef class="att.global.linking" name="next"/>
+              <attRef class="att.global.linking" name="prev"/>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="teiHeader" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <sequence>
+                <elementRef key="fileDesc"/>
+                <elementRef key="encodingDesc" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="profileDesc" minOccurs="0" maxOccurs="1"/>
+              </sequence>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="fileDesc" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <sequence>
+                <elementRef key="titleStmt"/>
+                <elementRef key="publicationStmt"/>
+                <elementRef key="sourceDesc" minOccurs="1" maxOccurs="2"/>
+              </sequence>
+            </content>
+            <constraintSpec ident="fileDescConstraints" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:assert test="tei:sourceDesc/tei:msDesc">The document must contain the element msDesc.</s:assert>
+              </constraint>
+            </constraintSpec>
+          </elementSpec>
+
+          <elementSpec ident="titleStmt" mode="change">
+            <desc>contains the document title and lists the scholars who contributed to the edition of the fragment.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <sequence>
+                <elementRef key="title"/>
+                <elementRef key="respStmt" minOccurs="0" maxOccurs="unbounded"/>
+              </sequence>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="respStmt" mode="change">
+            <desc>contains the name of one of the editors of the fragment and the nature of their contribution.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.canonical" mode="delete"/>
+            </classes>
+            <content>
+              <sequence>
+                <elementRef key="resp"/>
+                <elementRef key="name"/>
+              </sequence>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="resp" mode="change">
+            <desc>specifies the contribution a specific scholar has made to the edition.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.canonical" mode="delete"/>
+              <memberOf key="att.datable" mode="delete"/>
+            </classes>
+            <content>
+              <textNode/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="name" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.personal" mode="delete"/>
+              <memberOf key="att.canonical" mode="delete"/>
+              <memberOf key="att.datable" mode="delete"/>
+              <memberOf key="att.editLike" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+            </classes>
+            <content>
+              <textNode/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="publicationStmt" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <sequence>
+                <elementRef key="publisher"/>
+                <elementRef key="date" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="availability"/>
+              </sequence>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="publisher" mode="change">
+            <desc>contains the name of the entity publishing the fragment (i.e. the name of the project).</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <valList type="closed">
+                <valItem ident="The Characters that shaped the Silk Road - A Database and Digital Paleography of Tarim"/>
+              </valList>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="date" mode="change">
+            <desc>Publication date</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.datable" mode="delete"/>
+              <memberOf key="att.canonical" mode="delete"/>
+              <memberOf key="att.duration" mode="delete"/>
+              <memberOf key="att.editLike" mode="delete"/>
+              <memberOf key="att.dimensions" mode="delete"/>
+              <memberOf key="att.ranging" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+            </classes>
+            <content>
+              <textNode/>
+            </content>
+            <attList>
+              <attRef class="att.datable.w3c" name="when"/>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="availability" mode="change">
+            <desc>specifies a) whether the xml document should be visible to the public and b) if/how the described fragment can be accessed in its current location.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.declarable" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="p"/>
+            </content>
+            <constraintSpec ident="availability_text" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:assert test="(parent::tei:publicationStmt and tei:p[.='public' or .='restricted']) or (parent::tei:adminInfo and tei:p[.='On exhibition' or .='In depository' or .='In situ' or .='Untraceable' or .='Unknown'])">The element p within availability must either contain one of the values “public”, “restricted” (when dominated by publicationStmt), or one of the values “On exhibition”, “In depository”, “In situ”, “Untraceable”, “Unknown” (when dominated by adminInfo).</s:assert>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="status" mode="delete"/>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="sourceDesc" mode="change">
+            <desc>contains a description of the manuscript fragment (<gi>msDesc</gi>) or literary resources the edition is based on.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.declarable" mode="delete"/>
+            </classes>
+            <content>
+              <alternate>
+                <elementRef key="msDesc" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
+              </alternate>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="msDesc" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.sortable" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+              <memberOf key="att.declarable" mode="delete"/>
+              <memberOf key="att.docStatus" mode="delete"/>
+            </classes>
+            <content>
+              <sequence>
+                <elementRef key="msIdentifier"/>
+                <elementRef key="msContents" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="physDesc" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="history" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="additional" minOccurs="0" maxOccurs="1"/>
+              </sequence>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="msIdentifier" mode="change">
+            <desc>contains information on the location and sigla of a manuscript fragment.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <sequence>
+                <elementRef key="repository" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="idno"/>
+                <elementRef key="altIdentifier" minOccurs="0" maxOccurs="unbounded"/>
+                <elementRef key="msName" minOccurs="0" maxOccurs="unbounded"/>
+              </sequence>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="repository" mode="change">
+            <desc>contains the current location of a manuscript fragment.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.naming" mode="delete"/>
+              <memberOf key="att.canonical" mode="delete"/>
+            </classes>
+            <content>
+              <valList type="closed" xml:id="frg-repository"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="idno" mode="change">
+            <desc>contains one siglum of a manuscript fragment.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.sortable" mode="delete"/>
+              <memberOf key="att.datable" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+            </classes>
+            <content>
+              <textNode/>
+            </content>
+            <attList>
+              <attDef ident="type" mode="delete"/>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="altIdentifier" mode="change">
+            <desc>contains an instance of <gi>idno</gi> with an alternative siglum of the fragment.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="idno"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="msName" mode="change">
+            <desc>contains the name of the manuscript the fragment is part of or.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+            </classes>
+            <content>
+              <textNode/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="msContents" mode="change">
+            <desc>contains a list of texts found on the fragment.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.msExcerpt" mode="delete"/>
+              <memberOf key="att.msClass" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="msItem" minOccurs="1" maxOccurs="unbounded"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="msItem" mode="change">
+            <desc>specifies one text found on the fragment.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.msExcerpt" mode="delete"/>
+              <memberOf key="att.msClass" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="title"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="physDesc" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <sequence>
+                <elementRef key="objectDesc" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="handDesc" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="scriptDesc" minOccurs="0" maxOccurs="1"/>
+              </sequence>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="objectDesc" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <sequence>
+                <elementRef key="supportDesc" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="layoutDesc" minOccurs="0" maxOccurs="1"/>
+              </sequence>
+            </content>
+            <attList>
+              <attDef ident="form" mode="delete"/>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="supportDesc" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="support" minOccurs="0" maxOccurs="1"/>
+              <elementRef key="extent" minOccurs="0" maxOccurs="1"/>
+            </content>
+            <attList>
+              <attDef ident="material" mode="delete"/>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="support" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <elementRef key="material"/>
+                <elementRef key="objectType"/>
+              </alternate>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="material" mode="change">
+            <desc>the material containing the writing.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.canonical" mode="delete"/>
+            </classes>
+            <content>
+              <valList type="closed" xml:id="frg-object_material"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="objectType" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.canonical" mode="delete"/>
+            </classes>
+            <content>
+              <valList type="closed" xml:id="frg-object_type"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="extent" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="dimensions" minOccurs="1" maxOccurs="unbounded"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="dimensions" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+                <!--<memberOf key="att.dimensions" mode="delete"/>-->
+              <memberOf key="att.ranging" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <elementRef key="height"/>
+                <elementRef key="width"/>
+              </alternate>
+            </content>
+            <attList>
+              <attDef ident="quantity" mode="delete"/>
+              <attDef ident="extent" mode="delete"/>
+              <attDef ident="precision" mode="delete"/>
+              <attDef ident="scope" mode="delete"/>
+              <attDef ident="unit" mode="replace">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <defaultVal>cm</defaultVal>
+                <valList type="closed">
+                  <valItem ident="cm"/>
+                </valList>
+              </attDef>
+              <attDef ident="type" mode="replace">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <defaultVal>leaf</defaultVal>
+                <valList type="closed">
+                  <valItem ident="leaf"/>
+                  <valItem ident="line_spacing"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="height" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.dimensions" mode="delete"/>
+              <memberOf key="att.ranging" mode="delete"/>
+            </classes>
+            <content>
+              <textNode/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="width" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.dimensions" mode="delete"/>
+              <memberOf key="att.ranging" mode="delete"/>
+            </classes>
+            <content>
+              <textNode/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="layoutDesc" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="layout"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="layout" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="dimensions" minOccurs="0" maxOccurs="1"/>
+              <elementRef key="measure" minOccurs="0" maxOccurs="1"/>
+            </content>
+            <attList>
+              <attDef ident="columns" mode="delete"/>
+              <attDef ident="ruledLines" mode="delete"/>
+              <attDef ident="writtenLines" mode="delete"/>
+              <attDef ident="streams" mode="delete"/>
+            </attList>
+          </elementSpec>
+          
+          <elementSpec ident="measure" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.measurement" mode="delete"/>
+            </classes>
+            <content>
+              <textNode/>
+            </content>
+            <attList>
+              <attDef ident="type" mode="replace">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="closed">
+                  <valItem ident="lines"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="handDesc" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="handNote"/>
+            </content>
+          </elementSpec>
+          
+          <elementSpec ident="handNote" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.handFeatures" mode="delete"/>
+            </classes>
+            <content>
+              <empty/>
+            </content>
+            <attList>
+              <attDef ident="medium" mode="add">
+                <desc>the medium used for writing (usually ink).</desc>
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="closed" xml:id="frg-writing_material"/>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="scriptDesc" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="scriptNote"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="scriptNote" mode="change">
+            <desc>specifies the script type and/or diachronic layer.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.handFeatures" mode="delete"/>
+            </classes>
+            <content>
+              <valList type="closed" xml:id="frg-scribal_ductus"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="history" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="provenance"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="provenance" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.datable" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <textNode/>
+                <elementRef key="region"/>
+                <elementRef key="placeName"/>
+                <elementRef key="rs"/>
+              </alternate>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="region" mode="change">
+            <desc>specifies the general region where a fragment has been found.</desc>
+            <classes mode="change">
+              <memberOf key="att.datable" mode="delete"/>
+              <memberOf key="att.editLike" mode="delete"/>
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.personal" mode="delete"/>
+              <memberOf key="att.naming" mode="delete"/>
+              <memberOf key="att.canonical" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+            </classes>
+            <content>
+              <valList xml:id="frg-findspot"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="placeName" mode="change">
+            <desc>contains the specific spot where a fragment was found.</desc>
+            <classes mode="change">
+              <memberOf key="att.datable" mode="delete"/>
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.editLike" mode="delete"/>
+              <memberOf key="att.personal" mode="delete"/>
+              <memberOf key="att.naming" mode="delete"/>
+              <memberOf key="att.canonical" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+            </classes>
+            <content>
+              <textNode/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="rs" mode="change">
+            <desc>contains the expedition code associated with a fragment.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.naming" mode="delete"/>
+              <memberOf key="att.canonical" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+            </classes>
+            <content>
+              <textNode/>
+            </content>
+            <attList>
+              <attDef ident="type" mode="add">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="closed">
+                  <valItem ident="expedition_code"/>
+                </valList>
+              </attDef>
+              <attDef ident="cert" mode="add">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="open">
+                  <valItem ident="medium"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="additional" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="adminInfo"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="adminInfo" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="availability"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="encodingDesc" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <sequence>
+                <elementRef key="listPrefixDef"/>
+                <elementRef key="fsdDecl" minOccurs="0" maxOccurs="unbounded"/>
+              </sequence>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="listPrefixDef" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="prefixDef" minOccurs="1" maxOccurs="unbounded"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="prefixDef" mode="change">
+            <desc>specifies prefixes for the paths to the dictionary and the bibliography.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+          </elementSpec>
+
+          <elementSpec ident="fsdDecl" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="fsDecl" minOccurs="1" maxOccurs="unbounded"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="fsDecl" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <sequence>
+                <elementRef key="fsDescr" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="fDecl" minOccurs="1" maxOccurs="unbounded"/>
+              </sequence>
+            </content>
+            <attList>
+              <attDef ident="baseTypes" mode="delete"/>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="fsDescr" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <textNode/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="fDecl" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <sequence>
+                <elementRef key="fDescr" minOccurs="0" maxOccurs="unbounded"/>
+                <elementRef key="vRange"/>
+              </sequence>
+            </content>
+            <attList>
+              <attDef ident="optional" mode="delete"/>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="fDescr" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <textNode/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="vRange" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <alternate>
+                <elementRef key="vAlt"/>
+                <elementRef key="symbol" minOccurs="1" maxOccurs="unbounded"/>
+              </alternate>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="vAlt" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <alternate>
+                <elementRef key="symbol" minOccurs="1" maxOccurs="unbounded"/>
+                <elementRef key="binary" minOccurs="2" maxOccurs="2"/>
+              </alternate>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="profileDesc" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <sequence>
+                <elementRef key="langUsage" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="textClass" minOccurs="0" maxOccurs="unbounded"/>
+              </sequence>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="langUsage" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.declarable" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="language" minOccurs="1" maxOccurs="unbounded"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="language" mode="change">
+            <desc>specifies one language that is found on the fragment.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <textNode/>
+              <elementRef key="note" minOccurs="0" maxOccurs="unbounded"/>
+            </content>
+            <attList>
+              <attRef class="att.global.analytic" name="ana"/>
+              <attDef ident="ident" mode="replace">
+                <valList type="closed" xml:id="frg-language"/>
+              </attDef>
+              <attDef ident="usage" mode="delete"/>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="fs" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.datcat" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="f" minOccurs="1" maxOccurs="unbounded"/>
+            </content>
+            <attList>
+              <attDef ident="feats" mode="delete"/>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="f" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.datcat" mode="delete"/>
+            </classes>
+            <content>
+              <alternate>
+                <elementRef key="symbol"/>
+                <elementRef key="binary"/>
+                <elementRef key="vColl"/>
+              </alternate>
+            </content>
+            <attList>
+              <attDef ident="fVal" mode="delete"/>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="symbol" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.datcat" mode="delete"/>
+            </classes>
+          </elementSpec>
+
+          <elementSpec ident="vColl" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="symbol" minOccurs="1" maxOccurs="unbounded"/>
+            </content>
+            <attList>
+              <attDef ident="org" mode="delete"/>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="textClass" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="keywords"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="keywords" mode="change">
+            <desc>container for term elements.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="term" minOccurs="1" maxOccurs="unbounded"/>
+            </content>
+            <attList>
+              <attDef ident="scheme" mode="delete"/>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="term" mode="change">
+            <desc>specifies the linguistic stage, genre, subgenre and metric form of a fragment.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.delcaring" mode="delete"/>
+              <memberOf key="att.pointing" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+              <memberOf key="att.canonical" mode="delete"/>
+              <memberOf key="att.sortable" mode="delete"/>
+              <memberOf key="att.cReferencing" mode="delete"/>
+            </classes>
+            <content>
+              <valList type="closed" xml:id="frg-genre--frg-subgenre--frg-prose_verse"/>
+            </content>
+            <attList>
+              <attDef ident="type" usage="req" mode="add">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="closed">
+                  <valItem ident="genre"/>
+                  <valItem ident="subgenre"/>
+                  <valItem ident="prose_verse"/>
+                  <valItem ident="language_stage"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!--TEXT BODY-->
+
+          <elementSpec ident="text" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.declaring" mode="delete"/>
+              <memberOf key="att.written" mode="delete"/>
+            </classes>
+            <content>
+                <elementRef key="body"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="body" mode="change">
+            <desc>contains the various interpretative sections of the edition.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.declaring" mode="delete"/>
+            </classes>
+            <content>
+                <elementRef key="div" minOccurs="1" maxOccurs="unbounded"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="div" mode="change">
+          <desc>contains transcription, translation, bibliography and various commentaries.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.divLike" mode="delete"/>
+              <memberOf key="att.fragmentable" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+              <memberOf key="att.declaring" mode="delete"/>
+              <memberOf key="att.written" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <elementRef key="p"/>
+                <!--<elementRef key="listBibl"/>-->
+                <elementRef key="div"/>
+                <elementRef key="lb"/>
+                <elementRef key="note"/><!--but only in bibl, this might have to change-->
+                <elementRef key="lg"/>
+                <elementRef key="fw"/>
+                <elementRef key="list"/>
+<!--       TRANSITIONAL begin-->
+                <elementRef key="head"/>
+<!--       TRANSITIONAL end-->
+              </alternate>
+            </content>
+            <constraintSpec ident="div_a" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:report test="tei:div[@type!='alt']">Only a div with the attribute type="alt" can be embedded under another div.</s:report>
+                <s:report test="tei:div and @type!='translation'">Only a div with the attribute type="translation" can contain another div.</s:report>
+                <!--<s:report test="tei:div and not(@type='translation')">The element listBibl is only allowed within the reference section.</s:report>-->
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="type" usage="req" mode="add">
+                <desc>specifies the type of editorial information contained within this section of the document.</desc>
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="closed">
+                  <valItem ident="transcription"/>
+                  <valItem ident="translation"/>
+                  <valItem ident="alt"/>
+                  <valItem ident="bibliography"/>
+                  <valItem ident="project_comment"/>
+                  <valItem ident="parallel_texts"/>
+                  <valItem ident="comments"/>
+                  <valItem ident="CEToM_copy"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="fw" mode="change">
+            <desc>Encodes a leaf number. The attribute “type” must contain the value “leafNum”.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.placement" mode="delete"/>
+              <memberOf key="att.written" mode="delete"/>
+            </classes>
+            <content>
+              <classRef key="macro.transcrContent" minOccurs="1" maxOccurs="unbounded"/>
+            </content>
+            <constraintSpec ident="div" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:asert test="parent::tei:div[@type='transcription']">The element fw must be directly dominated by a div where @type="transcription"</s:asert>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attRef class="att.global.linking" name="corresp"/>
+            </attList>
+          </elementSpec>
+          
+          <elementSpec ident="list" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.sortable" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+            </classes>
+            <content>
+              <elementRef key="item" minOccurs="1" maxOccurs="unbounded"/>
+            </content>
+          </elementSpec>
+          
+          <elementSpec ident="item" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.sortable" mode="delete"/>
+            </classes>
+            <content>
+                <classRef key="macro.commentItems" minOccurs="1" maxOccurs="unbounded"/>
+            </content>
+            <attList>
+              <attRef class="att.global" name="n"/>
+            </attList>
+          </elementSpec>
+          
+          <elementSpec ident="head" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+              <memberOf key="att.placement" mode="delete"/>
+              <memberOf key="att.written" mode="delete"/>
+            </classes>
+            <content>
+              <textNode/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="p" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.declaring" mode="delete"/>
+              <memberOf key="att.fragmentable" mode="delete"/>
+              <memberOf key="att.written" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <textNode/>
+                <classRef key="macro.transcrTextItems"/>
+                <elementRef key="gap"/>
+                <!--================-->
+                <elementRef key="lg"/>
+                <!--================-->
+                <elementRef key="choice"/>
+                <elementRef key="label"/>
+                <elementRef key="bibl"/>
+                <elementRef key="seg"/>
+                <!--================-->
+                <elementRef key="note"/>
+                <!--================-->
+<!--                <elementRef key="choice"/>-->
+                <!--================-->
+<!--TRANSISTIONAL start-->
+                <elementRef key="hi"/>
+<!--                <elementRef key="test"/>-->
+<!--TRANSISTIONAL end-->
+              </alternate>
+            </content>
+          </elementSpec>
+          
+          <!--<elementSpec ident="test" mode="add">
+            <content>
+              <alternate>
+                <alternate minOccurs="1" maxOccurs="unbounded">
+                  <elementRef key="hi"/>
+                </alternate>
+                <alternate minOccurs="1" maxOccurs="unbounded">
+                  <elementRef key="distinct"/>
+                  <elementRef key="corr"/>
+                  <textNode/>
+                </alternate>
+              </alternate>-->
+              
+            <!--</content>
+          </elementSpec>-->
+          
+
+          <elementSpec ident="hi" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.written" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <textNode/>
+                <elementRef key="hi"/>
+              </alternate>
+            </content>
+            <attList>
+              <attDef ident="rend" mode="add">
+                <datatype>
+                  <dataRef key="teidata.enumeration"/>
+                </datatype>
+                <valList type="closed">
+                  <valItem ident="underline"/>
+                  <valItem ident="boldface"/>
+                  <valItem ident="subscript"/>
+                  <valItem ident="superscript"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="distinct" mode="change">
+            <desc>contains text quoted from a manuscript fragment.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <textNode/>
+                <elementRef key="hi"/>
+              </alternate>
+            </content>
+            <attList>
+              <attDef ident="type" usage="req" mode="replace">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="closed">
+                  <valItem ident="ms_text"/>
+                </valList>
+              </attDef>
+              <attDef ident="time" mode="delete"/>
+              <attDef ident="space" mode="delete"/>
+              <attDef ident="social" mode="delete"/>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="seg" mode="change">
+            <desc>contains the translation of a line</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.segLike" mode="delete"/>
+              <memberOf key="att.metrical" mode="delete"/>
+              <memberOf key="att.datcat" mode="delete"/>
+              <memberOf key="att.fragmentable" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+              <memberOf key="att.written" mode="delete"/>
+              <memberOf key="att.notated" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="0" maxOccurs="unbounded">
+                <classRef key="macro.commentItems"/>
+                <elementRef key="seg"/>
+<!--                for monograms:-->
+                <elementRef key="gap"/>
+                <elementRef key="supplied"/>
+              </alternate>
+            </content>
+            <constraintSpec ident="translSegment" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:assert test="ancestor::tei:div[@type=('translation', 'bibliography', 'parallel_texts')]">The element seg can only occur within the translation, parallel texts, and the reference section.</s:assert>
+<!--                <s:assert test="(ancestor::tei:div[@type='translation'] and not(@corresp) ) or (ancestor::tei:div[@type='bibliography'] and matches(@corresp,'^((\S+\.xml)?#[ab]\d+)( (\S+\.xml)?#[ab]\d+)*$') )">The attribute @corresp on seg is obligatory within the reference section and must match the pattern /^((\S+\.xml)?#[ab]\d+)( (\S+\.xml)?#[ab]\d+)*$/. Within the translation the attribute @corresp is not permitted.</s:assert>-->
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="type" mode="add">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="closed">
+                  <valItem ident="prim_transl"/>
+                  <valItem ident="sec_transl"/>
+                  <valItem ident="monogram"/>
+                  <valItem ident="exercise"/>
+                </valList>
+              </attDef>
+              <attRef class="att.global.linking" name="corresp"/>
+              <attRef class="att.global.responsibility" name="resp"/>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="num" mode="change">
+            <desc>identifies a set of characters within the transcription as number; indicates page numbers for translations.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.ranging" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <textNode/>
+                <elementRef key="gap"/><!--TEMPORARY-->
+                <elementRef key="supplied"/>
+                <elementRef key="lb"/>
+                <classRef key="macro.transcrModItems"/>
+              </alternate>
+            </content>
+            <constraintSpec ident="transcrNumber" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:assert test="ancestor::tei:div[@type='transcription']">The element num is only allowed within the transcription.</s:assert>
+                <s:assert test="matches(.,'^[-\d\s]*$')">An instance of num contains illegal characters.</s:assert>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="type" mode="delete"/>
+            </attList>
+          </elementSpec>
+
+          <!--TRANSLITERATION-->
+
+          <elementSpec ident="sourceDoc" mode="change">
+            <desc>container for the element <gi>surfaceGrp</gi>.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.declaring" mode="delete"/>
+            </classes>
+            <content>
+                <elementRef key="surfaceGrp"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="surfaceGrp" mode="change">
+          <desc>groups together the text-bearing surfaces of a manuscript fragment (i.e. recto and verso)</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.declaring" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+            </classes>
+            <content>
+                <elementRef key="surface" minOccurs="1" maxOccurs="2"/>
+            </content>
+          </elementSpec>
+
+          <elementSpec ident="surface" mode="change">
+          <desc>contains one text-bearing surfaces of a manuscript fragment (recto or verso)</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.declaring" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+            </classes>
+            <content>
+              <sequence>
+                <elementRef key="graphic" minOccurs="0" maxOccurs="unbounded"/>
+                <alternate minOccurs="1" maxOccurs="unbounded">
+                  <elementRef key="gap"/>
+                  <elementRef key="line"/>
+                </alternate>
+              </sequence>
+            </content>
+            <attList>
+              <attDef ident="type" usage="req" mode="add">
+                <desc>specifies the side of the manuscript fragment being described.</desc>
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="closed">
+                  <valItem ident="recto"/>
+                  <valItem ident="verso"/>
+                </valList>
+              </attDef>
+              <attDef ident="n">
+                <desc>contains the Transkribus identifier of the photograph.</desc>
+                <datatype>
+                  <dataRef key="teidata.text"/>
+                </datatype>
+              </attDef>
+              <attDef ident="lrx">
+                <desc>width of the image on the Transkribus server</desc>
+                <datatype>
+                  <dataRef key="teidata.numeric"/>
+                </datatype>
+              </attDef>
+              <attDef ident="lry">
+                <desc>height of the image on the Transkribus server</desc>
+                <datatype>
+                  <dataRef key="teidata.numeric"/>
+                </datatype>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="line" mode="change">
+          <desc>contains one transliterated line.</desc>
+            <classes mode="change">
+              <memberOf key="att.typed" mode="delete"/>
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.written" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <elementRef key="zone"/>
+                <elementRef key="gap"/>
+                <elementRef key="line"/>
+                <elementRef key="space"/>
+                <elementRef key="add"/><!--This requires a better solution-->
+              </alternate>
+            </content>
+            <constraintSpec ident="lineNum" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:assert test="(@n and matches(@xml:id, '[ab]\d+') ) or ( not(@n) and @xml:id eq 'lf')">The attribute xml:id on the element line must start with a or b (= leaf side) immediately followed by the line number.</s:assert>
+                <s:report test=".//text()[matches(., '\S') and not(ancestor::tei:zone)]">All text within the transliteration must be contained within a zone.</s:report>
+                <s:report test="@n and not(concat('#',@xml:id)=/tei:TEI/tei:text/tei:body/tei:div[@type='transcription']//tei:lb/@corresp)">Every line in the transliteration must correspond to a line in the transcription.</s:report>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attRef class="att.global" name="n"/>
+              <attRef class="att.global" name="xml:id"/>
+              <attDef ident="type" mode="add">
+                <desc>indicates whether the line in question contains a gloss.</desc>
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="closed">
+                  <valItem ident="gloss"/>
+                </valList>
+              </attDef>
+              <!--<attDef ident="xml:id" mode="add">
+                <desc>contains a unique identifier for the manuscript line, consisting of leaf side and the line number.</desc>
+                <datatype>
+                  <dataRef key="ID"/>
+                </datatype>
+              </attDef>-->
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="zone" mode="change">
+            <desc>contains one self-contained unit of writing, such as an akṣara, a punctuation mark, a number or two akṣaras linke by a virāma stroke.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <textNode/>
+                <elementRef key="gap"/>
+                <elementRef key="milestone"/>
+                <elementRef key="add"/>
+                <elementRef key="del"/>
+                <elementRef key="unclear"/>
+              </alternate>
+            </content>
+            <constraintSpec ident="zoneConstraints" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:report test="@type and (parent::tei:line or parent::tei:zone)">The attribute type is not allowed if zone is contained within a line.</s:report>
+                <s:report test="normalize-space(.)=''">The Element zone cannot be empty.</s:report>
+                <s:assert test="matches(., '^                   ([kKgṅcjñtTdnNṭḍṇpPbmMyrRlLwᵤvṣṢśŚsShḥaAÄāäiīuūeoṛḷṃ∘¯`]+                   |                   [:।॥•¤]                   |                   \d+(?:-\d+)*)                   $', 'x')">An instance of zone contains illegal characters.</s:assert>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attRef class="att.global.analytic" name="ana"/>
+              <attDef ident="rotate" mode="delete"/>
+              <attDef ident="type" mode="add">
+                <desc>indicates the nature of a text object that is located outside of a <gi>line</gi> (such as a page number)</desc>
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="closed">
+                  <valItem ident="pageNum"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="unclear" mode="change">
+          <desc>contains text whose reading is uncertain due to damage.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.editLike" mode="delete"/>
+              <memberOf key="att.dimensions" mode="delete"/>
+              <memberOf key="att.ranging" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <textNode/>
+                <elementRef key="milestone"/>
+              </alternate>
+            </content>
+            <constraintSpec ident="pageNumonzone" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:report test="normalize-space(.)=''">The Element unclear cannot be empty.</s:report>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="reason" mode="delete"/>
+              <attDef ident="agent" mode="delete"/>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="space" mode="change">
+          <desc>indicates an area on the leaf that contains no text. </desc>
+            <classes mode="change">
+              <memberOf key="att.typed" mode="delete"/>
+              <memberOf key="att.dimensions" mode="delete"/>
+              <memberOf key="att.ranging" mode="delete"/>
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <attList>
+              <attRef class="att.global.responsibility" name="cert"/>
+              <attDef ident="resp" mode="delete"/>
+              <attDef ident="dim" mode="delete"/>
+              <attDef ident="type" usage="req" mode="add">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="closed">
+                  <valItem ident="string_hole"/>
+                  <valItem ident="blank"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="add" mode="change">
+            <desc>contains text that has been added by a scribe or the editor.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.transcriptional" mode="delete"/>
+              <memberOf key="att.editLike" mode="delete"/>
+              <memberOf key="att.written" mode="delete"/>
+              <memberOf key="att.placement" mode="delete"/>
+              <memberOf key="att.dimensions" mode="delete"/>
+              <memberOf key="att.ranging" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <textNode/>
+<!--                <elementRef key="milestone"/>-->
+                <elementRef key="unclear"/>
+                <elementRef key="del"/>
+                <classRef key="macro.transcrTextItems"/>
+                <elementRef key="gap"/>
+              </alternate>
+            </content>
+            <constraintSpec ident="pageNumonzone_a" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:assert test="node()">The Element add cannot be empty.</s:assert>
+                <s:assert test="ancestor::tei:div[@type='transcription'] or ancestor::tei:surface">The element add is only allowed within the transliteration and the transcription.</s:assert>
+              </constraint>
+            </constraintSpec>
+          </elementSpec>
+
+          <elementSpec ident="del" mode="change">
+            <desc>contains text that has been erased or marked with a cross by a scribe.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.transcriptional" mode="delete"/>
+              <memberOf key="att.editLike" mode="delete"/>
+              <memberOf key="att.written" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+              <memberOf key="att.dimensions" mode="delete"/>
+              <memberOf key="att.ranging" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <textNode/>
+                <elementRef key="gap"/>
+                <elementRef key="milestone"/>
+                <elementRef key="unclear"/>
+                <elementRef key="add"/>
+              </alternate>
+            </content>
+            <constraintSpec ident="pageNumonzone_b" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:assert test="node()">The Element del cannot be empty.</s:assert>
+              </constraint>
+            </constraintSpec>
+          </elementSpec>
+
+          <elementSpec ident="graphic" mode="change">
+            <desc>contains the relative path to a digital photograph, if available.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+<!--              <memberOf key="att.media" mode="delete"/>-->
+              <memberOf key="att.internetMedia" mode="delete"/>
+              <memberOf key="att.mimeType" mode="delete"/>
+              <memberOf key="att.declaring" mode="delete"/>
+            </classes>
+            <attList>
+              <attRef class="att.global" name="n"/>
+              <attDef ident="rend" mode="add">
+                <datatype>
+                  <dataRef key="teidata.enumeration"/>
+                </datatype>
+                <valList type="closed">
+                  <valItem ident="small"/>
+                  <valItem ident="medium"/>
+                  <valItem ident="large"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="milestone" mode="change">
+          <desc>indicates word boundaries within the transliteration and the begin of a new passage within the transcription.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.edition" mode="delete"/>
+              <memberOf key="att.spanning" mode="delete"/>
+              <memberOf key="att.breaking" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+            </classes>
+            <constraintSpec ident="milestone_n" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <!--REVISIT THIS-->
+                <!--<s:assert test="(@unit='passage' and ancestor::tei:div[@type='transcription']) or (ancestor::tei:surface and @unit='w' and not(@n))">The element milestone must occur within the transcription (with the mandatory attribute unit='passage') or within the transliteration.</s:assert>-->
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="type" mode="add">
+                <desc>specifies special kinds of word-boundaries within the transliteraion.</desc>
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="m-bound"/>
+                <valItem ident="break"/>
+              </valList>
+              </attDef>
+              <attDef ident="n" mode="replace">
+                <desc>identifies the text passage that is starting at this point.</desc>
+                <datatype>
+                  <dataRef key="teidata.text"/>
+                </datatype>
+              </attDef>
+              <attDef ident="unit" usage="req" mode="replace">
+                <desc>describes the unit of text that is being terminated.</desc>
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="closed">
+                  <valItem ident="w"/>
+                  <valItem ident="passage"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="gap" mode="change">
+          <desc>indicates a lacuna.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.timed" mode="delete"/>
+              <memberOf key="att.duration" mode="delete"/>
+              <memberOf key="att.editLike" mode="delete"/>
+              <memberOf key="att.dimensions" mode="delete"/>
+              <memberOf key="att.ranging" mode="delete"/>
+            </classes>
+            <constraintSpec ident="gapcontent" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:report test="ancestor::tei:surface and @quantity and ancestor::tei:zone">A partial gap connot be specified for the attribute quantity.</s:report>
+                <s:report test="@quantity=0">The attribute quantity on gap cannot be zero.</s:report>
+                <s:assert test="ancestor::tei:div[@type='transcription'] or ancestor::tei:surface">The element gap is only allowed within the transliteration and the transcription.</s:assert>
+                <s:report test="@unit='part' and ancestor::tei:surface and not(ancestor::tei:zone)">A partial gap within the transliteration must be contained within a zone.</s:report>
+                <s:report test="not(@unit='part') and ancestor::tei:zone">A full gap cannot be contained within a zone.</s:report>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="agent" mode="delete"/>
+              <attDef ident="quantity" mode="add">
+                <desc>number of missing akṣaras.</desc>
+                <datatype>
+                  <dataRef key="teidata.count"/>
+                </datatype>
+              </attDef>
+              <attDef ident="unit" mode="add">
+                <desc>indicates that the missing unit is smaller than an akṣara (only used within the transcription).</desc>
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="closed">
+                  <valItem ident="part"/>
+                </valList>
+              </attDef>
+              <attDef ident="reason" mode="replace">
+                <desc>the nature of the damage.</desc>
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="closed">
+                  <valItem ident="lost"/>
+                  <valItem ident="ink_lost"/>
+                  <valItem ident="par"/>
+                  <valItem ident="editorial"/>
+                  <valItem ident="deleted"/>
+                  <valItem ident="plain"/>
+                  <valItem ident="illegible"/>
+<!--                  “plain” and “illegible” are now treated as default and are therefore obsolete.-->
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <!--TRANSCRIPTION-->
+
+          <elementSpec ident="lg" mode="change">
+            <desc>contains metrical passages and strophes</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.divLike" mode="delete"/>
+              <memberOf key="att.metrical" mode="add"/>
+              <memberOf key="att.fragmentable" mode="delete"/>
+              <memberOf key="att.declaring" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <elementRef key="lg"/>
+                <elementRef key="l"/>
+                <elementRef key="lb"/>
+              </alternate>
+            </content>
+            <constraintSpec ident="linegroup" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:assert test="ancestor::tei:div[@type='transcription']">The element lg is only allowed within the transcription.</s:assert>
+                <s:assert test="(@type='strophe' and @n) or (@type='poem' and not(@n) and @met and @subtype)">The element lg must be specified for @n if @type='strophe' and for @met and @subtype if @type='poem'.</s:assert>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="met" mode="change">
+                <desc>specifies the meter of a strophe.</desc>
+              </attDef>
+              <attDef ident="real" mode="delete"/>
+              <attDef ident="rhyme" mode="delete"/>
+              <attDef ident="n" mode="add">
+                <desc>contains the strophe number.</desc>
+                <datatype>
+                  <dataRef key="teidata.text"/>
+                </datatype>
+              </attDef>
+              <attDef ident="type" mode="replace">
+                <desc>specifies whether the line group contains an entire metrical passage or a strophe.</desc>
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="closed">
+                  <valItem ident="poem"/>
+                  <valItem ident="strophe"/>
+                </valList>
+              </attDef>
+              <attDef ident="subtype" mode="replace">
+                <desc>specifies whether a strophe contains only one type of pada (<val>hom</val>) or more than one type (<val>het</val>)</desc>
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="closed">
+                  <valItem ident="hom"/>
+                  <valItem ident="het"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="l" mode="change">
+            <desc>contains one pada.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.enjamb" mode="delete"/>
+              <memberOf key="att.part" mode="delete"/>
+            </classes>
+            <content>
+                <classRef key="macro.transcrContent" minOccurs="1" maxOccurs="unbounded"/>
+            </content>
+            <constraintSpec ident="lineConstraints" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:assert test="matches(@n, '^[a-z]$')">The value of the attribute @n must be a single lower-case letter.</s:assert>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="met" mode="delete"/>
+              <attDef ident="rhyme" mode="delete"/>
+              <attDef ident="n" usage="req" mode="add">
+                <desc>contains the pada letter.</desc>
+                <datatype>
+                  <dataRef key="teidata.text"/>
+                </datatype>
+              </attDef>
+              <attDef ident="real" mode="replace">
+                <desc>specifies the rhythm of the pada in case it deviates from them meter of the strophe.</desc>
+                <datatype>
+                  <dataRef key="token"/>
+                </datatype>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+<!--CONTINUE HERE-->
+
+          <elementSpec ident="caesura" mode="change">
+            <desc>marks a caesura.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <constraintSpec ident="transcrCaesura" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:assert test="ancestor::tei:div[@type='transcription']">The element caesura is only allowed within the transcription.</s:assert>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="ana" mode="add">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="closed">
+                  <valItem ident="frg:cs-s"/>
+                  <valItem ident="frg:cs-w"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="surplus" mode="change">
+            <desc>contains text whose presence is considered by the editor to be an error</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.editLike" mode="delete"/>
+              <memberOf key="att.dimensions" mode="delete"/>
+              <memberOf key="att.ranging" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <textNode/>
+                <classRef key="macro.transcrTextItems"/>
+                <elementRef key="gap"/>
+                <elementRef key="add"/>
+                <elementRef key="corr"/>
+              </alternate>
+            </content>
+            <constraintSpec ident="transcrSurplus" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:assert test="ancestor::tei:div[@type='transcription']">The element surplus is only allowed within the transcription.</s:assert>
+              </constraint>
+            </constraintSpec>
+          </elementSpec>
+
+          <elementSpec ident="choice" mode="change">
+            <desc>contains text both in its original and its corrected form; contains a set of alternative translations for an arbitrary unit of text (usually a line).</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <alternate>
+                <sequence>
+                  <elementRef key="orig"/>
+                  <elementRef key="corr"/>
+                </sequence>
+                <elementRef key="supplied" minOccurs="1" maxOccurs="unbounded"/>
+                <elementRef key="seg" minOccurs="1" maxOccurs="unbounded"/>
+              </alternate>
+            </content>
+            <constraintSpec ident="choiceTransl" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:assert test="ancestor::tei:div[@type='translation' or @type='transcription' or @type='parallel_texts']">The element choice may only occur within the translation, transcription and parralel texts.</s:assert>
+                <s:assert test="((ancestor::tei:div[@type='transcription'] or ancestor::tei:div[@type='parallel_texts'] ) and not(@corresp)) or matches(@corresp,'^((\S+\.xml)?#[ab]\d+)( (\S+\.xml)?#[ab]\d+)*$')">The attribute @corresp on choice is obligatory within the translation and must match the pattern /^((\S+\.xml)?#[ab]\d+)( (\S+\.xml)?#[ab]\d+)*$/. Within the transcription the @corresp is not permitted.</s:assert>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attRef class="att.global.linking" name="corresp"/>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="orig" mode="change">
+            <desc>original form of text that has been corrected by the editor.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <textNode/>
+                <classRef key="macro.transcrTextItems"/>
+              </alternate>
+            </content>
+            <constraintSpec ident="origConstraints" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:assert test="ancestor::tei:div[@type='transcription']">The element orig is only allowed within the transcription.</s:assert>
+              </constraint>
+            </constraintSpec>
+          </elementSpec>
+
+          <elementSpec ident="foreign" mode="change">
+            <desc>contains text in a language other than the primary language of the fragment.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <textNode/>
+                <classRef key="macro.transcrTextItems"/>
+                <classRef key="macro.transcrModItems"/>
+                <elementRef key="gap"/>
+              </alternate>
+            </content>
+            <attList>
+              <attRef class="att.global" name="xml:lang"/>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="corr" mode="change">
+            <desc>altered form of text that has been corrected by the editor.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.editLike" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <textNode/>
+                <classRef key="macro.transcrTextItems"/>
+              </alternate>
+            </content>
+            <constraintSpec ident="transcrCorrection" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:assert test="ancestor::tei:div[@type='transcription']">The element corr is only allowed within the transcription.</s:assert>
+              </constraint>
+            </constraintSpec>
+          </elementSpec>
+
+          <elementSpec ident="lb" mode="change">
+            <desc>marks the beginning of a line within the transcription.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+              <memberOf key="att.edition" mode="delete"/>
+              <memberOf key="att.spanning" mode="delete"/>
+              <memberOf key="att.breaking" mode="delete"/>
+            </classes>
+            <constraintSpec ident="transcrLinebreak" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:assert test="ancestor::tei:div[@type='transcription']">The element lb is only allowed within the transcription.</s:assert>
+                <s:assert test="not(@corresp) or matches(@corresp,'^((\S+\.xml)?#[ab]\d+)( (\S+\.xml)?#[ab]\d+)*$')">The attribute corresp on lb must match the pattern /^((\S+\.xml)?#[ab]\d+)( (\S+\.xml)?#[ab]\d+)*$/</s:assert>
+                <s:report test="@corresp and not(substring-after(@corresp, '#')=/tei:TEI/tei:sourceDoc/tei:surfaceGrp/tei:surface/tei:line/@xml:id)">Every numbered instances of lb must correspond to an element line within the transliteration.</s:report>
+                <!--<s:assert test="not(@corresp) or 
+replace(
+  replace(
+    replace(
+      string-join(
+        for $chunk in (following::text()[not(ancestor::tei:supplied|ancestor::tei:add|ancestor::tei:corr)]|following::tei:supplied|following::tei:gap)[ancestor::tei:div[@type='transcription'] and count(following::tei:lb[@corresp])=count(/tei:TEI/tei:text/tei:body/tei:div[@type='transcription']//tei:lb[@corresp=current()/@corresp]/following::tei:lb[@corresp])]
+        return
+        if($chunk/name()='supplied' or $chunk/name()='gap')
+          then 'X'
+          else $chunk
+      , ''),
+    '[=-]', ''),
+  '\s+', ''),
+'X+', 'X')
+=
+replace(
+    replace(
+        translate(
+          translate(
+            normalize-space(
+              string-join(
+                for $chunk in (/tei:TEI/tei:sourceDoc/tei:surfaceGrp/tei:surface/tei:line[@xml:id=substring-after(current()/@corresp, '#')]//(tei:zone|tei:gap[not(ancestor::tei:zone)]))
+                return
+                  if ($chunk/name()='gap')
+                    then 'X'
+                    else 
+                      for $zchunk in $chunk//(tei:gap|text()[not(ancestor::tei:del)])
+                      return
+                      if ($zchunk/name()='gap')
+                        then 'Y'
+                        else $zchunk
+                , '#')
+              ),
+            ' ', ''),
+        'KTNPMRLṢŚSAə','ktnpmrlṣśsää'),
+        '[-#¯Ä∘]', ''),
+'[XY]+', 'X')
+  ">The transcription of a line must match the transliteration.</s:assert>-->
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="corresp" mode="add">
+                <desc>contains the xml:id value of the corresponding <gi>line</gi> within the transliteration.</desc>
+                <datatype>
+                  <dataRef key="teidata.pointer"/>
+                </datatype>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!--CONTINUE HERE-->
+
+          <elementSpec ident="w" mode="change">
+            <desc>contains a single word (primarily for the purpose of establishing a link to the corresponding dictionary entry).</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.segLike" mode="delete"/>
+              <memberOf key="att.datcat" mode="delete"/>
+              <memberOf key="att.fragmentable" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+                <!--<memberOf key="att.linguistic" mode="delete"/>-->
+              <memberOf key="att.notated" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <textNode/>
+                <elementRef key="gap"/>
+                <elementRef key="supplied"/>
+                <classRef key="macro.transcrModItems"/>
+                <elementRef key="lb"/>
+                <elementRef key="caesura"/>
+                <elementRef key="milestone"/>
+              </alternate>
+            </content>
+            <constraintSpec ident="transcrWord" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:ns prefix="tb" uri="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace"/>
+                <s:assert test="ancestor::tei:div[@type='transcription'] or ancestor::tei:div[@type='comments'] ">The element w is only allowed within the transcription or within the comment section.</s:assert>
+                <s:assert test="matches(.,'^[-=kgṅcjñtdnṭḍṇpbmyrlwvṣśshḥaāäÄiIīuUūeoOṛḷṃ\s]*$')">An instance of w contains illegal characters.</s:assert>
+              </constraint>
+            </constraintSpec>
+            <attList>
+<!--              <attDef ident="lemma" mode="delete"/>-->
+              <attDef ident="join" mode="delete"/>
+              <attDef ident="msd" mode="delete"/>
+              <attDef ident="pos" mode="delete"/>
+              <attDef ident="lemmaRef" mode="change">
+                <desc>contains the xml:id value the corresponding dictionary entry.</desc>
+              </attDef>
+              <attDef ident="ana" mode="add">
+                <desc>direct reference to grammatical properties.</desc>
+                <datatype>
+                  <dataRef key="teidata.text"/>
+                </datatype>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <elementSpec ident="phr" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.segLike" mode="delete"/>
+              <memberOf key="att.datcat" mode="delete"/>
+              <memberOf key="att.metrical" mode="delete"/>
+              <memberOf key="att.fragmentable" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+              <memberOf key="att.notated" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <elementRef key="gap"/>
+                <classRef key="macro.transcrTextItems"/>
+              </alternate>
+            </content>
+            <attList>
+              <attDef ident="type" mode="add">
+                <desc>specifies the type of phrase.</desc>
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList>
+                  <valItem ident="NP"/>
+                  <valItem ident="PP"/>
+                  <valItem ident="V'"/><!--Verb plus direct object-->
+                  <valItem ident="AP"/>
+                  <valItem ident="AdvP"/>
+                  <valItem ident="S"/>
+                  <valItem ident="AbsP"/><!--clause headed by an abslolutive-->
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="pc" mode="change">
+            <desc>identifies a set of characters within the transcription as a punctuation mark.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.segLike" mode="delete"/>
+              <memberOf key="att.datcat" mode="delete"/>
+              <memberOf key="att.fragmentable" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+              <memberOf key="att.linguistic" mode="delete"/>
+              <memberOf key="att.notated" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <textNode/>
+                <classRef key="macro.transcrModItems"/>
+                <elementRef key="supplied"/>
+              </alternate>
+            </content>
+            <constraintSpec ident="transcrPunctuation" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:assert test="ancestor::tei:div[@type='transcription']">The element pc is only allowed within the transcription.</s:assert>
+                <s:assert test="matches(.,'^[•:।॥¤]$')">The element pc must contain one of the following items: • : | || ¤</s:assert>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="force" mode="delete"/>
+              <attDef ident="unit" mode="delete"/>
+              <attDef ident="pre" mode="delete"/>
+            </attList>
+          </elementSpec>
+
+          <elementSpec ident="supplied" mode="change">
+            <desc>contains text that has been supplied due to damage</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.editLike" mode="delete"/>
+              <memberOf key="att.dimensions" mode="delete"/>
+              <memberOf key="att.ranging" mode="delete"/>
+            </classes>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <textNode/>
+                <classRef key="macro.transcrTextItems"/>
+              </alternate>
+            </content>
+            <constraintSpec ident="transcrSupplied" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:assert test="ancestor::tei:div[@type='transcription']">The element supplied is only allowed within the transcription.</s:assert>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="reason" mode="delete"/>
+              <attDef ident="unit" mode="add">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList>
+                  <valItem ident="syllable"/>
+                </valList>
+              </attDef>
+              <attRef class="att.dimensions" name="quantity"/>
+              <attDef ident="quantity" mode="change">
+                <desc>number of supplied syllables.</desc>
+              </attDef>
+            </attList>
+          </elementSpec>
+          <!--schematron: quantity only if empty-->
+
+          <!--COMMENTARY-->
+
+          <elementSpec ident="note" mode="change">
+            <desc>contains a comment on a set of text lines.</desc>
+            <classes mode="change">
+              <memberOf key="att.placement" mode="delete"/>
+              <memberOf key="att.pointing" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+              <memberOf key="att.written" mode="delete"/>
+            </classes>
+            <content>
+              <classRef key="macro.commentItems" minOccurs="1" maxOccurs="unbounded"/>
+            </content>
+            <constraintSpec ident="note" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:assert test="ancestor::tei:div[@type='comments'] or parent::tei:language">The element note can only occur within the comments section or within the element language.</s:assert>
+                <s:assert test="not(@corresp) or matches(@corresp,'^((\S+\.xml)?#[ab]\d+)( (\S+\.xml)?#[ab]\d+)*$')">The attribute corresp on note must match the pattern /^((\S+\.xml)?#[ab]\d+)( (\S+\.xml)?#[ab]\d+)*$/</s:assert>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="anchored" mode="delete"/>
+              <attDef ident="targetEnd" mode="delete"/>
+              <attRef class="att.global.linking" name="corresp"/>
+              <!--<attDef ident="corresp" mode="add">
+                <desc>contains the xml:id values of the lines within the transliteration the note applies to.</desc>
+                <datatype>
+                  <dataRef key="teidata.pointer"/>
+                </datatype>
+              </attDef>-->
+              <attDef ident="type" mode="add">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="closed">
+                  <valItem ident="lingcomment"/>
+                  <valItem ident="philcomment"/>
+                  <valItem ident="remarks"/>
+                  <valItem ident="parallels"/>
+                  <valItem ident="language_stage"/>
+                  <valItem ident="language_stage_secondary"/>
+                </valList>
+              </attDef>
+              <attDef ident="subtype" mode="add">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <elementSpec ident="sic" mode="change">
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+            </classes>
+            <content>
+              <classRef key="macro.commentItems" minOccurs="1" maxOccurs="unbounded"/>
+            </content>
+          </elementSpec>
+
+          <!--DONE-->
+          <elementSpec ident="label" mode="change">
+            <desc>supplies a heading for a paragraph (<gi>p</gi>) within the reference section.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+              <memberOf key="att.placement" mode="delete"/>
+              <memberOf key="att.written" mode="delete"/>
+            </classes>
+            <content>
+              <textNode/>
+            </content>
+          </elementSpec>
+
+          <!--LINKING-->
+
+          <!--<elementSpec ident="listBibl" mode="change">-->
+            <!--<desc>contains a list of bibliographical references.</desc>-->
+            <!--<classes mode="change">-->
+              <!--<memberOf key="att.global" mode="delete"/>-->
+              <!--<memberOf key="att.sortable" mode="delete"/>-->
+              <!--<memberOf key="att.declarable" mode="delete"/>-->
+            <!--</classes>-->
+            <!--<content>-->
+              <!--<sequence>-->
+                <!--<elementRef key="head" minOccurs="0" maxOccurs="1"/>-->
+                <!--<elementRef key="bibl" minOccurs="0" maxOccurs="unbounded"/>-->
+              <!--</sequence>-->
+            <!--</content>-->
+            <!--<constraintSpec ident="referencelist" scheme="schematron">-->
+              <!--<constraint>-->
+                <!--<s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>-->
+                <!--<s:assert test="ancestor::tei:div[@type='bibliography']">The element listBibl is only allowed within the reference section.</s:assert>-->
+              <!--</constraint>-->
+            <!--</constraintSpec>-->
+          <!--</elementSpec>-->
+
+          <!--<elementSpec ident="head" mode="change">-->
+            <!--<desc>contains the heading of a list of references.</desc>-->
+            <!--<classes mode="change">-->
+              <!--<memberOf key="att.global" mode="delete"/>-->
+              <!--<memberOf key="att.typed" mode="delete"/>-->
+              <!--<memberOf key="att.placement" mode="delete"/>-->
+              <!--<memberOf key="att.written" mode="delete"/>-->
+            <!--</classes>-->
+            <!--<content>-->
+              <!--<textNode/>-->
+            <!--</content>-->
+          <!--</elementSpec>-->
+
+          <!--DONE-->
+          <elementSpec ident="bibl" mode="change">
+            <desc>refers to an entry within the global bibliography.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.declarable" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+              <memberOf key="att.docStatus" mode="delete"/>
+            </classes>
+            <content>
+              <sequence>
+                <textNode/>
+                <elementRef key="title"/>
+                <elementRef minOccurs="0" maxOccurs="unbounded" key="ref"/>
+                <elementRef minOccurs="0" maxOccurs="1" key="citedRange"/>
+              </sequence>
+            </content>
+            <constraintSpec ident="biblEntry" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:report test="ancestor::tei:div[@type='transcription']">The element bibl is not allowed within the transcription.</s:report>
+              </constraint>
+            </constraintSpec>
+          </elementSpec>
+
+          <!--DONE-->
+          <elementSpec ident="title" mode="change">
+            <desc>contains the title of the document within the header; points to an entry within the global bibliography.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.canonical" mode="delete"/>
+              <memberOf key="att.datable" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+            </classes>
+            <content>
+              <textNode/>
+            </content>
+            <constraintSpec ident="titleConstraints" scheme="schematron">
+              <constraint>
+                <s:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                <s:report test="(parent::tei:titleStmt|parent::tei:msItem) and @corresp">The attribute @corresp is only allowed on the element title, if it contained withing bibl.</s:report>
+                <s:report test="parent::tei:bibl and not(matches(@corresp, '^ref:'))">The element title must contain the attribute @corresp starting with 'ref:' if contained by bibl.</s:report>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="type" mode="delete"/>
+              <attDef ident="level" mode="delete"/>
+              <attDef ident="corresp" mode="add">
+                <desc>contains the xml:id of the corresponding entry in the global bibliography.</desc>
+                <datatype>
+                  <dataRef key="teidata.pointer"/>
+                </datatype>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+          <!--DONE-->
+          <!--although the notation for page ranges need to be unified at some point-->
+          <elementSpec ident="citedRange" mode="change">
+            <desc>contains the page range of a bibliographical reference.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.pointing" mode="delete"/>
+              <memberOf key="att.citing" mode="delete"/>
+            </classes>
+            <content>
+              <textNode/>
+            </content>
+          </elementSpec>
+
+          <!--DONE-->
+          <elementSpec ident="ref" mode="change">
+            <desc>Contains a reference to a manuscript fragment or some arbitrary URI.</desc>
+            <classes mode="change">
+              <memberOf key="att.global" mode="delete"/>
+              <memberOf key="att.declaring" mode="delete"/>
+              <!--<memberOf key="att.pointing" mode="delete"/>-->
+              <memberOf key="att.internetMedia" mode="delete"/>
+              <memberOf key="att.typed" mode="delete"/>
+              <memberOf key="att.cReferencing" mode="delete"/>
+            </classes>
+            <content>
+              <textNode/>
+            </content>
+            <attList>
+              <attDef ident="type" usage="req" mode="add">
+                <desc>contains the type of object that is referred to.</desc>
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="closed">
+                  <valItem ident="ms"/>
+                  <valItem ident="external"/>
+                  <valItem ident="noteAnchor"/>
+                </valList>
+              </attDef>
+              <attDef ident="target" usage="req" mode="change">
+                <desc>contains a URL to the object referred to.</desc>
+                <datatype>
+                  <dataRef key="teidata.pointer"/>
+                </datatype>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <!--CONTINUE HERE-->
+
+               
+          <!--MACROS FOR TRANSCRIPTION-->
+
+          <macroSpec ident="macro.transcrAllItems">
+          <content>
+            <alternate minOccurs="0" maxOccurs="unbounded">
+              <classRef key="macro.transcrTextItems"/>
+              <classRef key="macro.transcrModItems"/>
+              <classRef key="macro.transcrDamageItems"/>
+            </alternate>
+          </content>
+          </macroSpec>
+
+          <macroSpec ident="macro.transcrTextItems">
+            <content>
+              <alternate minOccurs="0" maxOccurs="unbounded">
+                <elementRef key="w"/>
+                <elementRef key="phr"/>
+                <elementRef key="pc"/>
+                <elementRef key="num"/>
+                <elementRef key="lb"/>
+                <elementRef key="caesura"/>
+                <elementRef key="foreign"/>
+                <elementRef key="milestone"/>
+                <elementRef key="space"/>
+                <elementRef key="supplied"/>
+                <elementRef key="ref"/>
+                <elementRef key="fw"/>
+              </alternate>
+            </content>
+          </macroSpec>
+
+          <macroSpec ident="macro.transcrModItems">
+            <content>
+              <alternate minOccurs="0" maxOccurs="unbounded">
+                <elementRef key="add"/>
+                <elementRef key="surplus"/>
+                <elementRef key="choice"/>
+<!--TRANSITIONAL begin-->
+                <elementRef key="corr"/>
+<!--TRANSITIONAL end-->
+              </alternate>
+            </content>
+          </macroSpec>
+          
+          <macroSpec ident="macro.transcrContent">
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <classRef key="macro.transcrTextItems"/>
+                <classRef key="macro.transcrModItems"/>
+                <elementRef key="seg"/>
+                <elementRef key="gap"/>
+              </alternate>
+            </content>
+          </macroSpec>
+
+          <macroSpec ident="macro.transcrDamageItems">
+            <content>
+              <elementRef key="gap" minOccurs="0" maxOccurs="unbounded"/>
+            </content>
+          </macroSpec>
+
+          <macroSpec ident="macro.commentItems">
+            <content>
+              <alternate minOccurs="0" maxOccurs="unbounded">
+                <textNode/>
+                <elementRef key="hi"/>
+                <elementRef key="distinct"/>
+                <elementRef key="ref"/>
+                <elementRef key="w"/>
+                <elementRef key="list"/>
+                <elementRef key="sic"/>
+                <elementRef key="bibl"/>
+                <elementRef key="table"/>
+                <elementRef key="title"/>
+              </alternate>
+            </content>
+          </macroSpec>
+          
+        </schemaSpec>
+
+      </div>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:img="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/images"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+    xmlns:trnscr="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+    targetNamespace="https://www.oeaw.ac.at/acdh/projects/tarim-brahmi/namespace/images"
+    elementFormDefault="qualified">
+    
+    <xs:element name="fragments">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="fragment" type="img:fragmentType" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:unique name="oneSiglumForEachFragment">
+            <xs:selector xpath="img:fragment"/>
+            <xs:field xpath="@siglum"/>
+        </xs:unique>
+        <xs:unique name="oneXmlFileForEachFragment">
+            <xs:selector xpath="img:fragment"/>
+            <xs:field xpath="@xmlFile"/>
+        </xs:unique>
+        <xs:unique name="oneFileNameForEachFragment">
+            <xs:selector xpath="img:fragment"/>
+            <xs:field xpath="@fileNmae"/>
+        </xs:unique>
+        <xs:unique name="oneImgIdForEachImage">
+            <xs:selector xpath="img:fragment/img:image"/>
+            <xs:field xpath="@imgId"/>
+        </xs:unique>
+        <xs:unique name="oneXmlIdForEachImage">
+            <xs:selector xpath="img:fragment/img:image"/>
+            <xs:field xpath="@xmlId"/>
+        </xs:unique>
+        <xs:unique name="onePageIdForEachImage">
+            <xs:selector xpath="img:fragment/img:image"/>
+            <xs:field xpath="@pageId"/>
+        </xs:unique>
+        <xs:unique name="oneImageForEachImage">
+            <xs:selector xpath="img:fragment/img:image"/>
+            <xs:field xpath="@image"/>
+        </xs:unique>
+    </xs:element>
+    
+    <xs:complexType name="fragmentType">
+        <xs:sequence>
+            <xs:element name="image" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:attribute name="pageId" type="xs:token" use="required"/>
+                    <xs:attribute name="image" type="xs:token" use="required"/>
+                    <xs:attribute name="side" use="required">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:token">
+                                <xs:enumeration value="recto"/>
+                                <xs:enumeration value="verso"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:attribute>
+                    <xs:attribute name="width" type="xs:integer" use="required"/>
+                    <xs:attribute name="height" type="xs:integer" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:ID"/>
+        <xs:attribute name="xmlFile" type="xs:token"/>
+        <xs:attribute name="siglum" type="xs:token"/>
+        <xs:attribute name="filename" type="xs:token"/>
+        <xs:attribute name="docId" type="xs:token" use="required"/>
+        
+    </xs:complexType>
+    
+</xs:schema>
